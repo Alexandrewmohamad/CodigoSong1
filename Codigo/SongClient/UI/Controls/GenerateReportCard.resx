@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mlblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mlblTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="mlblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="mlblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblTitle.Text" xml:space="preserve">
+    <value>Report Cards</value>
+  </data>
+  <data name="&gt;&gt;mlblTitle.Name" xml:space="preserve">
+    <value>mlblTitle</value>
+  </data>
+  <data name="&gt;&gt;mlblTitle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblTitle.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;mlblTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpContent.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpFilters.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mcbSemester.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbSemester.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbSemester.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 10</value>
+  </data>
+  <data name="mcbSemester.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbSemester.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbSemester.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester.Name" xml:space="preserve">
+    <value>mcbSemester</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester.Parent" xml:space="preserve">
+    <value>tlpFilters</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblSemester.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblSemester.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblSemester.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 15</value>
+  </data>
+  <data name="mlblSemester.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 6, 0</value>
+  </data>
+  <data name="mlblSemester.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="mlblSemester.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mlblSemester.Text" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="mlblSemester.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester.Name" xml:space="preserve">
+    <value>mlblSemester</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester.Parent" xml:space="preserve">
+    <value>tlpFilters</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mcbPole.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbPole.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbPole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 10</value>
+  </data>
+  <data name="mcbPole.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbPole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbPole.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mcbPole.Name" xml:space="preserve">
+    <value>mcbPole</value>
+  </data>
+  <data name="&gt;&gt;mcbPole.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbPole.Parent" xml:space="preserve">
+    <value>tlpFilters</value>
+  </data>
+  <data name="&gt;&gt;mcbPole.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblPole.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblPole.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 15</value>
+  </data>
+  <data name="mlblPole.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 6, 0</value>
+  </data>
+  <data name="mlblPole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 15</value>
+  </data>
+  <data name="mlblPole.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblPole.Text" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="mlblPole.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblPole.Name" xml:space="preserve">
+    <value>mlblPole</value>
+  </data>
+  <data name="&gt;&gt;mlblPole.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPole.Parent" xml:space="preserve">
+    <value>tlpFilters</value>
+  </data>
+  <data name="&gt;&gt;mlblPole.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpFilters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpFilters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpFilters.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpFilters.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 45</value>
+  </data>
+  <data name="tlpFilters.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters.Name" xml:space="preserve">
+    <value>tlpFilters</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters.Parent" xml:space="preserve">
+    <value>tlpContent</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpFilters.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mcbSemester" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblSemester" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mcbPole" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="mlblPole" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,Percent,10,AutoSize,0,AutoSize,0,Percent,90" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpPermissions.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mlblAvailableStudents.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mlblAvailableStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 0</value>
+  </data>
+  <data name="mlblAvailableStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="mlblAvailableStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblAvailableStudents.Text" xml:space="preserve">
+    <value>Available Students</value>
+  </data>
+  <data name="mlblAvailableStudents.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblAvailableStudents.Name" xml:space="preserve">
+    <value>mlblAvailableStudents</value>
+  </data>
+  <data name="&gt;&gt;mlblAvailableStudents.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvailableStudents.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;mlblAvailableStudents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblSelectedPermissions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mlblSelectedPermissions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>542, 0</value>
+  </data>
+  <data name="mlblSelectedPermissions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="mlblSelectedPermissions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mlblSelectedPermissions.Text" xml:space="preserve">
+    <value>Selected Students</value>
+  </data>
+  <data name="mlblSelectedPermissions.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblSelectedPermissions.Name" xml:space="preserve">
+    <value>mlblSelectedPermissions</value>
+  </data>
+  <data name="&gt;&gt;mlblSelectedPermissions.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblSelectedPermissions.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;mlblSelectedPermissions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbAvailableStudents.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbAvailableStudents.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbAvailableStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="lbAvailableStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 0, 0</value>
+  </data>
+  <data name="lbAvailableStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 276</value>
+  </data>
+  <data name="lbAvailableStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbAvailableStudents.Name" xml:space="preserve">
+    <value>lbAvailableStudents</value>
+  </data>
+  <data name="&gt;&gt;lbAvailableStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbAvailableStudents.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;lbAvailableStudents.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbSelectedStudents.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbSelectedStudents.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbSelectedStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 23</value>
+  </data>
+  <data name="lbSelectedStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 0</value>
+  </data>
+  <data name="lbSelectedStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 276</value>
+  </data>
+  <data name="lbSelectedStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbSelectedStudents.Name" xml:space="preserve">
+    <value>lbSelectedStudents</value>
+  </data>
+  <data name="&gt;&gt;lbSelectedStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbSelectedStudents.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;lbSelectedStudents.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mbtnAddStudents.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mbtnAddStudents.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mbtnAddStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 23</value>
+  </data>
+  <data name="mbtnAddStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mbtnAddStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 24</value>
+  </data>
+  <data name="mbtnAddStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddStudents.Name" xml:space="preserve">
+    <value>mbtnAddStudents</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddStudents.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddStudents.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddStudents.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mbtnRemoveStudents.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mbtnRemoveStudents.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mbtnRemoveStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 92</value>
+  </data>
+  <data name="mbtnRemoveStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mbtnRemoveStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 24</value>
+  </data>
+  <data name="mbtnRemoveStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveStudents.Name" xml:space="preserve">
+    <value>mbtnRemoveStudents</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveStudents.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveStudents.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveStudents.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mbtnAddAllStudents.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mbtnAddAllStudents.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mbtnAddAllStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 161</value>
+  </data>
+  <data name="mbtnAddAllStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mbtnAddAllStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 24</value>
+  </data>
+  <data name="mbtnAddAllStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddAllStudents.Name" xml:space="preserve">
+    <value>mbtnAddAllStudents</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddAllStudents.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddAllStudents.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;mbtnAddAllStudents.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mbtnRemoveAllStudents.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mbtnRemoveAllStudents.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mbtnRemoveAllStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 230</value>
+  </data>
+  <data name="mbtnRemoveAllStudents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mbtnRemoveAllStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 24</value>
+  </data>
+  <data name="mbtnRemoveAllStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveAllStudents.Name" xml:space="preserve">
+    <value>mbtnRemoveAllStudents</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveAllStudents.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveAllStudents.Parent" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;mbtnRemoveAllStudents.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tlpPermissions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpPermissions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 53</value>
+  </data>
+  <data name="tlpPermissions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpPermissions.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tlpPermissions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 314</value>
+  </data>
+  <data name="tlpPermissions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlpPermissions.Name" xml:space="preserve">
+    <value>tlpPermissions</value>
+  </data>
+  <data name="&gt;&gt;tlpPermissions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpPermissions.Parent" xml:space="preserve">
+    <value>tlpContent</value>
+  </data>
+  <data name="&gt;&gt;tlpPermissions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpPermissions.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblAvailableStudents" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblSelectedPermissions" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbAvailableStudents" Row="1" RowSpan="4" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbSelectedStudents" Row="1" RowSpan="4" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="mbtnAddStudents" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mbtnRemoveStudents" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mbtnAddAllStudents" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mbtnRemoveAllStudents" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,50,Percent,50" /&gt;&lt;Rows Styles="Absolute,23,Percent,25,Percent,25,Percent,25,Percent,25,Absolute,12" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="mtlReportCards.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="mtlReportCards.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mtlReportCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 367</value>
+  </data>
+  <data name="mtlReportCards.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 0</value>
+  </data>
+  <data name="mtlReportCards.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 36</value>
+  </data>
+  <data name="mtlReportCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="mtlReportCards.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mtlReportCards.Text" xml:space="preserve">
+    <value>Generate Printable Report Cards      </value>
+  </data>
+  <data name="mtlReportCards.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mtlReportCards.Name" xml:space="preserve">
+    <value>mtlReportCards</value>
+  </data>
+  <data name="&gt;&gt;mtlReportCards.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtlReportCards.Parent" xml:space="preserve">
+    <value>tlpContent</value>
+  </data>
+  <data name="&gt;&gt;mtlReportCards.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpContent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="tlpContent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpContent.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlpContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 412</value>
+  </data>
+  <data name="tlpContent.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tlpContent.Name" xml:space="preserve">
+    <value>tlpContent</value>
+  </data>
+  <data name="&gt;&gt;tlpContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpContent.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpContent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpContent.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tlpFilters" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tlpPermissions" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mtlReportCards" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Absolute,45,Absolute,8,Percent,100,Absolute,45" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpMain.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="tlpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Name" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblTitle" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tlpContent" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Absolute,38,Percent,100,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="sfdReportCardsFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="sfdReportCardsFile.Filter" xml:space="preserve">
+    <value>HTML Files|*.html</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="&gt;&gt;sfdReportCardsFile.Name" xml:space="preserve">
+    <value>sfdReportCardsFile</value>
+  </data>
+  <data name="&gt;&gt;sfdReportCardsFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GenerateReportCard</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

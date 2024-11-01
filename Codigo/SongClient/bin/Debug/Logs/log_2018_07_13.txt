@@ -1,0 +1,690 @@
+07:47:09.058 - Song Client 1.0.4.0
+07:47:09.301 - Inicializando aplicativo...
+07:47:10.631 - Application was started.
+07:47:10.640 - Starting web service manager...
+07:47:10.650 - Web service manager was started and is running.
+07:47:10.666 - Web service connection was closed.
+07:47:10.671 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+07:47:22.076 - Application is connected to web service.
+07:47:22.076 - Song Server 1.0.4
+07:47:22.076 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+07:49:10.153 - Liberando recursos e fechando aplicativo...
+07:49:10.225 - Stopping web service manager...
+07:49:10.333 - Web service connection was closed.
+07:49:10.334 - Web service manager running thread was stopped.
+08:38:01.610 - Song Client 1.0.5.0
+08:38:01.825 - Inicializando aplicativo...
+08:38:02.994 - Application was started.
+08:38:03.003 - Starting web service manager...
+08:38:03.020 - Web service manager was started and is running.
+08:38:03.022 - Web service connection was closed.
+08:38:03.025 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:38:08.983 - Application is connected to web service.
+08:38:08.983 - Song Server 1.0.5
+08:38:08.983 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:39:29.226 - Liberando recursos e fechando aplicativo...
+08:39:29.274 - Stopping web service manager...
+08:39:29.373 - Web service connection was closed.
+08:39:29.373 - Web service manager running thread was stopped.
+08:41:26.294 - Song Client 1.0.5.0
+08:41:26.509 - Inicializando aplicativo...
+08:41:27.672 - Application was started.
+08:41:27.692 - Starting web service manager...
+08:41:27.701 - Web service manager was started and is running.
+08:41:27.745 - Web service connection was closed.
+08:41:27.749 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:41:30.603 - Application is connected to web service.
+08:41:30.603 - Song Server 1.0.5
+08:41:30.604 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:42:13.863 - Liberando recursos e fechando aplicativo...
+08:42:13.908 - Stopping web service manager...
+08:42:13.938 - Web service connection was closed.
+08:42:13.939 - Web service manager running thread was stopped.
+09:08:13.068 - Song Client 1.0.5.0
+09:08:13.311 - Inicializando aplicativo...
+09:08:14.697 - Application was started.
+09:08:14.707 - Starting web service manager...
+09:08:14.737 - Web service manager was started and is running.
+09:08:14.739 - Web service connection was closed.
+09:08:14.748 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:08:18.055 - Application is connected to web service.
+09:08:18.056 - Song Server 1.0.5
+09:08:18.056 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:09:03.358 - Liberando recursos e fechando aplicativo...
+09:09:03.428 - Stopping web service manager...
+09:09:03.457 - Web service connection was closed.
+09:09:03.457 - Web service manager running thread was stopped.
+09:09:47.679 - Song Client 1.0.5.0
+09:09:47.937 - Inicializando aplicativo...
+09:09:49.207 - Application was started.
+09:09:49.218 - Starting web service manager...
+09:09:49.291 - Web service manager was started and is running.
+09:09:49.319 - Web service connection was closed.
+09:09:49.323 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:09:52.372 - Application is connected to web service.
+09:09:52.372 - Song Server 1.0.5
+09:09:52.372 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:10:31.788 - Liberando recursos e fechando aplicativo...
+09:10:31.832 - Stopping web service manager...
+09:10:31.870 - Web service connection was closed.
+09:10:31.871 - Web service manager running thread was stopped.
+09:15:57.389 - Song Client 1.0.5.0
+09:15:57.633 - Inicializando aplicativo...
+09:15:59.031 - Application was started.
+09:15:59.039 - Starting web service manager...
+09:15:59.084 - Web service manager was started and is running.
+09:15:59.177 - Web service connection was closed.
+09:15:59.182 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:16:02.598 - Application is connected to web service.
+09:16:02.599 - Song Server 1.0.5
+09:16:02.599 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:18:10.864 - Liberando recursos e fechando aplicativo...
+09:18:10.918 - Stopping web service manager...
+09:18:10.954 - Web service connection was closed.
+09:18:10.954 - Web service manager running thread was stopped.
+09:19:41.151 - Song Client 1.0.5.0
+09:19:41.384 - Inicializando aplicativo...
+09:19:42.708 - Application was started.
+09:19:42.717 - Starting web service manager...
+09:19:42.731 - Web service manager was started and is running.
+09:19:42.774 - Web service connection was closed.
+09:19:42.778 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:19:45.831 - Application is connected to web service.
+09:19:45.831 - Song Server 1.0.5
+09:19:45.832 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:24:27.097 - Liberando recursos e fechando aplicativo...
+09:24:27.154 - Stopping web service manager...
+09:24:27.253 - Web service connection was closed.
+09:24:27.253 - Web service manager running thread was stopped.
+11:20:00.143 - Song Client 1.0.5.0
+11:20:00.374 - Inicializando aplicativo...
+11:20:01.556 - Application was started.
+11:20:01.562 - Starting web service manager...
+11:20:01.581 - Web service manager was started and is running.
+11:20:01.604 - Web service connection was closed.
+11:20:01.607 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:20:01.927 - Could not connect to web service.
+11:20:01.927 - Unexpected error while connecting to web service. 
+11:20:01.927 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:20:01.944 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:20:01.944 - Web service connection was closed.
+11:20:11.944 - Web service connection was closed.
+11:20:11.944 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:20:11.958 - Could not connect to web service.
+11:20:11.958 - Unexpected error while connecting to web service. 
+11:20:11.958 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:20:11.958 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:20:11.958 - Web service connection was closed.
+11:20:21.959 - Web service connection was closed.
+11:20:21.959 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:20:21.973 - Could not connect to web service.
+11:20:21.973 - Unexpected error while connecting to web service. 
+11:20:21.973 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:20:21.973 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:20:21.973 - Web service connection was closed.
+11:20:31.979 - Web service connection was closed.
+11:20:31.979 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:20:31.993 - Could not connect to web service.
+11:20:31.993 - Unexpected error while connecting to web service. 
+11:20:31.993 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:20:31.994 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:20:31.994 - Web service connection was closed.
+11:20:39.323 - Liberando recursos e fechando aplicativo...
+11:20:39.373 - Stopping web service manager...
+11:20:39.394 - Web service connection was closed.
+11:20:39.394 - Web service manager running thread was stopped.
+11:20:47.406 - Song Client 1.0.5.0
+11:20:47.617 - Inicializando aplicativo...
+11:20:48.936 - Application was started.
+11:20:48.944 - Starting web service manager...
+11:20:48.956 - Web service manager was started and is running.
+11:20:49.030 - Web service connection was closed.
+11:20:49.035 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:20:49.390 - Could not connect to web service.
+11:20:49.391 - Unexpected error while connecting to web service. 
+11:20:49.391 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:20:49.403 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:20:49.404 - Web service connection was closed.
+11:20:59.404 - Web service connection was closed.
+11:20:59.404 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:20:59.417 - Could not connect to web service.
+11:20:59.417 - Unexpected error while connecting to web service. 
+11:20:59.417 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:20:59.417 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:20:59.417 - Web service connection was closed.
+11:21:05.466 - Liberando recursos e fechando aplicativo...
+11:21:05.539 - Stopping web service manager...
+11:21:05.617 - Web service connection was closed.
+11:21:05.617 - Web service manager running thread was stopped.
+11:21:33.323 - Song Client 1.0.5.0
+11:21:33.547 - Inicializando aplicativo...
+11:21:34.781 - Application was started.
+11:21:34.790 - Starting web service manager...
+11:21:34.802 - Web service manager was started and is running.
+11:21:34.833 - Web service connection was closed.
+11:21:34.836 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:21:35.191 - Could not connect to web service.
+11:21:35.192 - Unexpected error while connecting to web service. 
+11:21:35.192 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:21:35.203 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:21:35.203 - Web service connection was closed.
+11:21:45.204 - Web service connection was closed.
+11:21:45.204 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:21:45.223 - Could not connect to web service.
+11:21:45.223 - Unexpected error while connecting to web service. 
+11:21:45.223 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:21:45.223 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:21:45.223 - Web service connection was closed.
+11:21:55.224 - Web service connection was closed.
+11:21:55.224 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:21:55.235 - Could not connect to web service.
+11:21:55.235 - Unexpected error while connecting to web service. 
+11:21:55.235 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:21:55.236 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:21:55.236 - Web service connection was closed.
+11:22:05.249 - Web service connection was closed.
+11:22:05.249 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:22:05.263 - Could not connect to web service.
+11:22:05.263 - Unexpected error while connecting to web service. 
+11:22:05.263 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:22:05.263 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:22:05.263 - Web service connection was closed.
+11:22:15.269 - Web service connection was closed.
+11:22:15.269 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:22:15.286 - Could not connect to web service.
+11:22:15.286 - Unexpected error while connecting to web service. 
+11:22:15.286 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:22:15.286 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:22:15.286 - Web service connection was closed.
+11:22:25.287 - Web service connection was closed.
+11:22:25.287 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:22:25.306 - Could not connect to web service.
+11:22:25.306 - Unexpected error while connecting to web service. 
+11:22:25.306 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:22:25.306 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:22:25.306 - Web service connection was closed.
+11:22:35.307 - Web service connection was closed.
+11:22:35.307 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:22:35.326 - Could not connect to web service.
+11:22:35.326 - Unexpected error while connecting to web service. 
+11:22:35.326 - The OperationContractAttribute declared on method 'GenerateReports' in type 'PnT.SongServer.SongService' is invalid. OperationContractAttributes are only valid on methods that are declared in a type that has ServiceContractAttribute. Either add ServiceContractAttribute to type 'PnT.SongServer.SongService' or remove OperationContractAttribute from method 'GenerateReports'.
+11:22:35.326 - System.InvalidOperationException   at System.ServiceModel.Description.ServiceReflector.GetInterfaces(Type service)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 584
+11:22:35.326 - Web service connection was closed.
+11:23:39.727 - Song Client 1.0.5.0
+11:23:39.941 - Inicializando aplicativo...
+11:23:41.280 - Application was started.
+11:23:41.289 - Starting web service manager...
+11:23:41.324 - Web service manager was started and is running.
+11:23:41.434 - Web service connection was closed.
+11:23:41.438 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:23:47.215 - Application is connected to web service.
+11:23:47.216 - Song Server 1.0.5
+11:23:47.216 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:23:48.195 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+11:23:48.195 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:23:48.208 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:23:48.209 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:23:48.209 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:25:38.541 - Liberando recursos e fechando aplicativo...
+11:25:38.599 - Stopping web service manager...
+11:25:38.653 - Web service connection was closed.
+11:25:38.653 - Web service manager running thread was stopped.
+11:25:58.582 - Song Client 1.0.5.0
+11:25:58.824 - Inicializando aplicativo...
+11:25:59.944 - Application was started.
+11:25:59.952 - Starting web service manager...
+11:25:59.962 - Web service manager was started and is running.
+11:25:59.977 - Web service connection was closed.
+11:25:59.981 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:26:02.953 - Application is connected to web service.
+11:26:02.954 - Song Server 1.0.5
+11:26:02.954 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:26:13.415 - Liberando recursos e fechando aplicativo...
+11:26:13.460 - Stopping web service manager...
+11:26:13.537 - Web service connection was closed.
+11:26:13.538 - Web service manager running thread was stopped.
+11:26:48.223 - Song Client 1.0.5.0
+11:26:48.503 - Inicializando aplicativo...
+11:26:49.699 - Application was started.
+11:26:49.705 - Starting web service manager...
+11:26:49.714 - Web service manager was started and is running.
+11:26:49.730 - Web service connection was closed.
+11:26:49.734 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:26:52.606 - Application is connected to web service.
+11:26:52.606 - Song Server 1.0.5
+11:26:52.606 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:27:07.459 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+11:27:07.459 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:27:07.470 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:27:07.471 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:27:07.471 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:28:38.666 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+11:28:38.666 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:28:38.667 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:28:38.667 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:28:38.667 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:30:50.432 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+11:30:50.432 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:30:50.432 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:30:50.432 - Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+11:30:50.432 - System.FormatException   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 233
+11:31:15.130 - Song Client 1.0.5.0
+11:31:15.315 - Inicializando aplicativo...
+11:31:16.651 - Application was started.
+11:31:16.658 - Starting web service manager...
+11:31:16.669 - Web service manager was started and is running.
+11:31:16.690 - Web service connection was closed.
+11:31:16.694 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:31:20.511 - Application is connected to web service.
+11:31:20.512 - Song Server 1.0.5
+11:31:20.512 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:38:10.761 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+11:38:10.761 - The request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+11:38:10.773 - System.TimeoutException
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GenerateReports()
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 226
+11:38:10.773 - The HTTP request to 'http://localhost:4436/SongServer/SongService.svc' has exceeded the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout.
+11:38:10.773 - System.TimeoutException   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+11:38:10.773 - The operation has timed out
+11:38:10.773 - System.Net.WebException   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+11:38:10.774 - The request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+11:38:10.774 - System.TimeoutException
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GenerateReports()
+   at PnT.SongClient.UI.Controls.HomeControl.HomeControl_Load(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\HomeControl.cs:line 226
+11:38:10.774 - The HTTP request to 'http://localhost:4436/SongServer/SongService.svc' has exceeded the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout.
+11:38:10.774 - System.TimeoutException   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+11:38:10.774 - The operation has timed out
+11:38:10.774 - System.Net.WebException   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+11:38:22.798 - Song Client 1.0.5.0
+11:38:23.005 - Inicializando aplicativo...
+11:38:24.143 - Application was started.
+11:38:24.153 - Starting web service manager...
+11:38:24.169 - Web service manager was started and is running.
+11:38:24.220 - Web service connection was closed.
+11:38:24.224 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:38:27.172 - Application is connected to web service.
+11:38:27.173 - Song Server 1.0.5
+11:38:27.173 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:38:42.161 - Erro interno no web service ao gerar novos relatórios .
+Entre em contato com o suporte. Object reference not set to an instance of an object.
+11:38:46.440 - Liberando recursos e fechando aplicativo...
+11:38:46.490 - Stopping web service manager...
+11:38:46.526 - Web service connection was closed.
+11:38:46.526 - Web service manager running thread was stopped.
+11:39:34.135 - Song Client 1.0.5.0
+11:39:34.321 - Inicializando aplicativo...
+11:39:35.522 - Application was started.
+11:39:35.531 - Starting web service manager...
+11:39:35.571 - Web service manager was started and is running.
+11:39:35.609 - Web service connection was closed.
+11:39:35.613 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:39:38.470 - Application is connected to web service.
+11:39:38.470 - Song Server 1.0.5
+11:39:38.470 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:39:41.421 - Erro interno no web service ao gerar novos relatórios .
+Entre em contato com o suporte. Object reference not set to an instance of an object.
+11:42:30.805 - Liberando recursos e fechando aplicativo...
+11:42:30.860 - Stopping web service manager...
+11:42:30.976 - Web service connection was closed.
+11:42:30.976 - Web service manager running thread was stopped.
+11:44:32.472 - Song Client 1.0.5.0
+11:44:32.721 - Inicializando aplicativo...
+11:44:33.914 - Application was started.
+11:44:33.924 - Starting web service manager...
+11:44:33.934 - Web service manager was started and is running.
+11:44:33.967 - Web service connection was closed.
+11:44:33.971 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:44:39.575 - Application is connected to web service.
+11:44:39.575 - Song Server 1.0.5
+11:44:39.575 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:47:44.937 - Song Client 1.0.5.0
+11:47:45.206 - Inicializando aplicativo...
+11:47:46.544 - Application was started.
+11:47:46.551 - Starting web service manager...
+11:47:46.565 - Web service manager was started and is running.
+11:47:46.573 - Web service connection was closed.
+11:47:46.576 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:47:52.378 - Application is connected to web service.
+11:47:52.379 - Song Server 1.0.5
+11:47:52.379 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:48:50.777 - Liberando recursos e fechando aplicativo...
+11:48:50.849 - Stopping web service manager...
+11:48:50.906 - Web service connection was closed.
+11:48:50.906 - Web service manager running thread was stopped.
+11:50:09.315 - Song Client 1.0.5.0
+11:50:09.535 - Inicializando aplicativo...
+11:50:10.773 - Application was started.
+11:50:10.781 - Starting web service manager...
+11:50:10.828 - Web service manager was started and is running.
+11:50:10.842 - Web service connection was closed.
+11:50:10.856 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:50:16.625 - Application is connected to web service.
+11:50:16.626 - Song Server 1.0.5
+11:50:16.626 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+12:16:02.802 - Liberando recursos e fechando aplicativo...
+12:16:02.860 - Stopping web service manager...
+12:16:02.934 - Web service connection was closed.
+12:16:02.934 - Web service manager running thread was stopped.
+12:17:07.435 - Song Client 1.0.5.0
+12:17:07.670 - Inicializando aplicativo...
+12:17:08.906 - Application was started.
+12:17:08.913 - Starting web service manager...
+12:17:08.923 - Web service manager was started and is running.
+12:17:08.938 - Web service connection was closed.
+12:17:08.941 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+12:17:14.871 - Application is connected to web service.
+12:17:14.871 - Song Server 1.0.5
+12:17:14.871 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:27:14.087 - Liberando recursos e fechando aplicativo...
+13:27:14.264 - Stopping web service manager...
+13:27:14.358 - Web service connection was closed.
+13:27:14.359 - Web service manager running thread was stopped.
+13:28:06.500 - Song Client 1.0.5.0
+13:28:06.737 - Inicializando aplicativo...
+13:28:07.907 - Application was started.
+13:28:07.915 - Starting web service manager...
+13:28:07.944 - Web service connection was closed.
+13:28:07.947 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:28:07.969 - Web service manager was started and is running.
+13:28:11.331 - Application is connected to web service.
+13:28:11.332 - Song Server 1.0.5
+13:28:11.332 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:28:26.158 - Liberando recursos e fechando aplicativo...
+13:28:26.211 - Stopping web service manager...
+13:28:26.329 - Web service connection was closed.
+13:28:26.330 - Web service manager running thread was stopped.
+13:29:19.728 - Song Client 1.0.5.0
+13:29:19.942 - Inicializando aplicativo...
+13:29:21.161 - Application was started.
+13:29:21.177 - Starting web service manager...
+13:29:21.206 - Web service manager was started and is running.
+13:29:21.242 - Web service connection was closed.
+13:29:21.246 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:29:27.145 - Application is connected to web service.
+13:29:27.146 - Song Server 1.0.5
+13:29:27.146 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:37:21.401 - Song Client 1.0.5.0
+13:37:21.597 - Inicializando aplicativo...
+13:37:22.817 - Application was started.
+13:37:22.827 - Starting web service manager...
+13:37:22.837 - Web service manager was started and is running.
+13:37:22.857 - Web service connection was closed.
+13:37:22.862 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:37:26.153 - Application is connected to web service.
+13:37:26.153 - Song Server 1.0.5
+13:37:26.153 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:38:42.908 - Song Client 1.0.5.0
+13:38:43.111 - Inicializando aplicativo...
+13:38:44.340 - Application was started.
+13:38:44.350 - Starting web service manager...
+13:38:44.359 - Web service manager was started and is running.
+13:38:44.376 - Web service connection was closed.
+13:38:44.381 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:38:47.219 - Application is connected to web service.
+13:38:47.219 - Song Server 1.0.5
+13:38:47.219 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:42:20.899 - Song Client 1.0.5.0
+13:42:21.116 - Inicializando aplicativo...
+13:42:22.408 - Application was started.
+13:42:22.418 - Starting web service manager...
+13:42:22.435 - Web service manager was started and is running.
+13:42:22.451 - Web service connection was closed.
+13:42:22.456 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:42:28.182 - Application is connected to web service.
+13:42:28.182 - Song Server 1.0.5
+13:42:28.183 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:44:49.761 - Song Client 1.0.5.0
+13:44:49.943 - Inicializando aplicativo...
+13:44:51.191 - Application was started.
+13:44:51.203 - Starting web service manager...
+13:44:51.230 - Web service manager was started and is running.
+13:44:51.376 - Web service connection was closed.
+13:44:51.379 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:44:54.144 - Application is connected to web service.
+13:44:54.144 - Song Server 1.0.5
+13:44:54.145 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:46:43.122 - Liberando recursos e fechando aplicativo...
+13:46:43.237 - Stopping web service manager...
+13:46:43.270 - Web service connection was closed.
+13:46:43.270 - Web service manager running thread was stopped.
+13:53:00.732 - Song Client 1.0.5.0
+13:53:00.961 - Inicializando aplicativo...
+13:53:02.282 - Application was started.
+13:53:02.291 - Starting web service manager...
+13:53:02.301 - Web service manager was started and is running.
+13:53:02.335 - Web service connection was closed.
+13:53:02.338 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:53:05.361 - Application is connected to web service.
+13:53:05.362 - Song Server 1.0.5
+13:53:05.362 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:54:02.300 - Liberando recursos e fechando aplicativo...
+13:54:02.348 - Stopping web service manager...
+13:54:02.422 - Web service connection was closed.
+13:54:02.422 - Web service manager running thread was stopped.
+13:54:36.132 - Song Client 1.0.5.0
+13:54:36.384 - Inicializando aplicativo...
+13:54:37.602 - Application was started.
+13:54:37.612 - Starting web service manager...
+13:54:37.622 - Web service manager was started and is running.
+13:54:37.643 - Web service connection was closed.
+13:54:37.647 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:54:40.553 - Application is connected to web service.
+13:54:40.553 - Song Server 1.0.5
+13:54:40.554 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:55:02.115 - Liberando recursos e fechando aplicativo...
+13:55:02.159 - Stopping web service manager...
+13:55:02.190 - Web service connection was closed.
+13:55:02.190 - Web service manager running thread was stopped.
+13:56:02.947 - Song Client 1.0.5.0
+13:56:03.171 - Inicializando aplicativo...
+13:56:04.328 - Application was started.
+13:56:04.335 - Starting web service manager...
+13:56:04.378 - Web service manager was started and is running.
+13:56:04.392 - Web service connection was closed.
+13:56:04.396 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:56:07.277 - Application is connected to web service.
+13:56:07.278 - Song Server 1.0.5
+13:56:07.278 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:56:33.853 - Liberando recursos e fechando aplicativo...
+13:56:33.901 - Stopping web service manager...
+13:56:33.996 - Web service connection was closed.
+13:56:33.997 - Web service manager running thread was stopped.
+13:57:02.354 - Song Client 1.0.5.0
+13:57:02.592 - Inicializando aplicativo...
+13:57:03.820 - Application was started.
+13:57:03.834 - Starting web service manager...
+13:57:03.848 - Web service manager was started and is running.
+13:57:03.912 - Web service connection was closed.
+13:57:03.916 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:57:06.752 - Application is connected to web service.
+13:57:06.753 - Song Server 1.0.5
+13:57:06.753 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:01:23.318 - Liberando recursos e fechando aplicativo...
+14:01:23.370 - Stopping web service manager...
+14:01:23.486 - Web service connection was closed.
+14:01:23.486 - Web service manager running thread was stopped.
+14:15:49.437 - Song Client 1.0.5.0
+14:15:49.660 - Inicializando aplicativo...
+14:15:50.955 - Application was started.
+14:15:50.964 - Starting web service manager...
+14:15:51.001 - Web service manager was started and is running.
+14:15:51.050 - Web service connection was closed.
+14:15:51.054 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:15:56.868 - Application is connected to web service.
+14:15:56.869 - Song Server 1.0.5
+14:15:56.869 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:17:49.740 - Liberando recursos e fechando aplicativo...
+14:17:49.811 - Stopping web service manager...
+14:17:49.865 - Web service connection was closed.
+14:17:49.866 - Web service manager running thread was stopped.
+14:27:31.225 - Song Client 1.0.5.0
+14:27:31.465 - Inicializando aplicativo...
+14:27:32.658 - Application was started.
+14:27:32.666 - Starting web service manager...
+14:27:32.676 - Web service manager was started and is running.
+14:27:32.690 - Web service connection was closed.
+14:27:32.693 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:27:38.593 - Application is connected to web service.
+14:27:38.593 - Song Server 1.0.5
+14:27:38.593 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:29:36.089 - Liberando recursos e fechando aplicativo...
+14:29:36.157 - Stopping web service manager...
+14:29:36.212 - Web service connection was closed.
+14:29:36.212 - Web service manager running thread was stopped.
+14:30:02.527 - Song Client 1.0.5.0
+14:30:02.721 - Inicializando aplicativo...
+14:30:03.976 - Application was started.
+14:30:03.983 - Starting web service manager...
+14:30:04.017 - Web service manager was started and is running.
+14:30:04.037 - Web service connection was closed.
+14:30:04.042 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:30:07.011 - Application is connected to web service.
+14:30:07.011 - Song Server 1.0.5
+14:30:07.011 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:30:16.962 - Liberando recursos e fechando aplicativo...
+14:30:17.011 - Stopping web service manager...
+14:30:17.059 - Web service connection was closed.
+14:30:17.060 - Web service manager running thread was stopped.
+14:30:38.555 - Song Client 1.0.5.0
+14:30:38.785 - Inicializando aplicativo...
+14:30:40.049 - Application was started.
+14:30:40.058 - Starting web service manager...
+14:30:40.068 - Web service manager was started and is running.
+14:30:40.100 - Web service connection was closed.
+14:30:40.103 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:30:43.025 - Application is connected to web service.
+14:30:43.026 - Song Server 1.0.5
+14:30:43.026 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:37:47.233 - Liberando recursos e fechando aplicativo...
+14:37:47.295 - Stopping web service manager...
+14:37:47.409 - Web service connection was closed.
+14:37:47.409 - Web service manager running thread was stopped.
+14:58:53.883 - Song Client 1.0.5.0
+14:58:54.085 - Inicializando aplicativo...
+14:58:55.256 - Application was started.
+14:58:55.265 - Starting web service manager...
+14:58:55.273 - Web service manager was started and is running.
+14:58:55.291 - Web service connection was closed.
+14:58:55.295 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:58:58.524 - Application is connected to web service.
+14:58:58.525 - Song Server 1.0.5
+14:58:58.525 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:09:28.469 - Liberando recursos e fechando aplicativo...
+15:09:28.533 - Stopping web service manager...
+15:09:28.629 - Web service connection was closed.
+15:09:28.629 - Web service manager running thread was stopped.

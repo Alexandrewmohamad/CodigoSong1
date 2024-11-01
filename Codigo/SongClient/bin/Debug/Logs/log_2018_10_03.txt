@@ -1,0 +1,26 @@
+08:46:25.222 - Song Client 1.0.12.0
+08:46:25.439 - Inicializando aplicativo...
+08:46:26.753 - Application was started.
+08:46:26.763 - Starting web service manager...
+08:46:26.773 - Web service manager was started and is running.
+08:46:26.794 - Web service connection was closed.
+08:46:26.798 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:46:45.032 - Application is connected to web service.
+08:46:45.032 - Song Server 1.0.12
+08:46:45.032 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:46:49.828 - Erro interno no web service ao fazer logon de usuário.
+Entre em contato com o suporte. Unable to connect to any of the specified MySQL hosts.
+08:58:02.813 - Song Client 1.0.12.0
+08:58:03.026 - Inicializando aplicativo...
+08:58:04.514 - Application was started.
+08:58:04.532 - Starting web service manager...
+08:58:04.548 - Web service manager was started and is running.
+08:58:04.593 - Web service connection was closed.
+08:58:04.597 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:58:08.108 - Application is connected to web service.
+08:58:08.108 - Song Server 1.0.12
+08:58:08.109 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:06:08.115 - Liberando recursos e fechando aplicativo...
+09:06:08.218 - Stopping web service manager...
+09:06:08.309 - Web service connection was closed.
+09:06:08.309 - Web service manager running thread was stopped.

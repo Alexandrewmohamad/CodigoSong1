@@ -1,0 +1,896 @@
+10:36:48.853 - Song Client 1.0.13.0
+10:36:49.075 - Inicializando aplicativo...
+10:36:50.630 - Application was started.
+10:36:50.643 - Starting web service manager...
+10:36:50.653 - Web service manager was started and is running.
+10:36:50.667 - Web service connection was closed.
+10:36:50.671 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:37:03.971 - Application is connected to web service.
+10:37:03.971 - Song Server 1.0.13
+10:37:03.971 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:37:09.928 - Erro interno no web service ao fazer logon de usuário.
+Entre em contato com o suporte. Unable to connect to any of the specified MySQL hosts.
+10:38:42.734 - Stopping web service manager...
+10:38:42.823 - Web service connection was closed.
+10:38:42.824 - Web service manager running thread was stopped.
+10:38:42.837 - Starting web service manager...
+10:38:42.842 - Web service connection was closed.
+10:38:42.843 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+10:38:42.843 - Web service manager was started and is running.
+10:38:43.149 - Application is connected to web service.
+10:38:43.149 - Song Server 1.0.13
+10:38:43.149 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=Song@2018;Connect Timeout=2;convert zero datetime=True
+10:45:48.422 - Liberando recursos e fechando aplicativo...
+10:45:48.516 - Stopping web service manager...
+10:45:48.599 - Web service connection was closed.
+10:45:48.599 - Web service manager running thread was stopped.
+10:52:29.666 - Song Client 1.0.13.0
+10:52:29.878 - Inicializando aplicativo...
+10:52:31.325 - Application was started.
+10:52:31.335 - Starting web service manager...
+10:52:31.343 - Web service manager was started and is running.
+10:52:31.358 - Web service connection was closed.
+10:52:31.363 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+10:52:35.448 - Application is connected to web service.
+10:52:35.448 - Song Server 1.0.13
+10:52:35.448 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=Song@2018;Connect Timeout=2;convert zero datetime=True
+10:53:19.136 - Stopping web service manager...
+10:53:19.175 - Web service connection was closed.
+10:53:19.175 - Web service manager running thread was stopped.
+10:53:19.241 - Starting web service manager...
+10:53:19.247 - Web service connection was closed.
+10:53:19.247 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:53:19.247 - Web service manager was started and is running.
+10:53:20.915 - Application is connected to web service.
+10:53:20.915 - Song Server 1.0.13
+10:53:20.915 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:03:35.107 - Song Client 1.0.13.0
+11:03:35.311 - Inicializando aplicativo...
+11:03:36.764 - Application was started.
+11:03:36.776 - Starting web service manager...
+11:03:36.791 - Web service manager was started and is running.
+11:03:36.800 - Web service connection was closed.
+11:03:36.806 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:03:40.335 - Application is connected to web service.
+11:03:40.336 - Song Server 1.0.13
+11:03:40.336 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:04:44.725 - Error while testing web service connection.
+11:04:44.725 - There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:04:44.743 - System.ServiceModel.EndpointNotFoundException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GetHeartbeat()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 685
+11:04:44.743 - Unable to connect to the remote server
+11:04:44.748 - System.Net.WebException   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+11:04:44.748 - No connection could be made because the target machine actively refused it 127.0.0.1:4436
+11:04:44.749 - System.Net.Sockets.SocketException   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+11:04:44.764 - Web service connection was closed.
+11:04:54.787 - Web service connection was closed.
+11:04:54.787 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:04:56.853 - Could not connect to web service.
+11:04:56.853 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:04:56.853 - Web service connection was closed.
+11:05:06.923 - Web service connection was closed.
+11:05:06.923 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:05:08.998 - Could not connect to web service.
+11:05:08.998 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:05:08.998 - Web service connection was closed.
+11:05:19.026 - Web service connection was closed.
+11:05:19.026 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:05:21.088 - Could not connect to web service.
+11:05:21.088 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:05:21.088 - Web service connection was closed.
+11:05:31.123 - Web service connection was closed.
+11:05:31.123 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:05:33.186 - Could not connect to web service.
+11:05:33.186 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:05:33.186 - Web service connection was closed.
+11:05:43.190 - Web service connection was closed.
+11:05:43.190 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:05:45.247 - Could not connect to web service.
+11:05:45.247 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:05:45.247 - Web service connection was closed.
+11:05:55.248 - Web service connection was closed.
+11:05:55.248 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:05:57.310 - Could not connect to web service.
+11:05:57.311 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:05:57.311 - Web service connection was closed.
+11:06:07.326 - Web service connection was closed.
+11:06:07.326 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:06:09.369 - Could not connect to web service.
+11:06:09.369 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:06:09.369 - Web service connection was closed.
+11:06:19.377 - Web service connection was closed.
+11:06:19.377 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:06:21.417 - Could not connect to web service.
+11:06:21.417 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:06:21.417 - Web service connection was closed.
+11:06:31.419 - Web service connection was closed.
+11:06:31.419 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:06:33.486 - Could not connect to web service.
+11:06:33.486 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:06:33.486 - Web service connection was closed.
+11:06:43.487 - Web service connection was closed.
+11:06:43.487 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:06:45.552 - Could not connect to web service.
+11:06:45.552 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:06:45.552 - Web service connection was closed.
+11:06:55.558 - Web service connection was closed.
+11:06:55.558 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:06:57.672 - Could not connect to web service.
+11:06:57.672 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:06:57.672 - Web service connection was closed.
+11:07:07.741 - Web service connection was closed.
+11:07:07.741 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:07:09.798 - Could not connect to web service.
+11:07:09.798 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:07:09.798 - Web service connection was closed.
+11:07:19.817 - Web service connection was closed.
+11:07:19.817 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:07:21.858 - Could not connect to web service.
+11:07:21.858 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:07:21.858 - Web service connection was closed.
+11:07:31.862 - Web service connection was closed.
+11:07:31.862 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:07:33.906 - Could not connect to web service.
+11:07:33.906 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:07:33.906 - Web service connection was closed.
+11:07:43.907 - Web service connection was closed.
+11:07:43.907 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:07:45.974 - Could not connect to web service.
+11:07:45.974 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:07:45.974 - Web service connection was closed.
+11:07:55.978 - Web service connection was closed.
+11:07:55.978 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:07:58.035 - Could not connect to web service.
+11:07:58.035 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:07:58.035 - Web service connection was closed.
+11:08:08.035 - Web service connection was closed.
+11:08:08.035 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:08:10.080 - Could not connect to web service.
+11:08:10.080 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:08:10.081 - Web service connection was closed.
+11:08:20.082 - Web service connection was closed.
+11:08:20.082 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:08:22.133 - Could not connect to web service.
+11:08:22.133 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:08:22.133 - Web service connection was closed.
+11:08:32.134 - Web service connection was closed.
+11:08:32.134 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:08:34.193 - Could not connect to web service.
+11:08:34.193 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:08:34.194 - Web service connection was closed.
+11:08:44.195 - Web service connection was closed.
+11:08:44.195 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:08:46.250 - Could not connect to web service.
+11:08:46.250 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:08:46.250 - Web service connection was closed.
+11:08:56.251 - Web service connection was closed.
+11:08:56.251 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:08:58.352 - Could not connect to web service.
+11:08:58.352 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:08:58.352 - Web service connection was closed.
+11:09:08.357 - Web service connection was closed.
+11:09:08.357 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:09:10.427 - Could not connect to web service.
+11:09:10.427 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:09:10.427 - Web service connection was closed.
+11:09:20.433 - Web service connection was closed.
+11:09:20.433 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:09:22.491 - Could not connect to web service.
+11:09:22.491 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:09:22.491 - Web service connection was closed.
+11:09:32.492 - Web service connection was closed.
+11:09:32.492 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:09:34.529 - Could not connect to web service.
+11:09:34.529 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:09:34.529 - Web service connection was closed.
+11:09:44.530 - Web service connection was closed.
+11:09:44.530 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:09:46.601 - Could not connect to web service.
+11:09:46.601 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:09:46.601 - Web service connection was closed.
+11:09:56.602 - Web service connection was closed.
+11:09:56.602 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:09:58.649 - Could not connect to web service.
+11:09:58.649 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:09:58.649 - Web service connection was closed.
+11:10:08.651 - Web service connection was closed.
+11:10:08.651 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:10:10.699 - Could not connect to web service.
+11:10:10.699 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:10:10.699 - Web service connection was closed.
+11:10:20.700 - Web service connection was closed.
+11:10:20.700 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:10:22.760 - Could not connect to web service.
+11:10:22.760 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:10:22.760 - Web service connection was closed.
+11:10:32.760 - Web service connection was closed.
+11:10:32.760 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:10:34.811 - Could not connect to web service.
+11:10:34.811 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:10:34.811 - Web service connection was closed.
+11:10:44.812 - Web service connection was closed.
+11:10:44.812 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:10:46.857 - Could not connect to web service.
+11:10:46.857 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:10:46.857 - Web service connection was closed.
+11:10:56.860 - Web service connection was closed.
+11:10:56.860 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:10:58.957 - Could not connect to web service.
+11:10:58.957 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:10:58.957 - Web service connection was closed.
+11:11:08.957 - Web service connection was closed.
+11:11:08.957 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:11:11.012 - Could not connect to web service.
+11:11:11.012 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:11:11.012 - Web service connection was closed.
+11:11:30.502 - Web service connection was closed.
+11:11:30.502 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:11:30.503 - An application thread exception was caught by Manager. Contact support immediately.
+11:11:30.504 - InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+11:11:30.520 - System.ArgumentOutOfRangeException   at System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   at PnT.SongClient.UI.Controls.StatisticsControl.mcbPole_SelectedIndexChanged(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 2113
+   at System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   at MetroFramework.Controls.MetroComboBox.OnSelectedIndexChanged(EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\MetroFramework\MetroFramework\Controls\MetroComboBox.cs:line 723
+   at System.Windows.Forms.ComboBox.WmReflectCommand(Message& m)
+   at System.Windows.Forms.ComboBox.WndProc(Message& m)
+   at MetroFramework.Controls.MetroComboBox.WndProc(Message& m) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\MetroFramework\MetroFramework\Controls\MetroComboBox.cs:line 733
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+11:11:32.563 - Could not connect to web service.
+11:11:32.563 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+11:11:32.563 - Web service connection was closed.
+11:11:34.124 - Liberando recursos e fechando aplicativo...
+11:11:34.364 - Stopping web service manager...
+11:11:34.463 - Web service connection was closed.
+11:11:34.463 - Web service manager running thread was stopped.
+11:11:41.992 - Song Client 1.0.13.0
+11:11:42.215 - Inicializando aplicativo...
+11:11:43.467 - Application was started.
+11:11:43.477 - Starting web service manager...
+11:11:43.488 - Web service manager was started and is running.
+11:11:43.496 - Web service connection was closed.
+11:11:43.501 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:11:50.736 - Application is connected to web service.
+11:11:50.736 - Song Server 1.0.13
+11:11:50.736 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:13:23.449 - Liberando recursos e fechando aplicativo...
+11:13:23.549 - Stopping web service manager...
+11:13:23.658 - Web service connection was closed.
+11:13:23.658 - Web service manager running thread was stopped.
+12:56:46.384 - Song Client 1.0.13.0
+12:56:46.664 - Inicializando aplicativo...
+12:56:48.139 - Application was started.
+12:56:48.150 - Starting web service manager...
+12:56:48.171 - Web service manager was started and is running.
+12:56:48.196 - Web service connection was closed.
+12:56:48.202 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+12:56:58.725 - Application is connected to web service.
+12:56:58.725 - Song Server 1.0.13
+12:56:58.726 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+12:58:24.723 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+12:58:24.723 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:24.742 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:58:24.742 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:24.742 - System.ServiceModel.QuotaExceededException
+12:58:24.742 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:24.742 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:58:24.742 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:24.742 - System.ServiceModel.QuotaExceededException
+12:58:43.800 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+12:58:43.800 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:43.801 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+12:58:43.801 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:43.801 - System.ServiceModel.QuotaExceededException
+12:58:43.801 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:43.801 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+12:58:43.802 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:43.802 - System.ServiceModel.QuotaExceededException
+12:58:53.730 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+12:58:53.730 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:53.730 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:58:53.730 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:53.730 - System.ServiceModel.QuotaExceededException
+12:58:53.730 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:53.730 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:58:53.730 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:58:53.730 - System.ServiceModel.QuotaExceededException
+12:59:22.905 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+12:59:22.905 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:22.906 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:59:22.906 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:22.906 - System.ServiceModel.QuotaExceededException
+12:59:22.906 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:22.906 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:59:22.906 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:22.906 - System.ServiceModel.QuotaExceededException
+12:59:34.629 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+12:59:34.629 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:34.630 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+12:59:34.630 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:34.630 - System.ServiceModel.QuotaExceededException
+12:59:34.630 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:34.630 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+12:59:34.630 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:34.630 - System.ServiceModel.QuotaExceededException
+12:59:49.235 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+12:59:49.235 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:49.236 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:59:49.236 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:49.236 - System.ServiceModel.QuotaExceededException
+12:59:49.236 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:49.236 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+12:59:49.236 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:49.236 - System.ServiceModel.QuotaExceededException
+12:59:57.586 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+12:59:57.586 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:57.586 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+12:59:57.586 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:57.586 - System.ServiceModel.QuotaExceededException
+12:59:57.586 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:57.587 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+12:59:57.587 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+12:59:57.587 - System.ServiceModel.QuotaExceededException
+13:00:08.560 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+13:00:08.560 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:00:08.560 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+13:00:08.560 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:00:08.560 - System.ServiceModel.QuotaExceededException
+13:00:08.560 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:00:08.561 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindAttendancesByClassFilter(Boolean loadClass, Boolean loadStudent, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadAttendanceStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1045
+13:00:08.561 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:00:08.561 - System.ServiceModel.QuotaExceededException
+13:02:47.305 - Song Client 1.0.13.0
+13:02:47.491 - Inicializando aplicativo...
+13:02:48.737 - Application was started.
+13:02:48.749 - Starting web service manager...
+13:02:48.760 - Web service manager was started and is running.
+13:02:48.769 - Web service connection was closed.
+13:02:48.774 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:02:51.633 - Application is connected to web service.
+13:02:51.634 - Song Server 1.0.13
+13:02:51.634 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:03:40.206 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+13:03:40.206 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:03:40.217 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:03:40.217 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:03:40.217 - System.ServiceModel.QuotaExceededException
+13:03:40.220 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:03:40.220 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:03:40.220 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:03:40.220 - System.ServiceModel.QuotaExceededException
+13:05:03.651 - Song Client 1.0.13.0
+13:05:03.877 - Inicializando aplicativo...
+13:05:05.053 - Application was started.
+13:05:05.062 - Starting web service manager...
+13:05:05.069 - Web service manager was started and is running.
+13:05:05.080 - Web service connection was closed.
+13:05:05.085 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:05:08.113 - Application is connected to web service.
+13:05:08.113 - Song Server 1.0.13
+13:05:08.113 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:05:56.113 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+13:05:56.113 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:05:56.123 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:05:56.123 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:05:56.123 - System.ServiceModel.QuotaExceededException
+13:05:56.123 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:05:56.123 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:05:56.123 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:05:56.123 - System.ServiceModel.QuotaExceededException
+13:12:23.349 - Song Client 1.0.13.0
+13:12:23.544 - Inicializando aplicativo...
+13:12:24.890 - Application was started.
+13:12:24.902 - Starting web service manager...
+13:12:24.916 - Web service manager was started and is running.
+13:12:24.933 - Web service connection was closed.
+13:12:24.938 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:12:31.780 - Application is connected to web service.
+13:12:31.780 - Song Server 1.0.13
+13:12:31.780 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:13:12.053 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+13:13:12.053 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:13:12.065 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:13:12.065 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:13:12.065 - System.ServiceModel.QuotaExceededException
+13:13:12.065 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:13:12.065 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:13:12.065 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:13:12.065 - System.ServiceModel.QuotaExceededException
+13:13:15.639 - Liberando recursos e fechando aplicativo...
+13:13:15.731 - Stopping web service manager...
+13:13:15.836 - Web service connection was closed.
+13:13:15.836 - Web service manager running thread was stopped.
+13:14:54.164 - Song Client 1.0.13.0
+13:14:54.428 - Inicializando aplicativo...
+13:14:57.491 - Application was started.
+13:14:57.502 - Starting web service manager...
+13:14:57.513 - Web service manager was started and is running.
+13:14:57.550 - Web service connection was closed.
+13:14:57.554 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:15:05.091 - Application is connected to web service.
+13:15:05.092 - Song Server 1.0.13
+13:15:05.092 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:15:40.843 - Erro inesperado ao pegar lista de item Indicador do serviço web.
+13:15:40.843 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:15:40.855 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:15:40.855 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:15:40.855 - System.ServiceModel.QuotaExceededException
+13:15:40.855 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:15:40.855 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindGradesByFilter(Boolean loadSemester, Boolean loadInstitution, Boolean loadTeacher, Boolean loadCoordinator, Boolean loadStudent, Boolean loadClass, Int32 filterGradeRapporteur, Int32 filterGradeTarget, Int32 filterGradePeriodicity, Int32 filterGradeSubject, Int32 filterSemester, DateTime filterReferenceDate, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher, Int32 filterCoordinator, Int32 filterStudent, Int32 filterClass)
+   at PnT.SongClient.UI.Controls.StatisticsControl.LoadGradeStatistics(Boolean useSet1) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\StatisticsControl.cs:line 1583
+13:15:40.855 - The maximum message size quota for incoming messages (6553600) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+13:15:40.855 - System.ServiceModel.QuotaExceededException
+13:16:24.278 - Liberando recursos e fechando aplicativo...
+13:16:24.339 - Stopping web service manager...
+13:16:24.391 - Web service connection was closed.
+13:16:24.391 - Web service manager running thread was stopped.
+13:23:24.315 - Song Client 1.0.13.0
+13:23:24.496 - Inicializando aplicativo...
+13:23:25.646 - Application was started.
+13:23:25.657 - Starting web service manager...
+13:23:25.668 - Web service manager was started and is running.
+13:23:25.685 - Web service connection was closed.
+13:23:25.688 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:23:29.034 - Application is connected to web service.
+13:23:29.035 - Song Server 1.0.13
+13:23:29.035 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:24:39.911 - Song Client 1.0.13.0
+13:24:40.125 - Inicializando aplicativo...
+13:24:41.375 - Application was started.
+13:24:41.386 - Starting web service manager...
+13:24:41.394 - Web service manager was started and is running.
+13:24:41.405 - Web service connection was closed.
+13:24:41.410 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:24:48.091 - Application is connected to web service.
+13:24:48.091 - Song Server 1.0.13
+13:24:48.092 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:17:29.829 - Song Client 1.0.13.0
+14:17:30.126 - Inicializando aplicativo...
+14:17:31.530 - Application was started.
+14:17:31.542 - Starting web service manager...
+14:17:31.552 - Web service manager was started and is running.
+14:17:31.577 - Web service connection was closed.
+14:17:31.582 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:17:41.028 - Application is connected to web service.
+14:17:41.029 - Song Server 1.0.13
+14:17:41.029 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:18:04.842 - Liberando recursos e fechando aplicativo...
+14:18:04.921 - Stopping web service manager...
+14:18:04.985 - Web service connection was closed.
+14:18:04.985 - Web service manager running thread was stopped.
+14:18:25.307 - Song Client 1.0.13.0
+14:18:25.589 - Inicializando aplicativo...
+14:18:27.064 - Application was started.
+14:18:27.075 - Starting web service manager...
+14:18:27.091 - Web service manager was started and is running.
+14:18:27.107 - Web service connection was closed.
+14:18:27.112 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:18:30.350 - Application is connected to web service.
+14:18:30.350 - Song Server 1.0.13
+14:18:30.351 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True

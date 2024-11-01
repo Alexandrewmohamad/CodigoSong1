@@ -1,0 +1,99 @@
+13:42:29.913 - Song Client 1.0.13.0
+13:42:30.218 - Inicializando aplicativo...
+13:42:31.835 - Application was started.
+13:42:31.847 - Starting web service manager...
+13:42:31.860 - Web service manager was started and is running.
+13:42:31.889 - Web service connection was closed.
+13:42:31.895 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:42:43.194 - Application is connected to web service.
+13:42:43.195 - Song Server 1.0.13
+13:42:43.195 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:44:49.875 - Turmas selecionadas foram importadas do semestre 2018.II para o semestre 2019.I.
+13:45:11.667 - Liberando recursos e fechando aplicativo...
+13:45:11.729 - Stopping web service manager...
+13:45:11.754 - Web service connection was closed.
+13:45:11.755 - Web service manager running thread was stopped.
+13:46:29.353 - Song Client 1.0.13.0
+13:46:29.580 - Inicializando aplicativo...
+13:46:30.971 - Application was started.
+13:46:30.983 - Starting web service manager...
+13:46:30.996 - Web service manager was started and is running.
+13:46:31.005 - Web service connection was closed.
+13:46:31.038 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:46:34.049 - Application is connected to web service.
+13:46:34.049 - Song Server 1.0.13
+13:46:34.050 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:41:39.928 - Song Client 1.0.14.0
+15:41:40.199 - Inicializando aplicativo...
+15:41:41.741 - Application was started.
+15:41:41.753 - Starting web service manager...
+15:41:41.783 - Web service manager was started and is running.
+15:41:41.795 - Web service connection was closed.
+15:41:41.800 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:41:52.730 - Application is connected to web service.
+15:41:52.731 - Song Server 1.0.14
+15:41:52.731 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:42:42.269 - An application thread exception was caught by Manager. Contact support immediately.
+15:42:42.269 - Index -1 does not have a value.
+15:42:42.283 - System.IndexOutOfRangeException   at System.Windows.Forms.CurrencyManager.get_Item(Int32 index)
+   at System.Windows.Forms.CurrencyManager.get_Current()
+   at System.Windows.Forms.DataGridView.DataGridViewDataConnection.OnRowEnter(DataGridViewCellEventArgs e)
+   at System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCell& dataGridViewCell, Int32 columnIndex, Int32 rowIndex, Boolean canCreateNewRow, Boolean validationFailureOccurred)
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.SetAndSelectCurrentCellAddress(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick, Boolean clearSelection, Boolean forceCurrentCellSelection)
+   at System.Windows.Forms.DataGridView.MakeFirstDisplayedCellCurrentCell(Boolean includeNewRow)
+   at System.Windows.Forms.DataGridView.OnEnter(EventArgs e)
+   at System.Windows.Forms.Control.NotifyEnter()
+   at System.Windows.Forms.ContainerControl.UpdateFocusedControl()
+15:42:43.251 - An application thread exception was caught by Manager. Contact support immediately.
+15:42:43.251 - Index -1 does not have a value.
+15:42:43.251 - System.IndexOutOfRangeException   at System.Windows.Forms.CurrencyManager.get_Item(Int32 index)
+   at System.Windows.Forms.CurrencyManager.get_Current()
+   at System.Windows.Forms.DataGridView.DataGridViewDataConnection.OnRowEnter(DataGridViewCellEventArgs e)
+   at System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCell& dataGridViewCell, Int32 columnIndex, Int32 rowIndex, Boolean canCreateNewRow, Boolean validationFailureOccurred)
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.OnCellMouseDown(HitTestInfo hti, Boolean isShiftDown, Boolean isControlDown)
+   at System.Windows.Forms.DataGridView.OnCellMouseDown(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.DataGridView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+15:42:44.391 - An application thread exception was caught by Manager. Contact support immediately.
+15:42:44.391 - Index -1 does not have a value.
+15:42:44.391 - System.IndexOutOfRangeException   at System.Windows.Forms.CurrencyManager.get_Item(Int32 index)
+   at System.Windows.Forms.CurrencyManager.get_Current()
+   at System.Windows.Forms.DataGridView.DataGridViewDataConnection.OnRowEnter(DataGridViewCellEventArgs e)
+   at System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCell& dataGridViewCell, Int32 columnIndex, Int32 rowIndex, Boolean canCreateNewRow, Boolean validationFailureOccurred)
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.OnCellMouseDown(HitTestInfo hti, Boolean isShiftDown, Boolean isControlDown)
+   at System.Windows.Forms.DataGridView.OnCellMouseDown(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.DataGridView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+15:42:44.876 - An application thread exception was caught by Manager. Contact support immediately.
+15:42:44.876 - Index -1 does not have a value.
+15:42:44.876 - System.IndexOutOfRangeException   at System.Windows.Forms.CurrencyManager.get_Item(Int32 index)
+   at System.Windows.Forms.CurrencyManager.get_Current()
+   at System.Windows.Forms.DataGridView.DataGridViewDataConnection.OnRowEnter(DataGridViewCellEventArgs e)
+   at System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCell& dataGridViewCell, Int32 columnIndex, Int32 rowIndex, Boolean canCreateNewRow, Boolean validationFailureOccurred)
+   at System.Windows.Forms.DataGridView.SetCurrentCellAddressCore(Int32 columnIndex, Int32 rowIndex, Boolean setAnchorCellAddress, Boolean validateCurrentCell, Boolean throughMouseClick)
+   at System.Windows.Forms.DataGridView.OnCellMouseDown(HitTestInfo hti, Boolean isShiftDown, Boolean isControlDown)
+   at System.Windows.Forms.DataGridView.OnCellMouseDown(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.DataGridView.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+15:42:59.656 - Liberando recursos e fechando aplicativo...
+15:42:59.715 - Stopping web service manager...
+15:42:59.812 - Web service connection was closed.
+15:42:59.812 - Web service manager running thread was stopped.

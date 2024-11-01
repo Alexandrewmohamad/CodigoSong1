@@ -1,0 +1,209 @@
+09:06:23.839 - Song Client 1.0.3.0
+09:06:24.091 - Inicializando aplicativo...
+09:06:25.580 - Application was started.
+09:06:25.592 - Starting web service manager...
+09:06:25.627 - Web service manager was started and is running.
+09:06:25.631 - Web service connection was closed.
+09:06:25.636 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:06:37.619 - Application is connected to web service.
+09:06:37.619 - Song Server 1.0.3
+09:06:37.620 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:07:19.411 - Liberando recursos e fechando aplicativo...
+09:07:19.475 - Stopping web service manager...
+09:07:19.523 - Web service connection was closed.
+09:07:19.523 - Web service manager running thread was stopped.
+10:12:03.713 - Song Client 1.0.3.0
+10:12:03.968 - Inicializando aplicativo...
+10:12:05.203 - Application was started.
+10:12:05.212 - Starting web service manager...
+10:12:05.221 - Web service manager was started and is running.
+10:12:05.237 - Web service connection was closed.
+10:12:05.241 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:12:11.024 - Application is connected to web service.
+10:12:11.024 - Song Server 1.0.3
+10:12:11.024 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:15:23.746 - Liberando recursos e fechando aplicativo...
+10:15:23.811 - Stopping web service manager...
+10:15:23.847 - Web service connection was closed.
+10:15:23.847 - Web service manager running thread was stopped.
+10:33:48.933 - Song Client 1.0.3.0
+10:33:49.182 - Inicializando aplicativo...
+10:33:50.347 - Application was started.
+10:33:50.356 - Starting web service manager...
+10:33:50.365 - Web service manager was started and is running.
+10:33:50.390 - Web service connection was closed.
+10:33:50.394 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:33:53.725 - Application is connected to web service.
+10:33:53.726 - Song Server 1.0.3
+10:33:53.726 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:34:21.190 - Liberando recursos e fechando aplicativo...
+10:34:21.234 - Stopping web service manager...
+10:34:21.297 - Web service connection was closed.
+10:34:21.298 - Web service manager running thread was stopped.
+10:38:13.908 - Song Client 1.0.3.0
+10:38:14.119 - Inicializando aplicativo...
+10:38:15.430 - Application was started.
+10:38:15.439 - Starting web service manager...
+10:38:15.447 - Web service manager was started and is running.
+10:38:15.462 - Web service connection was closed.
+10:38:15.466 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:38:21.405 - Application is connected to web service.
+10:38:21.405 - Song Server 1.0.3
+10:38:21.406 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:40:03.924 - Song Client 1.0.3.0
+10:40:04.161 - Inicializando aplicativo...
+10:40:05.364 - Application was started.
+10:40:05.372 - Starting web service manager...
+10:40:05.381 - Web service manager was started and is running.
+10:40:05.393 - Web service connection was closed.
+10:40:05.400 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:40:11.464 - Application is connected to web service.
+10:40:11.464 - Song Server 1.0.3
+10:40:11.465 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:41:29.495 - Song Client 1.0.3.0
+10:41:29.739 - Inicializando aplicativo...
+10:41:30.982 - Application was started.
+10:41:30.999 - Starting web service manager...
+10:41:31.010 - Web service manager was started and is running.
+10:41:31.051 - Web service connection was closed.
+10:41:31.055 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:41:37.029 - Application is connected to web service.
+10:41:37.029 - Song Server 1.0.3
+10:41:37.029 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:43:10.839 - Erro inesperado ao fazer logon de usuário usando o web service.
+10:43:10.839 - The request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+10:43:10.850 - System.TimeoutException
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.SendEmail(String subject, String body, MailPriority priority)
+   at PnT.SongClient.UI.LogonForm.mbtnOK_Click(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\LogonForm.cs:line 464
+10:43:10.850 - The HTTP request to 'http://localhost:4436/SongServer/SongService.svc' has exceeded the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout.
+10:43:10.850 - System.TimeoutException   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+10:43:10.850 - The operation has timed out
+10:43:10.850 - System.Net.WebException   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+10:43:10.851 - The request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+10:43:10.851 - System.TimeoutException
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.SendEmail(String subject, String body, MailPriority priority)
+   at PnT.SongClient.UI.LogonForm.mbtnOK_Click(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\LogonForm.cs:line 464
+10:43:10.851 - The HTTP request to 'http://localhost:4436/SongServer/SongService.svc' has exceeded the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout.
+10:43:10.851 - System.TimeoutException   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+10:43:10.851 - The operation has timed out
+10:43:10.851 - System.Net.WebException   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+10:51:26.115 - Song Client 1.0.3.0
+10:51:26.314 - Inicializando aplicativo...
+10:51:27.518 - Application was started.
+10:51:27.526 - Starting web service manager...
+10:51:27.537 - Web service manager was started and is running.
+10:51:27.571 - Web service connection was closed.
+10:51:27.574 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:51:30.505 - Application is connected to web service.
+10:51:30.505 - Song Server 1.0.3
+10:51:30.505 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:54:35.231 - Song Client 1.0.3.0
+10:54:35.436 - Inicializando aplicativo...
+10:54:36.696 - Application was started.
+10:54:36.704 - Starting web service manager...
+10:54:36.716 - Web service manager was started and is running.
+10:54:36.736 - Web service connection was closed.
+10:54:36.739 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:54:39.728 - Application is connected to web service.
+10:54:39.728 - Song Server 1.0.3
+10:54:39.729 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:01:20.241 - Liberando recursos e fechando aplicativo...
+11:01:20.299 - Stopping web service manager...
+11:01:20.330 - Web service connection was closed.
+11:01:20.330 - Web service manager running thread was stopped.
+13:06:28.274 - Song Client 1.0.3.0
+13:06:28.515 - Inicializando aplicativo...
+13:06:29.852 - Application was started.
+13:06:29.860 - Starting web service manager...
+13:06:29.873 - Web service manager was started and is running.
+13:06:29.891 - Web service connection was closed.
+13:06:29.896 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:06:37.117 - Application is connected to web service.
+13:06:37.117 - Song Server 1.0.3
+13:06:37.117 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:06:54.431 - Liberando recursos e fechando aplicativo...
+13:06:54.487 - Stopping web service manager...
+13:06:54.595 - Web service connection was closed.
+13:06:54.595 - Web service manager running thread was stopped.
+13:08:33.437 - Song Client 1.0.3.0
+13:08:33.649 - Inicializando aplicativo...
+13:08:34.896 - Application was started.
+13:08:34.904 - Starting web service manager...
+13:08:34.932 - Web service manager was started and is running.
+13:08:34.960 - Web service connection was closed.
+13:08:34.964 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:08:37.997 - Application is connected to web service.
+13:08:37.998 - Song Server 1.0.3
+13:08:37.998 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:08:47.630 - Liberando recursos e fechando aplicativo...
+13:08:47.698 - Stopping web service manager...
+13:08:47.749 - Web service connection was closed.
+13:08:47.749 - Web service manager running thread was stopped.
+13:13:20.388 - Song Client 1.0.3.0
+13:13:20.609 - Inicializando aplicativo...
+13:13:21.768 - Application was started.
+13:13:21.784 - Starting web service manager...
+13:13:21.798 - Web service manager was started and is running.
+13:13:21.888 - Web service connection was closed.
+13:13:21.893 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:13:25.082 - Application is connected to web service.
+13:13:25.082 - Song Server 1.0.3
+13:13:25.082 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:15:45.400 - Liberando recursos e fechando aplicativo...
+13:15:45.453 - Stopping web service manager...
+13:15:45.498 - Web service connection was closed.
+13:15:45.498 - Web service manager running thread was stopped.
+13:17:54.315 - Song Client 1.0.3.0
+13:17:54.521 - Inicializando aplicativo...
+13:17:55.658 - Application was started.
+13:17:55.667 - Starting web service manager...
+13:17:55.677 - Web service manager was started and is running.
+13:17:55.692 - Web service connection was closed.
+13:17:55.697 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:17:58.514 - Application is connected to web service.
+13:17:58.515 - Song Server 1.0.3
+13:17:58.515 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:18:09.007 - Liberando recursos e fechando aplicativo...
+13:18:09.048 - Stopping web service manager...
+13:18:09.089 - Web service connection was closed.
+13:18:09.089 - Web service manager running thread was stopped.
+13:18:51.360 - Song Client 1.0.3.0
+13:18:51.567 - Inicializando aplicativo...
+13:18:52.822 - Application was started.
+13:18:52.831 - Starting web service manager...
+13:18:52.844 - Web service manager was started and is running.
+13:18:52.867 - Web service connection was closed.
+13:18:52.871 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:18:55.900 - Application is connected to web service.
+13:18:55.901 - Song Server 1.0.3
+13:18:55.901 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:27:18.108 - Liberando recursos e fechando aplicativo...
+13:27:18.299 - Stopping web service manager...
+13:27:18.324 - Web service connection was closed.
+13:27:18.324 - Web service manager running thread was stopped.

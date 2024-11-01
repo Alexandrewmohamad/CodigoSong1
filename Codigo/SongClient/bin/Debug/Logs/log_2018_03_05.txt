@@ -1,0 +1,533 @@
+07:41:43.229 - Song Client 1.0.0.0
+07:41:43.454 - Inicializando aplicativo...
+07:41:44.870 - Application was started.
+07:41:44.873 - Starting web service manager...
+07:41:44.892 - Web service manager was started and is running.
+07:41:44.898 - Web service connection was closed.
+07:41:44.902 - Connecting to web service at http://localhost:4436/SongService.svc...
+07:42:04.288 - Application is connected to web service.
+07:48:50.411 - Liberando recursos e fechando aplicativo...
+07:49:41.874 - Song Client 1.0.0.0
+07:49:42.127 - Inicializando aplicativo...
+07:49:43.313 - Application was started.
+07:49:43.318 - Starting web service manager...
+07:49:43.327 - Web service manager was started and is running.
+07:49:43.334 - Web service connection was closed.
+07:49:43.338 - Connecting to web service at http://localhost:4436/SongService.svc...
+07:49:45.635 - Application is connected to web service.
+07:50:25.343 - Liberando recursos e fechando aplicativo...
+07:56:58.815 - Song Client 1.0.0.0
+07:56:59.046 - Inicializando aplicativo...
+07:57:00.417 - Application was started.
+07:57:00.420 - Starting web service manager...
+07:57:00.442 - Web service manager was started and is running.
+07:57:00.446 - Web service connection was closed.
+07:57:00.449 - Connecting to web service at http://localhost:4436/SongService.svc...
+07:57:04.040 - Application is connected to web service.
+07:58:04.098 - Liberando recursos e fechando aplicativo...
+07:59:59.605 - Song Client 1.0.0.0
+07:59:59.856 - Inicializando aplicativo...
+08:00:01.145 - Application was started.
+08:00:01.151 - Starting web service manager...
+08:00:01.161 - Web service manager was started and is running.
+08:00:01.168 - Web service connection was closed.
+08:00:01.172 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:00:05.015 - Application is connected to web service.
+08:00:40.647 - Liberando recursos e fechando aplicativo...
+08:00:46.086 - Song Client 1.0.0.0
+08:00:46.306 - Inicializando aplicativo...
+08:00:47.603 - Aplicativo foi inicializado.
+08:00:47.606 - Starting web service manager...
+08:00:47.620 - Web service manager was started and is running.
+08:00:47.629 - Web service connection was closed.
+08:00:47.633 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:00:50.323 - Application is connected to web service.
+08:01:17.590 - Closing resources and exiting application...
+08:02:18.982 - Song Client 1.0.0.0
+08:02:19.260 - Inicializando aplicativo...
+08:02:20.424 - Aplicativo foi inicializado.
+08:02:20.428 - Starting web service manager...
+08:02:20.459 - Web service manager was started and is running.
+08:02:20.466 - Web service connection was closed.
+08:02:20.470 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:02:23.113 - Application is connected to web service.
+08:02:41.299 - Closing resources and exiting application...
+08:02:48.154 - Song Client 1.0.0.0
+08:02:48.407 - Inicializando aplicativo...
+08:02:49.683 - Application was started.
+08:02:49.687 - Starting web service manager...
+08:02:49.698 - Web service manager was started and is running.
+08:02:49.704 - Web service connection was closed.
+08:02:49.707 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:02:52.166 - Application is connected to web service.
+08:04:16.093 - Liberando recursos e fechando aplicativo...
+08:09:55.647 - Song Client 1.0.0.0
+08:09:55.919 - Inicializando aplicativo...
+08:09:57.196 - Application was started.
+08:09:57.201 - Starting web service manager...
+08:09:57.213 - Web service manager was started and is running.
+08:09:57.227 - Web service connection was closed.
+08:09:57.231 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:09:59.664 - Application is connected to web service.
+08:13:33.765 - Liberando recursos e fechando aplicativo...
+08:15:26.865 - Song Client 1.0.0.0
+08:15:27.090 - Inicializando aplicativo...
+08:15:28.269 - Application was started.
+08:15:28.273 - Starting web service manager...
+08:15:28.283 - Web service manager was started and is running.
+08:15:28.292 - Web service connection was closed.
+08:15:28.297 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:15:32.510 - Application is connected to web service.
+08:16:19.444 - Liberando recursos e fechando aplicativo...
+08:17:31.804 - Song Client 1.0.0.0
+08:17:32.046 - Inicializando aplicativo...
+08:17:33.223 - Application was started.
+08:17:33.230 - Starting web service manager...
+08:17:33.241 - Web service manager was started and is running.
+08:17:33.267 - Web service connection was closed.
+08:17:33.270 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:17:37.189 - Application is connected to web service.
+08:18:16.304 - Liberando recursos e fechando aplicativo...
+08:25:02.842 - Song Client 1.0.0.0
+08:25:03.164 - Inicializando aplicativo...
+08:25:04.661 - Application was started.
+08:25:04.669 - Starting web service manager...
+08:25:04.681 - Web service manager was started and is running.
+08:25:04.691 - Web service connection was closed.
+08:25:04.695 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:25:08.743 - Application is connected to web service.
+08:27:25.895 - Liberando recursos e fechando aplicativo...
+08:39:38.310 - Song Client 1.0.0.0
+08:39:38.548 - Inicializando aplicativo...
+08:39:39.670 - Application was started.
+08:39:39.675 - Starting web service manager...
+08:39:39.704 - Web service manager was started and is running.
+08:39:39.712 - Web service connection was closed.
+08:39:39.716 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:39:42.359 - Application is connected to web service.
+08:40:10.163 - Liberando recursos e fechando aplicativo...
+08:59:12.410 - Song Client 1.0.0.0
+08:59:12.616 - Inicializando aplicativo...
+08:59:13.828 - Application was started.
+08:59:13.833 - Starting web service manager...
+08:59:13.864 - Web service manager was started and is running.
+08:59:13.873 - Web service connection was closed.
+08:59:13.877 - Connecting to web service at http://localhost:4436/SongService.svc...
+08:59:16.418 - Application is connected to web service.
+09:01:27.605 - Liberando recursos e fechando aplicativo...
+09:08:56.753 - Song Client 1.0.0.0
+09:08:56.960 - Inicializando aplicativo...
+09:08:58.138 - Application was started.
+09:08:58.143 - Starting web service manager...
+09:08:58.154 - Web service manager was started and is running.
+09:08:58.161 - Web service connection was closed.
+09:08:58.165 - Connecting to web service at http://localhost:4436/SongService.svc...
+09:09:00.844 - Application is connected to web service.
+09:09:20.899 - Liberando recursos e fechando aplicativo...
+09:09:59.020 - Song Client 1.0.0.0
+09:09:59.285 - Inicializando aplicativo...
+09:10:00.445 - Application was started.
+09:10:00.450 - Starting web service manager...
+09:10:00.460 - Web service manager was started and is running.
+09:10:00.465 - Web service connection was closed.
+09:10:00.468 - Connecting to web service at http://localhost:4436/SongService.svc...
+09:10:04.294 - Application is connected to web service.
+09:10:25.427 - Liberando recursos e fechando aplicativo...
+10:51:24.944 - Song Client 1.0.0.0
+10:51:25.164 - Inicializando aplicativo...
+10:51:26.455 - Application was started.
+10:51:26.461 - Starting web service manager...
+10:51:26.476 - Web service manager was started and is running.
+10:51:26.485 - Web service connection was closed.
+10:51:26.489 - Connecting to web service at http://localhost:4436/SongService.svc...
+10:51:42.262 - Application is connected to web service.
+10:52:02.990 - Erro interno no web service ao excluir / inativar item Projeto.
+Entre em contato com o suporte. Fatal error encountered during command execution. Parameter '@institutionId' must be defined.
+10:52:10.832 - Liberando recursos e fechando aplicativo...
+10:52:16.327 - Song Client 1.0.0.0
+10:52:16.545 - Inicializando aplicativo...
+10:52:17.762 - Application was started.
+10:52:17.765 - Starting web service manager...
+10:52:17.774 - Web service manager was started and is running.
+10:52:17.782 - Web service connection was closed.
+10:52:17.786 - Connecting to web service at http://localhost:4436/SongService.svc...
+10:52:20.237 - Application is connected to web service.
+10:52:50.084 - Erro interno no web service ao excluir / inativar item Projeto.
+Entre em contato com o suporte. Fatal error encountered during command execution. Parameter '@institutionId' must be defined.
+10:52:56.652 - Liberando recursos e fechando aplicativo...
+10:56:14.684 - Song Client 1.0.0.0
+10:56:14.902 - Inicializando aplicativo...
+10:56:16.136 - Application was started.
+10:56:16.140 - Starting web service manager...
+10:56:16.167 - Web service connection was closed.
+10:56:16.170 - Connecting to web service at http://localhost:4436/SongService.svc...
+10:56:16.186 - Web service manager was started and is running.
+10:56:18.629 - Application is connected to web service.
+11:00:00.812 - Erro interno no web service ao excluir / inativar item Projeto.
+Entre em contato com o suporte. Fatal error encountered during command execution. Parameter '@institutionId' must be defined.
+11:00:03.952 - Liberando recursos e fechando aplicativo...
+11:40:28.503 - Song Client 1.0.0.0
+11:40:28.743 - Inicializando aplicativo...
+11:40:29.967 - Application was started.
+11:40:29.971 - Starting web service manager...
+11:40:30.004 - Web service manager was started and is running.
+11:40:30.014 - Web service connection was closed.
+11:40:30.017 - Connecting to web service at http://localhost:4436/SongService.svc...
+11:40:35.239 - Application is connected to web service.
+11:42:55.295 - Liberando recursos e fechando aplicativo...
+11:48:28.777 - Song Client 1.0.0.0
+11:48:28.998 - Inicializando aplicativo...
+11:48:30.330 - Application was started.
+11:48:30.334 - Starting web service manager...
+11:48:30.362 - Web service manager was started and is running.
+11:48:30.369 - Web service connection was closed.
+11:48:30.373 - Connecting to web service at http://localhost:4436/SongService.svc...
+11:48:33.047 - Application is connected to web service.
+11:48:37.224 - Erro interno no web service ao pegar lista de itens Projeto.
+Entre em contato com o suporte. Unable to connect to any of the specified MySQL hosts.
+11:48:39.851 - Erro interno no web service ao carregar dados do item Projeto selecionado.
+Entre em contato com o suporte. Unable to connect to any of the specified MySQL hosts.
+11:48:44.588 - Erro interno no web service ao carregar dados do item Projeto selecionado.
+Entre em contato com o suporte. Unable to connect to any of the specified MySQL hosts.
+11:48:45.539 - Liberando recursos e fechando aplicativo...
+11:53:09.343 - Song Client 1.0.0.0
+11:53:09.613 - Inicializando aplicativo...
+11:53:10.880 - Application was started.
+11:53:10.884 - Starting web service manager...
+11:53:10.904 - Web service connection was closed.
+11:53:10.907 - Connecting to web service at http://localhost:4436/SongService.svc...
+11:53:10.910 - Web service manager was started and is running.
+11:53:13.836 - Application is connected to web service.
+11:53:45.032 - Liberando recursos e fechando aplicativo...
+11:54:41.191 - Song Client 1.0.0.0
+11:54:41.453 - Inicializando aplicativo...
+11:54:42.737 - Application was started.
+11:54:42.741 - Starting web service manager...
+11:54:42.783 - Web service manager was started and is running.
+11:54:42.788 - Web service connection was closed.
+11:54:42.792 - Connecting to web service at http://localhost:4436/SongService.svc...
+11:54:45.506 - Application is connected to web service.
+11:55:02.318 - Liberando recursos e fechando aplicativo...
+12:33:06.361 - Song Client 1.0.0.0
+12:33:06.637 - Inicializando aplicativo...
+12:33:08.005 - Application was started.
+12:33:08.010 - Starting web service manager...
+12:33:08.019 - Web service manager was started and is running.
+12:33:08.028 - Web service connection was closed.
+12:33:08.032 - Connecting to web service at http://localhost:4436/SongService.svc...
+12:33:10.636 - Application is connected to web service.
+12:34:32.198 - Liberando recursos e fechando aplicativo...
+12:35:49.379 - Song Client 1.0.0.0
+12:35:49.602 - Inicializando aplicativo...
+12:35:50.835 - Application was started.
+12:35:50.838 - Starting web service manager...
+12:35:50.850 - Web service manager was started and is running.
+12:35:50.858 - Web service connection was closed.
+12:35:50.862 - Connecting to web service at http://localhost:4436/SongService.svc...
+12:35:53.475 - Application is connected to web service.
+12:36:35.849 - Liberando recursos e fechando aplicativo...
+12:41:38.253 - Song Client 1.0.0.0
+12:41:38.500 - Inicializando aplicativo...
+12:41:39.879 - Application was started.
+12:41:39.885 - Starting web service manager...
+12:41:39.897 - Web service manager was started and is running.
+12:41:39.906 - Web service connection was closed.
+12:41:39.911 - Connecting to web service at http://localhost:4436/SongService.svc...
+12:41:42.731 - Application is connected to web service.
+12:45:35.669 - Liberando recursos e fechando aplicativo...
+12:45:45.786 - Song Client 1.0.0.0
+12:45:45.981 - Inicializando aplicativo...
+12:45:47.145 - Application was started.
+12:45:47.150 - Starting web service manager...
+12:45:47.160 - Web service manager was started and is running.
+12:45:47.168 - Web service connection was closed.
+12:45:47.172 - Connecting to web service at http://localhost:4436/SongService.svc...
+12:45:49.971 - Application is connected to web service.
+13:14:56.320 - Liberando recursos e fechando aplicativo...
+14:42:28.684 - Song Client 1.0.0.0
+14:42:28.861 - Inicializando aplicativo...
+14:42:29.893 - Application was started.
+14:42:29.897 - Starting web service manager...
+14:42:29.909 - Web service manager was started and is running.
+14:42:29.914 - Web service connection was closed.
+14:42:29.917 - Connecting to web service at http://localhost:4436/SongService.svc...
+14:42:40.734 - Application is connected to web service.
+14:43:05.819 - Liberando recursos e fechando aplicativo...
+14:43:23.309 - Song Client 1.0.0.0
+14:43:23.545 - Inicializando aplicativo...
+14:43:24.753 - Application was started.
+14:43:24.758 - Starting web service manager...
+14:43:24.770 - Web service manager was started and is running.
+14:43:24.778 - Web service connection was closed.
+14:43:24.783 - Connecting to web service at http://localhost:4436/SongService.svc...
+14:43:27.643 - Application is connected to web service.
+14:43:35.100 - Liberando recursos e fechando aplicativo...
+14:50:29.935 - Song Client 1.0.0.0
+14:50:30.175 - Inicializando aplicativo...
+14:50:31.371 - Application was started.
+14:50:31.376 - Starting web service manager...
+14:50:31.386 - Web service manager was started and is running.
+14:50:31.396 - Web service connection was closed.
+14:50:31.399 - Connecting to web service at http://localhost:4436/SongService.svc...
+14:50:34.389 - Application is connected to web service.
+14:50:43.227 - Liberando recursos e fechando aplicativo...
+15:06:14.521 - Song Client 1.0.0.0
+15:06:14.757 - Inicializando aplicativo...
+15:06:15.897 - Application was started.
+15:06:15.902 - Starting web service manager...
+15:06:15.915 - Web service manager was started and is running.
+15:06:15.924 - Web service connection was closed.
+15:06:15.928 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:06:18.526 - Application is connected to web service.
+15:09:06.255 - Liberando recursos e fechando aplicativo...
+15:52:26.808 - Song Client 1.0.0.0
+15:52:27.085 - Inicializando aplicativo...
+15:52:28.520 - Application was started.
+15:52:28.525 - Starting web service manager...
+15:52:28.536 - Web service manager was started and is running.
+15:52:28.545 - Web service connection was closed.
+15:52:28.548 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:52:29.159 - Could not connect to web service.
+15:52:29.160 - Unexpected error while connecting to web service. 
+15:52:29.160 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:52:29.188 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:52:29.188 - Web service connection was closed.
+15:52:39.193 - Web service connection was closed.
+15:52:39.193 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:52:39.211 - Could not connect to web service.
+15:52:39.211 - Unexpected error while connecting to web service. 
+15:52:39.211 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:52:39.211 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:52:39.211 - Web service connection was closed.
+15:52:49.211 - Web service connection was closed.
+15:52:49.211 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:52:49.230 - Could not connect to web service.
+15:52:49.230 - Unexpected error while connecting to web service. 
+15:52:49.230 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:52:49.230 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:52:49.230 - Web service connection was closed.
+15:52:51.264 - Liberando recursos e fechando aplicativo...
+15:52:59.278 - Song Client 1.0.0.0
+15:52:59.507 - Inicializando aplicativo...
+15:53:00.642 - Application was started.
+15:53:00.647 - Starting web service manager...
+15:53:00.661 - Web service manager was started and is running.
+15:53:00.670 - Web service connection was closed.
+15:53:00.675 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:53:01.111 - Could not connect to web service.
+15:53:01.112 - Unexpected error while connecting to web service. 
+15:53:01.112 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:53:01.133 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:53:01.133 - Web service connection was closed.
+15:53:11.134 - Web service connection was closed.
+15:53:11.134 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:53:11.150 - Could not connect to web service.
+15:53:11.150 - Unexpected error while connecting to web service. 
+15:53:11.150 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:53:11.150 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:53:11.150 - Web service connection was closed.
+15:53:21.150 - Web service connection was closed.
+15:53:21.150 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:53:21.165 - Could not connect to web service.
+15:53:21.165 - Unexpected error while connecting to web service. 
+15:53:21.165 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:53:21.165 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:53:21.165 - Web service connection was closed.
+15:53:31.166 - Web service connection was closed.
+15:53:31.166 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:53:31.181 - Could not connect to web service.
+15:53:31.181 - Unexpected error while connecting to web service. 
+15:53:31.181 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:53:31.181 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:53:31.181 - Web service connection was closed.
+15:53:41.181 - Web service connection was closed.
+15:53:41.181 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:53:41.201 - Could not connect to web service.
+15:53:41.201 - Unexpected error while connecting to web service. 
+15:53:41.201 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:53:41.201 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:53:41.201 - Web service connection was closed.
+15:53:51.202 - Web service connection was closed.
+15:53:51.202 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:53:51.217 - Could not connect to web service.
+15:53:51.217 - Unexpected error while connecting to web service. 
+15:53:51.217 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:53:51.217 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:53:51.217 - Web service connection was closed.
+15:54:01.218 - Web service connection was closed.
+15:54:01.218 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:54:01.233 - Could not connect to web service.
+15:54:01.233 - Unexpected error while connecting to web service. 
+15:54:01.233 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:54:01.234 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:54:01.234 - Web service connection was closed.
+15:54:06.913 - Liberando recursos e fechando aplicativo...
+15:54:30.752 - Song Client 1.0.0.0
+15:54:31.008 - Inicializando aplicativo...
+15:54:32.201 - Application was started.
+15:54:32.206 - Starting web service manager...
+15:54:32.216 - Web service manager was started and is running.
+15:54:32.223 - Web service connection was closed.
+15:54:32.227 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:54:32.736 - Could not connect to web service.
+15:54:32.737 - Unexpected error while connecting to web service. 
+15:54:32.737 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:54:32.746 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:54:32.756 - Web service connection was closed.
+15:54:42.761 - Web service connection was closed.
+15:54:42.761 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:54:42.781 - Could not connect to web service.
+15:54:42.781 - Unexpected error while connecting to web service. 
+15:54:42.781 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:54:42.781 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:54:42.781 - Web service connection was closed.
+15:54:52.781 - Web service connection was closed.
+15:54:52.781 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:54:52.795 - Could not connect to web service.
+15:54:52.795 - Unexpected error while connecting to web service. 
+15:54:52.795 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:54:52.796 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:54:52.796 - Web service connection was closed.
+15:55:02.799 - Web service connection was closed.
+15:55:02.799 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:55:02.818 - Could not connect to web service.
+15:55:02.818 - Unexpected error while connecting to web service. 
+15:55:02.818 - Cannot have two operations in the same contract with the same name, methods ListInstitutions and ListInstitutions in type PnT.SongServer.ISongService violate this rule. You can change the name of one of the operations by changing the method name or by using the Name property of OperationContractAttribute.
+15:55:02.818 - System.InvalidOperationException   at System.ServiceModel.Description.TypeLoader.CreateOperationDescription(ContractDescription contractDescription, MethodInfo methodInfo, MessageDirection direction, ContractReflectionInfo reflectionInfo, ContractDescription declaringContract)
+   at System.ServiceModel.Description.TypeLoader.CreateOperationDescriptions(ContractDescription contractDescription, ContractReflectionInfo reflectionInfo, Type contractToGetMethodsFrom, ContractDescription declaringContract, MessageDirection direction)
+   at System.ServiceModel.Description.TypeLoader.CreateContractDescription(ServiceContractAttribute contractAttr, Type contractType, Type serviceType, ContractReflectionInfo& reflectionInfo, Object serviceImplementation)
+   at System.ServiceModel.Description.TypeLoader.LoadContractDescriptionHelper(Type contractType, Type serviceType, Object serviceImplementation)
+   at System.ServiceModel.Description.ContractDescription.GetContract(Type contractType, Type serviceType)
+   at System.ServiceModel.ServiceHost.CreateDescription(IDictionary`2& implementedContracts)
+   at System.ServiceModel.ServiceHostBase.InitializeDescription(UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost.InitializeDescription(Type serviceType, UriSchemeKeyedCollection baseAddresses)
+   at System.ServiceModel.ServiceHost..ctor(Type serviceType, Uri[] baseAddresses)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 461
+15:55:02.818 - Web service connection was closed.
+15:55:10.798 - Liberando recursos e fechando aplicativo...
+15:55:56.497 - Song Client 1.0.0.0
+15:55:56.727 - Inicializando aplicativo...
+15:55:57.898 - Application was started.
+15:55:57.903 - Starting web service manager...
+15:55:57.935 - Web service manager was started and is running.
+15:55:57.944 - Web service connection was closed.
+15:55:57.949 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:56:03.364 - Application is connected to web service.
+15:56:18.712 - Liberando recursos e fechando aplicativo...

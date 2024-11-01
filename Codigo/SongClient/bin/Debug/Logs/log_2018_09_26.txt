@@ -1,0 +1,36 @@
+10:55:48.854 - Song Client 1.0.12.0
+10:55:49.044 - Inicializando aplicativo...
+10:55:50.347 - Application was started.
+10:55:50.359 - Starting web service manager...
+10:55:50.368 - Web service manager was started and is running.
+10:55:50.383 - Web service connection was closed.
+10:55:50.387 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:56:03.718 - Application is connected to web service.
+10:56:03.718 - Song Server 1.0.12
+10:56:03.718 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:56:10.925 - Erro interno no web service ao fazer logon de usuário.
+Entre em contato com o suporte. Unable to connect to any of the specified MySQL hosts.
+12:59:58.189 - Song Client 1.0.12.0
+12:59:58.424 - Inicializando aplicativo...
+12:59:59.690 - Application was started.
+12:59:59.699 - Starting web service manager...
+12:59:59.706 - Web service manager was started and is running.
+12:59:59.731 - Web service connection was closed.
+12:59:59.736 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:00:03.640 - Application is connected to web service.
+13:00:03.640 - Song Server 1.0.12
+13:00:03.641 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:05:57.169 - Song Client 1.0.12.0
+13:05:57.376 - Inicializando aplicativo...
+13:05:58.669 - Application was started.
+13:05:58.680 - Starting web service manager...
+13:05:58.692 - Web service manager was started and is running.
+13:05:58.702 - Web service connection was closed.
+13:05:58.706 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:06:05.513 - Application is connected to web service.
+13:06:05.513 - Song Server 1.0.12
+13:06:05.513 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:07:33.279 - Liberando recursos e fechando aplicativo...
+13:07:33.343 - Stopping web service manager...
+13:07:33.429 - Web service connection was closed.
+13:07:33.430 - Web service manager running thread was stopped.

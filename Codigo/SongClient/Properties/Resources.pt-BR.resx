@@ -1,0 +1,1756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errorLoadSettings" xml:space="preserve">
+    <value>Não foi possível carregar configurações compartilhadas do arquivo. Fechando aplicativo.</value>
+  </data>
+  <data name="errorOnZipOldLog" xml:space="preserve">
+    <value>Erro ao compactar arquivo de LOG antigo.</value>
+  </data>
+  <data name="errorSaveSettings" xml:space="preserve">
+    <value>Erro ao salvar configurações compartilhadas no arquivo de configuração. 
+Entre em contato com o suporte.</value>
+  </data>
+  <data name="errorStartWebServiceManager" xml:space="preserve">
+    <value>Erro inesperado ao iniciar gerenciador de serviço web: {0}
+Entre em contato com o suporte.</value>
+  </data>
+  <data name="lblAbout" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="lblDeveloped" xml:space="preserve">
+    <value>Desenvolvido por</value>
+  </data>
+  <data name="lblVersion" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="msgAppExiting" xml:space="preserve">
+    <value>Liberando recursos e fechando aplicativo...</value>
+  </data>
+  <data name="msgAppStarted" xml:space="preserve">
+    <value>Application was started.</value>
+  </data>
+  <data name="msgAppStarting" xml:space="preserve">
+    <value>Starting application...</value>
+  </data>
+  <data name="msgCultureChanged" xml:space="preserve">
+    <value>Idioma Modificado</value>
+  </data>
+  <data name="msgIPFormat" xml:space="preserve">
+    <value>Entre um endereço IP válido.
+Exemplo: 192.110.220.81</value>
+  </data>
+  <data name="msgRestartCulture" xml:space="preserve">
+    <value>É necessário reiniciar aplicativo para aplicar configurações regionais.</value>
+  </data>
+  <data name="titleFatalError" xml:space="preserve">
+    <value>Erro Fatal</value>
+  </data>
+  <data name="titleInvalidIP" xml:space="preserve">
+    <value>IP Inválido</value>
+  </data>
+  <data name="WebServiceStatus_Connected" xml:space="preserve">
+    <value>Conectado</value>
+  </data>
+  <data name="WebServiceStatus_Disconnected" xml:space="preserve">
+    <value>Desconectado</value>
+  </data>
+  <data name="WebServiceStatus_FatalError" xml:space="preserve">
+    <value>Erro Fatal</value>
+  </data>
+  <data name="WebServiceStatus_Off" xml:space="preserve">
+    <value>Desligado</value>
+  </data>
+  <data name="WebServiceStatus_StartError" xml:space="preserve">
+    <value>Erro ao Iniciar</value>
+  </data>
+  <data name="WebServiceStatus_Starting" xml:space="preserve">
+    <value>Iniciando</value>
+  </data>
+  <data name="WebServiceStatus_Stopping" xml:space="preserve">
+    <value>Parando</value>
+  </data>
+  <data name="wordError" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="cptConfirm" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="cptInfo" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="msgCopyItem" xml:space="preserve">
+    <value>Continuar e copiar item {0} selecionado?</value>
+  </data>
+  <data name="msgDeleteRegister" xml:space="preserve">
+    <value>Continuar e excluir item {0} selecionado?
+Item será permanentemente excluído e não poderá ser recuperado.</value>
+  </data>
+  <data name="msgEditingItem" xml:space="preserve">
+    <value>Você está editando um item {0}. Continuar e sair?
+
+Clique em Não para continuar editando.
+Clique em Sim para sair e cancelar todas as modificações.</value>
+  </data>
+  <data name="objInstitution" xml:space="preserve">
+    <value>Instituição</value>
+  </data>
+  <data name="item_Institution" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="errorChannelListItem" xml:space="preserve">
+    <value>Erro inesperado ao pegar lista de item {0} do serviço web.</value>
+  </data>
+  <data name="errorWebServiceListItem" xml:space="preserve">
+    <value>Erro interno no web service ao pegar lista de itens {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="errorChannelLoadData" xml:space="preserve">
+    <value>Erro inesperado ao carregar dados do web service para item {0} selecionado. {1}</value>
+  </data>
+  <data name="titleError" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="errorWebServiceLoadData" xml:space="preserve">
+    <value>Erro interno no web service ao carregar dados do item {0} selecionado.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="errorChannelSaveItem" xml:space="preserve">
+    <value>Erro inesperado ao salvar item {0} usando o web service. {1}</value>
+  </data>
+  <data name="errorWebServiceSaveItem" xml:space="preserve">
+    <value>Erro interno no web service ao salvar item {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="buttonInactivate" xml:space="preserve">
+    <value>&amp;Inativar</value>
+  </data>
+  <data name="errorChannelDeleteItem" xml:space="preserve">
+    <value>Erro inesperado ao salvar / inativar item {0} usando o web service. {1}</value>
+  </data>
+  <data name="errorWebServiceDeleteItem" xml:space="preserve">
+    <value>Erro interno no web service ao excluir / inativar item {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="ItemStatus_Active" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="ItemStatus_Blocked" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="ItemStatus_Inactive" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="item_Instrument" xml:space="preserve">
+    <value>Instrumento</value>
+  </data>
+  <data name="item_Pole" xml:space="preserve">
+    <value>Polo</value>
+  </data>
+  <data name="item_Role" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="item_Student" xml:space="preserve">
+    <value>Aluno</value>
+  </data>
+  <data name="item_Teacher" xml:space="preserve">
+    <value>Professor</value>
+  </data>
+  <data name="item_User" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="msgInactivateRegister" xml:space="preserve">
+    <value>Continuar e inativar item {0} selecionado?</value>
+  </data>
+  <data name="titleCancelEdition" xml:space="preserve">
+    <value>Cancelar Edição</value>
+  </data>
+  <data name="titleChannelError" xml:space="preserve">
+    <value>Erro no Canal</value>
+  </data>
+  <data name="titleWebServiceError" xml:space="preserve">
+    <value>Erro no Web Service</value>
+  </data>
+  <data name="wordNone" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="InstrumentsType_Acordeao" xml:space="preserve">
+    <value>Acordeão</value>
+  </data>
+  <data name="InstrumentsType_Afoxe" xml:space="preserve">
+    <value>Afoxé</value>
+  </data>
+  <data name="InstrumentsType_Agogo" xml:space="preserve">
+    <value>Agogo</value>
+  </data>
+  <data name="InstrumentsType_Atabaque" xml:space="preserve">
+    <value>Atabaque</value>
+  </data>
+  <data name="InstrumentsType_Baixo" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="InstrumentsType_Bandolim" xml:space="preserve">
+    <value>Bandolim</value>
+  </data>
+  <data name="InstrumentsType_Banjo" xml:space="preserve">
+    <value>Banjo</value>
+  </data>
+  <data name="InstrumentsType_Bata" xml:space="preserve">
+    <value>Batá</value>
+  </data>
+  <data name="InstrumentsType_Bateria" xml:space="preserve">
+    <value>Bateria</value>
+  </data>
+  <data name="InstrumentsType_BlocoSonoro" xml:space="preserve">
+    <value>Bloco Sonoro</value>
+  </data>
+  <data name="InstrumentsType_Bongo" xml:space="preserve">
+    <value>Bongô</value>
+  </data>
+  <data name="InstrumentsType_Caixa" xml:space="preserve">
+    <value>Caixa</value>
+  </data>
+  <data name="InstrumentsType_Carrilhao" xml:space="preserve">
+    <value>Carrilhão</value>
+  </data>
+  <data name="InstrumentsType_Casaca" xml:space="preserve">
+    <value>Casaca</value>
+  </data>
+  <data name="InstrumentsType_Castanhola" xml:space="preserve">
+    <value>Castanhola</value>
+  </data>
+  <data name="InstrumentsType_Cavaquinho" xml:space="preserve">
+    <value>Cavaquinho</value>
+  </data>
+  <data name="InstrumentsType_Caxixi" xml:space="preserve">
+    <value>Caxixi</value>
+  </data>
+  <data name="InstrumentsType_Ceramofone" xml:space="preserve">
+    <value>Ceramofone</value>
+  </data>
+  <data name="InstrumentsType_Chimbau" xml:space="preserve">
+    <value>Chimbau</value>
+  </data>
+  <data name="InstrumentsType_Chocalho" xml:space="preserve">
+    <value>Chocalho</value>
+  </data>
+  <data name="InstrumentsType_Clarinete" xml:space="preserve">
+    <value>Clarinete</value>
+  </data>
+  <data name="InstrumentsType_Conga" xml:space="preserve">
+    <value>Conga</value>
+  </data>
+  <data name="InstrumentsType_Contrabaixo" xml:space="preserve">
+    <value>Contrabaixo</value>
+  </data>
+  <data name="InstrumentsType_Cowbell" xml:space="preserve">
+    <value>Cowbell</value>
+  </data>
+  <data name="InstrumentsType_Cuica" xml:space="preserve">
+    <value>Cuíca</value>
+  </data>
+  <data name="InstrumentsType_Darbuka" xml:space="preserve">
+    <value>Darbuka</value>
+  </data>
+  <data name="InstrumentsType_Drums" xml:space="preserve">
+    <value>Drums</value>
+  </data>
+  <data name="InstrumentsType_FlautaDoce" xml:space="preserve">
+    <value>Flauta Doce</value>
+  </data>
+  <data name="InstrumentsType_FlautaTransversa" xml:space="preserve">
+    <value>Flauta Transversa</value>
+  </data>
+  <data name="InstrumentsType_Ganza" xml:space="preserve">
+    <value>Ganzá</value>
+  </data>
+  <data name="InstrumentsType_Guitarra" xml:space="preserve">
+    <value>Guitarra</value>
+  </data>
+  <data name="InstrumentsType_Marimba" xml:space="preserve">
+    <value>Marimba</value>
+  </data>
+  <data name="InstrumentsType_Oboe" xml:space="preserve">
+    <value>Oboé</value>
+  </data>
+  <data name="InstrumentsType_Orgao" xml:space="preserve">
+    <value>Orgão</value>
+  </data>
+  <data name="InstrumentsType_Pandeiro" xml:space="preserve">
+    <value>Pandeiro</value>
+  </data>
+  <data name="InstrumentsType_Percussao" xml:space="preserve">
+    <value>Percussão</value>
+  </data>
+  <data name="InstrumentsType_Piano" xml:space="preserve">
+    <value>Piano</value>
+  </data>
+  <data name="InstrumentsType_Pratos" xml:space="preserve">
+    <value>Pratos</value>
+  </data>
+  <data name="InstrumentsType_RecoReco" xml:space="preserve">
+    <value>Reco-Reco</value>
+  </data>
+  <data name="InstrumentsType_Repinique" xml:space="preserve">
+    <value>Repinique</value>
+  </data>
+  <data name="InstrumentsType_Saxofone" xml:space="preserve">
+    <value>Saxofone</value>
+  </data>
+  <data name="InstrumentsType_Sino" xml:space="preserve">
+    <value>Sino</value>
+  </data>
+  <data name="InstrumentsType_SinosTubulares" xml:space="preserve">
+    <value>Sinos Tubulares</value>
+  </data>
+  <data name="InstrumentsType_Surdo" xml:space="preserve">
+    <value>Surdo</value>
+  </data>
+  <data name="InstrumentsType_Tambor" xml:space="preserve">
+    <value>Tambor</value>
+  </data>
+  <data name="InstrumentsType_Tamborim" xml:space="preserve">
+    <value>Tamborim</value>
+  </data>
+  <data name="InstrumentsType_Tanta" xml:space="preserve">
+    <value>Tantã (Tambor)</value>
+  </data>
+  <data name="InstrumentsType_Teclado" xml:space="preserve">
+    <value>Teclado</value>
+  </data>
+  <data name="InstrumentsType_Timpano" xml:space="preserve">
+    <value>Tímpano</value>
+  </data>
+  <data name="InstrumentsType_TomTom" xml:space="preserve">
+    <value>Tom-tom</value>
+  </data>
+  <data name="InstrumentsType_Triangulo" xml:space="preserve">
+    <value>Triângulo</value>
+  </data>
+  <data name="InstrumentsType_Trombone" xml:space="preserve">
+    <value>Trombone</value>
+  </data>
+  <data name="InstrumentsType_Trompa" xml:space="preserve">
+    <value>Trompa</value>
+  </data>
+  <data name="InstrumentsType_Trompete" xml:space="preserve">
+    <value>Trompete</value>
+  </data>
+  <data name="InstrumentsType_Tuba" xml:space="preserve">
+    <value>Tuba</value>
+  </data>
+  <data name="InstrumentsType_Vibrafone" xml:space="preserve">
+    <value>Vibrafone</value>
+  </data>
+  <data name="InstrumentsType_Viola" xml:space="preserve">
+    <value>Viola</value>
+  </data>
+  <data name="InstrumentsType_Violao" xml:space="preserve">
+    <value>Violão</value>
+  </data>
+  <data name="InstrumentsType_Violino" xml:space="preserve">
+    <value>Violino</value>
+  </data>
+  <data name="InstrumentsType_Violoncelo" xml:space="preserve">
+    <value>Violoncelo</value>
+  </data>
+  <data name="InstrumentsType_Xequere" xml:space="preserve">
+    <value>Xequerê</value>
+  </data>
+  <data name="InstrumentsType_Xilofone" xml:space="preserve">
+    <value>Xilofone</value>
+  </data>
+  <data name="InstrumentsType_Zabumba" xml:space="preserve">
+    <value>Zabumba</value>
+  </data>
+  <data name="item_plural_Institution" xml:space="preserve">
+    <value>Projetos</value>
+  </data>
+  <data name="item_plural_Instrument" xml:space="preserve">
+    <value>Instrumentos</value>
+  </data>
+  <data name="item_plural_Pole" xml:space="preserve">
+    <value>Polos</value>
+  </data>
+  <data name="item_plural_Role" xml:space="preserve">
+    <value>Perfis</value>
+  </data>
+  <data name="item_plural_Student" xml:space="preserve">
+    <value>Alunos</value>
+  </data>
+  <data name="item_plural_Teacher" xml:space="preserve">
+    <value>Professores</value>
+  </data>
+  <data name="item_plural_User" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="titleEditItems" xml:space="preserve">
+    <value>Editar {0}</value>
+  </data>
+  <data name="errorWebServiceLoadPermissions" xml:space="preserve">
+    <value>Erro interno no web service ao carregar permissões do item {0} selecionado.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="item_Permission" xml:space="preserve">
+    <value>Permissão</value>
+  </data>
+  <data name="item_plural_Permission" xml:space="preserve">
+    <value>Permissões</value>
+  </data>
+  <data name="errorWebServiceLoadUsers" xml:space="preserve">
+    <value>Erro interno no web service ao carregar usuários do item {0} selecionado.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="wordAll" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="wordNo" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="wordYes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="errorChannelFilterItem" xml:space="preserve">
+    <value>Erro inesperado ao filtrar lista de item {0} do serviço web. {1}</value>
+  </data>
+  <data name="errorWebServiceFilterItem" xml:space="preserve">
+    <value>Erro interno no web service ao filtrar lista de itens {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="gridCoordinatorName" xml:space="preserve">
+    <value>Coordenador</value>
+  </data>
+  <data name="gridCreationTime" xml:space="preserve">
+    <value>Data de Criação</value>
+  </data>
+  <data name="gridEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="gridEntityName" xml:space="preserve">
+    <value>Entidade</value>
+  </data>
+  <data name="gridInactivationReason" xml:space="preserve">
+    <value>Razão da Inativação</value>
+  </data>
+  <data name="gridInactivationTime" xml:space="preserve">
+    <value>Data de Inativação</value>
+  </data>
+  <data name="gridInstitutionalized" xml:space="preserve">
+    <value>Institucionalizado</value>
+  </data>
+  <data name="gridInstitutionId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridInstitutionLocation" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="gridInstitutionSite" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="gridInstitutionStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridLocalInitiative" xml:space="preserve">
+    <value>Iniciativa Local</value>
+  </data>
+  <data name="gridPhones" xml:space="preserve">
+    <value>Telefones</value>
+  </data>
+  <data name="gridProjectName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="gridTaxId" xml:space="preserve">
+    <value>CNPJ</value>
+  </data>
+  <data name="wordPoints" xml:space="preserve">
+    <value>Pontos</value>
+  </data>
+  <data name="errorChannelCopyItem" xml:space="preserve">
+    <value>Erro inesperado ao copiar item {0} usando o web service. {1}</value>
+  </data>
+  <data name="errorWebServiceCopyItem" xml:space="preserve">
+    <value>Erro interno no web service ao copiar item {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="msgEditionCanceled" xml:space="preserve">
+    <value>Edição foi cancelada.</value>
+  </data>
+  <data name="msgItemCopied" xml:space="preserve">
+    <value>Item {0} foi copiado.</value>
+  </data>
+  <data name="msgItemSaved" xml:space="preserve">
+    <value>Item {0} foi salvo.</value>
+  </data>
+  <data name="msgWelcome" xml:space="preserve">
+    <value>Bem-vindo ao Song!</value>
+  </data>
+  <data name="msgCannotDeleteRoleWithUser" xml:space="preserve">
+    <value>Não foi possível excluir Perfil selecionado.
+Um ou mais usuários ainda estão selecionados pelo Perfil.</value>
+  </data>
+  <data name="errorWebServiceLoadPoles" xml:space="preserve">
+    <value>Erro interno no web service ao carregar polos do item {0} selecionado.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="gridAcademicBackground" xml:space="preserve">
+    <value>Formação Acadêmica</value>
+  </data>
+  <data name="gridBirthdate" xml:space="preserve">
+    <value>Nascimento</value>
+  </data>
+  <data name="gridInstitutionName" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="gridPoleId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridPoleLocation" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="gridPoleName" xml:space="preserve">
+    <value>Polo</value>
+  </data>
+  <data name="gridPoles" xml:space="preserve">
+    <value>Polos</value>
+  </data>
+  <data name="gridPoleStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridTeacherId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridTeacherLocation" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="gridTeacherName" xml:space="preserve">
+    <value>Professor</value>
+  </data>
+  <data name="gridTeacherStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridUserLogin" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="gridGuardianName" xml:space="preserve">
+    <value>Nome Responsável</value>
+  </data>
+  <data name="gridHasDisability" xml:space="preserve">
+    <value>Possui Deficiência</value>
+  </data>
+  <data name="gridStudentId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridStudentLocation" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="gridStudentName" xml:space="preserve">
+    <value>Aluno</value>
+  </data>
+  <data name="gridStudentStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="gridRoleName" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="gridUserId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridUserName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="gridUserStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridCode" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="gridInstrumentId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridInstrumentStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridInstrumentTypeName" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gridStorageLocation" xml:space="preserve">
+    <value>Local Armazenamento</value>
+  </data>
+  <data name="errorChannelLogonUser" xml:space="preserve">
+    <value>Erro inesperado ao fazer logon de usuário usando o web service.</value>
+  </data>
+  <data name="msgRequiredField" xml:space="preserve">
+    <value>Campo obrigatório.</value>
+  </data>
+  <data name="errorWebServiceLogonUser" xml:space="preserve">
+    <value>Erro interno no web service ao fazer logon de usuário.
+Entre em contato com o suporte. {0}</value>
+  </data>
+  <data name="menuLogIn" xml:space="preserve">
+    <value>Fazer Login...</value>
+  </data>
+  <data name="menuLogOff" xml:space="preserve">
+    <value>Logoff de {0}</value>
+  </data>
+  <data name="msgInvalidUser" xml:space="preserve">
+    <value>Usuário e senha inválidos.</value>
+  </data>
+  <data name="titleFailedLogIn" xml:space="preserve">
+    <value>Erro ao Fazer Login</value>
+  </data>
+  <data name="msgInvalidFieldEmail" xml:space="preserve">
+    <value>E-mail {0} é inválido.</value>
+  </data>
+  <data name="msgInvalidFieldUri" xml:space="preserve">
+    <value>URL {0} é inválida.</value>
+  </data>
+  <data name="msgInvalidFieldZip" xml:space="preserve">
+    <value>CEP {0} é inválido.</value>
+  </data>
+  <data name="msgRequiredFieldName" xml:space="preserve">
+    <value>Campo {0} é obrigatório.</value>
+  </data>
+  <data name="titleInvalidField" xml:space="preserve">
+    <value>Campo Inválido</value>
+  </data>
+  <data name="titleRequiredField" xml:space="preserve">
+    <value>Campo Obrigatório</value>
+  </data>
+  <data name="msgInvalidFieldCnpj" xml:space="preserve">
+    <value>CNPJ {0} é inválido.</value>
+  </data>
+  <data name="msgInvalidFieldDate" xml:space="preserve">
+    <value>Data {0} é inválida.</value>
+  </data>
+  <data name="msgInvalidFieldPhone" xml:space="preserve">
+    <value>Número de telefone {0} é inválido.</value>
+  </data>
+  <data name="msgInvalidFieldCpf" xml:space="preserve">
+    <value>CPF {0} é inválido.</value>
+  </data>
+  <data name="msgInvalidFieldPassword" xml:space="preserve">
+    <value>Senha de confirmação não corresponde à senha digitada.</value>
+  </data>
+  <data name="ItemStatus_Maintenance" xml:space="preserve">
+    <value>Em Manutenção</value>
+  </data>
+  <data name="msgInvalidFieldDescription" xml:space="preserve">
+    <value>Já existe outro item {0} com o mesmo {1}: {2}</value>
+  </data>
+  <data name="errorWebServiceLoadLoans" xml:space="preserve">
+    <value>Erro interno no web service ao carregar empréstimos do item {0} selecionado.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="msgLogonTimeout" xml:space="preserve">
+    <value>Não foi possível se conectar ao servidor.
+Verifique a sua conexão com a internet. Configure as opções de servidor se este é seu primeiro logon.</value>
+  </data>
+  <data name="titleNoConnection" xml:space="preserve">
+    <value>Sem Conexão</value>
+  </data>
+  <data name="msgConfirmCloseLoan" xml:space="preserve">
+    <value>Continuar e fechar empréstimo do instrumento para aluno {0}?</value>
+  </data>
+  <data name="msgPoleNoStudent" xml:space="preserve">
+    <value>O polo do instrumento selecionado não possui alunos ativos.
+Não é possível criar novo empréstimo.</value>
+  </data>
+  <data name="msgPreviousOpenLoan" xml:space="preserve">
+    <value>Instrumento está indisponível. Há um empréstimo anterior em aberto.
+Feche o empréstimo em aberto antes de criar um novo.</value>
+  </data>
+  <data name="titleCloseLoan" xml:space="preserve">
+    <value>Fechar Empréstimo</value>
+  </data>
+  <data name="titleNoStudent" xml:space="preserve">
+    <value>Nenhum Aluno</value>
+  </data>
+  <data name="titleUnavailableInstrument" xml:space="preserve">
+    <value>Instrument Indisponível</value>
+  </data>
+  <data name="wordClosed" xml:space="preserve">
+    <value>Fechado</value>
+  </data>
+  <data name="wordOpen" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="msgDeleteComment" xml:space="preserve">
+    <value>Continuar e excluir comentário selecionado?</value>
+  </data>
+  <data name="titleDeleteComment" xml:space="preserve">
+    <value>Excluir Comentário</value>
+  </data>
+  <data name="msgEnterNewPassword" xml:space="preserve">
+    <value>A senha atual precisa ser trocada.
+Digite uma nova senha para usuário {0}.</value>
+  </data>
+  <data name="titleNewPassword" xml:space="preserve">
+    <value>Nova Senha</value>
+  </data>
+  <data name="errorWebServiceChangeUserPassword" xml:space="preserve">
+    <value>Web service não conseguiu trocar a senha do usuário selecionado.
+{0}</value>
+  </data>
+  <data name="msgInvalidConfirmedPassword" xml:space="preserve">
+    <value>Redigite a nova senha escolhida corretamente.</value>
+  </data>
+  <data name="msgInvalidSamePassword" xml:space="preserve">
+    <value>Nova senha não pode ser igual à senha anterior.</value>
+  </data>
+  <data name="msgInvalidShortPassword" xml:space="preserve">
+    <value>Nova senha deve ter no mínimo 6 caracteres.</value>
+  </data>
+  <data name="msgNewPasswordSaved" xml:space="preserve">
+    <value>Nova senha foi salva.</value>
+  </data>
+  <data name="titleInvalidNewPassword" xml:space="preserve">
+    <value>Nova Senha Inválida</value>
+  </data>
+  <data name="titleSaveError" xml:space="preserve">
+    <value>Erro ao Salvar</value>
+  </data>
+  <data name="errorIncompatibleVersion" xml:space="preserve">
+    <value>A versão atual {0} do Song Client é incompatível com a versão {1} do Song Server.
+Atualize o Song Client antes de continuar.</value>
+  </data>
+  <data name="titleIncompatibleVersion" xml:space="preserve">
+    <value>Versão Incompatível</value>
+  </data>
+  <data name="msgEndDateLaterThanStartDate" xml:space="preserve">
+    <value>Data final deve ser maior que data inicial.</value>
+  </data>
+  <data name="msgStartDateLaterThanPreviousEndDate" xml:space="preserve">
+    <value>Data inicial deve ser maior que data final do empréstimo anterior.</value>
+  </data>
+  <data name="wordLoan" xml:space="preserve">
+    <value>Empréstimo</value>
+  </data>
+  <data name="item_Loan" xml:space="preserve">
+    <value>Empréstimo</value>
+  </data>
+  <data name="item_plural_Loan" xml:space="preserve">
+    <value>Empréstimos</value>
+  </data>
+  <data name="msgStudentAlreadyHasLoan" xml:space="preserve">
+    <value>Instrumento {0} já está emprestado para aluno {1}.
+Cada aluno só pode ter um empréstimo por vez.</value>
+  </data>
+  <data name="errorChannelGetNextAvailableItem" xml:space="preserve">
+    <value>Erro inesperado ao verificar próximo item {0} disponível usando o web service. {1}</value>
+  </data>
+  <data name="msgPoleNoStudentWithoutLoan" xml:space="preserve">
+    <value>O polo do instrumento selecionado não possui alunos ativos sem nenhum emprésitmo em aberto.
+Não é possível criar novo empréstimo.</value>
+  </data>
+  <data name="msgPoleNoInstrument" xml:space="preserve">
+    <value>O polo do aluno selecionado não possui instrumentos ativos.
+Não é possível criar novo empréstimo.</value>
+  </data>
+  <data name="msgPoleNoInstrumentWithoutLoan" xml:space="preserve">
+    <value>O polo do aluno selecionado não possui instrumentos ativos sem nenhum emprésitmo em aberto.
+Não é possível criar novo empréstimo.</value>
+  </data>
+  <data name="titleNoInstrument" xml:space="preserve">
+    <value>Nenhum Instrumento</value>
+  </data>
+  <data name="msgInstrumentAlreadyHasLoan" xml:space="preserve">
+    <value>Instrumento {0} já está emprestado para aluno {1}.
+Cada instrumento só pode ser emprestado para um aluno por vez.</value>
+  </data>
+  <data name="msgPreviousOpenLoanStudent" xml:space="preserve">
+    <value>Aluno já possui um instrumento. Há um empréstimo anterior em aberto.
+Feche o empréstimo em aberto antes de criar um novo.</value>
+  </data>
+  <data name="titleUnavailableStudent" xml:space="preserve">
+    <value>Aluno Indisponível</value>
+  </data>
+  <data name="ClassLevel_Level1" xml:space="preserve">
+    <value>Nível 1</value>
+  </data>
+  <data name="ClassLevel_Level10" xml:space="preserve">
+    <value>Nível 10</value>
+  </data>
+  <data name="ClassLevel_Level2" xml:space="preserve">
+    <value>Nível 2</value>
+  </data>
+  <data name="ClassLevel_Level3" xml:space="preserve">
+    <value>Nível 3</value>
+  </data>
+  <data name="ClassLevel_Level4" xml:space="preserve">
+    <value>Nível 4</value>
+  </data>
+  <data name="ClassLevel_Level5" xml:space="preserve">
+    <value>Nível 5</value>
+  </data>
+  <data name="ClassLevel_Level6" xml:space="preserve">
+    <value>Nível 6</value>
+  </data>
+  <data name="ClassLevel_Level7" xml:space="preserve">
+    <value>Nível 7</value>
+  </data>
+  <data name="ClassLevel_Level8" xml:space="preserve">
+    <value>Nível 8</value>
+  </data>
+  <data name="ClassLevel_Level9" xml:space="preserve">
+    <value>Nível 9</value>
+  </data>
+  <data name="ClassType_Choir" xml:space="preserve">
+    <value>Canto Coral</value>
+  </data>
+  <data name="ClassType_CreativeWorkshop" xml:space="preserve">
+    <value>Oficina Criativa</value>
+  </data>
+  <data name="ClassType_Instrument" xml:space="preserve">
+    <value>Instrumento</value>
+  </data>
+  <data name="ClassType_MusicTheory" xml:space="preserve">
+    <value>Teoria Musical</value>
+  </data>
+  <data name="ClassType_OrchestralPractice" xml:space="preserve">
+    <value>Prática Orquestral</value>
+  </data>
+  <data name="item_Class" xml:space="preserve">
+    <value>Turma</value>
+  </data>
+  <data name="item_plural_Class" xml:space="preserve">
+    <value>Turmas</value>
+  </data>
+  <data name="unitMinutes" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="msgInvalidFieldTime" xml:space="preserve">
+    <value>Horário {0} é inválido.</value>
+  </data>
+  <data name="item_plural_Semester" xml:space="preserve">
+    <value>Semestres</value>
+  </data>
+  <data name="item_Semester" xml:space="preserve">
+    <value>Semestre</value>
+  </data>
+  <data name="dayFriday" xml:space="preserve">
+    <value>Sexta</value>
+  </data>
+  <data name="dayMonday" xml:space="preserve">
+    <value>Segunda</value>
+  </data>
+  <data name="daySaturday" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="daySunday" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="dayThursday" xml:space="preserve">
+    <value>Quinta</value>
+  </data>
+  <data name="dayTuesday" xml:space="preserve">
+    <value>Terça</value>
+  </data>
+  <data name="dayWednesday" xml:space="preserve">
+    <value>Quarta</value>
+  </data>
+  <data name="gridAggregatedTypeName" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gridCapacity" xml:space="preserve">
+    <value>Capacidade</value>
+  </data>
+  <data name="gridClassId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridClassLevelName" xml:space="preserve">
+    <value>Nível</value>
+  </data>
+  <data name="gridClassStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridDuration" xml:space="preserve">
+    <value>Duração</value>
+  </data>
+  <data name="gridSemesterName" xml:space="preserve">
+    <value>Semestre</value>
+  </data>
+  <data name="gridStartTime" xml:space="preserve">
+    <value>Horário de Início</value>
+  </data>
+  <data name="gridWeekDays" xml:space="preserve">
+    <value>Dias da Semana</value>
+  </data>
+  <data name="gridSubjectCode" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="errorWebServiceLoadTeachers" xml:space="preserve">
+    <value>Erro interno no web service ao carregar professores do item {0} selecionado.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="errorWebServiceLoadRegistrations" xml:space="preserve">
+    <value>Erro interno no web service ao carregar matrículas do item {0} selecionado.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="ClassProgress_Completed" xml:space="preserve">
+    <value>Concluído</value>
+  </data>
+  <data name="ClassProgress_InProgress" xml:space="preserve">
+    <value>Em Andamento</value>
+  </data>
+  <data name="ClassProgress_Registration" xml:space="preserve">
+    <value>Matrícula</value>
+  </data>
+  <data name="ClassProgress_Unknown" xml:space="preserve">
+    <value>Desconhecido</value>
+  </data>
+  <data name="ItemStatus_Evaded" xml:space="preserve">
+    <value>Evadido</value>
+  </data>
+  <data name="msgRequiredOneWeekDay" xml:space="preserve">
+    <value>Pelo menos um dia da semana é obrigatório.</value>
+  </data>
+  <data name="item_plural_Registration" xml:space="preserve">
+    <value>Matrículas</value>
+  </data>
+  <data name="item_Registration" xml:space="preserve">
+    <value>Matrícula</value>
+  </data>
+  <data name="msgConfirmDeleteRegistration" xml:space="preserve">
+    <value>Continuar e excluir matrícula do aluno {0}?</value>
+  </data>
+  <data name="msgStudentAlreadyRegistered" xml:space="preserve">
+    <value>Aluno {0} já está matriculado na turma {1}.</value>
+  </data>
+  <data name="gridAutoRenewal" xml:space="preserve">
+    <value>Renovação Automática</value>
+  </data>
+  <data name="gridClassCode" xml:space="preserve">
+    <value>Turma</value>
+  </data>
+  <data name="gridDisplayName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="gridRegistrationId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="wordAllFeminine" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="errorWebServiceLoadFile" xml:space="preserve">
+    <value>Erro interno no web service ao carregar arquivo {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="errorWriteSongFile" xml:space="preserve">
+    <value>Erro inesperado ao salvar arquivo {0} no disco.</value>
+  </data>
+  <data name="errorWebServiceLoadFileThumbnail" xml:space="preserve">
+    <value>Erro interno no web service ao carregar arquivo de miniatura {1} do item {0} selecionado.
+Entre em contato com o suporte. {2}</value>
+  </data>
+  <data name="RollCall_Absent" xml:space="preserve">
+    <value>Falta</value>
+  </data>
+  <data name="RollCall_Empty" xml:space="preserve">
+    <value>Em Branco</value>
+  </data>
+  <data name="RollCall_Evaded" xml:space="preserve">
+    <value>Evadido</value>
+  </data>
+  <data name="RollCall_Justified" xml:space="preserve">
+    <value>Justificado</value>
+  </data>
+  <data name="RollCall_NoClass" xml:space="preserve">
+    <value>Não Houve Aula</value>
+  </data>
+  <data name="RollCall_NotRegistered" xml:space="preserve">
+    <value>Não Registrado</value>
+  </data>
+  <data name="RollCall_Present" xml:space="preserve">
+    <value>Presença</value>
+  </data>
+  <data name="RollCall_Sick" xml:space="preserve">
+    <value>Doente</value>
+  </data>
+  <data name="errorWebServiceLoadSemester" xml:space="preserve">
+    <value>Erro interno no web service ao carregar semestre.
+Entre em contato com o suporte. {0}</value>
+  </data>
+  <data name="Month_1" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="Month_10" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="Month_11" xml:space="preserve">
+    <value>Novembro</value>
+  </data>
+  <data name="Month_12" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="Month_2" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="Month_3" xml:space="preserve">
+    <value>Março</value>
+  </data>
+  <data name="Month_4" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="Month_5" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="Month_6" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="Month_7" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="Month_8" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="Month_9" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="item_plural_RollCall" xml:space="preserve">
+    <value>Chamadas</value>
+  </data>
+  <data name="item_RollCall" xml:space="preserve">
+    <value>Chamada</value>
+  </data>
+  <data name="dayShortFridays" xml:space="preserve">
+    <value>Sextas</value>
+  </data>
+  <data name="dayShortMondays" xml:space="preserve">
+    <value>Segundas</value>
+  </data>
+  <data name="dayShortSaturdays" xml:space="preserve">
+    <value>Sábados</value>
+  </data>
+  <data name="dayShortSundays" xml:space="preserve">
+    <value>Domingos</value>
+  </data>
+  <data name="dayShortThursdays" xml:space="preserve">
+    <value>Quintas</value>
+  </data>
+  <data name="dayShortTuesdays" xml:space="preserve">
+    <value>Terças</value>
+  </data>
+  <data name="dayShortWednesdays" xml:space="preserve">
+    <value>Quartas</value>
+  </data>
+  <data name="errorGenerateRollCallFile" xml:space="preserve">
+    <value>Erro ao gerar arquivo de chamadas.
+Leia o arquivo de LOG para mais informações.
+{0}</value>
+  </data>
+  <data name="item_Attendance" xml:space="preserve">
+    <value>Presença</value>
+  </data>
+  <data name="item_plural_Attendance" xml:space="preserve">
+    <value>Presenças</value>
+  </data>
+  <data name="msgNoClass" xml:space="preserve">
+    <value>Sem Aula</value>
+  </data>
+  <data name="wordPrint" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="msgClassNoStudent" xml:space="preserve">
+    <value>Turma {0} não tem nenhum aluno matriculado.</value>
+  </data>
+  <data name="InstrumentsType_Escaleta" xml:space="preserve">
+    <value>Escaleta</value>
+  </data>
+  <data name="InstrumentsType_Harpa" xml:space="preserve">
+    <value>Harpa</value>
+  </data>
+  <data name="ItemStatus_Lost" xml:space="preserve">
+    <value>Extraviado</value>
+  </data>
+  <data name="RollCall_Short_Absent" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="RollCall_Short_Empty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RollCall_Short_Evaded" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="RollCall_Short_Justified" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="RollCall_Short_NoClass" xml:space="preserve">
+    <value>NHA</value>
+  </data>
+  <data name="RollCall_Short_NotRegistered" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="RollCall_Short_Present" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="RollCall_Short_Sick" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="classRegistered" xml:space="preserve">
+    <value>Registrado</value>
+  </data>
+  <data name="classWaitingList" xml:space="preserve">
+    <value>Fila de Espera</value>
+  </data>
+  <data name="errorChannelCountItem" xml:space="preserve">
+    <value>Erro inesperado ao fazer contagem de item {0} do serviço web.</value>
+  </data>
+  <data name="errorWebServiceCountItem" xml:space="preserve">
+    <value>Erro interno no web service ao pegar contagem de itens {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="titleWelcomeUser" xml:space="preserve">
+    <value>Olá, {0}</value>
+  </data>
+  <data name="item_Indicator" xml:space="preserve">
+    <value>Indicador</value>
+  </data>
+  <data name="caption_LoanPendingClose" xml:space="preserve">
+    <value>Empréstimos Pendentes de Fechamento</value>
+  </data>
+  <data name="RollCall_Short_TeacherAbsent" xml:space="preserve">
+    <value>PF</value>
+  </data>
+  <data name="RollCall_TeacherAbsent" xml:space="preserve">
+    <value>Professor Faltou</value>
+  </data>
+  <data name="caption_LastMonthAttendance" xml:space="preserve">
+    <value>Presença no Mês Passado</value>
+  </data>
+  <data name="caption_MonthAttendance" xml:space="preserve">
+    <value>Presença no Mês</value>
+  </data>
+  <data name="caption_SemesterAttendance" xml:space="preserve">
+    <value>Presença no Semestre</value>
+  </data>
+  <data name="gridLocation" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="locationAvailableAt" xml:space="preserve">
+    <value>Disponível, {0}</value>
+  </data>
+  <data name="locationWithStudent" xml:space="preserve">
+    <value>Com {0}</value>
+  </data>
+  <data name="errorChannelLoadFile" xml:space="preserve">
+    <value>Erro inesperado ao carregar arquivo {0} do web service. {1}</value>
+  </data>
+  <data name="errorProcessFile" xml:space="preserve">
+    <value>Erro inesperado ao processar arquivo selecionado. {0}</value>
+  </data>
+  <data name="errorSaveFile" xml:space="preserve">
+    <value>Erro inesperado ao salvar arquivo em {0}. {1}</value>
+  </data>
+  <data name="filter_jpeg" xml:space="preserve">
+    <value>Imagens JPEG|*.jpeg</value>
+  </data>
+  <data name="filter_jpg" xml:space="preserve">
+    <value>Imagens JPEG|*.jpg</value>
+  </data>
+  <data name="filter_pdf" xml:space="preserve">
+    <value>Arquivos PDF|*.pdf</value>
+  </data>
+  <data name="filter_png" xml:space="preserve">
+    <value>Imagens PNG|*.png</value>
+  </data>
+  <data name="filter_tif" xml:space="preserve">
+    <value>Imagens TIFF|*.tif</value>
+  </data>
+  <data name="filter_tiff" xml:space="preserve">
+    <value>Imagens TIFF|*.tiff</value>
+  </data>
+  <data name="titleProcessError" xml:space="preserve">
+    <value>Erro de Processamento</value>
+  </data>
+  <data name="caption_WeekToEndSemester" xml:space="preserve">
+    <value>Semana para o Fim do Semestre</value>
+  </data>
+  <data name="caption_WeeksToEndSemester" xml:space="preserve">
+    <value>Semanas para o Fim do Semestre</value>
+  </data>
+  <data name="caption_WeeksStartSemester" xml:space="preserve">
+    <value>Semanas Completadas</value>
+  </data>
+  <data name="caption_WeekStartSemester" xml:space="preserve">
+    <value>Semana Completada</value>
+  </data>
+  <data name="caption_CreateNextSemester" xml:space="preserve">
+    <value>Semestre deve ser criado</value>
+  </data>
+  <data name="caption_WeeksToStartSemester" xml:space="preserve">
+    <value>Semanas para o Início do próximo Semestre</value>
+  </data>
+  <data name="caption_WeekToStartSemester" xml:space="preserve">
+    <value>Semana para o Início do próximo Semestre</value>
+  </data>
+  <data name="errorChannelResetPassword" xml:space="preserve">
+    <value>Erro inesperado ao zerar senha de usuário usando o web service.</value>
+  </data>
+  <data name="msgUserNotFoundResetPassword" xml:space="preserve">
+    <value>Usuário {0} não foi encontrado.
+Não foi possível zerar senha.</value>
+  </data>
+  <data name="msgWaitConnection" xml:space="preserve">
+    <value>Aplicativo não está conectado ao servidor.
+Espere até que aplicativo tenha se conectado e tente novamente.</value>
+  </data>
+  <data name="titleInvalidUser" xml:space="preserve">
+    <value>Usuário Inválido</value>
+  </data>
+  <data name="errorWebServiceSendRecoveryPassword" xml:space="preserve">
+    <value>Erro interno no web service ao enviar senha de recuperação para usuário.
+Entre em contato com o suporte. {0}</value>
+  </data>
+  <data name="msgRecoveryPasswordSent" xml:space="preserve">
+    <value>Uma nova senha foi enviada para e-mail cadastrado do usuário {0}.</value>
+  </data>
+  <data name="titleEmailSent" xml:space="preserve">
+    <value>E-mail Enviado</value>
+  </data>
+  <data name="GradeSubject_AuditionOrganization" xml:space="preserve">
+    <value>Organização de Audição e Recital</value>
+  </data>
+  <data name="GradeSubject_Charisma" xml:space="preserve">
+    <value>Carisma</value>
+  </data>
+  <data name="GradeSubject_Creativity" xml:space="preserve">
+    <value>Criatividade</value>
+  </data>
+  <data name="GradeSubject_Dedication" xml:space="preserve">
+    <value>Dedicação</value>
+  </data>
+  <data name="GradeSubject_Didactic" xml:space="preserve">
+    <value>Didática</value>
+  </data>
+  <data name="GradeSubject_Discipline" xml:space="preserve">
+    <value>Disciplina</value>
+  </data>
+  <data name="GradeSubject_Expressiveness" xml:space="preserve">
+    <value>Expressividade</value>
+  </data>
+  <data name="GradeSubject_ObjectiveReached" xml:space="preserve">
+    <value>Alcançou Objetivo</value>
+  </data>
+  <data name="GradeSubject_Organization" xml:space="preserve">
+    <value>Organização</value>
+  </data>
+  <data name="GradeSubject_Performance" xml:space="preserve">
+    <value>Desempenho</value>
+  </data>
+  <data name="GradeSubject_Posture" xml:space="preserve">
+    <value>Postura no Palco</value>
+  </data>
+  <data name="GradeSubject_Concentration" xml:space="preserve">
+    <value>Concentração</value>
+  </data>
+  <data name="GradeSubject_Proactivity" xml:space="preserve">
+    <value>Proatividade</value>
+  </data>
+  <data name="GradeSubject_ProjectCommitment" xml:space="preserve">
+    <value>Engajamento com o Projeto</value>
+  </data>
+  <data name="GradeSubject_Pulse" xml:space="preserve">
+    <value>Pulsação</value>
+  </data>
+  <data name="GradeSubject_Punctuality" xml:space="preserve">
+    <value>Pontualidade</value>
+  </data>
+  <data name="GradeSubject_StudentsLearningCurve" xml:space="preserve">
+    <value>Aprendizado dos Alunos</value>
+  </data>
+  <data name="GradeSubject_Tuning" xml:space="preserve">
+    <value>Afinação</value>
+  </data>
+  <data name="ReportStatus_Completed" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="ReportStatus_Pending" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="item_plural_Report" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="item_Report" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="ReportPeriodicity_Month" xml:space="preserve">
+    <value>Mensal</value>
+  </data>
+  <data name="ReportPeriodicity_Semester" xml:space="preserve">
+    <value>Semestral</value>
+  </data>
+  <data name="ReportRapporteur_Coordinator" xml:space="preserve">
+    <value>Coordenador</value>
+  </data>
+  <data name="ReportRapporteur_Teacher" xml:space="preserve">
+    <value>Professor</value>
+  </data>
+  <data name="gridAuthorName" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="gridClassData" xml:space="preserve">
+    <value>Turma</value>
+  </data>
+  <data name="gridPeriodName" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="gridReportId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridReportStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridTypeName" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="errorWebServiceGenerateReports" xml:space="preserve">
+    <value>Erro interno no web service ao gerar novos relatórios .
+Entre em contato com o suporte. {0}</value>
+  </data>
+  <data name="inactivationReason_ChangeOfAddress" xml:space="preserve">
+    <value>Mudança de endereço.</value>
+  </data>
+  <data name="inactivationReason_ContractTermination" xml:space="preserve">
+    <value>Rescisão contratual.</value>
+  </data>
+  <data name="inactivationReason_DuplicateRegister" xml:space="preserve">
+    <value>Cadastro duplicado.</value>
+  </data>
+  <data name="inactivationReason_EvadedStudent" xml:space="preserve">
+    <value>Aluno evadido.</value>
+  </data>
+  <data name="inactivationReason_NoInterest" xml:space="preserve">
+    <value>Falta de interesse.</value>
+  </data>
+  <data name="inactivationReason_NoRegistrationRenewal" xml:space="preserve">
+    <value>Não realizou rematrícula.</value>
+  </data>
+  <data name="inactivationReason_SchedulingConflict" xml:space="preserve">
+    <value>Incompatibilidade de horário.</value>
+  </data>
+  <data name="msgSelectReport" xml:space="preserve">
+    <value>Selecione o relatório abaixo para visualizá-lo.</value>
+  </data>
+  <data name="titleViewReport" xml:space="preserve">
+    <value>Visualizar Relatório</value>
+  </data>
+  <data name="GradeSpecialScore_Empty" xml:space="preserve">
+    <value>Em Branco</value>
+  </data>
+  <data name="GradeSpecialScore_Ungraded" xml:space="preserve">
+    <value>Sem Nota</value>
+  </data>
+  <data name="item_Grade" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="msgImpersonateUser" xml:space="preserve">
+    <value>Continuar e personificar usuário de {0}?</value>
+  </data>
+  <data name="titleImpersonateUser" xml:space="preserve">
+    <value>Personificar outro Usuário</value>
+  </data>
+  <data name="wordAs" xml:space="preserve">
+    <value>Como</value>
+  </data>
+  <data name="menuDesimpersonate" xml:space="preserve">
+    <value>Despersonificar {0}</value>
+  </data>
+  <data name="item_Question" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="item_Answer" xml:space="preserve">
+    <value>Resposta</value>
+  </data>
+  <data name="msgRequiredAnswerComments" xml:space="preserve">
+    <value>Comentários são obrigatórios para pergunta {0}.</value>
+  </data>
+  <data name="msgRequiredAnswerScore" xml:space="preserve">
+    <value>Escolha um valor adequado de 0 a 10 para pergunta {0}.</value>
+  </data>
+  <data name="caption_LastMonthGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos no Mês Passado</value>
+  </data>
+  <data name="caption_LastMonthGradeTeacher" xml:space="preserve">
+    <value>Nota Média dos Professores no Mês Passado</value>
+  </data>
+  <data name="caption_MonthEvents" xml:space="preserve">
+    <value>Eventos no Mês</value>
+  </data>
+  <data name="caption_MonthGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos no Mês</value>
+  </data>
+  <data name="caption_MonthGradeTeacher" xml:space="preserve">
+    <value>Nota Média dos Professores no Mês</value>
+  </data>
+  <data name="caption_SemesterEvents" xml:space="preserve">
+    <value>Eventos no Semestre</value>
+  </data>
+  <data name="caption_SemesterGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos no Semestre</value>
+  </data>
+  <data name="caption_SemesterGradeTeacher" xml:space="preserve">
+    <value>Nota Média dos Professores no Semestre</value>
+  </data>
+  <data name="errorWebServiceAverageItem" xml:space="preserve">
+    <value>Erro interno no web service ao pegar média de itens {0}.
+Entre em contato com o suporte. {1}</value>
+  </data>
+  <data name="EventSendOption_ToCoordinators" xml:space="preserve">
+    <value>Coordenadores</value>
+  </data>
+  <data name="EventSendOption_ToEveryone" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="EventSendOption_ToInstitution" xml:space="preserve">
+    <value>Instituição</value>
+  </data>
+  <data name="EventSendOption_ToNoOne" xml:space="preserve">
+    <value>Ninguém</value>
+  </data>
+  <data name="EventSendOption_ToTeachers" xml:space="preserve">
+    <value>Professores</value>
+  </data>
+  <data name="gridDescription" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="gridEventDate" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="gridEventId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridEventLocation" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="gridEventName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="gridEventSendOptionName" xml:space="preserve">
+    <value>Enviar Para</value>
+  </data>
+  <data name="gridEventTime" xml:space="preserve">
+    <value>Horário</value>
+  </data>
+  <data name="item_Event" xml:space="preserve">
+    <value>Evento</value>
+  </data>
+  <data name="item_plural_Event" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="msgConfirmDeleteRegistrationLoseData" xml:space="preserve">
+    <value>Continuar e excluir matrícula do aluno {0}?
+Todos os dados relacionados (notas e chamadas) serão apagados.</value>
+  </data>
+  <data name="msgConfirmStudentStatusEvaded" xml:space="preserve">
+    <value>Continuar e modificar status do aluno para evadido durante andamento do semestre?
+Suas matrículas serão atualizadas para evadidas ou excluídas para as seguintes turmas:
+{0}</value>
+  </data>
+  <data name="msgConfirmStudentStatusInactive" xml:space="preserve">
+    <value>Continuar e inativar aluno durante andamento do semestre?
+Suas matrículas para as seguintes turmas serão excluídas, junto com suas notas e chamadas:
+{0}</value>
+  </data>
+  <data name="msgReportAvailableEdition" xml:space="preserve">
+    <value>Este relatório só poderá ser editado a partir de {0}.</value>
+  </data>
+  <data name="titleReportNotAvailableEdition" xml:space="preserve">
+    <value>Edição Indisponível</value>
+  </data>
+  <data name="msgConfirmDeleteLoan" xml:space="preserve">
+    <value>Continuar e excluir empréstimo do instrumento {0} para aluno {0}?
+Se o empréstimo terminou, mude o seu status para Fechado ao invés excluí-lo.</value>
+  </data>
+  <data name="titleReportPending" xml:space="preserve">
+    <value>Relatório Pendente</value>
+  </data>
+  <data name="caption_SemesterEvation" xml:space="preserve">
+    <value>Evasões no Semestre</value>
+  </data>
+  <data name="item_Evasion" xml:space="preserve">
+    <value>Evasão</value>
+  </data>
+  <data name="caption_InstitutionClasses" xml:space="preserve">
+    <value>Turmas no Projeto</value>
+  </data>
+  <data name="caption_InstitutionInstruments" xml:space="preserve">
+    <value>Instrumentos no Projeto</value>
+  </data>
+  <data name="caption_InstitutionLastMonthGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos do Projeto no Mês Passado</value>
+  </data>
+  <data name="caption_InstitutionMonthGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos do Projeto no Mês</value>
+  </data>
+  <data name="caption_InstitutionPoles" xml:space="preserve">
+    <value>Polos do Projeto</value>
+  </data>
+  <data name="caption_InstitutionRegistrations" xml:space="preserve">
+    <value>Matrículas no Projeto</value>
+  </data>
+  <data name="caption_InstitutionSemesterGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos do Projeto no Semestre</value>
+  </data>
+  <data name="caption_InstitutionStudents" xml:space="preserve">
+    <value>Alunos no Projeto</value>
+  </data>
+  <data name="caption_InstitutionTeachers" xml:space="preserve">
+    <value>Professores no Projeto</value>
+  </data>
+  <data name="caption_LastMonthEvation" xml:space="preserve">
+    <value>Evasões no Mês Passado</value>
+  </data>
+  <data name="caption_MonthEvation" xml:space="preserve">
+    <value>Evasões no Mês</value>
+  </data>
+  <data name="caption_InstitutionLastMonthEvation" xml:space="preserve">
+    <value>Evasões do Projeto no Mês Passado</value>
+  </data>
+  <data name="caption_InstitutionLastMonthGradeTeacher" xml:space="preserve">
+    <value>Nota Média dos Professores do Projeto no Mês Passado</value>
+  </data>
+  <data name="caption_InstitutionMonthEvation" xml:space="preserve">
+    <value>Evasões do Projeto no Mês</value>
+  </data>
+  <data name="caption_InstitutionMonthGradeTeacher" xml:space="preserve">
+    <value>Nota Média dos Professores do Projeto no Mês</value>
+  </data>
+  <data name="caption_InstitutionSemesterEvation" xml:space="preserve">
+    <value>Evasões do Projeto no Semestre</value>
+  </data>
+  <data name="caption_InstitutionSemesterGradeTeacher" xml:space="preserve">
+    <value>Nota Média dos Professores do Projeto no Semestre</value>
+  </data>
+  <data name="caption_TeacherClasses" xml:space="preserve">
+    <value>Turmas do Professor</value>
+  </data>
+  <data name="caption_TeacherLastMonthEvation" xml:space="preserve">
+    <value>Evasões do Professor no Mês Passado</value>
+  </data>
+  <data name="caption_TeacherLastMonthGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos do Professor no Mês Passado</value>
+  </data>
+  <data name="caption_TeacherMonthEvation" xml:space="preserve">
+    <value>Evasões do Professor no Mês</value>
+  </data>
+  <data name="caption_TeacherMonthGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos do Professor no Mês</value>
+  </data>
+  <data name="caption_TeacherPoles" xml:space="preserve">
+    <value>Polos de Atuação do Professor</value>
+  </data>
+  <data name="caption_TeacherSemesterEvation" xml:space="preserve">
+    <value>Evasões do Professor no Semestre</value>
+  </data>
+  <data name="caption_TeacherSemesterGradeStudent" xml:space="preserve">
+    <value>Nota Média dos Alunos do Professor no Semestre</value>
+  </data>
+  <data name="caption_RegisteredStudents" xml:space="preserve">
+    <value>Alunos Matriculados</value>
+  </data>
+  <data name="caption_TeacherRegistrations" xml:space="preserve">
+    <value>Matrículas para Turmas do Professor</value>
+  </data>
+  <data name="item_plural_Evasion" xml:space="preserve">
+    <value>Evasões</value>
+  </data>
+  <data name="caption_Absences" xml:space="preserve">
+    <value>Faltas</value>
+  </data>
+  <data name="caption_Others" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="caption_Presences" xml:space="preserve">
+    <value>Presenças</value>
+  </data>
+  <data name="wordMean" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="caption_YearEvents" xml:space="preserve">
+    <value>Eventos no Ano</value>
+  </data>
+  <data name="GradeSubject_Teamwork" xml:space="preserve">
+    <value>Trabalho em Equipe</value>
+  </data>
+  <data name="wordCompletedPlural" xml:space="preserve">
+    <value>Completados</value>
+  </data>
+  <data name="wordPendingPlural" xml:space="preserve">
+    <value>Pendentes</value>
+  </data>
+  <data name="item_plural_ReportCard" xml:space="preserve">
+    <value>Boletins</value>
+  </data>
+  <data name="item_ReportCard" xml:space="preserve">
+    <value>Boletim</value>
+  </data>
+  <data name="errorGenerateReportCardFile" xml:space="preserve">
+    <value>Erro ao gerar arquivo de boletins.
+Leia o arquivo de LOG para mais informações.
+{0}</value>
+  </data>
+  <data name="msgConfirmImportSemesterClasses" xml:space="preserve">
+    <value>Continuar e importar {0} turmas selecionadas do semestre {1} para o semestre {2}?
+Esta operação não poderá ser desfeita.</value>
+  </data>
+  <data name="titleImportClasses" xml:space="preserve">
+    <value>Importar Turmas</value>
+  </data>
+  <data name="errorChannelImportClasses" xml:space="preserve">
+    <value>Erro inesperado ao fazer importar turmas do semestre usando o web service.</value>
+  </data>
+  <data name="msgImportedSemesterClasses" xml:space="preserve">
+    <value>Turmas selecionadas foram importadas do semestre {0} para o semestre {1}.</value>
+  </data>
+  <data name="titleImportedClasses" xml:space="preserve">
+    <value>Turmas Importadas</value>
+  </data>
+  <data name="ImportOption_AllRegistrations" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="ImportOption_AutoRenewalRegistrations" xml:space="preserve">
+    <value>Com Renovação Automática</value>
+  </data>
+  <data name="ImportOption_NoRegistrations" xml:space="preserve">
+    <value>Nenhuma</value>
+  </data>
+  <data name="msgMissingReports" xml:space="preserve">
+    <value>Os seguintes relatórios estão faltando para a turma {0}:
+{1}
+
+Continuar e gerar relatórios faltantes?</value>
+  </data>
+  <data name="msgNoMissingReport" xml:space="preserve">
+    <value>Nenhum relatório está faltando para a turma {0}.</value>
+  </data>
+  <data name="titleMissingReports" xml:space="preserve">
+    <value>Relatórios Faltantes</value>
+  </data>
+  <data name="msgMissingReportsGenerated" xml:space="preserve">
+    <value>Relatórios faltantes foram gerados.
+
+Visualizar relatórios da turma agora?</value>
+  </data>
+  <data name="titleMissingReportsGenerated" xml:space="preserve">
+    <value>Relatórios Gerados</value>
+  </data>
+</root>

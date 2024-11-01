@@ -1,0 +1,50 @@
+14:13:39.263 - Song Client 1.0.13.0
+14:13:39.574 - Inicializando aplicativo...
+14:13:41.670 - Application was started.
+14:13:41.692 - Starting web service manager...
+14:13:41.735 - Web service manager was started and is running.
+14:13:41.744 - Web service connection was closed.
+14:13:41.754 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:15:16.407 - Could not connect to web service.
+14:15:16.408 - Unexpected error while connecting to web service. 
+14:15:16.408 - The request channel timed out while waiting for a reply after 00:00:59.9990000. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+14:15:16.421 - System.TimeoutException
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindCurrentSemester()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 578
+14:15:16.421 - The HTTP request to 'http://localhost:4436/SongServer/SongService.svc' has exceeded the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout.
+14:15:16.421 - System.TimeoutException   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+14:15:16.421 - The request was aborted: The operation has timed out.
+14:15:16.423 - System.Net.WebException   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+14:15:16.460 - Web service connection was closed.
+14:15:26.467 - Web service connection was closed.
+14:15:26.467 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:15:39.465 - Application is connected to web service.
+14:15:39.466 - Song Server 1.0.13
+14:15:39.466 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:21:45.352 - Song Client 1.0.13.0
+14:21:45.552 - Inicializando aplicativo...
+14:21:46.977 - Application was started.
+14:21:46.986 - Starting web service manager...
+14:21:47.007 - Web service manager was started and is running.
+14:21:47.036 - Web service connection was closed.
+14:21:47.044 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:22:07.112 - Application is connected to web service.
+14:22:07.112 - Song Server 1.0.13
+14:22:07.113 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:22:43.212 - Liberando recursos e fechando aplicativo...
+14:22:43.269 - Stopping web service manager...
+14:22:43.321 - Web service connection was closed.
+14:22:43.321 - Web service manager running thread was stopped.

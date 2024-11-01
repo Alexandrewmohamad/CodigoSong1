@@ -1,0 +1,32 @@
+10:27:12.684 - Song Client 1.0.13.0
+10:27:12.699 - Starting application...
+10:27:13.017 - Application was started.
+10:27:13.017 - Starting web service manager...
+10:27:13.017 - Web service manager was started and is running.
+10:27:13.236 - Web service connection was closed.
+10:27:13.236 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+10:27:34.813 - Could not connect to web service.
+10:27:34.813 - Could not connect to web service. Não havia um ponto de extremidade em escuta em http://18.231.79.85/SongServer/SongService.svc capaz de aceitar a mensagem. Em geral, isso é causado por um endereço ou ação de SOAP incorreta. Consulte InnerException, se presente, para obter mais detalhes.
+10:27:34.818 - Web service connection was closed.
+10:27:44.851 - Web service connection was closed.
+10:27:44.851 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+10:28:05.895 - Could not connect to web service.
+10:28:05.895 - Could not connect to web service. Não havia um ponto de extremidade em escuta em http://18.231.79.85/SongServer/SongService.svc capaz de aceitar a mensagem. Em geral, isso é causado por um endereço ou ação de SOAP incorreta. Consulte InnerException, se presente, para obter mais detalhes.
+10:28:05.895 - Web service connection was closed.
+10:28:15.920 - Web service connection was closed.
+10:28:15.920 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+10:28:36.959 - Could not connect to web service.
+10:28:36.959 - Could not connect to web service. Não havia um ponto de extremidade em escuta em http://18.231.79.85/SongServer/SongService.svc capaz de aceitar a mensagem. Em geral, isso é causado por um endereço ou ação de SOAP incorreta. Consulte InnerException, se presente, para obter mais detalhes.
+10:28:36.959 - Web service connection was closed.
+10:28:47.020 - Web service connection was closed.
+10:28:47.020 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+10:29:08.074 - Could not connect to web service.
+10:29:08.074 - Could not connect to web service. Não havia um ponto de extremidade em escuta em http://18.231.79.85/SongServer/SongService.svc capaz de aceitar a mensagem. Em geral, isso é causado por um endereço ou ação de SOAP incorreta. Consulte InnerException, se presente, para obter mais detalhes.
+10:29:08.074 - Web service connection was closed.
+10:29:18.104 - Web service connection was closed.
+10:29:18.104 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+10:29:39.157 - Could not connect to web service.
+10:29:39.157 - Could not connect to web service. Não havia um ponto de extremidade em escuta em http://18.231.79.85/SongServer/SongService.svc capaz de aceitar a mensagem. Em geral, isso é causado por um endereço ou ação de SOAP incorreta. Consulte InnerException, se presente, para obter mais detalhes.
+10:29:39.157 - Web service connection was closed.
+10:29:49.173 - Web service connection was closed.
+10:29:49.173 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...

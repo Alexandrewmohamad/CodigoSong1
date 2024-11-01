@@ -1,0 +1,395 @@
+08:20:36.333 - Song Client 1.0.1.0
+08:20:36.526 - Inicializando aplicativo...
+08:20:37.849 - Application was started.
+08:20:37.861 - Starting web service manager...
+08:20:37.871 - Web service manager was started and is running.
+08:20:37.914 - Web service connection was closed.
+08:20:37.918 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:20:50.521 - Application is connected to web service.
+08:20:50.521 - Song Server 1.0.1
+08:20:50.522 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:21:17.620 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:21:17.620 - Object reference not set to an instance of an object.
+08:21:17.648 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:17.648 - Object reference not set to an instance of an object.
+08:21:17.648 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:23.995 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:21:23.995 - Object reference not set to an instance of an object.
+08:21:23.995 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:23.996 - Object reference not set to an instance of an object.
+08:21:23.996 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:25.694 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:21:25.694 - Object reference not set to an instance of an object.
+08:21:25.694 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:25.694 - Object reference not set to an instance of an object.
+08:21:25.694 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:26.362 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:21:26.362 - Object reference not set to an instance of an object.
+08:21:26.362 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:26.362 - Object reference not set to an instance of an object.
+08:21:26.362 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:27.367 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:21:27.367 - Object reference not set to an instance of an object.
+08:21:27.367 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:27.367 - Object reference not set to an instance of an object.
+08:21:27.367 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:32.161 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:21:32.161 - Object reference not set to an instance of an object.
+08:21:32.161 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:21:32.161 - Object reference not set to an instance of an object.
+08:21:32.161 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1364
+08:23:01.791 - Song Client 1.0.1.0
+08:23:02.003 - Inicializando aplicativo...
+08:23:03.180 - Application was started.
+08:23:03.187 - Starting web service manager...
+08:23:03.195 - Web service manager was started and is running.
+08:23:03.212 - Web service connection was closed.
+08:23:03.215 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:23:05.870 - Application is connected to web service.
+08:23:05.870 - Song Server 1.0.1
+08:23:05.870 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:25:58.858 - Song Client 1.0.1.0
+08:25:59.145 - Inicializando aplicativo...
+08:26:00.359 - Application was started.
+08:26:00.368 - Starting web service manager...
+08:26:00.378 - Web service manager was started and is running.
+08:26:00.399 - Web service connection was closed.
+08:26:00.403 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:26:03.026 - Application is connected to web service.
+08:26:03.026 - Song Server 1.0.1
+08:26:03.026 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:26:29.393 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:26:29.393 - Object reference not set to an instance of an object.
+08:26:29.402 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1280
+08:26:29.402 - Object reference not set to an instance of an object.
+08:26:29.402 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1280
+08:26:29.445 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:26:29.445 - Object reference not set to an instance of an object.
+08:26:29.446 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1280
+08:26:29.446 - Object reference not set to an instance of an object.
+08:26:29.446 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1280
+08:26:47.029 - Liberando recursos e fechando aplicativo...
+08:26:47.099 - Stopping web service manager...
+08:26:47.205 - Web service connection was closed.
+08:26:47.205 - Web service manager running thread was stopped.
+08:29:03.765 - Song Client 1.0.1.0
+08:29:04.031 - Inicializando aplicativo...
+08:29:05.260 - Application was started.
+08:29:05.269 - Starting web service manager...
+08:29:05.278 - Web service manager was started and is running.
+08:29:05.305 - Web service connection was closed.
+08:29:05.308 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:29:07.868 - Application is connected to web service.
+08:29:07.868 - Song Server 1.0.1
+08:29:07.868 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:29:25.742 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:29:25.742 - Object reference not set to an instance of an object.
+08:29:25.751 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1291
+08:29:25.751 - Object reference not set to an instance of an object.
+08:29:25.751 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1291
+08:29:29.942 - Liberando recursos e fechando aplicativo...
+08:29:29.983 - Stopping web service manager...
+08:29:30.051 - Web service connection was closed.
+08:29:30.051 - Web service manager running thread was stopped.
+08:36:46.645 - Song Client 1.0.1.0
+08:36:46.865 - Inicializando aplicativo...
+08:36:47.997 - Application was started.
+08:36:48.003 - Starting web service manager...
+08:36:48.040 - Web service manager was started and is running.
+08:36:48.048 - Web service connection was closed.
+08:36:48.051 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:36:50.770 - Application is connected to web service.
+08:36:50.770 - Song Server 1.0.1
+08:36:50.770 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:37:15.557 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:37:15.557 - Object reference not set to an instance of an object.
+08:37:15.566 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:37:15.566 - Object reference not set to an instance of an object.
+08:37:15.566 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:38:56.724 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:38:56.724 - Object reference not set to an instance of an object.
+08:38:56.733 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:38:56.733 - Object reference not set to an instance of an object.
+08:38:56.733 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:05.015 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:39:05.015 - Object reference not set to an instance of an object.
+08:39:05.016 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:05.016 - Object reference not set to an instance of an object.
+08:39:05.016 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:24.909 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:39:24.909 - Object reference not set to an instance of an object.
+08:39:24.909 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:24.909 - Object reference not set to an instance of an object.
+08:39:24.909 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:32.629 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:39:32.629 - Object reference not set to an instance of an object.
+08:39:32.629 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:32.629 - Object reference not set to an instance of an object.
+08:39:32.630 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:41.114 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:39:41.114 - Object reference not set to an instance of an object.
+08:39:41.114 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:39:41.114 - Object reference not set to an instance of an object.
+08:39:41.114 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:42:30.599 - Song Client 1.0.1.0
+08:42:30.861 - Inicializando aplicativo...
+08:42:32.000 - Application was started.
+08:42:32.010 - Starting web service manager...
+08:42:32.040 - Web service manager was started and is running.
+08:42:32.069 - Web service connection was closed.
+08:42:32.072 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:42:34.718 - Application is connected to web service.
+08:42:34.718 - Song Server 1.0.1
+08:42:34.719 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:43:13.567 - Erro interno no web service ao pegar lista de itens Turma.
+Entre em contato com o suporte. Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Reading from the stream has failed. Reading from the stream has failed.
+08:43:26.713 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:43:26.713 - Object reference not set to an instance of an object.
+08:43:26.714 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:43:26.714 - Object reference not set to an instance of an object.
+08:43:26.715 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:52:01.072 - Song Client 1.0.1.0
+08:52:01.302 - Inicializando aplicativo...
+08:52:02.449 - Application was started.
+08:52:02.455 - Starting web service manager...
+08:52:02.463 - Web service manager was started and is running.
+08:52:02.474 - Web service connection was closed.
+08:52:02.482 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:52:05.122 - Application is connected to web service.
+08:52:05.122 - Song Server 1.0.1
+08:52:05.122 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:52:46.255 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:52:46.255 - Object reference not set to an instance of an object.
+08:52:46.264 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:52:46.264 - Object reference not set to an instance of an object.
+08:52:46.265 - System.NullReferenceException   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 421
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1281
+08:53:18.284 - Song Client 1.0.1.0
+08:53:18.501 - Inicializando aplicativo...
+08:53:19.683 - Application was started.
+08:53:19.693 - Starting web service manager...
+08:53:19.704 - Web service manager was started and is running.
+08:53:19.720 - Web service connection was closed.
+08:53:19.723 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:53:22.272 - Application is connected to web service.
+08:53:22.273 - Song Server 1.0.1
+08:53:22.273 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:58:04.280 - Liberando recursos e fechando aplicativo...
+08:58:04.343 - Stopping web service manager...
+08:58:04.379 - Web service connection was closed.
+08:58:04.379 - Web service manager running thread was stopped.
+09:01:33.637 - Song Client 1.0.1.0
+09:01:33.889 - Inicializando aplicativo...
+09:01:35.103 - Application was started.
+09:01:35.112 - Starting web service manager...
+09:01:35.125 - Web service manager was started and is running.
+09:01:35.137 - Web service connection was closed.
+09:01:35.142 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:01:40.044 - Application is connected to web service.
+09:01:40.045 - Song Server 1.0.1
+09:01:40.045 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:02:06.764 - Liberando recursos e fechando aplicativo...
+09:02:06.824 - Stopping web service manager...
+09:02:06.940 - Web service connection was closed.
+09:02:06.941 - Web service manager running thread was stopped.
+09:03:23.270 - Song Client 1.0.1.0
+09:03:23.520 - Inicializando aplicativo...
+09:03:24.736 - Application was started.
+09:03:24.744 - Starting web service manager...
+09:03:24.786 - Web service manager was started and is running.
+09:03:24.804 - Web service connection was closed.
+09:03:24.807 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:03:29.812 - Application is connected to web service.
+09:03:29.812 - Song Server 1.0.1
+09:03:29.813 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:03:52.620 - Liberando recursos e fechando aplicativo...
+09:03:52.680 - Stopping web service manager...
+09:03:52.798 - Web service connection was closed.
+09:03:52.798 - Web service manager running thread was stopped.
+09:06:17.613 - Song Client 1.0.1.0
+09:06:17.882 - Inicializando aplicativo...
+09:06:19.042 - Application was started.
+09:06:19.054 - Starting web service manager...
+09:06:19.064 - Web service manager was started and is running.
+09:06:19.085 - Web service connection was closed.
+09:06:19.088 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:06:22.262 - Application is connected to web service.
+09:06:22.263 - Song Server 1.0.1
+09:06:22.263 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:07:00.777 - Liberando recursos e fechando aplicativo...
+09:07:00.818 - Stopping web service manager...
+09:07:00.869 - Web service connection was closed.
+09:07:00.869 - Web service manager running thread was stopped.
+09:09:25.687 - Song Client 1.0.1.0
+09:09:25.888 - Inicializando aplicativo...
+09:09:27.040 - Application was started.
+09:09:27.046 - Starting web service manager...
+09:09:27.069 - Web service manager was started and is running.
+09:09:27.156 - Web service connection was closed.
+09:09:27.161 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:09:29.810 - Application is connected to web service.
+09:09:29.811 - Song Server 1.0.1
+09:09:29.811 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:09:50.880 - Liberando recursos e fechando aplicativo...
+09:09:50.923 - Stopping web service manager...
+09:09:51.039 - Web service connection was closed.
+09:09:51.040 - Web service manager running thread was stopped.
+09:10:27.992 - Song Client 1.0.1.0
+09:10:28.237 - Inicializando aplicativo...
+09:10:29.522 - Application was started.
+09:10:29.530 - Starting web service manager...
+09:10:29.553 - Web service manager was started and is running.
+09:10:29.573 - Web service connection was closed.
+09:10:29.577 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:10:32.330 - Application is connected to web service.
+09:10:32.331 - Song Server 1.0.1
+09:10:32.331 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:11:54.779 - Liberando recursos e fechando aplicativo...
+09:11:54.820 - Stopping web service manager...
+09:11:54.854 - Web service connection was closed.
+09:11:54.854 - Web service manager running thread was stopped.
+09:25:23.167 - Song Client 1.0.1.0
+09:25:23.398 - Inicializando aplicativo...
+09:25:24.910 - Application was started.
+09:25:24.918 - Starting web service manager...
+09:25:24.959 - Web service manager was started and is running.
+09:25:24.967 - Web service connection was closed.
+09:25:24.976 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:25:35.233 - Application is connected to web service.
+09:25:35.233 - Song Server 1.0.1
+09:25:35.233 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:25:54.749 - Liberando recursos e fechando aplicativo...
+09:25:54.813 - Stopping web service manager...
+09:25:54.913 - Web service connection was closed.
+09:25:54.914 - Web service manager running thread was stopped.
+09:30:41.480 - Song Client 1.0.1.0
+09:30:41.708 - Inicializando aplicativo...
+09:30:43.142 - Application was started.
+09:30:43.151 - Starting web service manager...
+09:30:43.162 - Web service manager was started and is running.
+09:30:43.184 - Web service connection was closed.
+09:30:43.189 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:30:48.204 - Application is connected to web service.
+09:30:48.204 - Song Server 1.0.1
+09:30:48.204 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:14:44.299 - Liberando recursos e fechando aplicativo...
+10:14:44.474 - Stopping web service manager...
+10:14:44.507 - Web service connection was closed.
+10:14:44.507 - Web service manager running thread was stopped.
+10:27:42.432 - Song Client 1.0.1.0
+10:27:42.725 - Inicializando aplicativo...
+10:27:43.921 - Application was started.
+10:27:43.931 - Starting web service manager...
+10:27:43.960 - Web service manager was started and is running.
+10:27:43.974 - Web service connection was closed.
+10:27:43.979 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:27:47.205 - Application is connected to web service.
+10:27:47.206 - Song Server 1.0.1
+10:27:47.206 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:32:12.344 - Liberando recursos e fechando aplicativo...
+10:32:12.398 - Stopping web service manager...
+10:32:12.481 - Web service connection was closed.
+10:32:12.482 - Web service manager running thread was stopped.
+10:39:52.105 - Song Client 1.0.1.0
+10:39:52.350 - Inicializando aplicativo...
+10:39:53.461 - Application was started.
+10:39:53.468 - Starting web service manager...
+10:39:53.477 - Web service manager was started and is running.
+10:39:53.497 - Web service connection was closed.
+10:39:53.502 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:39:57.124 - Application is connected to web service.
+10:39:57.124 - Song Server 1.0.1
+10:39:57.124 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:40:54.752 - Liberando recursos e fechando aplicativo...
+10:40:54.813 - Stopping web service manager...
+10:40:54.859 - Web service connection was closed.
+10:40:54.859 - Web service manager running thread was stopped.
+10:42:35.323 - Song Client 1.0.1.0
+10:42:35.524 - Inicializando aplicativo...
+10:42:36.763 - Application was started.
+10:42:36.773 - Starting web service manager...
+10:42:36.784 - Web service manager was started and is running.
+10:42:36.801 - Web service connection was closed.
+10:42:36.805 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:42:39.691 - Application is connected to web service.
+10:42:39.692 - Song Server 1.0.1
+10:42:39.692 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:49:14.142 - Liberando recursos e fechando aplicativo...
+10:49:14.379 - Stopping web service manager...
+10:49:14.409 - Web service connection was closed.
+10:49:14.409 - Web service manager running thread was stopped.
+10:49:58.010 - Song Client 1.0.1.0
+10:49:58.220 - Inicializando aplicativo...
+10:49:59.623 - Application was started.
+10:49:59.630 - Starting web service manager...
+10:49:59.641 - Web service manager was started and is running.
+10:49:59.663 - Web service connection was closed.
+10:49:59.668 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:50:02.588 - Application is connected to web service.
+10:50:02.589 - Song Server 1.0.1
+10:50:02.589 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:55:13.116 - Liberando recursos e fechando aplicativo...
+10:55:13.162 - Stopping web service manager...
+10:55:13.211 - Web service connection was closed.
+10:55:13.211 - Web service manager running thread was stopped.
+15:04:57.934 - Song Client 1.0.1.0
+15:04:58.309 - Inicializando aplicativo...
+15:04:59.970 - Application was started.
+15:04:59.979 - Starting web service manager...
+15:04:59.993 - Web service manager was started and is running.
+15:05:00.044 - Web service connection was closed.
+15:05:00.053 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:05:07.962 - Application is connected to web service.
+15:05:07.962 - Song Server 1.0.1
+15:05:07.962 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:08:05.998 - Liberando recursos e fechando aplicativo...
+15:08:06.276 - Stopping web service manager...
+15:08:06.308 - Web service connection was closed.
+15:08:06.308 - Web service manager running thread was stopped.
+15:20:19.988 - Song Client 1.0.1.0
+15:20:20.232 - Inicializando aplicativo...
+15:20:21.470 - Application was started.
+15:20:21.479 - Starting web service manager...
+15:20:21.488 - Web service manager was started and is running.
+15:20:21.506 - Web service connection was closed.
+15:20:21.511 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:20:40.077 - Application is connected to web service.
+15:20:40.077 - Song Server 1.0.1
+15:20:40.077 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:34:38.614 - Liberando recursos e fechando aplicativo...
+15:34:38.693 - Stopping web service manager...
+15:34:38.800 - Web service connection was closed.
+15:34:38.800 - Web service manager running thread was stopped.

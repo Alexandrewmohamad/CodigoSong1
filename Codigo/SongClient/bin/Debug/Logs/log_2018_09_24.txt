@@ -1,0 +1,10 @@
+08:41:40.442 - Song Client 1.0.12.0
+08:41:40.652 - Inicializando aplicativo...
+08:41:42.150 - Application was started.
+08:41:42.159 - Starting web service manager...
+08:41:42.170 - Web service manager was started and is running.
+08:41:42.180 - Web service connection was closed.
+08:41:42.185 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:41:54.587 - Application is connected to web service.
+08:41:54.587 - Song Server 1.0.12
+08:41:54.588 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True

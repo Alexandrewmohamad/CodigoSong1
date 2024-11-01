@@ -1,0 +1,3747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mlblStatistics.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mlblStatistics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mlblStatistics.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="mlblStatistics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="mlblStatistics.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblStatistics.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="&gt;&gt;mlblStatistics.Name" xml:space="preserve">
+    <value>mlblStatistics</value>
+  </data>
+  <data name="&gt;&gt;mlblStatistics.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblStatistics.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;mlblStatistics.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnClasses.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpClasses.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpClasses.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="tlpClasses.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpClassIndicators2.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="icClasses2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icClasses2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="icClasses2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icClasses2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icClasses2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icClasses2.Name" xml:space="preserve">
+    <value>icClasses2</value>
+  </data>
+  <data name="&gt;&gt;icClasses2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icClasses2.Parent" xml:space="preserve">
+    <value>tlpClassIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icClasses2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="icRegisteredStudents2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icRegisteredStudents2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 7</value>
+  </data>
+  <data name="icRegisteredStudents2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icRegisteredStudents2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icRegisteredStudents2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents2.Name" xml:space="preserve">
+    <value>icRegisteredStudents2</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents2.Parent" xml:space="preserve">
+    <value>tlpClassIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icRegistrations2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icRegistrations2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 7</value>
+  </data>
+  <data name="icRegistrations2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icRegistrations2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icRegistrations2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations2.Name" xml:space="preserve">
+    <value>icRegistrations2</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations2.Parent" xml:space="preserve">
+    <value>tlpClassIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="icEvasions2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icEvasions2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 7</value>
+  </data>
+  <data name="icEvasions2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icEvasions2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icEvasions2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icEvasions2.Name" xml:space="preserve">
+    <value>icEvasions2</value>
+  </data>
+  <data name="&gt;&gt;icEvasions2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icEvasions2.Parent" xml:space="preserve">
+    <value>tlpClassIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icEvasions2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpClassIndicators2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpClassIndicators2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 0</value>
+  </data>
+  <data name="tlpClassIndicators2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpClassIndicators2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpClassIndicators2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 87</value>
+  </data>
+  <data name="tlpClassIndicators2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators2.Name" xml:space="preserve">
+    <value>tlpClassIndicators2</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpClassIndicators2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="icClasses2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="icRegisteredStudents2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="icRegistrations2" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="icEvasions2" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,7" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpClassIndicators1.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="icClasses1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icClasses1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="icClasses1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icClasses1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icClasses1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icClasses1.Name" xml:space="preserve">
+    <value>icClasses1</value>
+  </data>
+  <data name="&gt;&gt;icClasses1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icClasses1.Parent" xml:space="preserve">
+    <value>tlpClassIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icClasses1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="icRegisteredStudents1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icRegisteredStudents1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 7</value>
+  </data>
+  <data name="icRegisteredStudents1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icRegisteredStudents1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icRegisteredStudents1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents1.Name" xml:space="preserve">
+    <value>icRegisteredStudents1</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents1.Parent" xml:space="preserve">
+    <value>tlpClassIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icRegisteredStudents1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icRegistrations1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icRegistrations1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 7</value>
+  </data>
+  <data name="icRegistrations1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icRegistrations1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icRegistrations1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations1.Name" xml:space="preserve">
+    <value>icRegistrations1</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations1.Parent" xml:space="preserve">
+    <value>tlpClassIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icRegistrations1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="icEvasions1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icEvasions1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 7</value>
+  </data>
+  <data name="icEvasions1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icEvasions1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icEvasions1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icEvasions1.Name" xml:space="preserve">
+    <value>icEvasions1</value>
+  </data>
+  <data name="&gt;&gt;icEvasions1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icEvasions1.Parent" xml:space="preserve">
+    <value>tlpClassIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icEvasions1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpClassIndicators1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpClassIndicators1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpClassIndicators1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpClassIndicators1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpClassIndicators1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 87</value>
+  </data>
+  <data name="tlpClassIndicators1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators1.Name" xml:space="preserve">
+    <value>tlpClassIndicators1</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;tlpClassIndicators1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpClassIndicators1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="icClasses1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="icRegisteredStudents1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="icRegistrations1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="icEvasions1" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,8" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpClassData1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 49</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.Text" xml:space="preserve">
+    <value>Average Registrations By Student</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent1.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationStudent1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent1.Parent" xml:space="preserve">
+    <value>tlpClassData1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 49</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue1.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationStudentValue1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue1.Parent" xml:space="preserve">
+    <value>tlpClassData1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 11</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.Text" xml:space="preserve">
+    <value>Average Registrations By Class</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass1.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationClass1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass1.Parent" xml:space="preserve">
+    <value>tlpClassData1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 11</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue1.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationClassValue1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue1.Parent" xml:space="preserve">
+    <value>tlpClassData1</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlblPercentEvasion1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblPercentEvasion1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPercentEvasion1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 87</value>
+  </data>
+  <data name="mlblPercentEvasion1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 15</value>
+  </data>
+  <data name="mlblPercentEvasion1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblPercentEvasion1.Text" xml:space="preserve">
+    <value>Evasion Percentage</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion1.Name" xml:space="preserve">
+    <value>mlblPercentEvasion1</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion1.Parent" xml:space="preserve">
+    <value>tlpClassData1</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mlblPercentEvasionValue1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mlblPercentEvasionValue1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPercentEvasionValue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 87</value>
+  </data>
+  <data name="mlblPercentEvasionValue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblPercentEvasionValue1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblPercentEvasionValue1.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue1.Name" xml:space="preserve">
+    <value>mlblPercentEvasionValue1</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue1.Parent" xml:space="preserve">
+    <value>tlpClassData1</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tlpClassData1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpClassData1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 87</value>
+  </data>
+  <data name="tlpClassData1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpClassData1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlpClassData1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 114</value>
+  </data>
+  <data name="tlpClassData1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData1.Name" xml:space="preserve">
+    <value>tlpClassData1</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpClassData1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblAvgRegistrationStudent1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblAvgRegistrationStudentValue1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblAvgRegistrationClass1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblAvgRegistrationClassValue1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblPercentEvasion1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblPercentEvasionValue1" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,61,68583,Percent,38,31417" /&gt;&lt;Rows Styles="Absolute,38,Absolute,38,Absolute,38,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpClassData2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 49</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.Text" xml:space="preserve">
+    <value>Average Registrations By Student</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent2.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationStudent2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent2.Parent" xml:space="preserve">
+    <value>tlpClassData2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudent2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 49</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblAvgRegistrationStudentValue2.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue2.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationStudentValue2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue2.Parent" xml:space="preserve">
+    <value>tlpClassData2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationStudentValue2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 11</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.Text" xml:space="preserve">
+    <value>Average Registrations By Class</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass2.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationClass2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass2.Parent" xml:space="preserve">
+    <value>tlpClassData2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClass2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 11</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblAvgRegistrationClassValue2.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue2.Name" xml:space="preserve">
+    <value>mlblAvgRegistrationClassValue2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue2.Parent" xml:space="preserve">
+    <value>tlpClassData2</value>
+  </data>
+  <data name="&gt;&gt;mlblAvgRegistrationClassValue2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlblPercentEvasion2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblPercentEvasion2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPercentEvasion2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 87</value>
+  </data>
+  <data name="mlblPercentEvasion2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 15</value>
+  </data>
+  <data name="mlblPercentEvasion2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblPercentEvasion2.Text" xml:space="preserve">
+    <value>Evasion Percentage</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion2.Name" xml:space="preserve">
+    <value>mlblPercentEvasion2</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion2.Parent" xml:space="preserve">
+    <value>tlpClassData2</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasion2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mlblPercentEvasionValue2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mlblPercentEvasionValue2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPercentEvasionValue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 87</value>
+  </data>
+  <data name="mlblPercentEvasionValue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblPercentEvasionValue2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblPercentEvasionValue2.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue2.Name" xml:space="preserve">
+    <value>mlblPercentEvasionValue2</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue2.Parent" xml:space="preserve">
+    <value>tlpClassData2</value>
+  </data>
+  <data name="&gt;&gt;mlblPercentEvasionValue2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tlpClassData2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpClassData2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 87</value>
+  </data>
+  <data name="tlpClassData2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpClassData2.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlpClassData2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 114</value>
+  </data>
+  <data name="tlpClassData2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData2.Name" xml:space="preserve">
+    <value>tlpClassData2</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;tlpClassData2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpClassData2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblAvgRegistrationStudent2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblAvgRegistrationStudentValue2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblAvgRegistrationClass2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblAvgRegistrationClassValue2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblPercentEvasion2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblPercentEvasionValue2" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,61,68583,Percent,38,31417" /&gt;&lt;Rows Styles="Absolute,38,Absolute,38,Absolute,38,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="scmA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 201</value>
+  </data>
+  <data name="scmA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmA2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 133</value>
+  </data>
+  <data name="scmA2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmA2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmA2.Name" xml:space="preserve">
+    <value>scmA2</value>
+  </data>
+  <data name="&gt;&gt;scmA2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmA2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmA2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="scmB2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 334</value>
+  </data>
+  <data name="scmB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmB2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 133</value>
+  </data>
+  <data name="scmB2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmB2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmB2.Name" xml:space="preserve">
+    <value>scmB2</value>
+  </data>
+  <data name="&gt;&gt;scmB2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmB2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmB2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="scmC2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmC2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 467</value>
+  </data>
+  <data name="scmC2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmC2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 133</value>
+  </data>
+  <data name="scmC2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmC2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmC2.Name" xml:space="preserve">
+    <value>scmC2</value>
+  </data>
+  <data name="&gt;&gt;scmC2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmC2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmC2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="scmD2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmD2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 600</value>
+  </data>
+  <data name="scmD2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmD2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmD2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 133</value>
+  </data>
+  <data name="scmD2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmD2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmD2.Name" xml:space="preserve">
+    <value>scmD2</value>
+  </data>
+  <data name="&gt;&gt;scmD2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmD2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmD2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="scmE2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmE2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 733</value>
+  </data>
+  <data name="scmE2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmE2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmE2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 133</value>
+  </data>
+  <data name="scmE2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmE2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmE2.Name" xml:space="preserve">
+    <value>scmE2</value>
+  </data>
+  <data name="&gt;&gt;scmE2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmE2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmE2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="scmF2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmF2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 866</value>
+  </data>
+  <data name="scmF2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmF2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmF2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 133</value>
+  </data>
+  <data name="scmF2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmF2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmF2.Name" xml:space="preserve">
+    <value>scmF2</value>
+  </data>
+  <data name="&gt;&gt;scmF2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmF2.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmF2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="scmA1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 201</value>
+  </data>
+  <data name="scmA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmA1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 133</value>
+  </data>
+  <data name="scmA1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmA1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmA1.Name" xml:space="preserve">
+    <value>scmA1</value>
+  </data>
+  <data name="&gt;&gt;scmA1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmA1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmA1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="scmB1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 334</value>
+  </data>
+  <data name="scmB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmB1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 133</value>
+  </data>
+  <data name="scmB1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmB1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmB1.Name" xml:space="preserve">
+    <value>scmB1</value>
+  </data>
+  <data name="&gt;&gt;scmB1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmB1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmB1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="scmC1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 467</value>
+  </data>
+  <data name="scmC1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmC1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 133</value>
+  </data>
+  <data name="scmC1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmC1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmC1.Name" xml:space="preserve">
+    <value>scmC1</value>
+  </data>
+  <data name="&gt;&gt;scmC1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmC1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmC1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="scmD1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmD1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 600</value>
+  </data>
+  <data name="scmD1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmD1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmD1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 133</value>
+  </data>
+  <data name="scmD1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmD1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmD1.Name" xml:space="preserve">
+    <value>scmD1</value>
+  </data>
+  <data name="&gt;&gt;scmD1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmD1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmD1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="scmE1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmE1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 733</value>
+  </data>
+  <data name="scmE1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmE1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmE1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 133</value>
+  </data>
+  <data name="scmE1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmE1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmE1.Name" xml:space="preserve">
+    <value>scmE1</value>
+  </data>
+  <data name="&gt;&gt;scmE1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmE1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmE1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="scmF1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scmF1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 866</value>
+  </data>
+  <data name="scmF1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="scmF1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="scmF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 133</value>
+  </data>
+  <data name="scmF1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="scmF1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scmF1.Name" xml:space="preserve">
+    <value>scmF1</value>
+  </data>
+  <data name="&gt;&gt;scmF1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsClassMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scmF1.Parent" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;scmF1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tlpClasses.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpClasses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpClasses.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpClasses.RowCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tlpClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 999</value>
+  </data>
+  <data name="tlpClasses.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpClasses.Name" xml:space="preserve">
+    <value>tlpClasses</value>
+  </data>
+  <data name="&gt;&gt;tlpClasses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpClasses.Parent" xml:space="preserve">
+    <value>pnClasses</value>
+  </data>
+  <data name="&gt;&gt;tlpClasses.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpClasses.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tlpClassIndicators2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tlpClassIndicators1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tlpClassData1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tlpClassData2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="scmA2" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="scmB2" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="scmC2" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="scmD2" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="scmE2" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="scmF2" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="scmA1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="scmB1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="scmC1" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="scmD1" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="scmE1" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="scmF1" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,364,Percent,100" /&gt;&lt;Rows Styles="Absolute,87,Absolute,114,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="pnClasses.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnClasses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnClasses.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 1288</value>
+  </data>
+  <data name="pnClasses.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnClasses.Name" xml:space="preserve">
+    <value>pnClasses</value>
+  </data>
+  <data name="&gt;&gt;pnClasses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnClasses.Parent" xml:space="preserve">
+    <value>tbClasses</value>
+  </data>
+  <data name="&gt;&gt;pnClasses.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbClasses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tbClasses.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tbClasses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 1288</value>
+  </data>
+  <data name="tbClasses.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbClasses.Text" xml:space="preserve">
+    <value>Classes</value>
+  </data>
+  <data name="&gt;&gt;tbClasses.Name" xml:space="preserve">
+    <value>tbClasses</value>
+  </data>
+  <data name="&gt;&gt;tbClasses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbClasses.Parent" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;tbClasses.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnAttendance.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpAttendance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpAttendance.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="icAttendance2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icAttendance2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="icAttendance2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icAttendance2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icAttendance2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icAttendance2.Name" xml:space="preserve">
+    <value>icAttendance2</value>
+  </data>
+  <data name="&gt;&gt;icAttendance2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icAttendance2.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icAttendance2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="icCountPresence2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icCountPresence2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 7</value>
+  </data>
+  <data name="icCountPresence2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icCountPresence2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icCountPresence2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence2.Name" xml:space="preserve">
+    <value>icCountPresence2</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence2.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icCountAbsence2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icCountAbsence2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 7</value>
+  </data>
+  <data name="icCountAbsence2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icCountAbsence2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icCountAbsence2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence2.Name" xml:space="preserve">
+    <value>icCountAbsence2</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence2.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="icCounOtherRollCall2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icCounOtherRollCall2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 7</value>
+  </data>
+  <data name="icCounOtherRollCall2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icCounOtherRollCall2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 73</value>
+  </data>
+  <data name="icCounOtherRollCall2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall2.Name" xml:space="preserve">
+    <value>icCounOtherRollCall2</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall2.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 0</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 87</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators2.Name" xml:space="preserve">
+    <value>tlpAttendanceIndicators2</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators2.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpAttendanceIndicators2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="icAttendance2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="icCountPresence2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="icCountAbsence2" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="icCounOtherRollCall2" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,7" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="icAttendance1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icAttendance1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="icAttendance1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icAttendance1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icAttendance1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icAttendance1.Name" xml:space="preserve">
+    <value>icAttendance1</value>
+  </data>
+  <data name="&gt;&gt;icAttendance1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icAttendance1.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icAttendance1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="icCountPresence1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icCountPresence1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 7</value>
+  </data>
+  <data name="icCountPresence1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icCountPresence1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icCountPresence1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence1.Name" xml:space="preserve">
+    <value>icCountPresence1</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence1.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icCountPresence1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icCountAbsence1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icCountAbsence1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 7</value>
+  </data>
+  <data name="icCountAbsence1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icCountAbsence1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icCountAbsence1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence1.Name" xml:space="preserve">
+    <value>icCountAbsence1</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence1.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icCountAbsence1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="icCounOtherRollCall1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icCounOtherRollCall1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 7</value>
+  </data>
+  <data name="icCounOtherRollCall1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icCounOtherRollCall1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icCounOtherRollCall1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall1.Name" xml:space="preserve">
+    <value>icCounOtherRollCall1</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall1.Parent" xml:space="preserve">
+    <value>tlpAttendanceIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icCounOtherRollCall1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 87</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators1.Name" xml:space="preserve">
+    <value>tlpAttendanceIndicators1</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators1.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendanceIndicators1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpAttendanceIndicators1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="icAttendance1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="icCountPresence1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="icCountAbsence1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="icCounOtherRollCall1" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,8" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="samA1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 87</value>
+  </data>
+  <data name="samA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samA1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 171</value>
+  </data>
+  <data name="samA1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samA1.Name" xml:space="preserve">
+    <value>samA1</value>
+  </data>
+  <data name="&gt;&gt;samA1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samA1.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samA1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="samB1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 258</value>
+  </data>
+  <data name="samB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samB1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 171</value>
+  </data>
+  <data name="samB1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samB1.Name" xml:space="preserve">
+    <value>samB1</value>
+  </data>
+  <data name="&gt;&gt;samB1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samB1.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samB1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="samC1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 429</value>
+  </data>
+  <data name="samC1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samC1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 171</value>
+  </data>
+  <data name="samC1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samC1.Name" xml:space="preserve">
+    <value>samC1</value>
+  </data>
+  <data name="&gt;&gt;samC1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samC1.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samC1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="samD1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samD1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 600</value>
+  </data>
+  <data name="samD1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samD1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samD1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 171</value>
+  </data>
+  <data name="samD1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samD1.Name" xml:space="preserve">
+    <value>samD1</value>
+  </data>
+  <data name="&gt;&gt;samD1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samD1.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samD1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="samE1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samE1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 771</value>
+  </data>
+  <data name="samE1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samE1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samE1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 171</value>
+  </data>
+  <data name="samE1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samE1.Name" xml:space="preserve">
+    <value>samE1</value>
+  </data>
+  <data name="&gt;&gt;samE1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samE1.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samE1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="samF1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samF1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 942</value>
+  </data>
+  <data name="samF1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samF1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 171</value>
+  </data>
+  <data name="samF1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samF1.Name" xml:space="preserve">
+    <value>samF1</value>
+  </data>
+  <data name="&gt;&gt;samF1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samF1.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samF1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="samA2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 87</value>
+  </data>
+  <data name="samA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samA2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 171</value>
+  </data>
+  <data name="samA2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samA2.Name" xml:space="preserve">
+    <value>samA2</value>
+  </data>
+  <data name="&gt;&gt;samA2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samA2.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samA2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="samB2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 258</value>
+  </data>
+  <data name="samB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samB2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 171</value>
+  </data>
+  <data name="samB2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samB2.Name" xml:space="preserve">
+    <value>samB2</value>
+  </data>
+  <data name="&gt;&gt;samB2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samB2.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samB2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="samC2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samC2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 429</value>
+  </data>
+  <data name="samC2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samC2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 171</value>
+  </data>
+  <data name="samC2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samC2.Name" xml:space="preserve">
+    <value>samC2</value>
+  </data>
+  <data name="&gt;&gt;samC2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samC2.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samC2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="samD2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samD2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 600</value>
+  </data>
+  <data name="samD2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samD2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samD2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 171</value>
+  </data>
+  <data name="samD2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samD2.Name" xml:space="preserve">
+    <value>samD2</value>
+  </data>
+  <data name="&gt;&gt;samD2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samD2.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samD2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="samE2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samE2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 771</value>
+  </data>
+  <data name="samE2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samE2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samE2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 171</value>
+  </data>
+  <data name="samE2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samE2.Name" xml:space="preserve">
+    <value>samE2</value>
+  </data>
+  <data name="&gt;&gt;samE2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samE2.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samE2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="samF2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="samF2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 942</value>
+  </data>
+  <data name="samF2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="samF2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 171</value>
+  </data>
+  <data name="samF2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 171</value>
+  </data>
+  <data name="samF2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;samF2.Name" xml:space="preserve">
+    <value>samF2</value>
+  </data>
+  <data name="&gt;&gt;samF2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;samF2.Parent" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;samF2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tlpAttendance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpAttendance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpAttendance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpAttendance.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tlpAttendance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 1113</value>
+  </data>
+  <data name="tlpAttendance.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendance.Name" xml:space="preserve">
+    <value>tlpAttendance</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendance.Parent" xml:space="preserve">
+    <value>pnAttendance</value>
+  </data>
+  <data name="&gt;&gt;tlpAttendance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpAttendance.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tlpAttendanceIndicators2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tlpAttendanceIndicators1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="samA1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="samB1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="samC1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="samD1" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="samE1" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="samF1" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="samA2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="samB2" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="samC2" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="samD2" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="samE2" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="samF2" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,364,Percent,100" /&gt;&lt;Rows Styles="Absolute,87,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="pnAttendance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnAttendance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnAttendance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnAttendance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 1288</value>
+  </data>
+  <data name="pnAttendance.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnAttendance.Name" xml:space="preserve">
+    <value>pnAttendance</value>
+  </data>
+  <data name="&gt;&gt;pnAttendance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnAttendance.Parent" xml:space="preserve">
+    <value>tbAttendance</value>
+  </data>
+  <data name="&gt;&gt;pnAttendance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbAttendance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tbAttendance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 1288</value>
+  </data>
+  <data name="tbAttendance.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbAttendance.Text" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="&gt;&gt;tbAttendance.Name" xml:space="preserve">
+    <value>tbAttendance</value>
+  </data>
+  <data name="&gt;&gt;tbAttendance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAttendance.Parent" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;tbAttendance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnGrades.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpGrades.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpGrades.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpGradeIndicators2.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="icMeanGrade2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icMeanGrade2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="icMeanGrade2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icMeanGrade2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 73</value>
+  </data>
+  <data name="icMeanGrade2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade2.Name" xml:space="preserve">
+    <value>icMeanGrade2</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade2.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="icDisciplineGrade2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icDisciplineGrade2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 7</value>
+  </data>
+  <data name="icDisciplineGrade2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icDisciplineGrade2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 73</value>
+  </data>
+  <data name="icDisciplineGrade2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade2.Name" xml:space="preserve">
+    <value>icDisciplineGrade2</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade2.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icPerformanceGrade2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icPerformanceGrade2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 7</value>
+  </data>
+  <data name="icPerformanceGrade2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icPerformanceGrade2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 73</value>
+  </data>
+  <data name="icPerformanceGrade2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade2.Name" xml:space="preserve">
+    <value>icPerformanceGrade2</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade2.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="icDedicationGrade2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icDedicationGrade2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 7</value>
+  </data>
+  <data name="icDedicationGrade2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icDedicationGrade2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 73</value>
+  </data>
+  <data name="icDedicationGrade2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade2.Name" xml:space="preserve">
+    <value>icDedicationGrade2</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade2.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators2</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpGradeIndicators2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpGradeIndicators2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 0</value>
+  </data>
+  <data name="tlpGradeIndicators2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpGradeIndicators2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpGradeIndicators2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 87</value>
+  </data>
+  <data name="tlpGradeIndicators2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators2.Name" xml:space="preserve">
+    <value>tlpGradeIndicators2</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators2.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpGradeIndicators2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="icMeanGrade2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="icDisciplineGrade2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="icPerformanceGrade2" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="icDedicationGrade2" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,7" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpGradeIndicators1.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="icMeanGrade1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icMeanGrade1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="icMeanGrade1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icMeanGrade1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icMeanGrade1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade1.Name" xml:space="preserve">
+    <value>icMeanGrade1</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade1.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icMeanGrade1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="icDisciplineGrade1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icDisciplineGrade1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 7</value>
+  </data>
+  <data name="icDisciplineGrade1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icDisciplineGrade1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icDisciplineGrade1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade1.Name" xml:space="preserve">
+    <value>icDisciplineGrade1</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade1.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icDisciplineGrade1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icPerformanceGrade1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icPerformanceGrade1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 7</value>
+  </data>
+  <data name="icPerformanceGrade1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icPerformanceGrade1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icPerformanceGrade1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade1.Name" xml:space="preserve">
+    <value>icPerformanceGrade1</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade1.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icPerformanceGrade1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="icDedicationGrade1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="icDedicationGrade1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 7</value>
+  </data>
+  <data name="icDedicationGrade1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 0, 7</value>
+  </data>
+  <data name="icDedicationGrade1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 73</value>
+  </data>
+  <data name="icDedicationGrade1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade1.Name" xml:space="preserve">
+    <value>icDedicationGrade1</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.IndicatorControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade1.Parent" xml:space="preserve">
+    <value>tlpGradeIndicators1</value>
+  </data>
+  <data name="&gt;&gt;icDedicationGrade1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpGradeIndicators1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpGradeIndicators1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpGradeIndicators1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpGradeIndicators1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpGradeIndicators1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 87</value>
+  </data>
+  <data name="tlpGradeIndicators1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators1.Name" xml:space="preserve">
+    <value>tlpGradeIndicators1</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators1.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeIndicators1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpGradeIndicators1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="icMeanGrade1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="icDisciplineGrade1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="icPerformanceGrade1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="icDedicationGrade1" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25,Absolute,8" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="sgmA1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 87</value>
+  </data>
+  <data name="sgmA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmA1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="sgmA1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sgmA1.Name" xml:space="preserve">
+    <value>sgmA1</value>
+  </data>
+  <data name="&gt;&gt;sgmA1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmA1.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmA1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sgmB1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 296</value>
+  </data>
+  <data name="sgmB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmB1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="sgmB1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sgmB1.Name" xml:space="preserve">
+    <value>sgmB1</value>
+  </data>
+  <data name="&gt;&gt;sgmB1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmB1.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmB1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="sgmC1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 505</value>
+  </data>
+  <data name="sgmC1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmC1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="sgmC1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sgmC1.Name" xml:space="preserve">
+    <value>sgmC1</value>
+  </data>
+  <data name="&gt;&gt;sgmC1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmC1.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmC1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="sgmD1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmD1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 714</value>
+  </data>
+  <data name="sgmD1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmD1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmD1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="sgmD1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sgmD1.Name" xml:space="preserve">
+    <value>sgmD1</value>
+  </data>
+  <data name="&gt;&gt;sgmD1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmD1.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmD1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="sgmE1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmE1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 923</value>
+  </data>
+  <data name="sgmE1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmE1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmE1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="sgmE1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sgmE1.Name" xml:space="preserve">
+    <value>sgmE1</value>
+  </data>
+  <data name="&gt;&gt;sgmE1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmE1.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmE1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="sgmF1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmF1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1132</value>
+  </data>
+  <data name="sgmF1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmF1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmF1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="sgmF1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sgmF1.Name" xml:space="preserve">
+    <value>sgmF1</value>
+  </data>
+  <data name="&gt;&gt;sgmF1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmF1.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmF1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="sgmA2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 87</value>
+  </data>
+  <data name="sgmA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmA2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 209</value>
+  </data>
+  <data name="sgmA2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sgmA2.Name" xml:space="preserve">
+    <value>sgmA2</value>
+  </data>
+  <data name="&gt;&gt;sgmA2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmA2.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmA2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="sgmB2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 296</value>
+  </data>
+  <data name="sgmB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmB2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 209</value>
+  </data>
+  <data name="sgmB2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sgmB2.Name" xml:space="preserve">
+    <value>sgmB2</value>
+  </data>
+  <data name="&gt;&gt;sgmB2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmB2.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmB2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="sgmC2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmC2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 505</value>
+  </data>
+  <data name="sgmC2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmC2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 209</value>
+  </data>
+  <data name="sgmC2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sgmC2.Name" xml:space="preserve">
+    <value>sgmC2</value>
+  </data>
+  <data name="&gt;&gt;sgmC2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmC2.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmC2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="sgmD2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmD2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 714</value>
+  </data>
+  <data name="sgmD2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmD2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmD2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 209</value>
+  </data>
+  <data name="sgmD2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sgmD2.Name" xml:space="preserve">
+    <value>sgmD2</value>
+  </data>
+  <data name="&gt;&gt;sgmD2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmD2.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmD2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="sgmE2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmE2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 923</value>
+  </data>
+  <data name="sgmE2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmE2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmE2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 209</value>
+  </data>
+  <data name="sgmE2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sgmE2.Name" xml:space="preserve">
+    <value>sgmE2</value>
+  </data>
+  <data name="&gt;&gt;sgmE2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmE2.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmE2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="sgmF2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sgmF2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 1132</value>
+  </data>
+  <data name="sgmF2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sgmF2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="sgmF2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 209</value>
+  </data>
+  <data name="sgmF2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sgmF2.Name" xml:space="preserve">
+    <value>sgmF2</value>
+  </data>
+  <data name="&gt;&gt;sgmF2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.StatisticsGradeMonthControl, SongClient, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sgmF2.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;sgmF2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tlpGrades.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpGrades.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpGrades.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tlpGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>726, 1341</value>
+  </data>
+  <data name="tlpGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Name" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Parent" xml:space="preserve">
+    <value>pnGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpGrades.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tlpGradeIndicators2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tlpGradeIndicators1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sgmA1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sgmB1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sgmC1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sgmD1" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sgmE1" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sgmF1" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sgmA2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="sgmB2" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="sgmC2" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="sgmD2" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="sgmE2" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="sgmF2" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,364,Percent,100" /&gt;&lt;Rows Styles="Absolute,87,Absolute,209,Absolute,209,Absolute,209,Absolute,209,Absolute,209,Absolute,209" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="pnGrades.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnGrades.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 1288</value>
+  </data>
+  <data name="pnGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnGrades.Name" xml:space="preserve">
+    <value>pnGrades</value>
+  </data>
+  <data name="&gt;&gt;pnGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnGrades.Parent" xml:space="preserve">
+    <value>tbGrades</value>
+  </data>
+  <data name="&gt;&gt;pnGrades.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tbGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 1288</value>
+  </data>
+  <data name="tbGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbGrades.Text" xml:space="preserve">
+    <value>Student Grades</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.Name" xml:space="preserve">
+    <value>tbGrades</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.Parent" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mtbTabManager.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mtbTabManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 224</value>
+  </data>
+  <data name="mtbTabManager.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mtbTabManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>751, 1330</value>
+  </data>
+  <data name="mtbTabManager.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.Name" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpFilters1.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mlblSet1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblSet1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 8</value>
+  </data>
+  <data name="mlblSet1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>19, 8, 12, 0</value>
+  </data>
+  <data name="mlblSet1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 19</value>
+  </data>
+  <data name="mlblSet1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mlblSet1.Text" xml:space="preserve">
+    <value>Set 1</value>
+  </data>
+  <data name="&gt;&gt;mlblSet1.Name" xml:space="preserve">
+    <value>mlblSet1</value>
+  </data>
+  <data name="&gt;&gt;mlblSet1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblSet1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mlblSet1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblSemester1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblSemester1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblSemester1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 11</value>
+  </data>
+  <data name="mlblSemester1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 6, 0</value>
+  </data>
+  <data name="mlblSemester1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="mlblSemester1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mlblSemester1.Text" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="mlblSemester1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester1.Name" xml:space="preserve">
+    <value>mlblSemester1</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mcbSemester1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbSemester1.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbSemester1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 6</value>
+  </data>
+  <data name="mcbSemester1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbSemester1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbSemester1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester1.Name" xml:space="preserve">
+    <value>mcbSemester1</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblInstitution1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblInstitution1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblInstitution1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 49</value>
+  </data>
+  <data name="mlblInstitution1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 6, 0</value>
+  </data>
+  <data name="mlblInstitution1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 15</value>
+  </data>
+  <data name="mlblInstitution1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mlblInstitution1.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="mlblInstitution1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution1.Name" xml:space="preserve">
+    <value>mlblInstitution1</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mcbInstitution1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbInstitution1.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbInstitution1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 44</value>
+  </data>
+  <data name="mcbInstitution1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbInstitution1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbInstitution1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution1.Name" xml:space="preserve">
+    <value>mcbInstitution1</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mlblPole1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblPole1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPole1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 87</value>
+  </data>
+  <data name="mlblPole1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 6, 0</value>
+  </data>
+  <data name="mlblPole1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 15</value>
+  </data>
+  <data name="mlblPole1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="mlblPole1.Text" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="mlblPole1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblPole1.Name" xml:space="preserve">
+    <value>mlblPole1</value>
+  </data>
+  <data name="&gt;&gt;mlblPole1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPole1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mlblPole1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mcbPole1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbPole1.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbPole1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 82</value>
+  </data>
+  <data name="mcbPole1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbPole1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbPole1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;mcbPole1.Name" xml:space="preserve">
+    <value>mcbPole1</value>
+  </data>
+  <data name="&gt;&gt;mcbPole1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbPole1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mcbPole1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mlblTeacher1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblTeacher1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblTeacher1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 125</value>
+  </data>
+  <data name="mlblTeacher1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 6, 0</value>
+  </data>
+  <data name="mlblTeacher1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="mlblTeacher1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="mlblTeacher1.Text" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="mlblTeacher1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher1.Name" xml:space="preserve">
+    <value>mlblTeacher1</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mcbTeacher1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbTeacher1.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbTeacher1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 120</value>
+  </data>
+  <data name="mcbTeacher1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbTeacher1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbTeacher1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher1.Name" xml:space="preserve">
+    <value>mcbTeacher1</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mlblClass1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblClass1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblClass1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 163</value>
+  </data>
+  <data name="mlblClass1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 6, 0</value>
+  </data>
+  <data name="mlblClass1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 15</value>
+  </data>
+  <data name="mlblClass1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="mlblClass1.Text" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="mlblClass1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblClass1.Name" xml:space="preserve">
+    <value>mlblClass1</value>
+  </data>
+  <data name="&gt;&gt;mlblClass1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblClass1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mlblClass1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mcbClass1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbClass1.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbClass1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 158</value>
+  </data>
+  <data name="mcbClass1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbClass1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbClass1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;mcbClass1.Name" xml:space="preserve">
+    <value>mcbClass1</value>
+  </data>
+  <data name="&gt;&gt;mcbClass1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbClass1.Parent" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;mcbClass1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tlpFilters1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpFilters1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 34</value>
+  </data>
+  <data name="tlpFilters1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpFilters1.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tlpFilters1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 190</value>
+  </data>
+  <data name="tlpFilters1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters1.Name" xml:space="preserve">
+    <value>tlpFilters1</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters1.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpFilters1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblSet1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblSemester1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mcbSemester1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="mlblInstitution1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mcbInstitution1" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="mlblPole1" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mcbPole1" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="mlblTeacher1" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mcbTeacher1" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="mlblClass1" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mcbClass1" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,27,80269,Percent,72,19731" /&gt;&lt;Rows Styles="Absolute,38,Absolute,38,Absolute,38,Absolute,38,Absolute,38" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpBaseFilters2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mcbEnableSet2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mcbEnableSet2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="mcbEnableSet2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 8, 12, 0</value>
+  </data>
+  <data name="mcbEnableSet2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 19</value>
+  </data>
+  <data name="mcbEnableSet2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mcbEnableSet2.Text" xml:space="preserve">
+    <value>Set 2</value>
+  </data>
+  <data name="&gt;&gt;mcbEnableSet2.Name" xml:space="preserve">
+    <value>mcbEnableSet2</value>
+  </data>
+  <data name="&gt;&gt;mcbEnableSet2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbEnableSet2.Parent" xml:space="preserve">
+    <value>tlpBaseFilters2</value>
+  </data>
+  <data name="&gt;&gt;mcbEnableSet2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpFilters2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblSemester2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblSemester2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblSemester2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 11</value>
+  </data>
+  <data name="mlblSemester2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 6, 0</value>
+  </data>
+  <data name="mlblSemester2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="mlblSemester2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mlblSemester2.Text" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="mlblSemester2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester2.Name" xml:space="preserve">
+    <value>mlblSemester2</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mlblSemester2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mcbSemester2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbSemester2.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbSemester2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 6</value>
+  </data>
+  <data name="mcbSemester2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbSemester2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbSemester2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester2.Name" xml:space="preserve">
+    <value>mcbSemester2</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mcbSemester2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblInstitution2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblInstitution2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblInstitution2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 49</value>
+  </data>
+  <data name="mlblInstitution2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 6, 0</value>
+  </data>
+  <data name="mlblInstitution2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 15</value>
+  </data>
+  <data name="mlblInstitution2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mlblInstitution2.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="mlblInstitution2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution2.Name" xml:space="preserve">
+    <value>mlblInstitution2</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mcbInstitution2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbInstitution2.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbInstitution2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 44</value>
+  </data>
+  <data name="mcbInstitution2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbInstitution2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbInstitution2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution2.Name" xml:space="preserve">
+    <value>mcbInstitution2</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlblPole2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblPole2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPole2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 87</value>
+  </data>
+  <data name="mlblPole2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 6, 0</value>
+  </data>
+  <data name="mlblPole2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 15</value>
+  </data>
+  <data name="mlblPole2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="mlblPole2.Text" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="mlblPole2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblPole2.Name" xml:space="preserve">
+    <value>mlblPole2</value>
+  </data>
+  <data name="&gt;&gt;mlblPole2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPole2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mlblPole2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mcbPole2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbPole2.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbPole2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 82</value>
+  </data>
+  <data name="mcbPole2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbPole2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbPole2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;mcbPole2.Name" xml:space="preserve">
+    <value>mcbPole2</value>
+  </data>
+  <data name="&gt;&gt;mcbPole2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbPole2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mcbPole2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mlblTeacher2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblTeacher2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblTeacher2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 125</value>
+  </data>
+  <data name="mlblTeacher2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 6, 0</value>
+  </data>
+  <data name="mlblTeacher2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="mlblTeacher2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="mlblTeacher2.Text" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="mlblTeacher2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher2.Name" xml:space="preserve">
+    <value>mlblTeacher2</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mlblTeacher2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mcbTeacher2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbTeacher2.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbTeacher2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 120</value>
+  </data>
+  <data name="mcbTeacher2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbTeacher2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbTeacher2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher2.Name" xml:space="preserve">
+    <value>mcbTeacher2</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mcbTeacher2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mcbClass2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mcbClass2.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbClass2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 158</value>
+  </data>
+  <data name="mcbClass2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mcbClass2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbClass2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;mcbClass2.Name" xml:space="preserve">
+    <value>mcbClass2</value>
+  </data>
+  <data name="&gt;&gt;mcbClass2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbClass2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mcbClass2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mlblClass2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblClass2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblClass2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 163</value>
+  </data>
+  <data name="mlblClass2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 6, 0</value>
+  </data>
+  <data name="mlblClass2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 15</value>
+  </data>
+  <data name="mlblClass2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="mlblClass2.Text" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="mlblClass2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblClass2.Name" xml:space="preserve">
+    <value>mlblClass2</value>
+  </data>
+  <data name="&gt;&gt;mlblClass2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblClass2.Parent" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;mlblClass2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tlpFilters2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 0</value>
+  </data>
+  <data name="tlpFilters2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpFilters2.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tlpFilters2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 190</value>
+  </data>
+  <data name="tlpFilters2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters2.Name" xml:space="preserve">
+    <value>tlpFilters2</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters2.Parent" xml:space="preserve">
+    <value>tlpBaseFilters2</value>
+  </data>
+  <data name="&gt;&gt;tlpFilters2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpFilters2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblSemester2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mcbSemester2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblInstitution2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mcbInstitution2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblPole2" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mcbPole2" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblTeacher2" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mcbTeacher2" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mcbClass2" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblClass2" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,27,80269,Percent,72,19731,Absolute,20" /&gt;&lt;Rows Styles="Absolute,38,Absolute,38,Absolute,38,Absolute,38,Absolute,38" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpBaseFilters2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpBaseFilters2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 34</value>
+  </data>
+  <data name="tlpBaseFilters2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpBaseFilters2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpBaseFilters2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 190</value>
+  </data>
+  <data name="tlpBaseFilters2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tlpBaseFilters2.Name" xml:space="preserve">
+    <value>tlpBaseFilters2</value>
+  </data>
+  <data name="&gt;&gt;tlpBaseFilters2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpBaseFilters2.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpBaseFilters2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tlpBaseFilters2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mcbEnableSet2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tlpFilters2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpMain.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tlpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1554</value>
+  </data>
+  <data name="tlpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Name" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblStatistics" Row="0" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="mtbTabManager" Row="2" RowSpan="1" Column="2" ColumnSpan="3" /&gt;&lt;Control Name="tlpFilters1" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="tlpBaseFilters2" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,3,Absolute,368,Absolute,368,Absolute,15,Percent,50" /&gt;&lt;Rows Styles="Absolute,34,Absolute,190,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1554</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StatisticsControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

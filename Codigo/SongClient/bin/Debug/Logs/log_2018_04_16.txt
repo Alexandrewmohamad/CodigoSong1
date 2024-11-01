@@ -1,0 +1,402 @@
+14:01:01.148 - Song Client 1.0.0.0
+14:01:01.358 - Inicializando aplicativo...
+14:01:02.797 - Application was started.
+14:01:02.811 - Starting web service manager...
+14:01:02.873 - Web service manager was started and is running.
+14:01:02.913 - Web service connection was closed.
+14:01:02.917 - Connecting to web service at http://localhost:4436/SongService.svc...
+14:01:27.031 - Application is connected to web service.
+14:01:34.887 - Erro interno no web service ao fazer logon de usuário.
+Entre em contato com o suporte. Timeout in IO operation
+14:02:11.318 - Liberando recursos e fechando aplicativo...
+14:05:37.240 - Song Client 1.0.0.0
+14:05:37.519 - Inicializando aplicativo...
+14:05:38.844 - Application was started.
+14:05:38.853 - Starting web service manager...
+14:05:38.897 - Web service manager was started and is running.
+14:05:38.987 - Web service connection was closed.
+14:05:38.990 - Connecting to web service at http://localhost:4436/SongService.svc...
+14:05:41.501 - Application is connected to web service.
+14:05:50.442 - Liberando recursos e fechando aplicativo...
+14:11:01.190 - Song Client 1.0.0.0
+14:11:01.437 - Inicializando aplicativo...
+14:11:02.698 - Application was started.
+14:11:02.705 - Starting web service manager...
+14:11:02.720 - Web service manager was started and is running.
+14:11:02.777 - Web service connection was closed.
+14:11:03.304 - Connecting to web service at http://localhost:4436/SongService.svc...
+14:11:05.803 - Application is connected to web service.
+14:13:22.707 - Liberando recursos e fechando aplicativo...
+14:13:58.761 - Song Client 1.0.0.0
+14:13:58.995 - Inicializando aplicativo...
+14:14:00.222 - Application was started.
+14:14:00.231 - Starting web service manager...
+14:14:00.244 - Web service manager was started and is running.
+14:14:00.260 - Web service connection was closed.
+14:14:00.263 - Connecting to web service at http://localhost:4436/SongService.svc...
+14:14:05.950 - Application is connected to web service.
+14:14:09.264 - Liberando recursos e fechando aplicativo...
+15:20:04.658 - Song Client 1.0.0.0
+15:20:04.886 - Inicializando aplicativo...
+15:20:06.131 - Application was started.
+15:20:06.141 - Starting web service manager...
+15:20:06.151 - Web service manager was started and is running.
+15:20:06.180 - Web service connection was closed.
+15:20:06.183 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:20:14.097 - Could not connect to web service.
+15:20:14.098 - Unexpected error while connecting to web service. 
+15:20:14.098 - The requested service, 'http://localhost:4436/SongService.svc' could not be activated. See the server's diagnostic trace logs for more information.
+15:20:14.107 - System.ServiceModel.ServiceActivationException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GetData(Int32 value)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 471
+15:20:14.148 - Web service connection was closed.
+15:20:24.151 - Web service connection was closed.
+15:20:24.151 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:20:24.269 - Could not connect to web service.
+15:20:24.269 - Unexpected error while connecting to web service. 
+15:20:24.269 - The requested service, 'http://localhost:4436/SongService.svc' could not be activated. See the server's diagnostic trace logs for more information.
+15:20:24.270 - System.ServiceModel.ServiceActivationException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GetData(Int32 value)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 471
+15:20:24.270 - Web service connection was closed.
+15:20:34.270 - Web service connection was closed.
+15:20:34.270 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:20:34.403 - Could not connect to web service.
+15:20:34.403 - Unexpected error while connecting to web service. 
+15:20:34.403 - The requested service, 'http://localhost:4436/SongService.svc' could not be activated. See the server's diagnostic trace logs for more information.
+15:20:34.403 - System.ServiceModel.ServiceActivationException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GetData(Int32 value)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 471
+15:20:34.403 - Web service connection was closed.
+15:20:44.406 - Web service connection was closed.
+15:20:44.406 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:20:44.526 - Could not connect to web service.
+15:20:44.526 - Unexpected error while connecting to web service. 
+15:20:44.526 - The requested service, 'http://localhost:4436/SongService.svc' could not be activated. See the server's diagnostic trace logs for more information.
+15:20:44.526 - System.ServiceModel.ServiceActivationException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GetData(Int32 value)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 471
+15:20:44.526 - Web service connection was closed.
+15:20:54.530 - Web service connection was closed.
+15:20:54.530 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:20:54.662 - Could not connect to web service.
+15:20:54.662 - Unexpected error while connecting to web service. 
+15:20:54.662 - The requested service, 'http://localhost:4436/SongService.svc' could not be activated. See the server's diagnostic trace logs for more information.
+15:20:54.663 - System.ServiceModel.ServiceActivationException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GetData(Int32 value)
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 471
+15:20:54.663 - Web service connection was closed.
+15:20:56.781 - Liberando recursos e fechando aplicativo...
+15:21:08.153 - Song Client 1.0.0.0
+15:21:08.385 - Inicializando aplicativo...
+15:21:09.692 - Application was started.
+15:21:09.703 - Starting web service manager...
+15:21:09.712 - Web service manager was started and is running.
+15:21:09.731 - Web service connection was closed.
+15:21:09.736 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:21:14.975 - Application is connected to web service.
+15:25:09.711 - Liberando recursos e fechando aplicativo...
+15:25:21.053 - Song Client 1.0.0.0
+15:25:21.298 - Inicializando aplicativo...
+15:25:22.648 - Application was started.
+15:25:22.657 - Starting web service manager...
+15:25:22.682 - Web service manager was started and is running.
+15:25:22.683 - Web service connection was closed.
+15:25:22.689 - Connecting to web service at http://localhost/SongService.svc...
+15:25:25.353 - Could not connect to web service.
+15:25:25.353 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:25:25.396 - Web service connection was closed.
+15:25:35.398 - Web service connection was closed.
+15:25:35.398 - Connecting to web service at http://localhost/SongService.svc...
+15:25:35.463 - Could not connect to web service.
+15:25:35.463 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:25:35.464 - Web service connection was closed.
+15:25:45.464 - Web service connection was closed.
+15:25:45.464 - Connecting to web service at http://localhost/SongService.svc...
+15:25:45.543 - Could not connect to web service.
+15:25:45.543 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:25:45.543 - Web service connection was closed.
+15:25:55.544 - Web service connection was closed.
+15:25:55.544 - Connecting to web service at http://localhost/SongService.svc...
+15:25:55.613 - Could not connect to web service.
+15:25:55.613 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:25:55.613 - Web service connection was closed.
+15:26:05.613 - Web service connection was closed.
+15:26:05.613 - Connecting to web service at http://localhost/SongService.svc...
+15:26:05.692 - Could not connect to web service.
+15:26:05.692 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:26:05.693 - Web service connection was closed.
+15:26:15.694 - Web service connection was closed.
+15:26:15.694 - Connecting to web service at http://localhost/SongService.svc...
+15:26:15.759 - Could not connect to web service.
+15:26:15.759 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:26:15.759 - Web service connection was closed.
+15:26:20.866 - Liberando recursos e fechando aplicativo...
+15:26:30.841 - Song Client 1.0.0.0
+15:26:31.056 - Inicializando aplicativo...
+15:26:32.232 - Application was started.
+15:26:32.239 - Starting web service manager...
+15:26:32.249 - Web service manager was started and is running.
+15:26:32.261 - Web service connection was closed.
+15:26:32.265 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:26:34.884 - Application is connected to web service.
+15:26:38.769 - Liberando recursos e fechando aplicativo...
+15:28:52.034 - Song Client 1.0.0.0
+15:28:52.249 - Inicializando aplicativo...
+15:28:53.419 - Application was started.
+15:28:53.429 - Starting web service manager...
+15:28:53.439 - Web service manager was started and is running.
+15:28:53.450 - Web service connection was closed.
+15:28:53.453 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:28:56.083 - Application is connected to web service.
+15:29:09.452 - Liberando recursos e fechando aplicativo...
+15:29:18.361 - Song Client 1.0.0.0
+15:29:18.605 - Inicializando aplicativo...
+15:29:19.735 - Application was started.
+15:29:19.742 - Starting web service manager...
+15:29:19.765 - Web service manager was started and is running.
+15:29:19.833 - Web service connection was closed.
+15:29:19.838 - Connecting to web service at http://localhost/SongService.svc...
+15:29:21.907 - Could not connect to web service.
+15:29:21.907 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:29:21.949 - Web service connection was closed.
+15:29:31.951 - Web service connection was closed.
+15:29:31.951 - Connecting to web service at http://localhost/SongService.svc...
+15:29:32.019 - Could not connect to web service.
+15:29:32.019 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:29:32.020 - Web service connection was closed.
+15:29:42.021 - Web service connection was closed.
+15:29:42.021 - Connecting to web service at http://localhost/SongService.svc...
+15:29:42.101 - Could not connect to web service.
+15:29:42.101 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:29:42.101 - Web service connection was closed.
+15:29:52.102 - Web service connection was closed.
+15:29:52.102 - Connecting to web service at http://localhost/SongService.svc...
+15:29:52.169 - Could not connect to web service.
+15:29:52.169 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:29:52.169 - Web service connection was closed.
+15:30:02.170 - Web service connection was closed.
+15:30:02.170 - Connecting to web service at http://localhost/SongService.svc...
+15:30:02.253 - Could not connect to web service.
+15:30:02.253 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:30:02.253 - Web service connection was closed.
+15:30:12.253 - Web service connection was closed.
+15:30:12.253 - Connecting to web service at http://localhost/SongService.svc...
+15:30:12.316 - Could not connect to web service.
+15:30:12.316 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:30:12.316 - Web service connection was closed.
+15:30:22.318 - Web service connection was closed.
+15:30:22.318 - Connecting to web service at http://localhost/SongService.svc...
+15:30:22.391 - Could not connect to web service.
+15:30:22.391 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:30:22.391 - Web service connection was closed.
+15:30:32.394 - Web service connection was closed.
+15:30:32.394 - Connecting to web service at http://localhost/SongService.svc...
+15:30:32.484 - Could not connect to web service.
+15:30:32.484 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:30:32.484 - Web service connection was closed.
+15:30:42.484 - Web service connection was closed.
+15:30:42.484 - Connecting to web service at http://localhost/SongService.svc...
+15:30:42.550 - Could not connect to web service.
+15:30:42.550 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:30:42.550 - Web service connection was closed.
+15:30:52.552 - Web service connection was closed.
+15:30:52.552 - Connecting to web service at http://localhost/SongService.svc...
+15:30:52.628 - Could not connect to web service.
+15:30:52.628 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:30:52.628 - Web service connection was closed.
+15:31:02.628 - Web service connection was closed.
+15:31:02.628 - Connecting to web service at http://localhost/SongService.svc...
+15:31:02.692 - Could not connect to web service.
+15:31:02.692 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:31:02.692 - Web service connection was closed.
+15:31:12.693 - Web service connection was closed.
+15:31:12.693 - Connecting to web service at http://localhost/SongService.svc...
+15:31:12.773 - Could not connect to web service.
+15:31:12.773 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:31:12.773 - Web service connection was closed.
+15:31:22.773 - Web service connection was closed.
+15:31:22.773 - Connecting to web service at http://localhost/SongService.svc...
+15:31:22.838 - Could not connect to web service.
+15:31:22.838 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:31:22.838 - Web service connection was closed.
+15:31:32.842 - Web service connection was closed.
+15:31:32.842 - Connecting to web service at http://localhost/SongService.svc...
+15:31:32.912 - Could not connect to web service.
+15:31:32.912 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:31:32.912 - Web service connection was closed.
+15:31:42.925 - Web service connection was closed.
+15:31:42.925 - Connecting to web service at http://localhost/SongService.svc...
+15:31:42.989 - Could not connect to web service.
+15:31:42.989 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:31:42.989 - Web service connection was closed.
+15:31:52.989 - Web service connection was closed.
+15:31:52.989 - Connecting to web service at http://localhost/SongService.svc...
+15:31:53.060 - Could not connect to web service.
+15:31:53.060 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:31:53.060 - Web service connection was closed.
+15:32:03.061 - Web service connection was closed.
+15:32:03.061 - Connecting to web service at http://localhost/SongService.svc...
+15:32:03.146 - Could not connect to web service.
+15:32:03.146 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:32:03.146 - Web service connection was closed.
+15:32:13.146 - Web service connection was closed.
+15:32:13.146 - Connecting to web service at http://localhost/SongService.svc...
+15:32:13.218 - Could not connect to web service.
+15:32:13.218 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:32:13.218 - Web service connection was closed.
+15:32:23.219 - Web service connection was closed.
+15:32:23.219 - Connecting to web service at http://localhost/SongService.svc...
+15:32:23.292 - Could not connect to web service.
+15:32:23.292 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:32:23.292 - Web service connection was closed.
+15:32:33.292 - Web service connection was closed.
+15:32:33.292 - Connecting to web service at http://localhost/SongService.svc...
+15:32:33.362 - Could not connect to web service.
+15:32:33.362 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:32:33.362 - Web service connection was closed.
+15:32:43.363 - Web service connection was closed.
+15:32:43.363 - Connecting to web service at http://localhost/SongService.svc...
+15:32:43.448 - Could not connect to web service.
+15:32:43.448 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:32:43.448 - Web service connection was closed.
+15:32:53.449 - Web service connection was closed.
+15:32:53.449 - Connecting to web service at http://localhost/SongService.svc...
+15:32:53.517 - Could not connect to web service.
+15:32:53.517 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:32:53.517 - Web service connection was closed.
+15:33:03.518 - Web service connection was closed.
+15:33:03.518 - Connecting to web service at http://localhost/SongService.svc...
+15:33:03.588 - Could not connect to web service.
+15:33:03.588 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:33:03.588 - Web service connection was closed.
+15:33:13.589 - Web service connection was closed.
+15:33:13.589 - Connecting to web service at http://localhost/SongService.svc...
+15:33:13.665 - Could not connect to web service.
+15:33:13.665 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:33:13.665 - Web service connection was closed.
+15:33:23.665 - Web service connection was closed.
+15:33:23.665 - Connecting to web service at http://localhost/SongService.svc...
+15:33:23.739 - Could not connect to web service.
+15:33:23.739 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:33:23.739 - Web service connection was closed.
+15:33:33.740 - Web service connection was closed.
+15:33:33.740 - Connecting to web service at http://localhost/SongService.svc...
+15:33:33.811 - Could not connect to web service.
+15:33:33.811 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:33:33.811 - Web service connection was closed.
+15:33:43.811 - Web service connection was closed.
+15:33:43.811 - Connecting to web service at http://localhost/SongService.svc...
+15:33:43.876 - Could not connect to web service.
+15:33:43.877 - Could not connect to web service. There was no endpoint listening at http://localhost/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:33:43.877 - Web service connection was closed.
+15:33:53.878 - Web service connection was closed.
+15:33:53.878 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:33:54.517 - Application is connected to web service.
+15:35:49.315 - Liberando recursos e fechando aplicativo...
+15:44:13.809 - Song Client 1.0.0.0
+15:44:14.046 - Inicializando aplicativo...
+15:44:15.241 - Application was started.
+15:44:15.248 - Starting web service manager...
+15:44:15.256 - Web service manager was started and is running.
+15:44:15.267 - Web service connection was closed.
+15:44:15.272 - Connecting to web service at http://localhost:4436/SongService.svc...
+15:44:18.572 - Liberando recursos e fechando aplicativo...
+15:45:31.336 - Song Client 1.0.0.0
+15:45:31.539 - Inicializando aplicativo...
+15:45:32.671 - Application was started.
+15:45:32.681 - Starting web service manager...
+15:45:32.697 - Web service manager was started and is running.
+15:45:32.721 - Web service connection was closed.
+15:45:32.727 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:45:36.525 - Could not connect to web service.
+15:45:36.525 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+15:45:36.578 - Web service connection was closed.
+15:45:44.309 - Liberando recursos e fechando aplicativo...
+15:45:49.398 - Song Client 1.0.0.0
+15:45:49.632 - Inicializando aplicativo...
+15:45:50.844 - Application was started.
+15:45:50.853 - Starting web service manager...
+15:45:50.875 - Web service manager was started and is running.
+15:45:50.896 - Web service connection was closed.
+15:45:50.904 - Connecting to web service at http://localhost/SongServer/SongService.svc...
+15:45:53.280 - Application is connected to web service.
+15:50:35.812 - Liberando recursos e fechando aplicativo...
+15:52:08.363 - Song Client 1.0.0.0
+15:52:08.569 - Inicializando aplicativo...
+15:52:09.854 - Application was started.
+15:52:09.864 - Starting web service manager...
+15:52:09.877 - Web service manager was started and is running.
+15:52:09.896 - Web service connection was closed.
+15:52:09.899 - Connecting to web service at http://localhost/SongServer/SongService.svc...
+15:52:14.326 - Application is connected to web service.
+15:52:43.186 - Liberando recursos e fechando aplicativo...
+15:52:48.483 - Song Client 1.0.0.0
+15:52:48.746 - Inicializando aplicativo...
+15:52:49.977 - Application was started.
+15:52:49.986 - Starting web service manager...
+15:52:50.039 - Web service manager was started and is running.
+15:52:50.065 - Web service connection was closed.
+15:52:50.069 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:52:56.036 - Application is connected to web service.
+15:53:22.211 - Liberando recursos e fechando aplicativo...

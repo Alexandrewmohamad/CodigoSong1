@@ -1,0 +1,36 @@
+10:50:35.258 - Song Client 1.0.13.0
+10:50:35.452 - Inicializando aplicativo...
+10:50:36.758 - Application was started.
+10:50:36.766 - Starting web service manager...
+10:50:36.777 - Web service manager was started and is running.
+10:50:36.792 - Web service connection was closed.
+10:50:36.795 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:50:41.113 - Could not connect to web service.
+10:50:41.113 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+10:50:41.159 - Web service connection was closed.
+10:50:51.179 - Web service connection was closed.
+10:50:51.179 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:50:53.224 - Could not connect to web service.
+10:50:53.224 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+10:50:53.224 - Web service connection was closed.
+10:51:03.225 - Web service connection was closed.
+10:51:03.225 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:51:05.348 - Could not connect to web service.
+10:51:05.348 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+10:51:05.348 - Web service connection was closed.
+10:51:15.348 - Web service connection was closed.
+10:51:15.348 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:51:22.579 - Song Client 1.0.13.0
+10:51:22.780 - Inicializando aplicativo...
+10:51:23.910 - Application was started.
+10:51:23.918 - Starting web service manager...
+10:51:23.960 - Web service manager was started and is running.
+10:51:23.971 - Web service connection was closed.
+10:51:23.977 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:51:32.532 - Application is connected to web service.
+10:51:32.532 - Song Server 1.0.13
+10:51:32.532 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:17:21.109 - Liberando recursos e fechando aplicativo...
+11:17:21.158 - Stopping web service manager...
+11:17:21.197 - Web service connection was closed.
+11:17:21.197 - Web service manager running thread was stopped.

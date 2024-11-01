@@ -1,0 +1,267 @@
+08:24:19.444 - Song Client 1.0.1.0
+08:24:19.629 - Inicializando aplicativo...
+08:24:21.601 - Application was started.
+08:24:21.611 - Starting web service manager...
+08:24:21.620 - Web service manager was started and is running.
+08:24:21.633 - Web service connection was closed.
+08:24:21.636 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:24:44.462 - Application is connected to web service.
+08:24:44.462 - Song Server 1.0.1
+08:24:44.462 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:30:21.006 - Erro inesperado ao pegar lista de item Presença do serviço web.
+08:30:21.006 - Column 'AttendanceId' is constrained to be unique.  Value '-21' is already present.
+08:30:21.035 - System.Data.ConstraintException   at System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 469
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1317
+08:30:21.036 - Column 'AttendanceId' is constrained to be unique.  Value '-21' is already present.
+08:30:21.036 - System.Data.ConstraintException   at System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 469
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1317
+08:33:36.884 - Liberando recursos e fechando aplicativo...
+08:33:37.210 - Stopping web service manager...
+08:33:37.298 - Web service connection was closed.
+08:33:37.298 - Web service manager running thread was stopped.
+08:35:35.240 - Song Client 1.0.1.0
+08:35:35.420 - Inicializando aplicativo...
+08:35:36.686 - Application was started.
+08:35:36.695 - Starting web service manager...
+08:35:36.705 - Web service manager was started and is running.
+08:35:36.730 - Web service connection was closed.
+08:35:36.735 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:35:42.311 - Application is connected to web service.
+08:35:42.311 - Song Server 1.0.1
+08:35:42.311 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:41:07.123 - Liberando recursos e fechando aplicativo...
+08:41:07.175 - Stopping web service manager...
+08:41:07.250 - Web service connection was closed.
+08:41:07.250 - Web service manager running thread was stopped.
+09:05:32.052 - Song Client 1.0.1.0
+09:05:32.324 - Inicializando aplicativo...
+09:05:33.718 - Application was started.
+09:05:33.726 - Starting web service manager...
+09:05:33.746 - Web service manager was started and is running.
+09:05:33.764 - Web service connection was closed.
+09:05:33.769 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:05:41.763 - Application is connected to web service.
+09:05:41.763 - Song Server 1.0.1
+09:05:41.763 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:08:43.994 - Liberando recursos e fechando aplicativo...
+09:08:44.075 - Stopping web service manager...
+09:08:44.158 - Web service connection was closed.
+09:08:44.158 - Web service manager running thread was stopped.
+09:09:31.587 - Song Client 1.0.1.0
+09:09:31.836 - Inicializando aplicativo...
+09:09:33.193 - Application was started.
+09:09:33.202 - Starting web service manager...
+09:09:33.232 - Web service manager was started and is running.
+09:09:33.263 - Web service connection was closed.
+09:09:33.267 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:09:36.721 - Application is connected to web service.
+09:09:36.722 - Song Server 1.0.1
+09:09:36.722 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:17:32.779 - Liberando recursos e fechando aplicativo...
+09:17:32.843 - Stopping web service manager...
+09:17:32.949 - Web service connection was closed.
+09:17:32.949 - Web service manager running thread was stopped.
+09:50:03.208 - Song Client 1.0.1.0
+09:50:03.535 - Inicializando aplicativo...
+09:50:05.006 - Application was started.
+09:50:05.015 - Starting web service manager...
+09:50:05.025 - Web service manager was started and is running.
+09:50:05.038 - Web service connection was closed.
+09:50:05.041 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:50:08.848 - Application is connected to web service.
+09:50:08.848 - Song Server 1.0.1
+09:50:08.848 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:50:53.611 - Liberando recursos e fechando aplicativo...
+09:50:53.664 - Stopping web service manager...
+09:50:53.769 - Web service connection was closed.
+09:50:53.770 - Web service manager running thread was stopped.
+09:56:20.235 - Song Client 1.0.1.0
+09:56:20.455 - Inicializando aplicativo...
+09:56:21.732 - Application was started.
+09:56:21.739 - Starting web service manager...
+09:56:21.749 - Web service manager was started and is running.
+09:56:21.763 - Web service connection was closed.
+09:56:21.767 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:56:27.825 - Application is connected to web service.
+09:56:27.825 - Song Server 1.0.1
+09:56:27.826 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:56:58.832 - Liberando recursos e fechando aplicativo...
+09:56:58.876 - Stopping web service manager...
+09:56:58.922 - Web service connection was closed.
+09:56:58.922 - Web service manager running thread was stopped.
+10:19:46.740 - Song Client 1.0.1.0
+10:19:46.986 - Inicializando aplicativo...
+10:19:48.274 - Application was started.
+10:19:48.284 - Starting web service manager...
+10:19:48.320 - Web service connection was closed.
+10:19:48.323 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:19:48.330 - Web service manager was started and is running.
+10:19:51.589 - Application is connected to web service.
+10:19:51.589 - Song Server 1.0.1
+10:19:51.590 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:27:34.835 - Liberando recursos e fechando aplicativo...
+10:27:34.888 - Stopping web service manager...
+10:27:35.003 - Web service connection was closed.
+10:27:35.004 - Web service manager running thread was stopped.
+13:37:11.290 - Song Client 1.0.1.0
+13:37:11.556 - Inicializando aplicativo...
+13:37:12.682 - Application was started.
+13:37:12.689 - Starting web service manager...
+13:37:12.698 - Web service manager was started and is running.
+13:37:12.717 - Web service connection was closed.
+13:37:12.721 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:37:37.964 - Application is connected to web service.
+13:37:37.964 - Song Server 1.0.1
+13:37:37.964 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:42:35.794 - Song Client 1.0.1.0
+13:42:36.008 - Inicializando aplicativo...
+13:42:37.166 - Application was started.
+13:42:37.176 - Starting web service manager...
+13:42:37.186 - Web service manager was started and is running.
+13:42:37.234 - Web service connection was closed.
+13:42:37.237 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:42:40.352 - Application is connected to web service.
+13:42:40.352 - Song Server 1.0.1
+13:42:40.352 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:44:36.170 - Liberando recursos e fechando aplicativo...
+13:44:36.324 - Stopping web service manager...
+13:44:36.392 - Web service connection was closed.
+13:44:36.392 - Web service manager running thread was stopped.
+14:38:54.714 - Song Client 1.0.1.0
+14:38:55.052 - Inicializando aplicativo...
+14:38:56.652 - Application was started.
+14:38:56.663 - Starting web service manager...
+14:38:56.675 - Web service manager was started and is running.
+14:38:56.686 - Web service connection was closed.
+14:38:56.690 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:39:04.791 - Application is connected to web service.
+14:39:04.792 - Song Server 1.0.1
+14:39:04.792 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:45:27.026 - Liberando recursos e fechando aplicativo...
+14:45:27.082 - Stopping web service manager...
+14:45:27.111 - Web service connection was closed.
+14:45:27.111 - Web service manager running thread was stopped.
+14:51:28.103 - Song Client 1.0.1.0
+14:51:28.317 - Inicializando aplicativo...
+14:51:29.512 - Application was started.
+14:51:29.520 - Starting web service manager...
+14:51:29.533 - Web service manager was started and is running.
+14:51:29.594 - Web service connection was closed.
+14:51:29.607 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:51:32.871 - Application is connected to web service.
+14:51:32.872 - Song Server 1.0.1
+14:51:32.872 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+14:57:28.453 - Erro inesperado ao pegar lista de item Presença do serviço web.
+14:57:28.453 - Column 'AttendanceId' is constrained to be unique.  Value '-19' is already present.
+14:57:28.524 - System.Data.ConstraintException   at System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 469
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1317
+14:57:28.524 - Column 'AttendanceId' is constrained to be unique.  Value '-19' is already present.
+14:57:28.524 - System.Data.ConstraintException   at System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 469
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1317
+14:58:20.057 - Liberando recursos e fechando aplicativo...
+14:58:20.106 - Stopping web service manager...
+14:58:20.224 - Web service connection was closed.
+14:58:20.224 - Web service manager running thread was stopped.
+14:59:15.977 - Song Client 1.0.1.0
+14:59:16.205 - Inicializando aplicativo...
+14:59:17.361 - Application was started.
+14:59:17.371 - Starting web service manager...
+14:59:17.385 - Web service manager was started and is running.
+14:59:17.407 - Web service connection was closed.
+14:59:17.410 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+14:59:20.180 - Application is connected to web service.
+14:59:20.181 - Song Server 1.0.1
+14:59:20.181 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:01:04.387 - Liberando recursos e fechando aplicativo...
+15:01:04.448 - Stopping web service manager...
+15:01:04.499 - Web service connection was closed.
+15:01:04.499 - Web service manager running thread was stopped.
+15:01:09.482 - Song Client 1.0.1.0
+15:01:09.781 - Inicializando aplicativo...
+15:01:11.154 - Application was started.
+15:01:11.161 - Starting web service manager...
+15:01:11.171 - Web service manager was started and is running.
+15:01:11.187 - Web service connection was closed.
+15:01:11.192 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:01:14.258 - Application is connected to web service.
+15:01:14.259 - Song Server 1.0.1
+15:01:14.259 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:04:11.856 - Liberando recursos e fechando aplicativo...
+15:04:11.913 - Stopping web service manager...
+15:04:11.982 - Web service connection was closed.
+15:04:11.983 - Web service manager running thread was stopped.
+15:08:05.187 - Song Client 1.0.1.0
+15:08:05.421 - Inicializando aplicativo...
+15:08:06.613 - Application was started.
+15:08:06.620 - Starting web service manager...
+15:08:06.635 - Web service manager was started and is running.
+15:08:06.648 - Web service connection was closed.
+15:08:06.651 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:08:09.480 - Application is connected to web service.
+15:08:09.480 - Song Server 1.0.1
+15:08:09.480 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:09:10.891 - Song Client 1.0.1.0
+15:09:11.176 - Inicializando aplicativo...
+15:09:12.792 - Application was started.
+15:09:12.812 - Starting web service manager...
+15:09:12.851 - Web service manager was started and is running.
+15:09:12.946 - Web service connection was closed.
+15:09:12.951 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:09:16.407 - Application is connected to web service.
+15:09:16.408 - Song Server 1.0.1
+15:09:16.408 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:10:47.472 - Liberando recursos e fechando aplicativo...
+15:10:47.533 - Stopping web service manager...
+15:10:47.651 - Web service connection was closed.
+15:10:47.651 - Web service manager running thread was stopped.
+15:10:53.363 - Song Client 1.0.1.0
+15:10:53.606 - Inicializando aplicativo...
+15:10:54.850 - Application was started.
+15:10:54.857 - Starting web service manager...
+15:10:54.865 - Web service manager was started and is running.
+15:10:54.881 - Web service connection was closed.
+15:10:54.885 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+15:10:57.892 - Application is connected to web service.
+15:10:57.892 - Song Server 1.0.1
+15:10:57.893 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+15:11:35.645 - Erro inesperado ao pegar lista de item Presença do serviço web.
+15:11:35.645 - Column 'AttendanceId' is constrained to be unique.  Value '-69' is already present.
+15:11:35.658 - System.Data.ConstraintException   at System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 469
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1317
+15:11:35.658 - Column 'AttendanceId' is constrained to be unique.  Value '-69' is already present.
+15:11:35.658 - System.Data.ConstraintException   at System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   at System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   at System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   at System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   at System.Data.DataRowCollection.Add(DataRow row)
+   at PnT.SongClient.UI.Controls.RegisterClassControl.DisplayClassDayAttendances() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 469
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadAttendances(DateTime month) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1317
+15:24:04.868 - Liberando recursos e fechando aplicativo...
+15:24:04.928 - Stopping web service manager...
+15:24:05.001 - Web service connection was closed.
+15:24:05.001 - Web service manager running thread was stopped.

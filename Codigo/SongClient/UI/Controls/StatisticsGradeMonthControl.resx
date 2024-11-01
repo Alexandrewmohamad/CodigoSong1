@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mlblDedicationGradeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpClassMontData.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGradeValue.Name" xml:space="preserve">
+    <value>mlblDisciplineGradeValue</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mlblDedicationGradeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="&gt;&gt;tlpClassMontData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGrade.Name" xml:space="preserve">
+    <value>mlblDedicationGrade</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGradeValue.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="&gt;&gt;mlblMonth.Name" xml:space="preserve">
+    <value>mlblMonth</value>
+  </data>
+  <data name="mlblDisciplineGrade.Text" xml:space="preserve">
+    <value>Discipline</value>
+  </data>
+  <data name="mlblPerformanceGrade.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGradeValue.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGradeValue.Name" xml:space="preserve">
+    <value>mlblMeanGradeValue</value>
+  </data>
+  <data name="mlblPerformanceGradeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StatisticsGradeMonthControl</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGrade.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="mlblDisciplineGradeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGradeValue.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="mlblDedicationGrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblDisciplineGrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblDisciplineGradeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGrade.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mlblMeanGradeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="tlpClassMontData.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mlblDisciplineGrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="mlblDedicationGrade.Text" xml:space="preserve">
+    <value>Dedication</value>
+  </data>
+  <data name="tlpClassMontData.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblMeanGrade" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblMeanGradeValue" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblMonth" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblDisciplineGrade" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblDisciplineGradeValue" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblPerformanceGrade" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblPerformanceGradeValue" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblDedicationGrade" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblDedicationGradeValue" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,61,68583,Percent,38,31417" /&gt;&lt;Rows Styles="Absolute,19,Absolute,38,Absolute,38,Absolute,38,Absolute,38,Absolute,38,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGrade.Name" xml:space="preserve">
+    <value>mlblDisciplineGrade</value>
+  </data>
+  <data name="mlblDedicationGradeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGrade.Name" xml:space="preserve">
+    <value>mlblPerformanceGrade</value>
+  </data>
+  <data name="mlblMeanGrade.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblPerformanceGrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblMeanGradeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 30</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGrade.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="tlpClassMontData.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblMeanGradeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblMonth.Text" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGradeValue.Name" xml:space="preserve">
+    <value>mlblPerformanceGradeValue</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGradeValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGrade.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;mlblMonth.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mlblMonth.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tlpClassMontData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mlblDisciplineGrade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblMeanGrade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGrade.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlblDisciplineGradeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGradeValue.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGradeValue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mlblDedicationGrade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblPerformanceGrade.Text" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="tlpClassMontData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblMeanGrade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblDisciplineGradeValue.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="tlpClassMontData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGradeValue.Name" xml:space="preserve">
+    <value>mlblDedicationGradeValue</value>
+  </data>
+  <data name="&gt;&gt;mlblMonth.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="mlblDedicationGradeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGradeValue.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mlblDedicationGrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 182</value>
+  </data>
+  <data name="mlblPerformanceGradeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 144</value>
+  </data>
+  <data name="&gt;&gt;mlblDisciplineGrade.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mlblPerformanceGrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 144</value>
+  </data>
+  <data name="mlblMeanGradeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="mlblDisciplineGrade.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblPerformanceGrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 15</value>
+  </data>
+  <data name="mlblMeanGrade.Text" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="mlblPerformanceGradeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;tlpClassMontData.Name" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGrade.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mlblDisciplineGrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 106</value>
+  </data>
+  <data name="mlblDedicationGrade.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGrade.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mlblPerformanceGradeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblDedicationGrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 15</value>
+  </data>
+  <data name="&gt;&gt;tlpClassMontData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mlblDedicationGradeValue.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="tlpClassMontData.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGrade.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mlblPerformanceGradeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 209</value>
+  </data>
+  <data name="mlblMeanGradeValue.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGradeValue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGradeValue.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGrade.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGrade.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGradeValue.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mlblMonth.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGrade.Name" xml:space="preserve">
+    <value>mlblMeanGrade</value>
+  </data>
+  <data name="mlblMeanGrade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 68</value>
+  </data>
+  <data name="&gt;&gt;mlblPerformanceGradeValue.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblMeanGrade.Parent" xml:space="preserve">
+    <value>tlpClassMontData</value>
+  </data>
+  <data name="mlblMeanGradeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 68</value>
+  </data>
+  <data name="&gt;&gt;mlblDedicationGradeValue.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="mlblMeanGrade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="mlblDedicationGradeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 182</value>
+  </data>
+  <data name="mlblDisciplineGradeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="mlblPerformanceGradeValue.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tlpClassMontData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mlblPerformanceGrade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mlblDisciplineGradeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 106</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

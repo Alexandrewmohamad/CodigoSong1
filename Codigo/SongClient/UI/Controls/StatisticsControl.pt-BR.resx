@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mlblStatistics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 25</value>
+  </data>
+  <data name="mlblStatistics.Text" xml:space="preserve">
+    <value>Estatísticas</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 49</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent1.Text" xml:space="preserve">
+    <value>Média de Matrículas por Aluno</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 11</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationClass1.Text" xml:space="preserve">
+    <value>Média de Matrículas por Turma</value>
+  </data>
+  <data name="mlblPercentEvasion1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 87</value>
+  </data>
+  <data name="mlblPercentEvasion1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 15</value>
+  </data>
+  <data name="mlblPercentEvasion1.Text" xml:space="preserve">
+    <value>Percentual de Evasões</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 49</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationStudent2.Text" xml:space="preserve">
+    <value>Média de Matrículas por Aluno</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 11</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 15</value>
+  </data>
+  <data name="mlblAvgRegistrationClass2.Text" xml:space="preserve">
+    <value>Média de Matrículas por Turma</value>
+  </data>
+  <data name="mlblPercentEvasion2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 87</value>
+  </data>
+  <data name="mlblPercentEvasion2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 15</value>
+  </data>
+  <data name="mlblPercentEvasion2.Text" xml:space="preserve">
+    <value>Percentual de Evasões</value>
+  </data>
+  <data name="tbClasses.Text" xml:space="preserve">
+    <value>Turmas</value>
+  </data>
+  <data name="tbAttendance.Text" xml:space="preserve">
+    <value>Presença</value>
+  </data>
+  <data name="tbGrades.Text" xml:space="preserve">
+    <value>Notas Alunos</value>
+  </data>
+  <data name="mlblSet1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 19</value>
+  </data>
+  <data name="mlblSet1.Text" xml:space="preserve">
+    <value>Conjunto 1</value>
+  </data>
+  <data name="mlblSemester1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 11</value>
+  </data>
+  <data name="mlblSemester1.Text" xml:space="preserve">
+    <value>Semestre</value>
+  </data>
+  <data name="mcbSemester1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="mlblInstitution1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 49</value>
+  </data>
+  <data name="mlblInstitution1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 15</value>
+  </data>
+  <data name="mlblInstitution1.Text" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="mcbInstitution1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 44</value>
+  </data>
+  <data name="mlblPole1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 87</value>
+  </data>
+  <data name="mlblPole1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 15</value>
+  </data>
+  <data name="mlblPole1.Text" xml:space="preserve">
+    <value>Polo</value>
+  </data>
+  <data name="mcbPole1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 82</value>
+  </data>
+  <data name="mlblTeacher1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 125</value>
+  </data>
+  <data name="mlblTeacher1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="mlblTeacher1.Text" xml:space="preserve">
+    <value>Professor</value>
+  </data>
+  <data name="mcbTeacher1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 120</value>
+  </data>
+  <data name="mlblClass1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 163</value>
+  </data>
+  <data name="mlblClass1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="mlblClass1.Text" xml:space="preserve">
+    <value>Turma</value>
+  </data>
+  <data name="mcbClass1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 158</value>
+  </data>
+  <data name="mcbEnableSet2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="mcbEnableSet2.Text" xml:space="preserve">
+    <value>Conjunto 2</value>
+  </data>
+  <data name="mlblSemester2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 11</value>
+  </data>
+  <data name="mlblSemester2.Text" xml:space="preserve">
+    <value>Semestre</value>
+  </data>
+  <data name="mcbSemester2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 6</value>
+  </data>
+  <data name="mlblInstitution2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 49</value>
+  </data>
+  <data name="mlblInstitution2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 15</value>
+  </data>
+  <data name="mlblInstitution2.Text" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="mcbInstitution2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 44</value>
+  </data>
+  <data name="mlblPole2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 87</value>
+  </data>
+  <data name="mlblPole2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 15</value>
+  </data>
+  <data name="mlblPole2.Text" xml:space="preserve">
+    <value>Polo</value>
+  </data>
+  <data name="mcbPole2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 82</value>
+  </data>
+  <data name="mlblTeacher2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 125</value>
+  </data>
+  <data name="mlblTeacher2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="mlblTeacher2.Text" xml:space="preserve">
+    <value>Professor</value>
+  </data>
+  <data name="mcbTeacher2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 120</value>
+  </data>
+  <data name="mcbClass2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 158</value>
+  </data>
+  <data name="mlblClass2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 163</value>
+  </data>
+  <data name="mlblClass2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="mlblClass2.Text" xml:space="preserve">
+    <value>Turma</value>
+  </data>
+  <data name="tlpFilters2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="tlpFilters2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 190</value>
+  </data>
+</root>

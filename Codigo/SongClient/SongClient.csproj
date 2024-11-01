@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7B8DEB5-BDF7-432E-A169-658B4C47BECA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PnT.SongClient</RootNamespace>
+    <AssemblyName>SongClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PnT.SongClient.Logic.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PNTSong.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>DotNetZip\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\FileManager.cs" />
+    <Compile Include="Data\WebServiceManager.cs" />
+    <Compile Include="Data\SettingManager.cs" />
+    <Compile Include="Data\ThreadedLogManager.cs" />
+    <Compile Include="Data\XmlSettings.cs" />
+    <Compile Include="Logic\Manager.cs" />
+    <Compile Include="UI\AboutMetroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AboutMetroForm.Designer.cs">
+      <DependentUpon>AboutMetroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Calendar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportCoordinatorMonth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportCoordinatorMonth.Designer.cs">
+      <DependentUpon>EditReportCoordinatorMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportCoordinatorSemester.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportCoordinatorSemester.Designer.cs">
+      <DependentUpon>EditReportCoordinatorSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportTeacherSemester.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportTeacherSemester.Designer.cs">
+      <DependentUpon>EditReportTeacherSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\GenerateReportCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\GenerateReportCard.Designer.cs">
+      <DependentUpon>GenerateReportCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ImportClassControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ImportClassControl.Designer.cs">
+      <DependentUpon>ImportClassControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\QuestionCommentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\QuestionCommentControl.Designer.cs">
+      <DependentUpon>QuestionCommentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportTeacherMonth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\EditReportTeacherMonth.Designer.cs">
+      <DependentUpon>EditReportTeacherMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\HomeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\HomeControl.Designer.cs">
+      <DependentUpon>HomeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\IndicatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\IndicatorControl.Designer.cs">
+      <DependentUpon>IndicatorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ISongControl.cs" />
+    <Compile Include="UI\Controls\QuestionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\QuestionControl.Designer.cs">
+      <DependentUpon>QuestionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\QuestionGradeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\QuestionGradeControl.Designer.cs">
+      <DependentUpon>QuestionGradeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterBaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterBaseControl.Designer.cs">
+      <DependentUpon>RegisterBaseControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterClassControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterClassControl.Designer.cs">
+      <DependentUpon>RegisterClassControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterEventControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterEventControl.Designer.cs">
+      <DependentUpon>RegisterEventControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterInstitutionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterInstitutionControl.Designer.cs">
+      <DependentUpon>RegisterInstitutionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterInstrumentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterInstrumentControl.Designer.cs">
+      <DependentUpon>RegisterInstrumentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterPoleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterPoleControl.Designer.cs">
+      <DependentUpon>RegisterPoleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterRoleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterRoleControl.Designer.cs">
+      <DependentUpon>RegisterRoleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterStudentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterStudentControl.Designer.cs">
+      <DependentUpon>RegisterStudentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterTeacherControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterTeacherControl.Designer.cs">
+      <DependentUpon>RegisterTeacherControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RegisterUserControl.Designer.cs">
+      <DependentUpon>RegisterUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsAttendanceMonthControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsAttendanceMonthControl.Designer.cs">
+      <DependentUpon>StatisticsAttendanceMonthControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsClassMonthControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsClassMonthControl.Designer.cs">
+      <DependentUpon>StatisticsClassMonthControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsControl.Designer.cs">
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsGradeMonthControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\StatisticsGradeMonthControl.Designer.cs">
+      <DependentUpon>StatisticsGradeMonthControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewEventControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewEventControl.Designer.cs">
+      <DependentUpon>ViewEventControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewReportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewReportControl.Designer.cs">
+      <DependentUpon>ViewReportControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\InactivationReasonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\InactivationReasonForm.Designer.cs">
+      <DependentUpon>InactivationReasonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ResetPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ResetPasswordForm.Designer.cs">
+      <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SelectFileForm.Designer.cs">
+      <DependentUpon>SelectFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\UnitNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\UnitNumericUpDown.Designer.cs">
+      <DependentUpon>UnitNumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewClassControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewClassControl.Designer.cs">
+      <DependentUpon>ViewClassControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewInstitutionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewInstitutionControl.Designer.cs">
+      <DependentUpon>ViewInstitutionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewInstrumentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewInstrumentControl.Designer.cs">
+      <DependentUpon>ViewInstrumentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewPoleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewPoleControl.Designer.cs">
+      <DependentUpon>ViewPoleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewRegistrationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewRegistrationControl.Designer.cs">
+      <DependentUpon>ViewRegistrationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewStudentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewStudentControl.Designer.cs">
+      <DependentUpon>ViewStudentControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewTeacherControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewTeacherControl.Designer.cs">
+      <DependentUpon>ViewTeacherControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\ViewUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ViewUserControl.Designer.cs">
+      <DependentUpon>ViewUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EditCommentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EditCommentForm.Designer.cs">
+      <DependentUpon>EditCommentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LogonForm.Designer.cs">
+      <DependentUpon>LogonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OptionsForm.Designer.cs">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectClassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SelectClassForm.Designer.cs">
+      <DependentUpon>SelectClassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SelectStudentForm.Designer.cs">
+      <DependentUpon>SelectStudentForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.pt-BR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AboutMetroForm.resx">
+      <DependentUpon>AboutMetroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\Calendar.resx">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportCoordinatorMonth.pt-BR.resx">
+      <DependentUpon>EditReportCoordinatorMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportCoordinatorMonth.resx">
+      <DependentUpon>EditReportCoordinatorMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportCoordinatorSemester.pt-BR.resx">
+      <DependentUpon>EditReportCoordinatorSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportCoordinatorSemester.resx">
+      <DependentUpon>EditReportCoordinatorSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportTeacherSemester.pt-BR.resx">
+      <DependentUpon>EditReportTeacherSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportTeacherSemester.resx">
+      <DependentUpon>EditReportTeacherSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\GenerateReportCard.pt-BR.resx">
+      <DependentUpon>GenerateReportCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\GenerateReportCard.resx">
+      <DependentUpon>GenerateReportCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ImportClassControl.pt-BR.resx">
+      <DependentUpon>ImportClassControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ImportClassControl.resx">
+      <DependentUpon>ImportClassControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\QuestionCommentControl.resx">
+      <DependentUpon>QuestionCommentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportTeacherMonth.pt-BR.resx">
+      <DependentUpon>EditReportTeacherMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\EditReportTeacherMonth.resx">
+      <DependentUpon>EditReportTeacherMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\HomeControl.pt-BR.resx">
+      <DependentUpon>HomeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\HomeControl.resx">
+      <DependentUpon>HomeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\IndicatorControl.resx">
+      <DependentUpon>IndicatorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\QuestionControl.pt-BR.resx">
+      <DependentUpon>QuestionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\QuestionControl.resx">
+      <DependentUpon>QuestionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\QuestionGradeControl.pt-BR.resx">
+      <DependentUpon>QuestionGradeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\QuestionGradeControl.resx">
+      <DependentUpon>QuestionGradeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterBaseControl.pt-BR.resx">
+      <DependentUpon>RegisterBaseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterBaseControl.resx">
+      <DependentUpon>RegisterBaseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterClassControl.pt-BR.resx">
+      <DependentUpon>RegisterClassControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterClassControl.resx">
+      <DependentUpon>RegisterClassControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterEventControl.pt-BR.resx">
+      <DependentUpon>RegisterEventControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterEventControl.resx">
+      <DependentUpon>RegisterEventControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterInstitutionControl.pt-BR.resx">
+      <DependentUpon>RegisterInstitutionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterInstitutionControl.resx">
+      <DependentUpon>RegisterInstitutionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterInstrumentControl.pt-BR.resx">
+      <DependentUpon>RegisterInstrumentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterInstrumentControl.resx">
+      <DependentUpon>RegisterInstrumentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterPoleControl.pt-BR.resx">
+      <DependentUpon>RegisterPoleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterPoleControl.resx">
+      <DependentUpon>RegisterPoleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterRoleControl.pt-BR.resx">
+      <DependentUpon>RegisterRoleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterRoleControl.resx">
+      <DependentUpon>RegisterRoleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterStudentControl.pt-BR.resx">
+      <DependentUpon>RegisterStudentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterStudentControl.resx">
+      <DependentUpon>RegisterStudentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterTeacherControl.pt-BR.resx">
+      <DependentUpon>RegisterTeacherControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterTeacherControl.resx">
+      <DependentUpon>RegisterTeacherControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterUserControl.pt-BR.resx">
+      <DependentUpon>RegisterUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RegisterUserControl.resx">
+      <DependentUpon>RegisterUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsAttendanceMonthControl.pt-BR.resx">
+      <DependentUpon>StatisticsAttendanceMonthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsAttendanceMonthControl.resx">
+      <DependentUpon>StatisticsAttendanceMonthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsClassMonthControl.pt-BR.resx">
+      <DependentUpon>StatisticsClassMonthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsClassMonthControl.resx">
+      <DependentUpon>StatisticsClassMonthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsControl.pt-BR.resx">
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsControl.resx">
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsGradeMonthControl.pt-BR.resx">
+      <DependentUpon>StatisticsGradeMonthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\StatisticsGradeMonthControl.resx">
+      <DependentUpon>StatisticsGradeMonthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewEventControl.pt-BR.resx">
+      <DependentUpon>ViewEventControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewEventControl.resx">
+      <DependentUpon>ViewEventControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewReportControl.pt-BR.resx">
+      <DependentUpon>ViewReportControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewReportControl.resx">
+      <DependentUpon>ViewReportControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\InactivationReasonForm.pt-BR.resx">
+      <DependentUpon>InactivationReasonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\InactivationReasonForm.resx">
+      <DependentUpon>InactivationReasonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ResetPasswordForm.pt-BR.resx">
+      <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ResetPasswordForm.resx">
+      <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectFileForm.pt-BR.resx">
+      <DependentUpon>SelectFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectFileForm.resx">
+      <DependentUpon>SelectFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewClassControl.pt-BR.resx">
+      <DependentUpon>ViewClassControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewClassControl.resx">
+      <DependentUpon>ViewClassControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewInstitutionControl.pt-BR.resx">
+      <DependentUpon>ViewInstitutionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewInstitutionControl.resx">
+      <DependentUpon>ViewInstitutionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewInstrumentControl.pt-BR.resx">
+      <DependentUpon>ViewInstrumentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewInstrumentControl.resx">
+      <DependentUpon>ViewInstrumentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewPoleControl.pt-BR.resx">
+      <DependentUpon>ViewPoleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewPoleControl.resx">
+      <DependentUpon>ViewPoleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewRegistrationControl.pt-BR.resx">
+      <DependentUpon>ViewRegistrationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewRegistrationControl.resx">
+      <DependentUpon>ViewRegistrationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewStudentControl.pt-BR.resx">
+      <DependentUpon>ViewStudentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewStudentControl.resx">
+      <DependentUpon>ViewStudentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewTeacherControl.pt-BR.resx">
+      <DependentUpon>ViewTeacherControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewTeacherControl.resx">
+      <DependentUpon>ViewTeacherControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewUserControl.pt-BR.resx">
+      <DependentUpon>ViewUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\ViewUserControl.resx">
+      <DependentUpon>ViewUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EditCommentForm.pt-BR.resx">
+      <DependentUpon>EditCommentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EditCommentForm.resx">
+      <DependentUpon>EditCommentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LogonForm.pt-BR.resx">
+      <DependentUpon>LogonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LogonForm.resx">
+      <DependentUpon>LogonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.pt-BR.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OptionsForm.pt-BR.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectClassForm.pt-BR.resx">
+      <DependentUpon>SelectClassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectClassForm.resx">
+      <DependentUpon>SelectClassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectStudentForm.pt-BR.resx">
+      <DependentUpon>SelectStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectStudentForm.resx">
+      <DependentUpon>SelectStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MetroFramework\MetroFramework.Design\MetroFramework.Design.csproj">
+      <Project>{7316584d-9a16-4280-a8ab-6d45198c6e4d}</Project>
+      <Name>MetroFramework.Design</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetroFramework\MetroFramework.Fonts\MetroFramework.Fonts.csproj">
+      <Project>{5a2fcae8-c2fa-41bd-90ea-16103ea07b26}</Project>
+      <Name>MetroFramework.Fonts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetroFramework\MetroFramework\MetroFramework.csproj">
+      <Project>{bb41ac8b-cbed-4387-a7e0-4567edb3f57f}</Project>
+      <Name>MetroFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SongDB\SongDB.csproj">
+      <Project>{0C6C1857-1DAE-4B08-9FBD-109FB9184C24}</Project>
+      <Name>SongDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SongServer\SongServer.csproj">
+      <Project>{5a5c02d9-de61-4598-a897-21abf7291a81}</Project>
+      <Name>SongServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Images\IconCalendarBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconCalendarWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconClassBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconClassWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconDashBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconDashWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconDocumentBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconDocumentWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconInstrumentBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconInstrumentWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconOptionBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconOptionWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconPoleBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconPoleWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconProjectBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconProjectWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconReportBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconReportWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconStatisticsBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconStatisticsWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconStudentBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconStudentWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconTeacherBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\IconTeacherWhite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PNTSong.png" />
+    <None Include="Images\IconUserBlue.jpg" />
+    <None Include="Images\IconUserWhite.jpg" />
+    <None Include="Images\IconMoveLeftAll.png" />
+    <None Include="Images\IconMoveLeftOne.png" />
+    <None Include="Images\IconMoveRightAll.png" />
+    <None Include="Images\IconMoveRightOne.png" />
+    <None Include="Images\IconMoveLeftAllDisabled.png" />
+    <None Include="Images\IconMoveLeftOneDisabled.png" />
+    <None Include="Images\IconMoveRightAllDisabled.png" />
+    <None Include="Images\IconMoveRightOneDisabled.png" />
+    <None Include="Images\IconEditBlue.jpg" />
+    <None Include="Images\IconEditWhite.jpg" />
+    <None Include="Images\IconBackBlue.jpg" />
+    <None Include="Images\IconBackWhite.jpg" />
+    <None Include="Images\IconMoveDownOne.png" />
+    <None Include="Images\IconMoveDownOneDisabled.png" />
+    <None Include="Images\IconMoveUpOne.png" />
+    <None Include="Images\IconMoveUpOneDisabled.png" />
+    <None Include="Images\IconTrashGreen.png" />
+    <None Include="Images\IconAdd.png" />
+    <None Include="Images\IconSubtract.png" />
+    <None Include="Images\IconSendDownOne.png" />
+    <None Include="Images\IconSendUpOne.png" />
+    <None Include="Images\IconRegistrationBlue.jpg" />
+    <None Include="Images\IconRegistrationWhite.jpg" />
+    <None Include="Images\IconPDF.png" />
+    <None Include="Images\IconSendDLeftOne.png" />
+    <None Include="Images\IconSendDRightOne.png" />
+    <Content Include="PNTSong.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

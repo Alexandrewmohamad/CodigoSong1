@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblQuestionNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mlblQuestionNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mlblQuestionNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblQuestionNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 19</value>
+  </data>
+  <data name="mlblQuestionNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblQuestionNumber.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;mlblQuestionNumber.Name" xml:space="preserve">
+    <value>mlblQuestionNumber</value>
+  </data>
+  <data name="&gt;&gt;mlblQuestionNumber.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblQuestionNumber.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;mlblQuestionNumber.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblQuestion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblQuestion.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="lblQuestion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="lblQuestion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 19</value>
+  </data>
+  <data name="lblQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblQuestion.Text" xml:space="preserve">
+    <value>Ask the user something here.</value>
+  </data>
+  <data name="lblQuestion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.Name" xml:space="preserve">
+    <value>lblQuestion</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpScore.ColumnCount" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="mlblMinusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblMinusLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblMinusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mlblMinusLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 6, 0</value>
+  </data>
+  <data name="mlblMinusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 93</value>
+  </data>
+  <data name="mlblMinusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblMinusLabel.Text" xml:space="preserve">
+    <value>Minus Text</value>
+  </data>
+  <data name="mlblMinusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblMinusLabel.Name" xml:space="preserve">
+    <value>mlblMinusLabel</value>
+  </data>
+  <data name="&gt;&gt;mlblMinusLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblMinusLabel.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblMinusLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblPlusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblPlusLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblPlusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 0</value>
+  </data>
+  <data name="mlblPlusLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="mlblPlusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 93</value>
+  </data>
+  <data name="mlblPlusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblPlusLabel.Text" xml:space="preserve">
+    <value>Plus Text</value>
+  </data>
+  <data name="mlblPlusLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;mlblPlusLabel.Name" xml:space="preserve">
+    <value>mlblPlusLabel</value>
+  </data>
+  <data name="&gt;&gt;mlblPlusLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblPlusLabel.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblPlusLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblScore0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore0.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 0</value>
+  </data>
+  <data name="mlblScore0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore0.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblScore0.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore0.Name" xml:space="preserve">
+    <value>mlblScore0</value>
+  </data>
+  <data name="&gt;&gt;mlblScore0.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore0.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore0.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblScore1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 0</value>
+  </data>
+  <data name="mlblScore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblScore1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore1.Name" xml:space="preserve">
+    <value>mlblScore1</value>
+  </data>
+  <data name="&gt;&gt;mlblScore1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore1.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlblScore2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 0</value>
+  </data>
+  <data name="mlblScore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblScore2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore2.Name" xml:space="preserve">
+    <value>mlblScore2</value>
+  </data>
+  <data name="&gt;&gt;mlblScore2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore2.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mlblScore3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 0</value>
+  </data>
+  <data name="mlblScore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlblScore3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore3.Name" xml:space="preserve">
+    <value>mlblScore3</value>
+  </data>
+  <data name="&gt;&gt;mlblScore3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore3.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mlblScore4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 0</value>
+  </data>
+  <data name="mlblScore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mlblScore4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore4.Name" xml:space="preserve">
+    <value>mlblScore4</value>
+  </data>
+  <data name="&gt;&gt;mlblScore4.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore4.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mlblScore5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 0</value>
+  </data>
+  <data name="mlblScore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mlblScore5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore5.Name" xml:space="preserve">
+    <value>mlblScore5</value>
+  </data>
+  <data name="&gt;&gt;mlblScore5.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore5.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mlblScore6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 0</value>
+  </data>
+  <data name="mlblScore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mlblScore6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore6.Name" xml:space="preserve">
+    <value>mlblScore6</value>
+  </data>
+  <data name="&gt;&gt;mlblScore6.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore6.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mlblScore7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 0</value>
+  </data>
+  <data name="mlblScore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mlblScore7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore7.Name" xml:space="preserve">
+    <value>mlblScore7</value>
+  </data>
+  <data name="&gt;&gt;mlblScore7.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore7.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mlblScore8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 0</value>
+  </data>
+  <data name="mlblScore8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mlblScore8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore8.Name" xml:space="preserve">
+    <value>mlblScore8</value>
+  </data>
+  <data name="&gt;&gt;mlblScore8.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore8.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore8.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="mlblScore9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 0</value>
+  </data>
+  <data name="mlblScore9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mlblScore9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore9.Name" xml:space="preserve">
+    <value>mlblScore9</value>
+  </data>
+  <data name="&gt;&gt;mlblScore9.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore9.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore9.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="mlblScore10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblScore10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mlblScore10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 0</value>
+  </data>
+  <data name="mlblScore10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 46</value>
+  </data>
+  <data name="mlblScore10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblScore10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="mlblScore10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblScore10.Name" xml:space="preserve">
+    <value>mlblScore10</value>
+  </data>
+  <data name="&gt;&gt;mlblScore10.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblScore10.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;mlblScore10.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="rbScore0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore0.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore0.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 49</value>
+  </data>
+  <data name="rbScore0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore0.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore0.Name" xml:space="preserve">
+    <value>rbScore0</value>
+  </data>
+  <data name="&gt;&gt;rbScore0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore0.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore0.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rbScore1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 49</value>
+  </data>
+  <data name="rbScore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore1.Name" xml:space="preserve">
+    <value>rbScore1</value>
+  </data>
+  <data name="&gt;&gt;rbScore1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore1.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="rbScore2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 49</value>
+  </data>
+  <data name="rbScore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore2.Name" xml:space="preserve">
+    <value>rbScore2</value>
+  </data>
+  <data name="&gt;&gt;rbScore2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore2.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="rbScore3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 49</value>
+  </data>
+  <data name="rbScore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore3.Name" xml:space="preserve">
+    <value>rbScore3</value>
+  </data>
+  <data name="&gt;&gt;rbScore3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore3.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="rbScore4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore4.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 49</value>
+  </data>
+  <data name="rbScore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore4.Name" xml:space="preserve">
+    <value>rbScore4</value>
+  </data>
+  <data name="&gt;&gt;rbScore4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore4.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="rbScore5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore5.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 49</value>
+  </data>
+  <data name="rbScore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore5.Name" xml:space="preserve">
+    <value>rbScore5</value>
+  </data>
+  <data name="&gt;&gt;rbScore5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore5.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore5.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="rbScore6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore6.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 49</value>
+  </data>
+  <data name="rbScore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore6.Name" xml:space="preserve">
+    <value>rbScore6</value>
+  </data>
+  <data name="&gt;&gt;rbScore6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore6.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore6.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="rbScore7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore7.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 49</value>
+  </data>
+  <data name="rbScore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore7.Name" xml:space="preserve">
+    <value>rbScore7</value>
+  </data>
+  <data name="&gt;&gt;rbScore7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore7.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore7.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="rbScore8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore8.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 49</value>
+  </data>
+  <data name="rbScore8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore8.Name" xml:space="preserve">
+    <value>rbScore8</value>
+  </data>
+  <data name="&gt;&gt;rbScore8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore8.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore8.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="rbScore9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore9.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 49</value>
+  </data>
+  <data name="rbScore9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore9.Name" xml:space="preserve">
+    <value>rbScore9</value>
+  </data>
+  <data name="&gt;&gt;rbScore9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore9.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore9.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="rbScore10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScore10.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="rbScore10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbScore10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="rbScore10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbScore10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 49</value>
+  </data>
+  <data name="rbScore10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 41</value>
+  </data>
+  <data name="rbScore10.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbScore10.Name" xml:space="preserve">
+    <value>rbScore10</value>
+  </data>
+  <data name="&gt;&gt;rbScore10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScore10.Parent" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;rbScore10.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tlpScore.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 19</value>
+  </data>
+  <data name="tlpScore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpScore.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 93</value>
+  </data>
+  <data name="tlpScore.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tlpScore.Name" xml:space="preserve">
+    <value>tlpScore</value>
+  </data>
+  <data name="&gt;&gt;tlpScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpScore.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpScore.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpScore.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblMinusLabel" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblPlusLabel" Row="0" RowSpan="2" Column="12" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore0" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore1" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore2" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore3" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore4" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore5" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore6" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore7" Row="0" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore8" Row="0" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore9" Row="0" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="mlblScore10" Row="0" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;Control Name="rbScore0" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="rbScore1" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="rbScore2" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="rbScore3" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="rbScore4" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="rbScore5" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="rbScore6" Row="1" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="rbScore7" Row="1" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="rbScore8" Row="1" RowSpan="1" Column="9" ColumnSpan="1" /&gt;&lt;Control Name="rbScore9" Row="1" RowSpan="1" Column="10" ColumnSpan="1" /&gt;&lt;Control Name="rbScore10" Row="1" RowSpan="1" Column="11" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,130,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090916,Percent,9,090834,Absolute,182" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpMain.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 112</value>
+  </data>
+  <data name="tlpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Name" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblQuestionNumber" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblQuestion" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tlpScore" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,26,Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,Percent,100,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 112</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>QuestionGradeControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,132 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PnT.SongClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Culture" Type="System.Globalization.CultureInfo" Scope="User">
+      <Value Profile="(Default)">pt-BR</Value>
+    </Setting>
+    <Setting Name="RestartCulture" Type="System.Globalization.CultureInfo" Scope="User">
+      <Value Profile="(Default)">pt-BR</Value>
+    </Setting>
+    <Setting Name="HideInactiveInstitutions" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HideInactivePoles" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HideInactiveUsers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HideInactiveTeachers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HideInactiveStudents" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HideInactiveRoles" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HideInactiveInstruments" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="InstitutionGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">InstitutionId,DisplayName,EntityName,LocalInitiative,Institutionalized,TaxId,CoordinatorName,InstitutionLocation,Phones,InstitutionSite,Email,InstitutionStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="InstitutionGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,EntityName,CoordinatorName,InstitutionLocation,Phones,InstitutionStatus</Value>
+    </Setting>
+    <Setting Name="InstitutionGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,EntityName,CoordinatorName,InstitutionLocation,Phones,InstitutionStatus</Value>
+    </Setting>
+    <Setting Name="GridFontSize" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
+    <Setting Name="PoleGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PoleId,DisplayName,InstitutionName,PoleLocation,Phones,Email,PoleStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="PoleGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,InstitutionName,PoleLocation,Phones,PoleStatus</Value>
+    </Setting>
+    <Setting Name="PoleGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,InstitutionName,PoleLocation,Phones,PoleStatus</Value>
+    </Setting>
+    <Setting Name="TeacherGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TeacherId,DisplayName,Birthdate,UserLogin,Poles,TeacherLocation,Phones,Email,AcademicBackground,TeacherStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="TeacherGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,UserLogin,Poles,TeacherLocation,Phones,Email,TeacherStatus</Value>
+    </Setting>
+    <Setting Name="TeacherGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,UserLogin,Poles,TeacherLocation,Phones,Email,TeacherStatus</Value>
+    </Setting>
+    <Setting Name="StudentGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">StudentId,DisplayName,Birthdate,HasDisability,GuardianName,PoleName,UserLogin,StudentLocation,Phones,Email,StudentStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="StudentGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,Birthdate,GuardianName,PoleName,StudentLocation,Phones,StudentStatus</Value>
+    </Setting>
+    <Setting Name="StudentGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DisplayName,Birthdate,GuardianName,PoleName,StudentLocation,Phones,StudentStatus</Value>
+    </Setting>
+    <Setting Name="UserGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">UserId,UserName,Login,InstitutionName,RoleName,Email,UserStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="UserGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UserName,Login,InstitutionName,RoleName,Email,UserStatus</Value>
+    </Setting>
+    <Setting Name="UserGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UserName,Login,InstitutionName,RoleName,Email,UserStatus</Value>
+    </Setting>
+    <Setting Name="InstrumentGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">InstrumentId,Code,InstrumentTypeName,PoleName,InstrumentLocation,InstrumentStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="InstrumentGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Code,InstrumentTypeName,PoleName,InstrumentLocation,InstrumentStatus</Value>
+    </Setting>
+    <Setting Name="InstrumentGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Code,InstrumentTypeName,PoleName,InstrumentLocation,InstrumentStatus</Value>
+    </Setting>
+    <Setting Name="LastUserLogin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HideInactiveClasses" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ClassGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ClassId,SemesterName,SubjectCode,Code,PoleName,TeacherName,AggregatedTypeName,ClassLevelName,Capacity,WeekDays,StartTime,Duration,ClassStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="ClassGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Code,PoleName,TeacherName,AggregatedTypeName,ClassLevelName,WeekDays,StartTime,ClassStatus</Value>
+    </Setting>
+    <Setting Name="ClassGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Code,PoleName,TeacherName,AggregatedTypeName,ClassLevelName,WeekDays,StartTime,ClassStatus</Value>
+    </Setting>
+    <Setting Name="RegistrationGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">RegistrationId,SemesterName,ClassCode,PoleName,StudentName,AutoRenewal,RegistrationStatus,CreationTime,InactivationTime,InactivationReason</Value>
+    </Setting>
+    <Setting Name="RegistrationGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ClassCode,PoleName,StudentName,AutoRenewal,RegistrationStatus</Value>
+    </Setting>
+    <Setting Name="RegistrationGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ClassCode,PoleName,StudentName,AutoRenewal,RegistrationStatus</Value>
+    </Setting>
+    <Setting Name="ReportGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ReportId,SemesterName,PeriodName,TypeName,AuthorName,InstitutionName,ClassData,ReportStatus</Value>
+    </Setting>
+    <Setting Name="ReportGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PeriodName,TypeName,AuthorName,InstitutionName,ClassData,ReportStatus</Value>
+    </Setting>
+    <Setting Name="ReportGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PeriodName,TypeName,AuthorName,InstitutionName,ClassData,ReportStatus</Value>
+    </Setting>
+    <Setting Name="EventGridColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EventId,EventDate,EventTime,EventName,InstitutionName,EventLocation,Duration,Description,EventSendOptionName,CreationTime</Value>
+    </Setting>
+    <Setting Name="EventGridDisplayedColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EventDate,EventTime,EventName,InstitutionName,EventLocation,Duration,Description</Value>
+    </Setting>
+    <Setting Name="EventGridDefaultColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EventDate,EventTime,EventName,InstitutionName,EventLocation,Duration,Description</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

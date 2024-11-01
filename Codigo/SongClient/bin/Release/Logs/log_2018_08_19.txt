@@ -1,0 +1,20 @@
+17:58:13.935 - Song Client 1.0.11.0
+17:58:14.165 - Inicializando aplicativo...
+17:58:15.301 - Application was started.
+17:58:15.312 - Starting web service manager...
+17:58:15.321 - Web service manager was started and is running.
+17:58:15.422 - Web service connection was closed.
+17:58:15.424 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+17:58:17.925 - Application is connected to web service.
+17:58:17.925 - Song Server 1.0.11
+17:58:17.925 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=Song@2018;Connect Timeout=2;convert zero datetime=True
+18:07:22.746 - Song Client 1.0.11.0
+18:07:22.975 - Inicializando aplicativo...
+18:07:24.093 - Application was started.
+18:07:24.105 - Starting web service manager...
+18:07:24.115 - Web service manager was started and is running.
+18:07:24.234 - Web service connection was closed.
+18:07:24.236 - Connecting to web service at http://18.231.79.85/SongServer/SongService.svc...
+18:07:32.009 - Application is connected to web service.
+18:07:32.009 - Song Server 1.0.11
+18:07:32.009 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=Song@2018;Connect Timeout=2;convert zero datetime=True

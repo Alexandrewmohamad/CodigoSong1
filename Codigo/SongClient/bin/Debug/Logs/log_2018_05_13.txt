@@ -1,0 +1,147 @@
+18:10:48.575 - Song Client 1.0.0.0
+18:10:48.777 - Inicializando aplicativo...
+18:10:50.959 - Application was started.
+18:10:50.965 - Starting web service manager...
+18:10:50.974 - Web service manager was started and is running.
+18:10:50.985 - Web service connection was closed.
+18:10:50.989 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+18:11:23.991 - Application is connected to web service.
+18:11:23.991 - Song Server 1.0.0
+18:11:23.991 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+18:11:53.541 - Liberando recursos e fechando aplicativo...
+18:11:53.681 - Stopping web service manager...
+18:11:53.714 - Web service connection was closed.
+18:11:53.714 - Web service manager running thread was stopped.
+18:22:12.850 - Song Client 1.0.0.0
+18:22:13.084 - Inicializando aplicativo...
+18:22:14.233 - Application was started.
+18:22:14.240 - Starting web service manager...
+18:22:14.254 - Web service manager was started and is running.
+18:22:14.267 - Web service connection was closed.
+18:22:14.270 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+18:22:16.998 - Application is connected to web service.
+18:22:16.998 - Song Server 1.0.0
+18:22:16.998 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+18:23:05.057 - Liberando recursos e fechando aplicativo...
+18:23:05.092 - Stopping web service manager...
+18:23:05.118 - Web service connection was closed.
+18:23:05.118 - Web service manager running thread was stopped.
+18:24:09.379 - Song Client 1.0.0.0
+18:24:09.584 - Inicializando aplicativo...
+18:24:10.806 - Application was started.
+18:24:10.812 - Starting web service manager...
+18:24:10.821 - Web service manager was started and is running.
+18:24:10.828 - Web service connection was closed.
+18:24:10.835 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+18:24:13.599 - Application is connected to web service.
+18:24:13.599 - Song Server 1.0.0
+18:24:13.599 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+18:26:43.955 - Liberando recursos e fechando aplicativo...
+18:26:43.996 - Stopping web service manager...
+18:26:44.084 - Web service connection was closed.
+18:26:44.085 - Web service manager running thread was stopped.
+19:00:46.379 - Song Client 1.0.0.0
+19:00:46.640 - Inicializando aplicativo...
+19:00:47.792 - Application was started.
+19:00:47.800 - Starting web service manager...
+19:00:47.809 - Web service manager was started and is running.
+19:00:47.825 - Web service connection was closed.
+19:00:47.829 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:00:54.098 - Application is connected to web service.
+19:00:54.099 - Song Server 1.0.0
+19:00:54.099 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:01:08.169 - Liberando recursos e fechando aplicativo...
+19:01:08.230 - Stopping web service manager...
+19:01:08.274 - Web service connection was closed.
+19:01:08.274 - Web service manager running thread was stopped.
+19:02:00.457 - Song Client 1.0.0.0
+19:02:00.763 - Inicializando aplicativo...
+19:02:01.909 - Application was started.
+19:02:01.915 - Starting web service manager...
+19:02:01.947 - Web service manager was started and is running.
+19:02:01.966 - Web service connection was closed.
+19:02:01.971 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:02:04.609 - Application is connected to web service.
+19:02:04.609 - Song Server 1.0.0
+19:02:04.609 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:02:40.893 - Liberando recursos e fechando aplicativo...
+19:02:40.938 - Stopping web service manager...
+19:02:41.008 - Web service connection was closed.
+19:02:41.008 - Web service manager running thread was stopped.
+19:04:01.385 - Song Client 1.0.0.0
+19:04:01.615 - Inicializando aplicativo...
+19:04:02.895 - Application was started.
+19:04:02.901 - Starting web service manager...
+19:04:02.910 - Web service manager was started and is running.
+19:04:02.924 - Web service connection was closed.
+19:04:02.929 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:04:05.502 - Application is connected to web service.
+19:04:05.502 - Song Server 1.0.0
+19:04:05.502 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:06:05.310 - Liberando recursos e fechando aplicativo...
+19:06:05.360 - Stopping web service manager...
+19:06:05.427 - Web service connection was closed.
+19:06:05.427 - Web service manager running thread was stopped.
+19:21:08.171 - Song Client 1.0.0.0
+19:21:08.436 - Inicializando aplicativo...
+19:21:09.609 - Application was started.
+19:21:09.618 - Starting web service manager...
+19:21:09.628 - Web service manager was started and is running.
+19:21:09.665 - Web service connection was closed.
+19:21:09.669 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:21:12.244 - Application is connected to web service.
+19:21:12.244 - Song Server 1.0.0
+19:21:12.244 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:21:56.417 - Erro inesperado ao carregar dados do web service para item Turma selecionado. Object reference not set to an instance of an object.
+19:21:56.418 - Object reference not set to an instance of an object.
+19:21:56.436 - System.NullReferenceException   at PnT.SongClient.UI.Controls.ViewRegistrationControl.UpdateRegistration(Registration registration) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewRegistrationControl.cs:line 1115
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadItemData(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1333
+   at PnT.SongClient.UI.Controls.RegisterBaseControl.PerformDataLoad(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterBaseControl.cs:line 2652
+19:22:06.789 - Erro inesperado ao carregar dados do web service para item Turma selecionado. Object reference not set to an instance of an object.
+19:22:06.789 - Object reference not set to an instance of an object.
+19:22:06.789 - System.NullReferenceException   at PnT.SongClient.UI.Controls.ViewRegistrationControl.UpdateRegistration(Registration registration) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewRegistrationControl.cs:line 1115
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadItemData(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1333
+   at PnT.SongClient.UI.Controls.RegisterBaseControl.PerformDataLoad(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterBaseControl.cs:line 2652
+19:22:11.134 - Erro inesperado ao carregar dados do web service para item Turma selecionado. Object reference not set to an instance of an object.
+19:22:11.134 - Object reference not set to an instance of an object.
+19:22:11.134 - System.NullReferenceException   at PnT.SongClient.UI.Controls.ViewRegistrationControl.UpdateRegistration(Registration registration) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewRegistrationControl.cs:line 1115
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadItemData(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1333
+   at PnT.SongClient.UI.Controls.RegisterBaseControl.PerformDataLoad(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterBaseControl.cs:line 2652
+19:23:27.131 - Erro inesperado ao carregar dados do web service para item Turma selecionado. Object reference not set to an instance of an object.
+19:23:27.131 - Object reference not set to an instance of an object.
+19:23:27.132 - System.NullReferenceException   at PnT.SongClient.UI.Controls.ViewRegistrationControl.UpdateRegistration(Registration registration) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewRegistrationControl.cs:line 1115
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadItemData(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1333
+   at PnT.SongClient.UI.Controls.RegisterBaseControl.PerformDataLoad(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterBaseControl.cs:line 2652
+19:23:29.012 - Liberando recursos e fechando aplicativo...
+19:23:29.111 - Stopping web service manager...
+19:23:29.215 - Web service connection was closed.
+19:23:29.215 - Web service manager running thread was stopped.
+19:23:46.486 - Song Client 1.0.0.0
+19:23:46.727 - Inicializando aplicativo...
+19:23:47.844 - Application was started.
+19:23:47.853 - Starting web service manager...
+19:23:47.893 - Web service manager was started and is running.
+19:23:47.934 - Web service connection was closed.
+19:23:47.939 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:23:50.774 - Application is connected to web service.
+19:23:50.775 - Song Server 1.0.0
+19:23:50.775 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:25:20.861 - Erro inesperado ao carregar dados do web service para item Turma selecionado. Object reference not set to an instance of an object.
+19:25:20.862 - Object reference not set to an instance of an object.
+19:25:20.877 - System.NullReferenceException   at PnT.SongClient.UI.Controls.ViewRegistrationControl.UpdateRegistration(Registration registration) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewRegistrationControl.cs:line 1115
+   at PnT.SongClient.UI.Controls.RegisterClassControl.LoadItemData(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterClassControl.cs:line 1333
+   at PnT.SongClient.UI.Controls.RegisterBaseControl.PerformDataLoad(Int32 itemId) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterBaseControl.cs:line 2652
+19:25:22.106 - Liberando recursos e fechando aplicativo...
+19:25:22.166 - Stopping web service manager...
+19:25:22.255 - Web service connection was closed.
+19:25:22.255 - Web service manager running thread was stopped.
+19:25:49.929 - Song Client 1.0.0.0
+19:25:50.121 - Inicializando aplicativo...
+19:25:51.320 - Application was started.
+19:25:51.328 - Starting web service manager...
+19:25:51.340 - Web service manager was started and is running.
+19:25:51.361 - Web service connection was closed.
+19:25:51.365 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:25:54.202 - Application is connected to web service.
+19:25:54.202 - Song Server 1.0.0
+19:25:54.202 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True

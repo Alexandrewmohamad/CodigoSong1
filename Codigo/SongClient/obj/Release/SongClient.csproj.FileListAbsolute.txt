@@ -1,0 +1,224 @@
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\SongClient.exe.config
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\SongClient.exe
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\SongClient.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\pt-BR\SongClient.resources.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\Ionic.Zip.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\MetroFramework.Design.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\MetroFramework.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\MetroFramework.Fonts.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\SongDB.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\SongServer.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\MySql.Data.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\MetroFramework.Design.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\MetroFramework.Fonts.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\SongDB.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\bin\Release\SongServer.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\SongClient.csprojResolveAssemblyReference.cache
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.Properties.Resources.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.AboutMetroForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterBaseControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstitutionControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstrumentControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterPoleControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterRoleControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterStudentControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterTeacherControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterUserControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstitutionControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstrumentControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewPoleControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewStudentControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewTeacherControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewUserControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.EditCommentForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.LogonForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.MainForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.OptionsForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.Properties.Resources.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterBaseControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstitutionControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstrumentControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterPoleControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterRoleControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterStudentControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterTeacherControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterUserControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstitutionControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstrumentControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewPoleControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewStudentControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewTeacherControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewUserControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.EditCommentForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.LogonForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.MainForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.OptionsForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\SongClient.csproj.GenerateResource.Cache
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\pt-BR\SongClient.resources.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\SongClient.exe
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\SongClient.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterClassControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewClassControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewRegistrationControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectStudentForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterClassControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewClassControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewRegistrationControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectStudentForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.HomeControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.IndicatorControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectClassForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.HomeControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectClassForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectFileForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectFileForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.ResetPasswordForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.ResetPasswordForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewReportControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.InactivationReasonForm.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.InactivationReasonForm.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherMonth.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherMonth.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewReportControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorMonth.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionCommentControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorMonth.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewEventControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewEventControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.SelectedDateChangedEventArgs.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterEventControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterEventControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsClassMonthControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsGradeMonthControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsClassMonthControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsGradeMonthControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorSemester.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherSemester.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ImportClassControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionGradeControl.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorSemester.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherSemester.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionGradeControl.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.GenerateReportCard.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.GenerateReportCard.pt-BR.resources
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ImportClassControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongClient.exe.config
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongClient.exe
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongClient.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\pt-BR\SongClient.resources.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\Ionic.Zip.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\MetroFramework.Design.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\MetroFramework.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\MetroFramework.Fonts.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongDB.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongServer.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\MySql.Data.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\MetroFramework.Design.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\MetroFramework.Fonts.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongDB.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongDB.dll.config
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongServer.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\bin\Release\SongServer.dll.config
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\SongClient.csproj.AssemblyReference.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.Properties.Resources.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.AboutMetroForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.SelectedDateChangedEventArgs.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorMonth.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorSemester.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherSemester.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.GenerateReportCard.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ImportClassControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionCommentControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherMonth.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.HomeControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.IndicatorControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionGradeControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterBaseControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterClassControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterEventControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstitutionControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstrumentControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterPoleControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterRoleControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterStudentControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterTeacherControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterUserControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsClassMonthControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsGradeMonthControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewEventControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewReportControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.InactivationReasonForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.ResetPasswordForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectFileForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewClassControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstitutionControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstrumentControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewPoleControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewRegistrationControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewStudentControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewTeacherControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewUserControl.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.EditCommentForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.LogonForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.MainForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.OptionsForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectClassForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectStudentForm.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.Properties.Resources.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorMonth.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportCoordinatorSemester.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherSemester.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.GenerateReportCard.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ImportClassControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.EditReportTeacherMonth.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.HomeControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.QuestionGradeControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterBaseControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterClassControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterEventControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstitutionControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterInstrumentControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterPoleControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterRoleControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterStudentControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterTeacherControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.RegisterUserControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsAttendanceMonthControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsClassMonthControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.StatisticsGradeMonthControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewEventControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewReportControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.InactivationReasonForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.ResetPasswordForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectFileForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewClassControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstitutionControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewInstrumentControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewPoleControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewRegistrationControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewStudentControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewTeacherControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.Controls.ViewUserControl.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.EditCommentForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.LogonForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.MainForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.OptionsForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectClassForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\PnT.SongClient.UI.SelectStudentForm.pt-BR.resources
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\SongClient.csproj.GenerateResource.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\SongClient.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\pt-BR\SongClient.resources.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\SongClient.csproj.Up2Date
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\SongClient.exe
+D:\Desenvolvimento\CodigoSong\Codigo\SongClient\obj\Release\SongClient.pdb

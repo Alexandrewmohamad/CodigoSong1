@@ -1,0 +1,413 @@
+07:37:53.912 - Song Client 1.0.0.0
+07:37:54.117 - Inicializando aplicativo...
+07:37:55.628 - Application was started.
+07:37:55.635 - Starting web service manager...
+07:37:55.643 - Web service manager was started and is running.
+07:37:55.866 - Web service connection was closed.
+07:37:55.870 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+07:38:27.945 - Application is connected to web service.
+07:38:27.945 - Song Server 1.0.0
+07:38:27.945 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+07:39:41.518 - Liberando recursos e fechando aplicativo...
+07:39:41.601 - Stopping web service manager...
+07:39:41.688 - Web service connection was closed.
+07:39:41.688 - Web service manager running thread was stopped.
+08:29:46.107 - Song Client 1.0.0.0
+08:29:46.465 - Inicializando aplicativo...
+08:29:48.960 - Application was started.
+08:29:48.971 - Starting web service manager...
+08:29:48.980 - Web service manager was started and is running.
+08:29:49.019 - Web service connection was closed.
+08:29:49.023 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:30:02.978 - Application is connected to web service.
+08:30:02.978 - Song Server 1.0.0
+08:30:02.978 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:31:19.795 - Song Client 1.0.0.0
+08:31:20.014 - Inicializando aplicativo...
+08:31:21.204 - Application was started.
+08:31:21.211 - Starting web service manager...
+08:31:21.223 - Web service manager was started and is running.
+08:31:21.273 - Web service connection was closed.
+08:31:21.277 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:31:24.256 - Application is connected to web service.
+08:31:24.256 - Song Server 1.0.0
+08:31:24.256 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:32:20.986 - Liberando recursos e fechando aplicativo...
+08:32:21.198 - Stopping web service manager...
+08:32:21.283 - Web service connection was closed.
+08:32:21.284 - Web service manager running thread was stopped.
+08:32:52.417 - Song Client 1.0.0.0
+08:32:52.667 - Inicializando aplicativo...
+08:32:54.119 - Application was started.
+08:32:54.126 - Starting web service manager...
+08:32:54.139 - Web service manager was started and is running.
+08:32:54.158 - Web service connection was closed.
+08:32:54.164 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:32:57.071 - Application is connected to web service.
+08:32:57.072 - Song Server 1.0.0
+08:32:57.072 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:33:54.542 - Liberando recursos e fechando aplicativo...
+08:33:54.587 - Stopping web service manager...
+08:33:54.687 - Web service connection was closed.
+08:33:54.687 - Web service manager running thread was stopped.
+08:36:27.206 - Song Client 1.0.0.0
+08:36:27.436 - Inicializando aplicativo...
+08:36:28.655 - Application was started.
+08:36:28.663 - Starting web service manager...
+08:36:28.676 - Web service manager was started and is running.
+08:36:28.692 - Web service connection was closed.
+08:36:28.697 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:36:31.573 - Application is connected to web service.
+08:36:31.573 - Song Server 1.0.0
+08:36:31.574 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:36:54.152 - Liberando recursos e fechando aplicativo...
+08:36:54.199 - Stopping web service manager...
+08:36:54.256 - Web service connection was closed.
+08:36:54.256 - Web service manager running thread was stopped.
+08:37:29.590 - Song Client 1.0.0.0
+08:37:29.823 - Inicializando aplicativo...
+08:37:31.164 - Application was started.
+08:37:31.172 - Starting web service manager...
+08:37:31.236 - Web service manager was started and is running.
+08:37:31.292 - Web service connection was closed.
+08:37:31.296 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:37:36.953 - Application is connected to web service.
+08:37:36.954 - Song Server 1.0.0
+08:37:36.954 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:39:40.508 - Liberando recursos e fechando aplicativo...
+08:39:40.560 - Stopping web service manager...
+08:39:40.679 - Web service connection was closed.
+08:39:40.679 - Web service manager running thread was stopped.
+08:53:57.644 - Song Client 1.0.0.0
+08:53:57.878 - Inicializando aplicativo...
+08:54:01.275 - Application was started.
+08:54:01.290 - Starting web service manager...
+08:54:01.340 - Web service manager was started and is running.
+08:54:01.416 - Web service connection was closed.
+08:54:01.420 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:54:04.124 - Application is connected to web service.
+08:54:04.124 - Song Server 1.0.0
+08:54:04.124 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:05:12.998 - Song Client 1.0.0.0
+09:05:13.248 - Inicializando aplicativo...
+09:05:14.499 - Application was started.
+09:05:14.507 - Starting web service manager...
+09:05:14.517 - Web service manager was started and is running.
+09:05:14.531 - Web service connection was closed.
+09:05:14.536 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:05:17.151 - Application is connected to web service.
+09:05:17.151 - Song Server 1.0.0
+09:05:17.151 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:06:38.704 - Liberando recursos e fechando aplicativo...
+09:06:38.772 - Stopping web service manager...
+09:06:38.816 - Web service connection was closed.
+09:06:38.817 - Web service manager running thread was stopped.
+18:48:58.763 - Song Client 1.0.0.0
+18:48:59.014 - Inicializando aplicativo...
+18:49:00.192 - Application was started.
+18:49:00.199 - Starting web service manager...
+18:49:00.214 - Web service manager was started and is running.
+18:49:00.221 - Web service connection was closed.
+18:49:00.224 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+18:49:03.137 - Application is connected to web service.
+18:49:03.137 - Song Server 1.0.0
+18:49:03.138 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+18:51:50.512 - Erro interno no web service ao carregar arquivo de miniatura mec_files/2018/02/2244_termo_imagem_voz.pdf do item Aluno selecionado.
+Entre em contato com o suporte. File is not an image file.
+19:00:56.734 - Erro interno no web service ao carregar arquivo de miniatura mec_files/2018/02/2244_termo_imagem_voz.pdf do item Aluno selecionado.
+Entre em contato com o suporte. File is not an image file.
+19:11:33.061 - Liberando recursos e fechando aplicativo...
+19:11:33.341 - Stopping web service manager...
+19:11:33.419 - Web service connection was closed.
+19:11:33.420 - Web service manager running thread was stopped.
+19:15:03.635 - Song Client 1.0.0.0
+19:15:03.848 - Inicializando aplicativo...
+19:15:05.061 - Application was started.
+19:15:05.067 - Starting web service manager...
+19:15:05.102 - Web service manager was started and is running.
+19:15:05.116 - Web service connection was closed.
+19:15:05.120 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:15:07.878 - Application is connected to web service.
+19:15:07.878 - Song Server 1.0.0
+19:15:07.878 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:15:44.831 - Liberando recursos e fechando aplicativo...
+19:15:44.912 - Stopping web service manager...
+19:15:44.996 - Web service connection was closed.
+19:15:44.996 - Web service manager running thread was stopped.
+19:16:26.282 - Song Client 1.0.0.0
+19:16:26.489 - Inicializando aplicativo...
+19:16:27.654 - Application was started.
+19:16:27.660 - Starting web service manager...
+19:16:27.673 - Web service manager was started and is running.
+19:16:27.685 - Web service connection was closed.
+19:16:27.691 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:16:30.496 - Application is connected to web service.
+19:16:30.496 - Song Server 1.0.0
+19:16:30.496 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:17:20.225 - Liberando recursos e fechando aplicativo...
+19:17:20.279 - Stopping web service manager...
+19:17:20.397 - Web service connection was closed.
+19:17:20.398 - Web service manager running thread was stopped.
+19:19:45.762 - Song Client 1.0.0.0
+19:19:45.978 - Inicializando aplicativo...
+19:19:47.181 - Application was started.
+19:19:47.190 - Starting web service manager...
+19:19:47.216 - Web service manager was started and is running.
+19:19:47.229 - Web service connection was closed.
+19:19:47.251 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:19:49.967 - Application is connected to web service.
+19:19:49.967 - Song Server 1.0.0
+19:19:49.967 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:27:36.972 - Erro inesperado ao filtrar lista de item Aluno do serviço web. The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:27:36.973 - The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:27:37.010 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindStudentsByFilter(Boolean loadUser, Boolean loadPole, Int32 filterStudentStatus, Int32 filterInstitution, Int32 filterPole)
+   at PnT.SongClient.UI.Controls.ViewStudentControl.LoadStudents() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewStudentControl.cs:line 709
+19:27:37.010 - The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:27:37.010 - System.ServiceModel.QuotaExceededException
+19:28:12.803 - Erro inesperado ao filtrar lista de item Aluno do serviço web. The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:28:12.803 - The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:28:12.803 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindStudentsByFilter(Boolean loadUser, Boolean loadPole, Int32 filterStudentStatus, Int32 filterInstitution, Int32 filterPole)
+   at PnT.SongClient.UI.Controls.ViewStudentControl.LoadStudents() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewStudentControl.cs:line 709
+19:28:12.803 - The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:28:12.803 - System.ServiceModel.QuotaExceededException
+19:46:40.615 - Song Client 1.0.0.0
+19:46:40.815 - Inicializando aplicativo...
+19:46:42.040 - Application was started.
+19:46:42.046 - Starting web service manager...
+19:46:42.054 - Web service manager was started and is running.
+19:46:42.071 - Web service connection was closed.
+19:46:42.076 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:46:48.881 - Application is connected to web service.
+19:46:48.881 - Song Server 1.0.0
+19:46:48.881 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+19:47:09.362 - Erro inesperado ao filtrar lista de item Aluno do serviço web. The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:47:09.363 - The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:47:09.372 - System.ServiceModel.CommunicationException
+Server stack trace: 
+   at System.ServiceModel.Channels.MessageEncoder.BufferMessageStream(Stream stream, BufferManager bufferManager, Int32 maxBufferSize)
+   at System.ServiceModel.Channels.MessageEncoder.ReadMessage(Stream stream, BufferManager bufferManager, Int32 maxBufferSize, String contentType)
+   at System.ServiceModel.Channels.HttpInput.ReadChunkedBufferedMessage(Stream inputStream)
+   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindStudentsByFilter(Boolean loadUser, Boolean loadPole, Int32 filterStudentStatus, Int32 filterInstitution, Int32 filterPole)
+   at PnT.SongClient.UI.Controls.ViewStudentControl.LoadStudents() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewStudentControl.cs:line 709
+19:47:09.372 - The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+19:47:09.372 - System.ServiceModel.QuotaExceededException
+19:47:10.832 - Liberando recursos e fechando aplicativo...
+19:47:10.908 - Stopping web service manager...
+19:47:10.971 - Web service connection was closed.
+19:47:10.971 - Web service manager running thread was stopped.
+19:58:26.006 - Song Client 1.0.0.0
+19:58:26.263 - Inicializando aplicativo...
+19:58:27.448 - Application was started.
+19:58:27.455 - Starting web service manager...
+19:58:27.464 - Web service manager was started and is running.
+19:58:27.489 - Web service connection was closed.
+19:58:27.493 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:58:43.830 - Could not connect to web service.
+19:58:43.830 - Unexpected error while connecting to web service. 
+19:58:43.830 - For TransferMode.Buffered, MaxReceivedMessageSize and MaxBufferSize must be the same value.
+Parameter name: bindingElement
+19:58:43.841 - System.ArgumentException   at System.ServiceModel.Channels.HttpChannelFactory`1..ctor(HttpTransportBindingElement bindingElement, BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.TextMessageEncodingBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelFactory[TChannel](BindingParameterCollection parameters)
+   at System.ServiceModel.Channels.ServiceChannelFactory.BuildChannelFactory(ServiceEndpoint serviceEndpoint, Boolean useActiveAutoClose)
+   at System.ServiceModel.ChannelFactory.CreateFactory()
+   at System.ServiceModel.ChannelFactory.OnOpening()
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ChannelFactory.EnsureOpened()
+   at System.ServiceModel.ChannelFactory`1.CreateChannel(EndpointAddress address, Uri via)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 596
+19:58:43.881 - Web service connection was closed.
+19:58:53.881 - Web service connection was closed.
+19:58:53.881 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:58:54.011 - Could not connect to web service.
+19:58:54.011 - Unexpected error while connecting to web service. 
+19:58:54.011 - For TransferMode.Buffered, MaxReceivedMessageSize and MaxBufferSize must be the same value.
+Parameter name: bindingElement
+19:58:54.012 - System.ArgumentException   at System.ServiceModel.Channels.HttpChannelFactory`1..ctor(HttpTransportBindingElement bindingElement, BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.TextMessageEncodingBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelFactory[TChannel](BindingParameterCollection parameters)
+   at System.ServiceModel.Channels.ServiceChannelFactory.BuildChannelFactory(ServiceEndpoint serviceEndpoint, Boolean useActiveAutoClose)
+   at System.ServiceModel.ChannelFactory.CreateFactory()
+   at System.ServiceModel.ChannelFactory.OnOpening()
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ChannelFactory.EnsureOpened()
+   at System.ServiceModel.ChannelFactory`1.CreateChannel(EndpointAddress address, Uri via)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 596
+19:58:54.028 - Web service connection was closed.
+19:59:04.029 - Web service connection was closed.
+19:59:04.029 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:59:04.137 - Could not connect to web service.
+19:59:04.137 - Unexpected error while connecting to web service. 
+19:59:04.138 - For TransferMode.Buffered, MaxReceivedMessageSize and MaxBufferSize must be the same value.
+Parameter name: bindingElement
+19:59:04.138 - System.ArgumentException   at System.ServiceModel.Channels.HttpChannelFactory`1..ctor(HttpTransportBindingElement bindingElement, BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.TextMessageEncodingBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelFactory[TChannel](BindingParameterCollection parameters)
+   at System.ServiceModel.Channels.ServiceChannelFactory.BuildChannelFactory(ServiceEndpoint serviceEndpoint, Boolean useActiveAutoClose)
+   at System.ServiceModel.ChannelFactory.CreateFactory()
+   at System.ServiceModel.ChannelFactory.OnOpening()
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ChannelFactory.EnsureOpened()
+   at System.ServiceModel.ChannelFactory`1.CreateChannel(EndpointAddress address, Uri via)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 596
+19:59:04.158 - Web service connection was closed.
+19:59:14.167 - Web service connection was closed.
+19:59:14.167 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:59:14.338 - Could not connect to web service.
+19:59:14.339 - Unexpected error while connecting to web service. 
+19:59:14.339 - For TransferMode.Buffered, MaxReceivedMessageSize and MaxBufferSize must be the same value.
+Parameter name: bindingElement
+19:59:14.339 - System.ArgumentException   at System.ServiceModel.Channels.HttpChannelFactory`1..ctor(HttpTransportBindingElement bindingElement, BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.TextMessageEncodingBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelFactory[TChannel](BindingParameterCollection parameters)
+   at System.ServiceModel.Channels.ServiceChannelFactory.BuildChannelFactory(ServiceEndpoint serviceEndpoint, Boolean useActiveAutoClose)
+   at System.ServiceModel.ChannelFactory.CreateFactory()
+   at System.ServiceModel.ChannelFactory.OnOpening()
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ChannelFactory.EnsureOpened()
+   at System.ServiceModel.ChannelFactory`1.CreateChannel(EndpointAddress address, Uri via)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 596
+19:59:14.354 - Web service connection was closed.
+19:59:24.355 - Web service connection was closed.
+19:59:24.355 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:59:24.477 - Could not connect to web service.
+19:59:24.478 - Unexpected error while connecting to web service. 
+19:59:24.478 - For TransferMode.Buffered, MaxReceivedMessageSize and MaxBufferSize must be the same value.
+Parameter name: bindingElement
+19:59:24.478 - System.ArgumentException   at System.ServiceModel.Channels.HttpChannelFactory`1..ctor(HttpTransportBindingElement bindingElement, BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.TextMessageEncodingBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelFactory[TChannel](BindingParameterCollection parameters)
+   at System.ServiceModel.Channels.ServiceChannelFactory.BuildChannelFactory(ServiceEndpoint serviceEndpoint, Boolean useActiveAutoClose)
+   at System.ServiceModel.ChannelFactory.CreateFactory()
+   at System.ServiceModel.ChannelFactory.OnOpening()
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ChannelFactory.EnsureOpened()
+   at System.ServiceModel.ChannelFactory`1.CreateChannel(EndpointAddress address, Uri via)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 596
+19:59:24.491 - Web service connection was closed.
+19:59:34.492 - Web service connection was closed.
+19:59:34.492 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:59:34.610 - Could not connect to web service.
+19:59:34.610 - Unexpected error while connecting to web service. 
+19:59:34.610 - For TransferMode.Buffered, MaxReceivedMessageSize and MaxBufferSize must be the same value.
+Parameter name: bindingElement
+19:59:34.610 - System.ArgumentException   at System.ServiceModel.Channels.HttpChannelFactory`1..ctor(HttpTransportBindingElement bindingElement, BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.TextMessageEncodingBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelFactory[TChannel](BindingParameterCollection parameters)
+   at System.ServiceModel.Channels.ServiceChannelFactory.BuildChannelFactory(ServiceEndpoint serviceEndpoint, Boolean useActiveAutoClose)
+   at System.ServiceModel.ChannelFactory.CreateFactory()
+   at System.ServiceModel.ChannelFactory.OnOpening()
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ChannelFactory.EnsureOpened()
+   at System.ServiceModel.ChannelFactory`1.CreateChannel(EndpointAddress address, Uri via)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 596
+19:59:34.627 - Web service connection was closed.
+19:59:44.627 - Web service connection was closed.
+19:59:44.627 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+19:59:44.735 - Could not connect to web service.
+19:59:44.735 - Unexpected error while connecting to web service. 
+19:59:44.735 - For TransferMode.Buffered, MaxReceivedMessageSize and MaxBufferSize must be the same value.
+Parameter name: bindingElement
+19:59:44.735 - System.ArgumentException   at System.ServiceModel.Channels.HttpChannelFactory`1..ctor(HttpTransportBindingElement bindingElement, BindingContext context)
+   at System.ServiceModel.Channels.HttpTransportBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.MessageEncodingBindingElement.InternalBuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.TextMessageEncodingBindingElement.BuildChannelFactory[TChannel](BindingContext context)
+   at System.ServiceModel.Channels.BindingContext.BuildInnerChannelFactory[TChannel]()
+   at System.ServiceModel.Channels.Binding.BuildChannelFactory[TChannel](BindingParameterCollection parameters)
+   at System.ServiceModel.Channels.ServiceChannelFactory.BuildChannelFactory(ServiceEndpoint serviceEndpoint, Boolean useActiveAutoClose)
+   at System.ServiceModel.ChannelFactory.CreateFactory()
+   at System.ServiceModel.ChannelFactory.OnOpening()
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ChannelFactory.EnsureOpened()
+   at System.ServiceModel.ChannelFactory`1.CreateChannel(EndpointAddress address, Uri via)
+   at System.ServiceModel.ChannelFactory`1.CreateChannel()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 596
+19:59:44.746 - Web service connection was closed.
+20:01:25.728 - Song Client 1.0.0.0
+20:01:25.988 - Inicializando aplicativo...
+20:01:27.166 - Application was started.
+20:01:27.174 - Starting web service manager...
+20:01:27.182 - Web service manager was started and is running.
+20:01:27.200 - Web service connection was closed.
+20:01:27.204 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+20:01:55.109 - Application is connected to web service.
+20:01:55.110 - Song Server 1.0.0
+20:01:55.110 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+20:02:39.531 - Liberando recursos e fechando aplicativo...
+20:02:39.726 - Stopping web service manager...
+20:02:39.819 - Web service connection was closed.
+20:02:39.819 - Web service manager running thread was stopped.

@@ -1,0 +1,128 @@
+09:19:17.630 - Song Client 1.0.1.0
+09:19:17.828 - Inicializando aplicativo...
+09:19:19.200 - Application was started.
+09:19:19.209 - Starting web service manager...
+09:19:19.216 - Web service manager was started and is running.
+09:19:19.290 - Web service connection was closed.
+09:19:19.294 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+09:19:38.238 - Application is connected to web service.
+09:19:38.239 - Song Server 1.0.1
+09:19:38.239 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+09:31:52.018 - Liberando recursos e fechando aplicativo...
+09:31:52.115 - Stopping web service manager...
+09:31:52.163 - Web service connection was closed.
+09:31:52.163 - Web service manager running thread was stopped.
+10:55:21.458 - Song Client 1.0.1.0
+10:55:21.673 - Inicializando aplicativo...
+10:55:23.165 - Application was started.
+10:55:23.172 - Starting web service manager...
+10:55:23.182 - Web service manager was started and is running.
+10:55:23.234 - Web service connection was closed.
+10:55:23.238 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:55:27.714 - Application is connected to web service.
+10:55:27.714 - Song Server 1.0.1
+10:55:27.715 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+12:54:35.919 - Song Client 1.0.1.0
+12:54:36.148 - Inicializando aplicativo...
+12:54:37.410 - Application was started.
+12:54:37.420 - Starting web service manager...
+12:54:37.431 - Web service manager was started and is running.
+12:54:37.446 - Web service connection was closed.
+12:54:37.453 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+12:54:40.023 - Application is connected to web service.
+12:54:40.023 - Song Server 1.0.1
+12:54:40.023 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+12:55:04.433 - Error while testing web service connection.
+12:55:04.433 - There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+12:55:04.550 - System.ServiceModel.EndpointNotFoundException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.GetHeartbeat()
+   at PnT.SongClient.Data.WebServiceManager.KeepRunning() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\WebServiceManager.cs:line 706
+12:55:04.550 - Unable to connect to the remote server
+12:55:04.550 - System.Net.WebException   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+12:55:04.550 - No connection could be made because the target machine actively refused it 127.0.0.1:4436
+12:55:04.550 - System.Net.Sockets.SocketException   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+12:55:05.310 - Web service connection was closed.
+12:55:11.382 - Erro inesperado ao filtrar lista de item Turma do serviço web. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+12:55:11.382 - There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+12:55:11.383 - System.ServiceModel.EndpointNotFoundException
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at PnT.SongServer.ISongService.FindClassesByFilter(Boolean loadSemester, Boolean loadPole, Boolean loadTeacher, Int32 filterClassStatus, Int32 filterClassType, Int32 filterInstrumentType, Int32 filterClassLevel, Int32 filterSemester, Int32 filterInstitution, Int32 filterPole, Int32 filterTeacher)
+   at PnT.SongClient.UI.Controls.ViewClassControl.LoadClasses() in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\ViewClassControl.cs:line 1046
+12:55:11.383 - Unable to connect to the remote server
+12:55:11.383 - System.Net.WebException   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+12:55:11.383 - No connection could be made because the target machine actively refused it 127.0.0.1:4436
+12:55:11.383 - System.Net.Sockets.SocketException   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+12:55:15.313 - Web service connection was closed.
+12:55:15.313 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+12:55:16.839 - Liberando recursos e fechando aplicativo...
+12:55:16.926 - Stopping web service manager...
+12:55:17.453 - Could not connect to web service.
+12:55:17.453 - Could not connect to web service. There was no endpoint listening at http://localhost:4436/SongServer/SongService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+12:55:34.495 - Song Client 1.0.1.0
+12:55:34.751 - Inicializando aplicativo...
+12:55:35.966 - Application was started.
+12:55:35.974 - Starting web service manager...
+12:55:35.984 - Web service manager was started and is running.
+12:55:35.998 - Web service connection was closed.
+12:55:36.001 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+12:55:44.782 - Application is connected to web service.
+12:55:44.783 - Song Server 1.0.1
+12:55:44.783 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+12:58:44.350 - Liberando recursos e fechando aplicativo...
+12:58:44.552 - Stopping web service manager...
+12:58:44.587 - Web service connection was closed.
+12:58:44.587 - Web service manager running thread was stopped.
+13:05:37.009 - Song Client 1.0.1.0
+13:05:37.291 - Inicializando aplicativo...
+13:05:38.681 - Application was started.
+13:05:38.695 - Starting web service manager...
+13:05:38.711 - Web service manager was started and is running.
+13:05:38.725 - Web service connection was closed.
+13:05:38.728 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:05:42.698 - Liberando recursos e fechando aplicativo...
+13:05:42.752 - Stopping web service manager...
+13:07:00.530 - Song Client 1.0.1.0
+13:07:00.869 - Inicializando aplicativo...
+13:07:02.486 - Application was started.
+13:07:02.496 - Starting web service manager...
+13:07:02.514 - Web service manager was started and is running.
+13:07:02.535 - Web service connection was closed.
+13:07:02.540 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:07:08.178 - Application is connected to web service.
+13:07:08.178 - Song Server 1.0.1
+13:07:08.178 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:09:36.785 - Liberando recursos e fechando aplicativo...
+13:09:36.908 - Stopping web service manager...
+13:09:37.019 - Web service connection was closed.
+13:09:37.019 - Web service manager running thread was stopped.

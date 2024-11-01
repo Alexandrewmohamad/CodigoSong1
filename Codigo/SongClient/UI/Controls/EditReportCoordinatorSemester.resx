@@ -1,0 +1,2268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpHeader.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblReportHeading.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mlblReportHeading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mlblReportHeading.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="mlblReportHeading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 25</value>
+  </data>
+  <data name="mlblReportHeading.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblReportHeading.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="&gt;&gt;mlblReportHeading.Name" xml:space="preserve">
+    <value>mlblReportHeading</value>
+  </data>
+  <data name="&gt;&gt;mlblReportHeading.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblReportHeading.Parent" xml:space="preserve">
+    <value>tlpHeader</value>
+  </data>
+  <data name="&gt;&gt;mlblReportHeading.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mtlReturn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mtlReturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 0</value>
+  </data>
+  <data name="mtlReturn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mtlReturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 38</value>
+  </data>
+  <data name="mtlReturn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mtlReturn.Text" xml:space="preserve">
+    <value> Return</value>
+  </data>
+  <data name="mtlReturn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;mtlReturn.Name" xml:space="preserve">
+    <value>mtlReturn</value>
+  </data>
+  <data name="&gt;&gt;mtlReturn.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtlReturn.Parent" xml:space="preserve">
+    <value>tlpHeader</value>
+  </data>
+  <data name="&gt;&gt;mtlReturn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpHeader.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>783, 38</value>
+  </data>
+  <data name="tlpHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpHeader.Name" xml:space="preserve">
+    <value>tlpHeader</value>
+  </data>
+  <data name="&gt;&gt;tlpHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpHeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpHeader.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpHeader.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblReportHeading" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mtlReturn" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpBottom.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Name" xml:space="preserve">
+    <value>btCancel</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Parent" xml:space="preserve">
+    <value>tlpBottom</value>
+  </data>
+  <data name="&gt;&gt;btCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btSave.Name" xml:space="preserve">
+    <value>btSave</value>
+  </data>
+  <data name="&gt;&gt;btSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btSave.Parent" xml:space="preserve">
+    <value>tlpBottom</value>
+  </data>
+  <data name="&gt;&gt;btSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Name" xml:space="preserve">
+    <value>btEdit</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Parent" xml:space="preserve">
+    <value>tlpBottom</value>
+  </data>
+  <data name="&gt;&gt;btEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tlpBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1901</value>
+  </data>
+  <data name="tlpBottom.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>783, 29</value>
+  </data>
+  <data name="tlpBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlpBottom.Name" xml:space="preserve">
+    <value>tlpBottom</value>
+  </data>
+  <data name="&gt;&gt;tlpBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpBottom.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btCancel" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="btSave" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="btEdit" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,80,Absolute,80,Absolute,80,Percent,50,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="btCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 3</value>
+  </data>
+  <data name="btCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="btCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Name" xml:space="preserve">
+    <value>btCancel</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btCancel.Parent" xml:space="preserve">
+    <value>tlpBottom</value>
+  </data>
+  <data name="&gt;&gt;btCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 3</value>
+  </data>
+  <data name="btSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="btSave.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;btSave.Name" xml:space="preserve">
+    <value>btSave</value>
+  </data>
+  <data name="&gt;&gt;btSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btSave.Parent" xml:space="preserve">
+    <value>tlpBottom</value>
+  </data>
+  <data name="&gt;&gt;btSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 3</value>
+  </data>
+  <data name="btEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="btEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btEdit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Name" xml:space="preserve">
+    <value>btEdit</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btEdit.Parent" xml:space="preserve">
+    <value>tlpBottom</value>
+  </data>
+  <data name="&gt;&gt;btEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.Name" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.Parent" xml:space="preserve">
+    <value>tbSummary</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpSummary.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pnSummaryHeader" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="pnSummaryGrades" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pnSummaryQuestions" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Absolute,76,Absolute,44,Absolute,44,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tbSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tbSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 921</value>
+  </data>
+  <data name="tbSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbSummary.Text" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="&gt;&gt;tbSummary.Name" xml:space="preserve">
+    <value>tbSummary</value>
+  </data>
+  <data name="&gt;&gt;tbSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSummary.Parent" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;tbSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Name" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Parent" xml:space="preserve">
+    <value>tbGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpGrades.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dgvGrades" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pnGradeTop" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,67,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tbGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tbGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 921</value>
+  </data>
+  <data name="tbGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbGrades.Text" xml:space="preserve">
+    <value>Grades</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.Name" xml:space="preserve">
+    <value>tbGrades</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.Parent" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;tbGrades.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnGeneralQuestions.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpGeneralQuestions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tlpGeneralQuestions.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="tlpGeneralQuestions.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblMultiValueQuestionNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblMultiValueQuestionNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mlblMultiValueQuestionNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblMultiValueQuestionNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="mlblMultiValueQuestionNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblMultiValueQuestionNumber.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionNumber.Name" xml:space="preserve">
+    <value>mlblMultiValueQuestionNumber</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionNumber.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionNumber.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionNumber.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblMultiValueQuestionA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblMultiValueQuestionA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 0</value>
+  </data>
+  <data name="mlblMultiValueQuestionA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblMultiValueQuestionA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 19</value>
+  </data>
+  <data name="mlblMultiValueQuestionA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblMultiValueQuestionA.Text" xml:space="preserve">
+    <value>Em relação às atividades sugeridas pela Rede de EMCs em sua metodologia e calendário,</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionA.Name" xml:space="preserve">
+    <value>mlblMultiValueQuestionA</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionA.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionA.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblMultiValueQuestionB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mlblMultiValueQuestionB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 19</value>
+  </data>
+  <data name="mlblMultiValueQuestionB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblMultiValueQuestionB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 19</value>
+  </data>
+  <data name="mlblMultiValueQuestionB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlblMultiValueQuestionB.Text" xml:space="preserve">
+    <value>avalie os cumprimentos das mesmas pelo seu Projeto neste semestre?</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionB.Name" xml:space="preserve">
+    <value>mlblMultiValueQuestionB</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionB.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionB.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;mlblMultiValueQuestionB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="qgcQuestion8A.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qgcQuestion8A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 51</value>
+  </data>
+  <data name="qgcQuestion8A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="qgcQuestion8A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 66</value>
+  </data>
+  <data name="qgcQuestion8A.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8A.Name" xml:space="preserve">
+    <value>qgcQuestion8A</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8A.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionGradeControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8A.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8A.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="qgcQuestion8B.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qgcQuestion8B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 130</value>
+  </data>
+  <data name="qgcQuestion8B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="qgcQuestion8B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 66</value>
+  </data>
+  <data name="qgcQuestion8B.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8B.Name" xml:space="preserve">
+    <value>qgcQuestion8B</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8B.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionGradeControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8B.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8B.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="qgcQuestion8C.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qgcQuestion8C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="qgcQuestion8C.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="qgcQuestion8C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 66</value>
+  </data>
+  <data name="qgcQuestion8C.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8C.Name" xml:space="preserve">
+    <value>qgcQuestion8C</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8C.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionGradeControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8C.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8C.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="qgcQuestion8D.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qgcQuestion8D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 288</value>
+  </data>
+  <data name="qgcQuestion8D.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="qgcQuestion8D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 66</value>
+  </data>
+  <data name="qgcQuestion8D.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8D.Name" xml:space="preserve">
+    <value>qgcQuestion8D</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8D.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionGradeControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8D.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8D.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="qgcQuestion8E.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qgcQuestion8E.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 367</value>
+  </data>
+  <data name="qgcQuestion8E.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="qgcQuestion8E.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 66</value>
+  </data>
+  <data name="qgcQuestion8E.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8E.Name" xml:space="preserve">
+    <value>qgcQuestion8E</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8E.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionGradeControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8E.Parent" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;qgcQuestion8E.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1021</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 0</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.RowCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 446</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tlpMultiValueQuestion1.Name" xml:space="preserve">
+    <value>tlpMultiValueQuestion1</value>
+  </data>
+  <data name="&gt;&gt;tlpMultiValueQuestion1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMultiValueQuestion1.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;tlpMultiValueQuestion1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMultiValueQuestion1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mlblMultiValueQuestionNumber" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mlblMultiValueQuestionA" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mlblMultiValueQuestionB" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="qgcQuestion8A" Row="2" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="qgcQuestion8B" Row="3" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="qgcQuestion8C" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="qgcQuestion8D" Row="5" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="qgcQuestion8E" Row="6" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,26,Percent,100" /&gt;&lt;Rows Styles="Absolute,19,Absolute,19,Absolute,79,Absolute,79,Absolute,79,Absolute,79,Absolute,79,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="qcQuestion1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="qcQuestion1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 118</value>
+  </data>
+  <data name="qcQuestion1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion1.Name" xml:space="preserve">
+    <value>qcQuestion1</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion1.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion1.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="qcQuestion2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 157</value>
+  </data>
+  <data name="qcQuestion2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 118</value>
+  </data>
+  <data name="qcQuestion2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion2.Name" xml:space="preserve">
+    <value>qcQuestion2</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion2.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion2.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="qcQuestion3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 301</value>
+  </data>
+  <data name="qcQuestion3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 118</value>
+  </data>
+  <data name="qcQuestion3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion3.Name" xml:space="preserve">
+    <value>qcQuestion3</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion3.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion3.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="qcQuestion4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 445</value>
+  </data>
+  <data name="qcQuestion4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 118</value>
+  </data>
+  <data name="qcQuestion4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion4.Name" xml:space="preserve">
+    <value>qcQuestion4</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion4.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion4.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="qcQuestion9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1480</value>
+  </data>
+  <data name="qcQuestion9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 98</value>
+  </data>
+  <data name="qcQuestion9.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion9.Name" xml:space="preserve">
+    <value>qcQuestion9</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion9.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionCommentControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion9.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="qcQuestion5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 589</value>
+  </data>
+  <data name="qcQuestion5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 118</value>
+  </data>
+  <data name="qcQuestion5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion5.Name" xml:space="preserve">
+    <value>qcQuestion5</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion5.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion5.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="qcQuestion6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 733</value>
+  </data>
+  <data name="qcQuestion6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 118</value>
+  </data>
+  <data name="qcQuestion6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion6.Name" xml:space="preserve">
+    <value>qcQuestion6</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion6.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion6.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="qcQuestion7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="qcQuestion7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 877</value>
+  </data>
+  <data name="qcQuestion7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 13, 0, 13</value>
+  </data>
+  <data name="qcQuestion7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 118</value>
+  </data>
+  <data name="qcQuestion7.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion7.Name" xml:space="preserve">
+    <value>qcQuestion7</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion7.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.QuestionControl, SongClient, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion7.Parent" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;qcQuestion7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tlpGeneralQuestions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tlpGeneralQuestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpGeneralQuestions.RowCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tlpGeneralQuestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 1591</value>
+  </data>
+  <data name="tlpGeneralQuestions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpGeneralQuestions.Name" xml:space="preserve">
+    <value>tlpGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;tlpGeneralQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGeneralQuestions.Parent" xml:space="preserve">
+    <value>pnGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;tlpGeneralQuestions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpGeneralQuestions.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tlpMultiValueQuestion1" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion9" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion6" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="qcQuestion7" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,144,Absolute,144,Absolute,144,Absolute,144,Absolute,144,Absolute,144,Absolute,144,Absolute,459,Absolute,124,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="pnGeneralQuestions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnGeneralQuestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnGeneralQuestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 1821</value>
+  </data>
+  <data name="pnGeneralQuestions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnGeneralQuestions.Name" xml:space="preserve">
+    <value>pnGeneralQuestions</value>
+  </data>
+  <data name="&gt;&gt;pnGeneralQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnGeneralQuestions.Parent" xml:space="preserve">
+    <value>tbQuestions</value>
+  </data>
+  <data name="&gt;&gt;pnGeneralQuestions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbQuestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tbQuestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 1821</value>
+  </data>
+  <data name="tbQuestions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tbQuestions.Text" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+  <data name="&gt;&gt;tbQuestions.Name" xml:space="preserve">
+    <value>tbQuestions</value>
+  </data>
+  <data name="&gt;&gt;tbQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbQuestions.Parent" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;tbQuestions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mtbTabManager.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mtbTabManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 0</value>
+  </data>
+  <data name="mtbTabManager.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 1, 0</value>
+  </data>
+  <data name="mtbTabManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>750, 1863</value>
+  </data>
+  <data name="mtbTabManager.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.Name" xml:space="preserve">
+    <value>mtbTabManager</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;mtbTabManager.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="tlpMain.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>783, 1863</value>
+  </data>
+  <data name="tlpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Name" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="mtbTabManager" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Absolute,754,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tlpSummary.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.Name" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.Parent" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.Name" xml:space="preserve">
+    <value>pnSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.Parent" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.Name" xml:space="preserve">
+    <value>pnSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.Parent" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlpSummary.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpSummary.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlpSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 921</value>
+  </data>
+  <data name="tlpSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.Name" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.Parent" xml:space="preserve">
+    <value>tbSummary</value>
+  </data>
+  <data name="&gt;&gt;tlpSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpSummary.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pnSummaryHeader" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="pnSummaryGrades" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pnSummaryQuestions" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Absolute,76,Absolute,44,Absolute,44,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.Name" xml:space="preserve">
+    <value>mlblCoordinator</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.Parent" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.Name" xml:space="preserve">
+    <value>mlblReportStatus</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.Parent" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.Name" xml:space="preserve">
+    <value>mlblReportData</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.Parent" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnSummaryHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnSummaryHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnSummaryHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnSummaryHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 76</value>
+  </data>
+  <data name="pnSummaryHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.Name" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.Parent" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryHeader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblCoordinator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="mlblCoordinator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="mlblCoordinator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 25</value>
+  </data>
+  <data name="mlblCoordinator.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mlblCoordinator.Text" xml:space="preserve">
+    <value>Coordinator</value>
+  </data>
+  <data name="mlblCoordinator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.Name" xml:space="preserve">
+    <value>mlblCoordinator</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.Parent" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;mlblCoordinator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblReportStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="mlblReportStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 10</value>
+  </data>
+  <data name="mlblReportStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="mlblReportStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 25</value>
+  </data>
+  <data name="mlblReportStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mlblReportStatus.Text" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="mlblReportStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.Name" xml:space="preserve">
+    <value>mlblReportStatus</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.Parent" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;mlblReportStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblReportData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 10</value>
+  </data>
+  <data name="mlblReportData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="mlblReportData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 25</value>
+  </data>
+  <data name="mlblReportData.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mlblReportData.Text" xml:space="preserve">
+    <value>Project Escolas de Música e Cidadania</value>
+  </data>
+  <data name="mlblReportData.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.Name" xml:space="preserve">
+    <value>mlblReportData</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.Parent" xml:space="preserve">
+    <value>pnSummaryHeader</value>
+  </data>
+  <data name="&gt;&gt;mlblReportData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.Name" xml:space="preserve">
+    <value>lblSummaryGradesStatus</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.Parent" xml:space="preserve">
+    <value>pnSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.Name" xml:space="preserve">
+    <value>lblSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.Parent" xml:space="preserve">
+    <value>pnSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnSummaryGrades.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnSummaryGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 76</value>
+  </data>
+  <data name="pnSummaryGrades.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 3, 7</value>
+  </data>
+  <data name="pnSummaryGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 37</value>
+  </data>
+  <data name="pnSummaryGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.Name" xml:space="preserve">
+    <value>pnSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.Parent" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryGrades.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSummaryGradesStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSummaryGradesStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 7</value>
+  </data>
+  <data name="lblSummaryGradesStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="lblSummaryGradesStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSummaryGradesStatus.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lblSummaryGradesStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.Name" xml:space="preserve">
+    <value>lblSummaryGradesStatus</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.Parent" xml:space="preserve">
+    <value>pnSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGradesStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSummaryGrades.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSummaryGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="lblSummaryGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 23</value>
+  </data>
+  <data name="lblSummaryGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSummaryGrades.Text" xml:space="preserve">
+    <value>Grades</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.Name" xml:space="preserve">
+    <value>lblSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.Parent" xml:space="preserve">
+    <value>pnSummaryGrades</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryGrades.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.Name" xml:space="preserve">
+    <value>lblSummaryQuestionsStatus</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.Parent" xml:space="preserve">
+    <value>pnSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.Name" xml:space="preserve">
+    <value>lblSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.Parent" xml:space="preserve">
+    <value>pnSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnSummaryQuestions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnSummaryQuestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 76</value>
+  </data>
+  <data name="pnSummaryQuestions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 3, 7</value>
+  </data>
+  <data name="pnSummaryQuestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 37</value>
+  </data>
+  <data name="pnSummaryQuestions.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.Name" xml:space="preserve">
+    <value>pnSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.Parent" xml:space="preserve">
+    <value>tlpSummary</value>
+  </data>
+  <data name="&gt;&gt;pnSummaryQuestions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSummaryQuestionsStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSummaryQuestionsStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 7</value>
+  </data>
+  <data name="lblSummaryQuestionsStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="lblSummaryQuestionsStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSummaryQuestionsStatus.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lblSummaryQuestionsStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.Name" xml:space="preserve">
+    <value>lblSummaryQuestionsStatus</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.Parent" xml:space="preserve">
+    <value>pnSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestionsStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSummaryQuestions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSummaryQuestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="lblSummaryQuestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 23</value>
+  </data>
+  <data name="lblSummaryQuestions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSummaryQuestions.Text" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.Name" xml:space="preserve">
+    <value>lblSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.Parent" xml:space="preserve">
+    <value>pnSummaryQuestions</value>
+  </data>
+  <data name="&gt;&gt;lblSummaryQuestions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpGrades.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.Name" xml:space="preserve">
+    <value>dgvGrades</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.Name" xml:space="preserve">
+    <value>pnGradeTop</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpGrades.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tlpGrades.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 921</value>
+  </data>
+  <data name="tlpGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Name" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.Parent" xml:space="preserve">
+    <value>tbGrades</value>
+  </data>
+  <data name="&gt;&gt;tlpGrades.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpGrades.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="dgvGrades" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pnGradeTop" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,67,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="GradeTeacherId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeTeacherId.HeaderText" xml:space="preserve">
+    <value>Teacher ID</value>
+  </data>
+  <data name="GradeTeacherId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="GradeTeacherName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeTeacherName.HeaderText" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <metadata name="GradeId0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeId0.HeaderText" xml:space="preserve">
+    <value>Grade ID 0</value>
+  </data>
+  <data name="GradeId0.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="GradeId1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeId1.HeaderText" xml:space="preserve">
+    <value>Grade ID 1</value>
+  </data>
+  <data name="GradeId1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="GradeId2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeId2.HeaderText" xml:space="preserve">
+    <value>Grade ID 2</value>
+  </data>
+  <data name="GradeId2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="GradeValue0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeValue0.HeaderText" xml:space="preserve">
+    <value>Grade Value 0</value>
+  </data>
+  <data name="GradeValue0.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="GradeValue1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeValue1.HeaderText" xml:space="preserve">
+    <value>Grade Value 1</value>
+  </data>
+  <data name="GradeValue1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="GradeValue2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeValue2.HeaderText" xml:space="preserve">
+    <value>Grade Value 2</value>
+  </data>
+  <data name="GradeValue2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="GradeText0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeText0.HeaderText" xml:space="preserve">
+    <value>Grade Text 0</value>
+  </data>
+  <metadata name="GradeText1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeText1.HeaderText" xml:space="preserve">
+    <value>Grade Text 1</value>
+  </data>
+  <metadata name="GradeText2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GradeText2.HeaderText" xml:space="preserve">
+    <value>Grade Text 2</value>
+  </data>
+  <data name="dgvGrades.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvGrades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 67</value>
+  </data>
+  <data name="dgvGrades.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 12, 12</value>
+  </data>
+  <data name="dgvGrades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>718, 842</value>
+  </data>
+  <data name="dgvGrades.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.Name" xml:space="preserve">
+    <value>dgvGrades</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;dgvGrades.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.Name" xml:space="preserve">
+    <value>tlpGradeHeader</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.Parent" xml:space="preserve">
+    <value>pnGradeTop</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpGradeHeader.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="flpGradeHeaderA" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="flpGradeHeaderB" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,10,Percent,100" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="pnGradeTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnGradeTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnGradeTop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnGradeTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 67</value>
+  </data>
+  <data name="pnGradeTop.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.Name" xml:space="preserve">
+    <value>pnGradeTop</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.Parent" xml:space="preserve">
+    <value>tlpGrades</value>
+  </data>
+  <data name="&gt;&gt;pnGradeTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpGradeHeader.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.Name" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.Parent" xml:space="preserve">
+    <value>tlpGradeHeader</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.Name" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.Parent" xml:space="preserve">
+    <value>tlpGradeHeader</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpGradeHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 11</value>
+  </data>
+  <data name="tlpGradeHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlpGradeHeader.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tlpGradeHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 46</value>
+  </data>
+  <data name="tlpGradeHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.Name" xml:space="preserve">
+    <value>tlpGradeHeader</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.Parent" xml:space="preserve">
+    <value>pnGradeTop</value>
+  </data>
+  <data name="&gt;&gt;tlpGradeHeader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpGradeHeader.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="flpGradeHeaderA" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="flpGradeHeaderB" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,10,Percent,100" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.Name" xml:space="preserve">
+    <value>mlblGradeScrollA</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.Name" xml:space="preserve">
+    <value>mlblGrade2A</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.Name" xml:space="preserve">
+    <value>mlblGrade1A</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.Name" xml:space="preserve">
+    <value>mlblGrade0A</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flpGradeHeaderA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flpGradeHeaderA.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="flpGradeHeaderA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 0</value>
+  </data>
+  <data name="flpGradeHeaderA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="flpGradeHeaderA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>582, 23</value>
+  </data>
+  <data name="flpGradeHeaderA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.Name" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.Parent" xml:space="preserve">
+    <value>tlpGradeHeader</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblGradeScrollA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 0</value>
+  </data>
+  <data name="mlblGradeScrollA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGradeScrollA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="mlblGradeScrollA.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="mlblGradeScrollA.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="mlblGradeScrollA.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.Name" xml:space="preserve">
+    <value>mlblGradeScrollA</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblGrade2A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 0</value>
+  </data>
+  <data name="mlblGrade2A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGrade2A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="mlblGrade2A.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mlblGrade2A.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="mlblGrade2A.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.Name" xml:space="preserve">
+    <value>mlblGrade2A</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2A.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblGrade1A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 0</value>
+  </data>
+  <data name="mlblGrade1A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGrade1A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="mlblGrade1A.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mlblGrade1A.Text" xml:space="preserve">
+    <value>Audition</value>
+  </data>
+  <data name="mlblGrade1A.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.Name" xml:space="preserve">
+    <value>mlblGrade1A</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1A.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblGrade0A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 0</value>
+  </data>
+  <data name="mlblGrade0A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGrade0A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="mlblGrade0A.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="mlblGrade0A.Text" xml:space="preserve">
+    <value>Students'</value>
+  </data>
+  <data name="mlblGrade0A.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.Name" xml:space="preserve">
+    <value>mlblGrade0A</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.Parent" xml:space="preserve">
+    <value>flpGradeHeaderA</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0A.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.Name" xml:space="preserve">
+    <value>mlblGradeScrollB</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.Name" xml:space="preserve">
+    <value>mlblGrade2B</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.Name" xml:space="preserve">
+    <value>mlblGrade1B</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.Name" xml:space="preserve">
+    <value>mlblGrade0B</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flpGradeHeaderB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flpGradeHeaderB.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="flpGradeHeaderB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 23</value>
+  </data>
+  <data name="flpGradeHeaderB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="flpGradeHeaderB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>582, 23</value>
+  </data>
+  <data name="flpGradeHeaderB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.Name" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.Parent" xml:space="preserve">
+    <value>tlpGradeHeader</value>
+  </data>
+  <data name="&gt;&gt;flpGradeHeaderB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblGradeScrollB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 0</value>
+  </data>
+  <data name="mlblGradeScrollB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGradeScrollB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="mlblGradeScrollB.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="mlblGradeScrollB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="mlblGradeScrollB.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.Name" xml:space="preserve">
+    <value>mlblGradeScrollB</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGradeScrollB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblGrade2B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 0</value>
+  </data>
+  <data name="mlblGrade2B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGrade2B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="mlblGrade2B.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mlblGrade2B.Text" xml:space="preserve">
+    <value>Commitment</value>
+  </data>
+  <data name="mlblGrade2B.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.Name" xml:space="preserve">
+    <value>mlblGrade2B</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade2B.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mlblGrade1B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 0</value>
+  </data>
+  <data name="mlblGrade1B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGrade1B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="mlblGrade1B.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="mlblGrade1B.Text" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="mlblGrade1B.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.Name" xml:space="preserve">
+    <value>mlblGrade1B</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade1B.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlblGrade0B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 0</value>
+  </data>
+  <data name="mlblGrade0B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mlblGrade0B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="mlblGrade0B.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="mlblGrade0B.Text" xml:space="preserve">
+    <value>Learning Curve</value>
+  </data>
+  <data name="mlblGrade0B.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.Name" xml:space="preserve">
+    <value>mlblGrade0B</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.Parent" xml:space="preserve">
+    <value>flpGradeHeaderB</value>
+  </data>
+  <data name="&gt;&gt;mlblGrade0B.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>594, 430</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>783, 1930</value>
+  </data>
+  <data name="&gt;&gt;GradeTeacherId.Name" xml:space="preserve">
+    <value>GradeTeacherId</value>
+  </data>
+  <data name="&gt;&gt;GradeTeacherId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeTeacherName.Name" xml:space="preserve">
+    <value>GradeTeacherName</value>
+  </data>
+  <data name="&gt;&gt;GradeTeacherName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeId0.Name" xml:space="preserve">
+    <value>GradeId0</value>
+  </data>
+  <data name="&gt;&gt;GradeId0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeId1.Name" xml:space="preserve">
+    <value>GradeId1</value>
+  </data>
+  <data name="&gt;&gt;GradeId1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeId2.Name" xml:space="preserve">
+    <value>GradeId2</value>
+  </data>
+  <data name="&gt;&gt;GradeId2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeValue0.Name" xml:space="preserve">
+    <value>GradeValue0</value>
+  </data>
+  <data name="&gt;&gt;GradeValue0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeValue1.Name" xml:space="preserve">
+    <value>GradeValue1</value>
+  </data>
+  <data name="&gt;&gt;GradeValue1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeValue2.Name" xml:space="preserve">
+    <value>GradeValue2</value>
+  </data>
+  <data name="&gt;&gt;GradeValue2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeText0.Name" xml:space="preserve">
+    <value>GradeText0</value>
+  </data>
+  <data name="&gt;&gt;GradeText0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeText1.Name" xml:space="preserve">
+    <value>GradeText1</value>
+  </data>
+  <data name="&gt;&gt;GradeText1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GradeText2.Name" xml:space="preserve">
+    <value>GradeText2</value>
+  </data>
+  <data name="&gt;&gt;GradeText2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EditReportCoordinatorSemester</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

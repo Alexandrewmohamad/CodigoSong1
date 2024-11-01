@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 2</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 107</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mtxtDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 168</value>
+  </data>
+  <data name="mtxtDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 112</value>
+  </data>
+  <data name="mtxtDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;mtxtDescription.Name" xml:space="preserve">
+    <value>mtxtDescription</value>
+  </data>
+  <data name="&gt;&gt;mtxtDescription.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtxtDescription.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mtxtDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mlblDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 167</value>
+  </data>
+  <data name="mlblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="mlblDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="mlblDescription.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="mlblDescription.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblDescription.Name" xml:space="preserve">
+    <value>mlblDescription</value>
+  </data>
+  <data name="&gt;&gt;mlblDescription.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblDescription.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblDescription.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nudDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 81</value>
+  </data>
+  <data name="nudDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="nudDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="nudDuration.Unit" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="&gt;&gt;nudDuration.Name" xml:space="preserve">
+    <value>nudDuration</value>
+  </data>
+  <data name="&gt;&gt;nudDuration.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.UnitNumericUpDown, SongClient, Version=1.0.10.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nudDuration.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;nudDuration.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mtxtStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 46</value>
+  </data>
+  <data name="mtxtStartTime.Mask" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="mtxtStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="mtxtStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;mtxtStartTime.Name" xml:space="preserve">
+    <value>mtxtStartTime</value>
+  </data>
+  <data name="&gt;&gt;mtxtStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtStartTime.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mtxtStartTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlblStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 46</value>
+  </data>
+  <data name="mlblStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="mlblStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="mlblStartTime.Text" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="mlblStartTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblStartTime.Name" xml:space="preserve">
+    <value>mlblStartTime</value>
+  </data>
+  <data name="&gt;&gt;mlblStartTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblStartTime.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblStartTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mlblDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 81</value>
+  </data>
+  <data name="mlblDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="mlblDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="mlblDuration.Text" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="mlblDuration.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblDuration.Name" xml:space="preserve">
+    <value>mlblDuration</value>
+  </data>
+  <data name="&gt;&gt;mlblDuration.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblDuration.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblDuration.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mcbSendOption.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbSendOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 80</value>
+  </data>
+  <data name="mcbSendOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbSendOption.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;mcbSendOption.Name" xml:space="preserve">
+    <value>mcbSendOption</value>
+  </data>
+  <data name="&gt;&gt;mcbSendOption.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbSendOption.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mcbSendOption.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mlblSendOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 81</value>
+  </data>
+  <data name="mlblSendOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="mlblSendOption.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mlblSendOption.Text" xml:space="preserve">
+    <value>Send To</value>
+  </data>
+  <data name="mlblSendOption.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblSendOption.Name" xml:space="preserve">
+    <value>mlblSendOption</value>
+  </data>
+  <data name="&gt;&gt;mlblSendOption.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblSendOption.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblSendOption.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mtxtDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 11</value>
+  </data>
+  <data name="mtxtDate.Mask" xml:space="preserve">
+    <value>00/00/0000</value>
+  </data>
+  <data name="mtxtDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="mtxtDate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;mtxtDate.Name" xml:space="preserve">
+    <value>mtxtDate</value>
+  </data>
+  <data name="&gt;&gt;mtxtDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtDate.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mtxtDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mlblDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 11</value>
+  </data>
+  <data name="mlblDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="mlblDate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="mlblDate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="mlblDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblDate.Name" xml:space="preserve">
+    <value>mlblDate</value>
+  </data>
+  <data name="&gt;&gt;mlblDate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblDate.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mcbInstitution.ItemHeight" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mcbInstitution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 45</value>
+  </data>
+  <data name="mcbInstitution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="mcbInstitution.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution.Name" xml:space="preserve">
+    <value>mcbInstitution</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mcbInstitution.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="mlblInstitution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 46</value>
+  </data>
+  <data name="mlblInstitution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="mlblInstitution.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mlblInstitution.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="mlblInstitution.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution.Name" xml:space="preserve">
+    <value>mlblInstitution</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblInstitution.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>128, 1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mtxtLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 117</value>
+  </data>
+  <data name="mtxtLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="mtxtLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;mtxtLocation.Name" xml:space="preserve">
+    <value>mtxtLocation</value>
+  </data>
+  <data name="&gt;&gt;mtxtLocation.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtxtLocation.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mtxtLocation.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="mlblLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 116</value>
+  </data>
+  <data name="mlblLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="mlblLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="mlblLocation.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="mlblLocation.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblLocation.Name" xml:space="preserve">
+    <value>mlblLocation</value>
+  </data>
+  <data name="&gt;&gt;mlblLocation.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblLocation.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblLocation.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>128, 1</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mtxtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 12</value>
+  </data>
+  <data name="mtxtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="mtxtName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mtxtName.Name" xml:space="preserve">
+    <value>mtxtName</value>
+  </data>
+  <data name="&gt;&gt;mtxtName.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtxtName.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mtxtName.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="mlblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 11</value>
+  </data>
+  <data name="mlblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="mlblName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlblName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="mlblName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;mlblName.Name" xml:space="preserve">
+    <value>mlblName</value>
+  </data>
+  <data name="&gt;&gt;mlblName.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mlblName.Parent" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;mlblName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pnContent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 0</value>
+  </data>
+  <data name="pnContent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 563</value>
+  </data>
+  <data name="pnContent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnContent.Name" xml:space="preserve">
+    <value>pnContent</value>
+  </data>
+  <data name="&gt;&gt;pnContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnContent.Parent" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;pnContent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 38</value>
+  </data>
+  <data name="tlpMain.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 563</value>
+  </data>
+  <data name="tlpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Name" xml:space="preserve">
+    <value>tlpMain</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlpMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pnContent" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,12,Percent,50,Absolute,560,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RegisterEventControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>PnT.SongClient.UI.Controls.RegisterBaseControl, SongClient, Version=1.0.10.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

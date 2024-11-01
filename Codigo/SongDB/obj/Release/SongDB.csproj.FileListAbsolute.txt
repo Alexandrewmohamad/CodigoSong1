@@ -1,0 +1,15 @@
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongDB\bin\Release\SongDB.dll.config
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongDB\bin\Release\SongDB.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongDB\bin\Release\SongDB.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongDB\bin\Release\MySql.Data.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongDB\obj\Release\SongDB.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongDB\obj\Release\SongDB.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongDB\obj\Release\SongDB.csprojResolveAssemblyReference.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\bin\Release\SongDB.dll.config
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\bin\Release\SongDB.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\bin\Release\SongDB.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\obj\Release\SongDB.csproj.AssemblyReference.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\obj\Release\SongDB.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\obj\Release\SongDB.csproj.Up2Date
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\obj\Release\SongDB.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongDB\obj\Release\SongDB.pdb

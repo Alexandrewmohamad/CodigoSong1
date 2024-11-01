@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Router>
+    <ServerIP>localhost</ServerIP>
+    <ServerPort>4436</ServerPort>
+  </Router>
+</Settings>

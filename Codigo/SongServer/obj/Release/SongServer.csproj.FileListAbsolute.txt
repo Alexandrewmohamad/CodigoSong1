@@ -1,0 +1,20 @@
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongServer.dll.config
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongServer.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongServer.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\MySql.Data.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongDB.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongDB.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\obj\Release\SongServer.csprojResolveAssemblyReference.cache
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\obj\Release\SongServer.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\obj\Release\SongServer.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\bin\SongServer.dll.config
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\bin\SongServer.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\bin\SongServer.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\bin\SongDB.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\bin\SongDB.pdb
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\bin\SongDB.dll.config
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\obj\Release\SongServer.csproj.AssemblyReference.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\obj\Release\SongServer.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\obj\Release\SongServer.csproj.Up2Date
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\obj\Release\SongServer.dll
+D:\Desenvolvimento\CodigoSong\Codigo\SongServer\obj\Release\SongServer.pdb

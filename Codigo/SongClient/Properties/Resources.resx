@@ -1,0 +1,1916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errorWebServiceLoadUsers" xml:space="preserve">
+    <value>Web service internal error while loading users data for selected {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="msgInvalidFieldPhone" xml:space="preserve">
+    <value>Phone number {0} is invalid.</value>
+  </data>
+  <data name="WebServiceStatus_StartError" xml:space="preserve">
+    <value>StartError</value>
+  </data>
+  <data name="titleCancelEdition" xml:space="preserve">
+    <value>Cancel Edition</value>
+  </data>
+  <data name="errorWebServiceLoadPoles" xml:space="preserve">
+    <value>Web service internal error while loading poles data for selected {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="InstrumentsType_Teclado" xml:space="preserve">
+    <value>Teclado</value>
+  </data>
+  <data name="InstrumentsType_FlautaDoce" xml:space="preserve">
+    <value>Flauta Doce</value>
+  </data>
+  <data name="item_Pole" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="errorWebServiceLoadData" xml:space="preserve">
+    <value>Web service internal error while loading data for selected {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="InstrumentsType_Atabaque" xml:space="preserve">
+    <value>Atabaque</value>
+  </data>
+  <data name="errorWebServiceSaveItem" xml:space="preserve">
+    <value>Web service internal error while saving {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="InstrumentsType_Marimba" xml:space="preserve">
+    <value>Marimba</value>
+  </data>
+  <data name="msgInvalidUser" xml:space="preserve">
+    <value>Invalid user or password.</value>
+  </data>
+  <data name="msgItemCopied" xml:space="preserve">
+    <value>Item {0} was copied.</value>
+  </data>
+  <data name="gridHasDisability" xml:space="preserve">
+    <value>Has Disability</value>
+  </data>
+  <data name="gridInstitutionalized" xml:space="preserve">
+    <value>Institutionalized</value>
+  </data>
+  <data name="InstrumentsType_Trompete" xml:space="preserve">
+    <value>Trompete</value>
+  </data>
+  <data name="wordYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="InstrumentsType_Cuica" xml:space="preserve">
+    <value>Cuíca</value>
+  </data>
+  <data name="InstrumentsType_Percussao" xml:space="preserve">
+    <value>Percussão</value>
+  </data>
+  <data name="errorSaveSettings" xml:space="preserve">
+    <value>Error while saving hard settings back to file. 
+Contact support.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IconMoveRightOneDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveRightOneDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridInstrumentTypeName" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="InstrumentsType_Xilofone" xml:space="preserve">
+    <value>Xilofone</value>
+  </data>
+  <data name="gridPoleLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="InstrumentsType_Timpano" xml:space="preserve">
+    <value>Tímpano</value>
+  </data>
+  <data name="IconEditWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconEditWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridInstitutionName" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="gridLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="InstrumentsType_Baixo" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="IconOptionWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconOptionWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorWebServiceLogonUser" xml:space="preserve">
+    <value>Web service internal error while performing user logon.
+Contact support. {0}</value>
+  </data>
+  <data name="gridInstitutionSite" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="IconTrashGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconTrashGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgInvalidFieldEmail" xml:space="preserve">
+    <value>E-mail {0} is invalid.</value>
+  </data>
+  <data name="msgInvalidFieldCnpj" xml:space="preserve">
+    <value>CNPJ {0} is invalid.</value>
+  </data>
+  <data name="InstrumentsType_Trompa" xml:space="preserve">
+    <value>Trompa</value>
+  </data>
+  <data name="lblVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="item_Student" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="InstrumentsType_SinosTubulares" xml:space="preserve">
+    <value>Sinos Tubulares</value>
+  </data>
+  <data name="IconStatisticsBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconStatisticsBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wordNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="InstrumentsType_Bata" xml:space="preserve">
+    <value>Batá</value>
+  </data>
+  <data name="lblAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="WebServiceStatus_Starting" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="msgRequiredFieldName" xml:space="preserve">
+    <value>Field {0} is required.</value>
+  </data>
+  <data name="gridTeacherName" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="InstrumentsType_Triangulo" xml:space="preserve">
+    <value>Triângulo</value>
+  </data>
+  <data name="InstrumentsType_Violino" xml:space="preserve">
+    <value>Violino</value>
+  </data>
+  <data name="IconReportBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconReportBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_FlautaTransversa" xml:space="preserve">
+    <value>Flauta Transversa</value>
+  </data>
+  <data name="WebServiceStatus_Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="InstrumentsType_Xequere" xml:space="preserve">
+    <value>Xequerê</value>
+  </data>
+  <data name="item_plural_Role" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="item_plural_Institution" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="errorChannelLoadData" xml:space="preserve">
+    <value>Unexpected error while loading data from web service for selected {0}. {1}</value>
+  </data>
+  <data name="InstrumentsType_Caxixi" xml:space="preserve">
+    <value>Caxixi</value>
+  </data>
+  <data name="InstrumentsType_Chimbau" xml:space="preserve">
+    <value>Chimbau</value>
+  </data>
+  <data name="msgInactivateRegister" xml:space="preserve">
+    <value>Continue and inactivate selected {0}?</value>
+  </data>
+  <data name="PNTSong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PNTSong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridStudentLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="titleError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="gridUserId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="InstrumentsType_Darbuka" xml:space="preserve">
+    <value>Darbuka</value>
+  </data>
+  <data name="titleWebServiceError" xml:space="preserve">
+    <value>Web Service Error</value>
+  </data>
+  <data name="gridPoleStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="InstrumentsType_Zabumba" xml:space="preserve">
+    <value>Zabumba</value>
+  </data>
+  <data name="IconReportWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconReportWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconStudentWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconStudentWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Conga" xml:space="preserve">
+    <value>Conga</value>
+  </data>
+  <data name="msgAppExiting" xml:space="preserve">
+    <value>Closing resources and exiting application...</value>
+  </data>
+  <data name="item_plural_Teacher" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="errorChannelDeleteItem" xml:space="preserve">
+    <value>Unexpected error while deleting / inactivating {0} using web service. {1}</value>
+  </data>
+  <data name="wordNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="IconProjectWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconProjectWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Chocalho" xml:space="preserve">
+    <value>Chocalho</value>
+  </data>
+  <data name="gridTeacherId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="IconMoveDownOneDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveDownOneDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Oboe" xml:space="preserve">
+    <value>Oboé</value>
+  </data>
+  <data name="InstrumentsType_Repinique" xml:space="preserve">
+    <value>Repinique</value>
+  </data>
+  <data name="buttonInactivate" xml:space="preserve">
+    <value>&amp;Inactivate</value>
+  </data>
+  <data name="IconStatisticsWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconStatisticsWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Acordeao" xml:space="preserve">
+    <value>Acordeão</value>
+  </data>
+  <data name="errorWebServiceListItem" xml:space="preserve">
+    <value>Web service internal error while getting list of {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="IconDocumentWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconDocumentWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridGuardianName" xml:space="preserve">
+    <value>Guardian Name</value>
+  </data>
+  <data name="gridInstrumentStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="WebServiceStatus_Disconnected" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="IconUserWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconUserWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Drums" xml:space="preserve">
+    <value>Drums</value>
+  </data>
+  <data name="gridStudentName" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="InstrumentsType_Violoncelo" xml:space="preserve">
+    <value>Violoncelo</value>
+  </data>
+  <data name="gridCoordinatorName" xml:space="preserve">
+    <value>Coordinator</value>
+  </data>
+  <data name="item_Instrument" xml:space="preserve">
+    <value>Instrument</value>
+  </data>
+  <data name="msgRestartCulture" xml:space="preserve">
+    <value>Restart application to apply regional settings.</value>
+  </data>
+  <data name="gridInactivationReason" xml:space="preserve">
+    <value>Inactivation Reason</value>
+  </data>
+  <data name="gridCreationTime" xml:space="preserve">
+    <value>Creation Time</value>
+  </data>
+  <data name="InstrumentsType_Saxofone" xml:space="preserve">
+    <value>Saxofone</value>
+  </data>
+  <data name="InstrumentsType_Tuba" xml:space="preserve">
+    <value>Tuba</value>
+  </data>
+  <data name="InstrumentsType_Bongo" xml:space="preserve">
+    <value>Bongô</value>
+  </data>
+  <data name="cptInfo" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="InstrumentsType_BlocoSonoro" xml:space="preserve">
+    <value>Bloco Sonoro</value>
+  </data>
+  <data name="IconTeacherWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconTeacherWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="titleChannelError" xml:space="preserve">
+    <value>Channel Error</value>
+  </data>
+  <data name="WebServiceStatus_FatalError" xml:space="preserve">
+    <value>FatalError</value>
+  </data>
+  <data name="errorChannelFilterItem" xml:space="preserve">
+    <value>Unexpected error while filtering list of {0} from web service. {1}</value>
+  </data>
+  <data name="InstrumentsType_Cavaquinho" xml:space="preserve">
+    <value>Cavaquinho</value>
+  </data>
+  <data name="InstrumentsType_RecoReco" xml:space="preserve">
+    <value>Reco-Reco</value>
+  </data>
+  <data name="IconBackWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconBackWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cptConfirm" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="gridPoles" xml:space="preserve">
+    <value>Poles</value>
+  </data>
+  <data name="msgCopyItem" xml:space="preserve">
+    <value>Continue and copy selected {0} item?</value>
+  </data>
+  <data name="InstrumentsType_Carrilhao" xml:space="preserve">
+    <value>Carrilhão</value>
+  </data>
+  <data name="msgItemSaved" xml:space="preserve">
+    <value>Item {0} was saved.</value>
+  </data>
+  <data name="msgEditingItem" xml:space="preserve">
+    <value>You are currently editing an {0} item. Continue and leave?
+
+Click No to continue editing the item.
+Clink Yes to exit and cancel all changes.</value>
+  </data>
+  <data name="gridRoleName" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="IconPoleWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconPoleWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridTeacherLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="InstrumentsType_Sino" xml:space="preserve">
+    <value>Sino</value>
+  </data>
+  <data name="errorChannelSaveItem" xml:space="preserve">
+    <value>Unexpected error while saving {0} using web service. {1}</value>
+  </data>
+  <data name="gridStorageLocation" xml:space="preserve">
+    <value>Storage Location</value>
+  </data>
+  <data name="IconPoleBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconPoleBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Bateria" xml:space="preserve">
+    <value>Bateria</value>
+  </data>
+  <data name="IconCalendarBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconCalendarBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconMoveLeftOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveLeftOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wordAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="titleFailedLogIn" xml:space="preserve">
+    <value>Log In Failed</value>
+  </data>
+  <data name="gridUserName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gridInstitutionId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="IconMoveLeftOneDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveLeftOneDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridTaxId" xml:space="preserve">
+    <value>Tax ID</value>
+  </data>
+  <data name="InstrumentsType_Casaca" xml:space="preserve">
+    <value>Casaca</value>
+  </data>
+  <data name="InstrumentsType_Orgao" xml:space="preserve">
+    <value>Orgão</value>
+  </data>
+  <data name="errorLoadSettings" xml:space="preserve">
+    <value>Could not load hard settings from file. Closing application.</value>
+  </data>
+  <data name="gridProjectName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="item_Institution" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="objInstitution" xml:space="preserve">
+    <value>Institution</value>
+  </data>
+  <data name="ItemStatus_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="IconDocumentBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconDocumentBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="titleFatalError" xml:space="preserve">
+    <value>Fatal Error</value>
+  </data>
+  <data name="IconClassBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconClassBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridInactivationTime" xml:space="preserve">
+    <value>Inactivation Time</value>
+  </data>
+  <data name="titleInvalidField" xml:space="preserve">
+    <value>Invalid Field</value>
+  </data>
+  <data name="msgCultureChanged" xml:space="preserve">
+    <value>Language Changed</value>
+  </data>
+  <data name="IconMoveLeftAllDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveLeftAllDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconMoveRightAllDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveRightAllDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridInstitutionStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="InstrumentsType_Clarinete" xml:space="preserve">
+    <value>Clarinete</value>
+  </data>
+  <data name="ItemStatus_Inactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="InstrumentsType_Pratos" xml:space="preserve">
+    <value>Pratos</value>
+  </data>
+  <data name="InstrumentsType_Tambor" xml:space="preserve">
+    <value>Tambor</value>
+  </data>
+  <data name="msgIPFormat" xml:space="preserve">
+    <value>Enter a valid IP address.
+Example: 192.110.220.81</value>
+  </data>
+  <data name="InstrumentsType_Trombone" xml:space="preserve">
+    <value>Trombone</value>
+  </data>
+  <data name="msgInvalidFieldDate" xml:space="preserve">
+    <value>Date {0} is invalid.</value>
+  </data>
+  <data name="errorWebServiceDeleteItem" xml:space="preserve">
+    <value>Web service internal error while deleting / inactivating {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="InstrumentsType_Afoxe" xml:space="preserve">
+    <value>Afoxé</value>
+  </data>
+  <data name="msgInvalidFieldZip" xml:space="preserve">
+    <value>ZIP code {0} is invalid.</value>
+  </data>
+  <data name="WebServiceStatus_Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="IconDashWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconDashWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_Teacher" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="InstrumentsType_Violao" xml:space="preserve">
+    <value>Violão</value>
+  </data>
+  <data name="gridUserStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="errorOnZipOldLog" xml:space="preserve">
+    <value>Error while zipping old LOG file.</value>
+  </data>
+  <data name="InstrumentsType_Bandolim" xml:space="preserve">
+    <value>Bandolim</value>
+  </data>
+  <data name="InstrumentsType_Tamborim" xml:space="preserve">
+    <value>Tamborim</value>
+  </data>
+  <data name="InstrumentsType_Ceramofone" xml:space="preserve">
+    <value>Ceramofone</value>
+  </data>
+  <data name="errorWebServiceLoadPermissions" xml:space="preserve">
+    <value>Web service internal error while loading permissions data for selected {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="IconMoveRightOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveRightOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconProjectBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconProjectBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconMoveUpOneDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveUpOneDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemStatus_Blocked" xml:space="preserve">
+    <value>Blocked</value>
+  </data>
+  <data name="errorChannelListItem" xml:space="preserve">
+    <value>Unexpected error while getting list of {0} from web service.</value>
+  </data>
+  <data name="msgAppStarting" xml:space="preserve">
+    <value>Inicializando aplicativo...</value>
+  </data>
+  <data name="InstrumentsType_Contrabaixo" xml:space="preserve">
+    <value>Contrabaixo</value>
+  </data>
+  <data name="gridPhones" xml:space="preserve">
+    <value>Phones</value>
+  </data>
+  <data name="IconUserBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconUserBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_Permission" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="gridInstitutionLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="InstrumentsType_Surdo" xml:space="preserve">
+    <value>Surdo</value>
+  </data>
+  <data name="msgRequiredField" xml:space="preserve">
+    <value>Required field.</value>
+  </data>
+  <data name="gridPoleName" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="IconTeacherBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconTeacherBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Piano" xml:space="preserve">
+    <value>Piano</value>
+  </data>
+  <data name="IconDashBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconDashBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_plural_Student" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="msgDeleteRegister" xml:space="preserve">
+    <value>Continue and delete selected {0}?
+Item cannot be recovered after being deleted.</value>
+  </data>
+  <data name="gridInstrumentId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="InstrumentsType_Castanhola" xml:space="preserve">
+    <value>Castanhola</value>
+  </data>
+  <data name="gridEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="item_plural_Pole" xml:space="preserve">
+    <value>Poles</value>
+  </data>
+  <data name="titleEditItems" xml:space="preserve">
+    <value>Edit {0}</value>
+  </data>
+  <data name="IconCalendarWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconCalendarWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorWebServiceCopyItem" xml:space="preserve">
+    <value>Web service internal error while copying {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="InstrumentsType_Vibrafone" xml:space="preserve">
+    <value>Vibrafone</value>
+  </data>
+  <data name="msgInvalidFieldPassword" xml:space="preserve">
+    <value>Confirming password does not match the choosen password.</value>
+  </data>
+  <data name="gridTeacherStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="IconMoveUpOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveUpOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconMoveRightAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveRightAll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Ganza" xml:space="preserve">
+    <value>Ganzá</value>
+  </data>
+  <data name="msgAppStarted" xml:space="preserve">
+    <value>Aplicativo foi inicializado.</value>
+  </data>
+  <data name="item_plural_Permission" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="InstrumentsType_Viola" xml:space="preserve">
+    <value>Viola</value>
+  </data>
+  <data name="IconMoveDownOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveDownOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menuLogIn" xml:space="preserve">
+    <value>Log In...</value>
+  </data>
+  <data name="msgWelcome" xml:space="preserve">
+    <value>Welcome to Song!</value>
+  </data>
+  <data name="gridLocalInitiative" xml:space="preserve">
+    <value>Local Initiative</value>
+  </data>
+  <data name="InstrumentsType_Banjo" xml:space="preserve">
+    <value>Banjo</value>
+  </data>
+  <data name="gridUserLogin" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="item_plural_Instrument" xml:space="preserve">
+    <value>Instruments</value>
+  </data>
+  <data name="titleInvalidIP" xml:space="preserve">
+    <value>Invalid IP</value>
+  </data>
+  <data name="gridBirthdate" xml:space="preserve">
+    <value>Birthdate</value>
+  </data>
+  <data name="gridStudentId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="InstrumentsType_TomTom" xml:space="preserve">
+    <value>Tom-tom</value>
+  </data>
+  <data name="gridCode" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="titleRequiredField" xml:space="preserve">
+    <value>Required Field</value>
+  </data>
+  <data name="IconClassWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconClassWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WebServiceStatus_Stopping" xml:space="preserve">
+    <value>Stopping</value>
+  </data>
+  <data name="msgInvalidFieldUri" xml:space="preserve">
+    <value>URL {0} is invalid.</value>
+  </data>
+  <data name="IconInstrumentBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconInstrumentBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorStartWebServiceManager" xml:space="preserve">
+    <value>Unexpected error while starting web service manager: {0}
+Contact support.</value>
+  </data>
+  <data name="InstrumentsType_Agogo" xml:space="preserve">
+    <value>Agogo</value>
+  </data>
+  <data name="IconStudentBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconStudentBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorWebServiceFilterItem" xml:space="preserve">
+    <value>Web service internal error while filtering list of {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="wordPoints" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="InstrumentsType_Caixa" xml:space="preserve">
+    <value>Caixa</value>
+  </data>
+  <data name="errorChannelLogonUser" xml:space="preserve">
+    <value>Unexpected error while performing user logon using web service.</value>
+  </data>
+  <data name="IconMoveLeftAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconMoveLeftAll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstrumentsType_Pandeiro" xml:space="preserve">
+    <value>Pandeiro</value>
+  </data>
+  <data name="gridStudentStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="item_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="gridAcademicBackground" xml:space="preserve">
+    <value>Academic Background</value>
+  </data>
+  <data name="msgEditionCanceled" xml:space="preserve">
+    <value>Edition was canceled.</value>
+  </data>
+  <data name="IconBackBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconBackBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridEntityName" xml:space="preserve">
+    <value>Entity Name</value>
+  </data>
+  <data name="menuLogOff" xml:space="preserve">
+    <value>Log Off {0}</value>
+  </data>
+  <data name="lblDeveloped" xml:space="preserve">
+    <value>Developed by</value>
+  </data>
+  <data name="item_plural_User" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="IconInstrumentWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconInstrumentWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wordError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="gridPoleId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="msgCannotDeleteRoleWithUser" xml:space="preserve">
+    <value>Could not delete selected Role. 
+One or more users are still selected by the Role.</value>
+  </data>
+  <data name="InstrumentsType_Guitarra" xml:space="preserve">
+    <value>Guitarra</value>
+  </data>
+  <data name="IconEditBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconEditBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="InstrumentsType_Cowbell" xml:space="preserve">
+    <value>Cowbell</value>
+  </data>
+  <data name="msgInvalidFieldCpf" xml:space="preserve">
+    <value>CPF {0} is invalid.</value>
+  </data>
+  <data name="InstrumentsType_Tanta" xml:space="preserve">
+    <value>Tantã (Tambor)</value>
+  </data>
+  <data name="errorChannelCopyItem" xml:space="preserve">
+    <value>Unexpected error while copying {0} using web service. {1}</value>
+  </data>
+  <data name="IconOptionBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconOptionBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemStatus_Maintenance" xml:space="preserve">
+    <value>Under Maintenance</value>
+  </data>
+  <data name="msgInvalidFieldDescription" xml:space="preserve">
+    <value>There is another {0} item with the same {1}: {2}</value>
+  </data>
+  <data name="errorWebServiceLoadLoans" xml:space="preserve">
+    <value>Web service internal error while loading loans data for selected {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="msgLogonTimeout" xml:space="preserve">
+    <value>Timeout while waiting for application to connect to server.
+Check your internet connection. Set server options if this is your first login.</value>
+  </data>
+  <data name="titleNoConnection" xml:space="preserve">
+    <value>No Connection</value>
+  </data>
+  <data name="msgConfirmCloseLoan" xml:space="preserve">
+    <value>Continue and close open loan of instrument to student {0}?</value>
+  </data>
+  <data name="msgPoleNoStudent" xml:space="preserve">
+    <value>The pole of the selected instrument has no active student available.
+Cannot create a new loan.</value>
+  </data>
+  <data name="msgPreviousOpenLoan" xml:space="preserve">
+    <value>Instrument is not available. There is a previous open loan.
+Close previous open loan before creating another one.</value>
+  </data>
+  <data name="titleCloseLoan" xml:space="preserve">
+    <value>Close Loan</value>
+  </data>
+  <data name="titleNoStudent" xml:space="preserve">
+    <value>No Student</value>
+  </data>
+  <data name="titleUnavailableInstrument" xml:space="preserve">
+    <value>Unavailable Instrument</value>
+  </data>
+  <data name="wordClosed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="wordOpen" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="msgDeleteComment" xml:space="preserve">
+    <value>Continue and delete selected comment?</value>
+  </data>
+  <data name="titleDeleteComment" xml:space="preserve">
+    <value>Delete Comment</value>
+  </data>
+  <data name="msgEnterNewPassword" xml:space="preserve">
+    <value>The current password must be changed.
+Enter a new password for user {0}.</value>
+  </data>
+  <data name="titleNewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="errorWebServiceChangeUserPassword" xml:space="preserve">
+    <value>Web service could not change password for selected user.
+{0}</value>
+  </data>
+  <data name="msgInvalidConfirmedPassword" xml:space="preserve">
+    <value>Confirmed password does not match new password.</value>
+  </data>
+  <data name="msgInvalidSamePassword" xml:space="preserve">
+    <value>Entered new password cannot match previous password.</value>
+  </data>
+  <data name="msgInvalidShortPassword" xml:space="preserve">
+    <value>New password must be at least 6 characters long.</value>
+  </data>
+  <data name="msgNewPasswordSaved" xml:space="preserve">
+    <value>New password was saved.</value>
+  </data>
+  <data name="titleInvalidNewPassword" xml:space="preserve">
+    <value>Invalid New Password</value>
+  </data>
+  <data name="titleSaveError" xml:space="preserve">
+    <value>Save Error</value>
+  </data>
+  <data name="errorIncompatibleVersion" xml:space="preserve">
+    <value>Current version {0} of Song Client is incompatible with Song Server version {1}.
+Update Song Client before continuing.</value>
+  </data>
+  <data name="titleIncompatibleVersion" xml:space="preserve">
+    <value>Incompatible Version</value>
+  </data>
+  <data name="msgEndDateLaterThanStartDate" xml:space="preserve">
+    <value>End date must be later than start date.</value>
+  </data>
+  <data name="msgStartDateLaterThanPreviousEndDate" xml:space="preserve">
+    <value>Start date must be later than previous loan's end date.</value>
+  </data>
+  <data name="wordLoan" xml:space="preserve">
+    <value>Loan</value>
+  </data>
+  <data name="item_Loan" xml:space="preserve">
+    <value>Loan</value>
+  </data>
+  <data name="item_plural_Loan" xml:space="preserve">
+    <value>Loans</value>
+  </data>
+  <data name="msgStudentAlreadyHasLoan" xml:space="preserve">
+    <value>Instrument {0} is already loaned to student {1}.
+Each student can have only one loan at a time.</value>
+  </data>
+  <data name="errorChannelGetNextAvailableItem" xml:space="preserve">
+    <value>Unexpected error while getting next available {0} using web service. {1}</value>
+  </data>
+  <data name="msgPoleNoStudentWithoutLoan" xml:space="preserve">
+    <value>The pole of the selected instrument has no active student without another open loan.
+Cannot create a new loan.</value>
+  </data>
+  <data name="msgPoleNoInstrument" xml:space="preserve">
+    <value>The pole of the selected student has no active instrument available.
+Cannot create a new loan.</value>
+  </data>
+  <data name="msgPoleNoInstrumentWithoutLoan" xml:space="preserve">
+    <value>The pole of the selected student has no active instrument without another open loan.
+Cannot create a new loan.</value>
+  </data>
+  <data name="titleNoInstrument" xml:space="preserve">
+    <value>No Instrument</value>
+  </data>
+  <data name="msgInstrumentAlreadyHasLoan" xml:space="preserve">
+    <value>Instrument {0} is already loaned to student {1}.
+Each instrument can only be loaned to one student at a time.</value>
+  </data>
+  <data name="msgPreviousOpenLoanStudent" xml:space="preserve">
+    <value>Student alreay has an instrument. There is a previous open loan.
+Close previous open loan before creating another one.</value>
+  </data>
+  <data name="titleUnavailableStudent" xml:space="preserve">
+    <value>Unavailable Student</value>
+  </data>
+  <data name="ClassLevel_Level1" xml:space="preserve">
+    <value>Level 1</value>
+  </data>
+  <data name="ClassLevel_Level10" xml:space="preserve">
+    <value>Level 10</value>
+  </data>
+  <data name="ClassLevel_Level2" xml:space="preserve">
+    <value>Level 2</value>
+  </data>
+  <data name="ClassLevel_Level3" xml:space="preserve">
+    <value>Level 3</value>
+  </data>
+  <data name="ClassLevel_Level4" xml:space="preserve">
+    <value>Level 4</value>
+  </data>
+  <data name="ClassLevel_Level5" xml:space="preserve">
+    <value>Level 5</value>
+  </data>
+  <data name="ClassLevel_Level6" xml:space="preserve">
+    <value>Level 6</value>
+  </data>
+  <data name="ClassLevel_Level7" xml:space="preserve">
+    <value>Level 7</value>
+  </data>
+  <data name="ClassLevel_Level8" xml:space="preserve">
+    <value>Level 8</value>
+  </data>
+  <data name="ClassLevel_Level9" xml:space="preserve">
+    <value>Level 9</value>
+  </data>
+  <data name="ClassType_Choir" xml:space="preserve">
+    <value>Choir</value>
+  </data>
+  <data name="ClassType_CreativeWorkshop" xml:space="preserve">
+    <value>Creative Workshop</value>
+  </data>
+  <data name="ClassType_Instrument" xml:space="preserve">
+    <value>Instrument</value>
+  </data>
+  <data name="ClassType_MusicTheory" xml:space="preserve">
+    <value>Music Theory</value>
+  </data>
+  <data name="ClassType_OrchestralPractice" xml:space="preserve">
+    <value>Orchestral Practice</value>
+  </data>
+  <data name="item_Class" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="item_plural_Class" xml:space="preserve">
+    <value>Classes</value>
+  </data>
+  <data name="unitMinutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="msgInvalidFieldTime" xml:space="preserve">
+    <value>Time {0} is invalid.</value>
+  </data>
+  <data name="item_plural_Semester" xml:space="preserve">
+    <value>Semesters</value>
+  </data>
+  <data name="item_Semester" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="dayFriday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="dayMonday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="daySaturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="daySunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="dayThursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="dayTuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="dayWednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="gridAggregatedTypeName" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="gridCapacity" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="gridClassId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridClassLevelName" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="gridClassStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="gridSemesterName" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="gridStartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="gridWeekDays" xml:space="preserve">
+    <value>Week Days</value>
+  </data>
+  <data name="gridSubjectCode" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="errorWebServiceLoadTeachers" xml:space="preserve">
+    <value>Web service internal error while loading teachers data for selected {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="errorWebServiceLoadRegistrations" xml:space="preserve">
+    <value>Web service internal error while loading registrations data for selected {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="ClassProgress_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="ClassProgress_InProgress" xml:space="preserve">
+    <value>In Progress</value>
+  </data>
+  <data name="ClassProgress_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="ClassProgress_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="IconSubtract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconSubtract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconSendDownOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconSendDownOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconSendUpOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconSendUpOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemStatus_Evaded" xml:space="preserve">
+    <value>Evaded</value>
+  </data>
+  <data name="msgRequiredOneWeekDay" xml:space="preserve">
+    <value>At least one day of the week is required.</value>
+  </data>
+  <data name="item_plural_Registration" xml:space="preserve">
+    <value>Registrations</value>
+  </data>
+  <data name="item_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="msgConfirmDeleteRegistration" xml:space="preserve">
+    <value>Continue and delete registration for student {0}?</value>
+  </data>
+  <data name="msgStudentAlreadyRegistered" xml:space="preserve">
+    <value>Student {0} is already registered for class {1}.</value>
+  </data>
+  <data name="IconRegistrationBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconRegistrationBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconRegistrationWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconRegistrationWhite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gridAutoRenewal" xml:space="preserve">
+    <value>Auto Renewal</value>
+  </data>
+  <data name="gridClassCode" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="gridDisplayName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gridRegistrationId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="wordAllFeminine" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="errorWebServiceLoadFile" xml:space="preserve">
+    <value>Web service internal error while loading file {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="errorWriteSongFile" xml:space="preserve">
+    <value>Unexpected error while saving file {0} to disk.</value>
+  </data>
+  <data name="errorWebServiceLoadFileThumbnail" xml:space="preserve">
+    <value>Web service internal error while loading thumbnail file {1} for selected {0}.
+Contact support. {2}</value>
+  </data>
+  <data name="IconPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconPDF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconSendDLeftOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconSendDLeftOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconSendDRightOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\IconSendDRightOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RollCall_Absent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="RollCall_Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="RollCall_Evaded" xml:space="preserve">
+    <value>Evaded</value>
+  </data>
+  <data name="RollCall_Justified" xml:space="preserve">
+    <value>Justified</value>
+  </data>
+  <data name="RollCall_NoClass" xml:space="preserve">
+    <value>No Class</value>
+  </data>
+  <data name="RollCall_NotRegistered" xml:space="preserve">
+    <value>Not Registered</value>
+  </data>
+  <data name="RollCall_Present" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="RollCall_Sick" xml:space="preserve">
+    <value>Sick</value>
+  </data>
+  <data name="errorWebServiceLoadSemester" xml:space="preserve">
+    <value>Web service internal error while loading semester.
+Contact support. {0}</value>
+  </data>
+  <data name="Month_1" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Month_10" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="Month_11" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="Month_12" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="Month_2" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="Month_3" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="Month_4" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="Month_5" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="Month_6" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="Month_7" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="Month_8" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="Month_9" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="item_plural_RollCall" xml:space="preserve">
+    <value>Roll Calls</value>
+  </data>
+  <data name="item_RollCall" xml:space="preserve">
+    <value>Roll Call</value>
+  </data>
+  <data name="dayShortFridays" xml:space="preserve">
+    <value>Fridays</value>
+  </data>
+  <data name="dayShortMondays" xml:space="preserve">
+    <value>Mondays</value>
+  </data>
+  <data name="dayShortSaturdays" xml:space="preserve">
+    <value>Saturdays</value>
+  </data>
+  <data name="dayShortSundays" xml:space="preserve">
+    <value>Sundays</value>
+  </data>
+  <data name="dayShortThursdays" xml:space="preserve">
+    <value>Thursdays</value>
+  </data>
+  <data name="dayShortTuesdays" xml:space="preserve">
+    <value>Tuesdays</value>
+  </data>
+  <data name="dayShortWednesdays" xml:space="preserve">
+    <value>Wednesdays</value>
+  </data>
+  <data name="errorGenerateRollCallFile" xml:space="preserve">
+    <value>Error while generating roll call file. 
+Read LOG file more more information.
+{0}</value>
+  </data>
+  <data name="item_Attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="item_plural_Attendance" xml:space="preserve">
+    <value>Attendances</value>
+  </data>
+  <data name="msgNoClass" xml:space="preserve">
+    <value>No Class</value>
+  </data>
+  <data name="wordPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="msgClassNoStudent" xml:space="preserve">
+    <value>Class {0} has no registered student.</value>
+  </data>
+  <data name="InstrumentsType_Escaleta" xml:space="preserve">
+    <value>Escaleta</value>
+  </data>
+  <data name="InstrumentsType_Harpa" xml:space="preserve">
+    <value>Harpa</value>
+  </data>
+  <data name="ItemStatus_Lost" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="RollCall_Short_Absent" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="RollCall_Short_Empty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RollCall_Short_Evaded" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="RollCall_Short_Justified" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="RollCall_Short_NoClass" xml:space="preserve">
+    <value>NC</value>
+  </data>
+  <data name="RollCall_Short_NotRegistered" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="RollCall_Short_Present" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="RollCall_Short_Sick" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="classRegistered" xml:space="preserve">
+    <value>Registered</value>
+  </data>
+  <data name="classWaitingList" xml:space="preserve">
+    <value>Waiting List</value>
+  </data>
+  <data name="errorChannelCountItem" xml:space="preserve">
+    <value>Unexpected error while getting count of {0} from web service.</value>
+  </data>
+  <data name="errorWebServiceCountItem" xml:space="preserve">
+    <value>Web service internal error while getting count of {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="titleWelcomeUser" xml:space="preserve">
+    <value>Welcome, {0}</value>
+  </data>
+  <data name="item_Indicator" xml:space="preserve">
+    <value>Indicator</value>
+  </data>
+  <data name="caption_LoanPendingClose" xml:space="preserve">
+    <value>Pending Close Loans</value>
+  </data>
+  <data name="RollCall_Short_TeacherAbsent" xml:space="preserve">
+    <value>TA</value>
+  </data>
+  <data name="RollCall_TeacherAbsent" xml:space="preserve">
+    <value>Teacher Absent</value>
+  </data>
+  <data name="caption_LastMonthAttendance" xml:space="preserve">
+    <value>Attendance last Month</value>
+  </data>
+  <data name="caption_MonthAttendance" xml:space="preserve">
+    <value>Attendance this Month</value>
+  </data>
+  <data name="caption_SemesterAttendance" xml:space="preserve">
+    <value>Attendance this Semester</value>
+  </data>
+  <data name="gridLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="locationAvailableAt" xml:space="preserve">
+    <value>Available, {0}</value>
+  </data>
+  <data name="locationWithStudent" xml:space="preserve">
+    <value>With {0}</value>
+  </data>
+  <data name="errorChannelLoadFile" xml:space="preserve">
+    <value>Unexpected error while loading file {0} from web service. {1}</value>
+  </data>
+  <data name="errorProcessFile" xml:space="preserve">
+    <value>Unexpected error while processing selected file. {0}</value>
+  </data>
+  <data name="errorSaveFile" xml:space="preserve">
+    <value>Unexpected error while saving file to {0}. {1}</value>
+  </data>
+  <data name="filter_jpeg" xml:space="preserve">
+    <value>JPEG Images|*.jpeg</value>
+  </data>
+  <data name="filter_jpg" xml:space="preserve">
+    <value>JPEG Images|*.jpg</value>
+  </data>
+  <data name="filter_pdf" xml:space="preserve">
+    <value>PDF Files|*.pdf</value>
+  </data>
+  <data name="filter_png" xml:space="preserve">
+    <value>PNG Images|*.png</value>
+  </data>
+  <data name="filter_tif" xml:space="preserve">
+    <value>TIFF Images|*.tif</value>
+  </data>
+  <data name="filter_tiff" xml:space="preserve">
+    <value>TIFF Images|*.tiff</value>
+  </data>
+  <data name="titleProcessError" xml:space="preserve">
+    <value>Process Error</value>
+  </data>
+  <data name="caption_WeekToEndSemester" xml:space="preserve">
+    <value>Week for the End of the Semester</value>
+  </data>
+  <data name="caption_WeeksToEndSemester" xml:space="preserve">
+    <value>Weeks for the End of the Semester</value>
+  </data>
+  <data name="caption_WeeksStartSemester" xml:space="preserve">
+    <value>Completed Weeks</value>
+  </data>
+  <data name="caption_WeekStartSemester" xml:space="preserve">
+    <value>Completed Week</value>
+  </data>
+  <data name="caption_CreateNextSemester" xml:space="preserve">
+    <value>Semester must be created</value>
+  </data>
+  <data name="caption_WeeksToStartSemester" xml:space="preserve">
+    <value>Weeks for the Beginning of the next Semester</value>
+  </data>
+  <data name="caption_WeekToStartSemester" xml:space="preserve">
+    <value>Week for the Beginning of the next Semester</value>
+  </data>
+  <data name="errorChannelResetPassword" xml:space="preserve">
+    <value>Unexpected error while resetting user password using web service.</value>
+  </data>
+  <data name="msgUserNotFoundResetPassword" xml:space="preserve">
+    <value>User {0} was not found.
+Could not reset password.</value>
+  </data>
+  <data name="msgWaitConnection" xml:space="preserve">
+    <value>Application is not connected to server.
+Wait for application to connect and try again.</value>
+  </data>
+  <data name="titleInvalidUser" xml:space="preserve">
+    <value>Invalid User</value>
+  </data>
+  <data name="errorWebServiceSendRecoveryPassword" xml:space="preserve">
+    <value>Web service internal error while sending recovery password to user.
+Contact support. {0}</value>
+  </data>
+  <data name="msgRecoveryPasswordSent" xml:space="preserve">
+    <value>A new password was sent to the registered e-mail of {0}.</value>
+  </data>
+  <data name="titleEmailSent" xml:space="preserve">
+    <value>E-mail Sent</value>
+  </data>
+  <data name="GradeSubject_AuditionOrganization" xml:space="preserve">
+    <value>Audition Organization</value>
+  </data>
+  <data name="GradeSubject_Charisma" xml:space="preserve">
+    <value>Charisma</value>
+  </data>
+  <data name="GradeSubject_Creativity" xml:space="preserve">
+    <value>Creativity</value>
+  </data>
+  <data name="GradeSubject_Dedication" xml:space="preserve">
+    <value>Dedication</value>
+  </data>
+  <data name="GradeSubject_Didactic" xml:space="preserve">
+    <value>Didactic</value>
+  </data>
+  <data name="GradeSubject_Discipline" xml:space="preserve">
+    <value>Discipline</value>
+  </data>
+  <data name="GradeSubject_Expressiveness" xml:space="preserve">
+    <value>Expressiveness</value>
+  </data>
+  <data name="GradeSubject_ObjectiveReached" xml:space="preserve">
+    <value>Reached Objective</value>
+  </data>
+  <data name="GradeSubject_Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="GradeSubject_Performance" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="GradeSubject_Posture" xml:space="preserve">
+    <value>Posture</value>
+  </data>
+  <data name="GradeSubject_Concentration" xml:space="preserve">
+    <value>Concentration</value>
+  </data>
+  <data name="GradeSubject_Proactivity" xml:space="preserve">
+    <value>Proactivity</value>
+  </data>
+  <data name="GradeSubject_ProjectCommitment" xml:space="preserve">
+    <value>Commitment to Project</value>
+  </data>
+  <data name="GradeSubject_Pulse" xml:space="preserve">
+    <value>Pulse</value>
+  </data>
+  <data name="GradeSubject_Punctuality" xml:space="preserve">
+    <value>Punctuality</value>
+  </data>
+  <data name="GradeSubject_StudentsLearningCurve" xml:space="preserve">
+    <value>Students' Learning Curve</value>
+  </data>
+  <data name="GradeSubject_Tuning" xml:space="preserve">
+    <value>Tuning</value>
+  </data>
+  <data name="ReportStatus_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="ReportStatus_Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="item_plural_Report" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="item_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="ReportRapporteur_Coordinator" xml:space="preserve">
+    <value>Coordinator</value>
+  </data>
+  <data name="ReportRapporteur_Teacher" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="ReportPeriodicity_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="ReportPeriodicity_Semester" xml:space="preserve">
+    <value>Semestre</value>
+  </data>
+  <data name="gridAuthorName" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="gridClassData" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="gridPeriodName" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="gridReportId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridReportStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="gridTypeName" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="errorWebServiceGenerateReports" xml:space="preserve">
+    <value>Web service internal error while generating new reports.
+Contact support. {0}</value>
+  </data>
+  <data name="inactivationReason_ChangeOfAddress" xml:space="preserve">
+    <value>Change of address.</value>
+  </data>
+  <data name="inactivationReason_ContractTermination" xml:space="preserve">
+    <value>Contract termination.</value>
+  </data>
+  <data name="inactivationReason_DuplicateRegister" xml:space="preserve">
+    <value>Duplicate register.</value>
+  </data>
+  <data name="inactivationReason_EvadedStudent" xml:space="preserve">
+    <value>Evaded student.</value>
+  </data>
+  <data name="inactivationReason_NoInterest" xml:space="preserve">
+    <value>Lack of interest.</value>
+  </data>
+  <data name="inactivationReason_NoRegistrationRenewal" xml:space="preserve">
+    <value>Registration was not renewed.</value>
+  </data>
+  <data name="inactivationReason_SchedulingConflict" xml:space="preserve">
+    <value>Scheduling conflict.</value>
+  </data>
+  <data name="msgSelectReport" xml:space="preserve">
+    <value>Select report below to view it.</value>
+  </data>
+  <data name="titleViewReport" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="GradeSpecialScore_Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="GradeSpecialScore_Ungraded" xml:space="preserve">
+    <value>Ungraded</value>
+  </data>
+  <data name="item_Grade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="msgImpersonateUser" xml:space="preserve">
+    <value>Continue and impersonate user from {0}?</value>
+  </data>
+  <data name="titleImpersonateUser" xml:space="preserve">
+    <value>Impersonate another User</value>
+  </data>
+  <data name="wordAs" xml:space="preserve">
+    <value>As</value>
+  </data>
+  <data name="menuDesimpersonate" xml:space="preserve">
+    <value>Desimpersonate {0}</value>
+  </data>
+  <data name="item_Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="item_Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="msgRequiredAnswerComments" xml:space="preserve">
+    <value>Comments are required for question {0}.</value>
+  </data>
+  <data name="msgRequiredAnswerScore" xml:space="preserve">
+    <value>A proper score ranging from 0 to 10 is required for question {0}.</value>
+  </data>
+  <data name="caption_LastMonthGradeStudent" xml:space="preserve">
+    <value>Student Average Grade last Month</value>
+  </data>
+  <data name="caption_LastMonthGradeTeacher" xml:space="preserve">
+    <value>Teacher Average Grade last Month</value>
+  </data>
+  <data name="caption_MonthEvents" xml:space="preserve">
+    <value>Events this Month</value>
+  </data>
+  <data name="caption_MonthGradeStudent" xml:space="preserve">
+    <value>Student Average Grade this Month</value>
+  </data>
+  <data name="caption_MonthGradeTeacher" xml:space="preserve">
+    <value>Teacher Average Grade this Month</value>
+  </data>
+  <data name="caption_SemesterEvents" xml:space="preserve">
+    <value>Events this Semester</value>
+  </data>
+  <data name="caption_SemesterGradeStudent" xml:space="preserve">
+    <value>Student Average grade this Semester</value>
+  </data>
+  <data name="caption_SemesterGradeTeacher" xml:space="preserve">
+    <value>Teacher Average grade this Semester</value>
+  </data>
+  <data name="errorWebServiceAverageItem" xml:space="preserve">
+    <value>Web service internal error while getting average of {0}.
+Contact support. {1}</value>
+  </data>
+  <data name="EventSendOption_ToCoordinators" xml:space="preserve">
+    <value>Coordinators</value>
+  </data>
+  <data name="EventSendOption_ToEveryone" xml:space="preserve">
+    <value>Everyone</value>
+  </data>
+  <data name="EventSendOption_ToInstitution" xml:space="preserve">
+    <value>Institution</value>
+  </data>
+  <data name="EventSendOption_ToNoOne" xml:space="preserve">
+    <value>No One</value>
+  </data>
+  <data name="EventSendOption_ToTeachers" xml:space="preserve">
+    <value>Teachers</value>
+  </data>
+  <data name="gridDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="gridEventDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="gridEventId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="gridEventLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="gridEventName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gridEventSendOptionName" xml:space="preserve">
+    <value>Send To</value>
+  </data>
+  <data name="gridEventTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="item_Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="item_plural_Event" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="msgConfirmDeleteRegistrationLoseData" xml:space="preserve">
+    <value>Continue and delete registration for student {0}? 
+Any related data, like grades, will be deleted.</value>
+  </data>
+  <data name="msgConfirmStudentStatusEvaded" xml:space="preserve">
+    <value>Continue and set student to evaded during current semester?
+The registrations for the following classes will be set to evaded or deleted:
+{0}</value>
+  </data>
+  <data name="msgConfirmStudentStatusInactive" xml:space="preserve">
+    <value>Continue and inactivate student during current semester?
+The registrations for the following classes will be deleted along with any related data like grades:
+{0}</value>
+  </data>
+  <data name="msgReportAvailableEdition" xml:space="preserve">
+    <value>Report will be be available for edition on {0}.</value>
+  </data>
+  <data name="titleReportNotAvailableEdition" xml:space="preserve">
+    <value>Report Edition Disabled</value>
+  </data>
+  <data name="msgConfirmDeleteLoan" xml:space="preserve">
+    <value>Continue and delete loan of instrument {0} to student {1}?
+If the load has ended, change its status to Closed instead of deleting it.</value>
+  </data>
+  <data name="titleReportPending" xml:space="preserve">
+    <value>Pending Report</value>
+  </data>
+  <data name="caption_SemesterEvation" xml:space="preserve">
+    <value>Evations this Semester</value>
+  </data>
+  <data name="item_Evasion" xml:space="preserve">
+    <value>Evasion</value>
+  </data>
+  <data name="caption_InstitutionClasses" xml:space="preserve">
+    <value>Classes for Project</value>
+  </data>
+  <data name="caption_InstitutionInstruments" xml:space="preserve">
+    <value>Instruments for Project</value>
+  </data>
+  <data name="caption_InstitutionLastMonthGradeStudent" xml:space="preserve">
+    <value>Student Avg. Grade last Month for Project</value>
+  </data>
+  <data name="caption_InstitutionMonthGradeStudent" xml:space="preserve">
+    <value>Student Avg. Grade this Month for Project</value>
+  </data>
+  <data name="caption_InstitutionPoles" xml:space="preserve">
+    <value>Poles in Project</value>
+  </data>
+  <data name="caption_InstitutionRegistrations" xml:space="preserve">
+    <value>Registrations for Project</value>
+  </data>
+  <data name="caption_InstitutionSemesterGradeStudent" xml:space="preserve">
+    <value>Student Avg. Grade this Semester for Project</value>
+  </data>
+  <data name="caption_InstitutionStudents" xml:space="preserve">
+    <value>Students for Project</value>
+  </data>
+  <data name="caption_InstitutionTeachers" xml:space="preserve">
+    <value>Teachers for Project</value>
+  </data>
+  <data name="caption_LastMonthEvation" xml:space="preserve">
+    <value>Evations last Month</value>
+  </data>
+  <data name="caption_MonthEvation" xml:space="preserve">
+    <value>Evations this Month</value>
+  </data>
+  <data name="caption_InstitutionLastMonthEvation" xml:space="preserve">
+    <value>Evations last Month for Project</value>
+  </data>
+  <data name="caption_InstitutionLastMonthGradeTeacher" xml:space="preserve">
+    <value>Teacher Avg. Grade last Month for Project</value>
+  </data>
+  <data name="caption_InstitutionMonthEvation" xml:space="preserve">
+    <value>Evations this Month for Project</value>
+  </data>
+  <data name="caption_InstitutionMonthGradeTeacher" xml:space="preserve">
+    <value>Teacher Avg. Grade this Month for Project</value>
+  </data>
+  <data name="caption_InstitutionSemesterEvation" xml:space="preserve">
+    <value>Evations this Semester for Project</value>
+  </data>
+  <data name="caption_InstitutionSemesterGradeTeacher" xml:space="preserve">
+    <value>Teacher Avg. grade this Semester for Project</value>
+  </data>
+  <data name="caption_TeacherClasses" xml:space="preserve">
+    <value>Classes Assigned to Teacher</value>
+  </data>
+  <data name="caption_TeacherLastMonthEvation" xml:space="preserve">
+    <value>Evations last Month for Teacher</value>
+  </data>
+  <data name="caption_TeacherLastMonthGradeStudent" xml:space="preserve">
+    <value>Student Average Grade last Month for Teacher</value>
+  </data>
+  <data name="caption_TeacherMonthEvation" xml:space="preserve">
+    <value>Evations this Month for Teacher</value>
+  </data>
+  <data name="caption_TeacherMonthGradeStudent" xml:space="preserve">
+    <value>Student Average Grade this Month for Teacher</value>
+  </data>
+  <data name="caption_TeacherPoles" xml:space="preserve">
+    <value>Poles Assigned to Teacher</value>
+  </data>
+  <data name="caption_TeacherSemesterEvation" xml:space="preserve">
+    <value>Evations this Semester for Teacher</value>
+  </data>
+  <data name="caption_TeacherSemesterGradeStudent" xml:space="preserve">
+    <value>Student Average grade this Semester for Teacher</value>
+  </data>
+  <data name="caption_RegisteredStudents" xml:space="preserve">
+    <value>Registered Students</value>
+  </data>
+  <data name="caption_TeacherRegistrations" xml:space="preserve">
+    <value>Class Registrations for Teacher</value>
+  </data>
+  <data name="item_plural_Evasion" xml:space="preserve">
+    <value>Evasions</value>
+  </data>
+  <data name="caption_Absences" xml:space="preserve">
+    <value>Absences</value>
+  </data>
+  <data name="caption_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="caption_Presences" xml:space="preserve">
+    <value>Presences</value>
+  </data>
+  <data name="wordMean" xml:space="preserve">
+    <value>Mean</value>
+  </data>
+  <data name="caption_YearEvents" xml:space="preserve">
+    <value>Events this Year</value>
+  </data>
+  <data name="GradeSubject_Teamwork" xml:space="preserve">
+    <value>Teamwork</value>
+  </data>
+  <data name="wordCompletedPlural" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="wordPendingPlural" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="item_plural_ReportCard" xml:space="preserve">
+    <value>Report Cards</value>
+  </data>
+  <data name="item_ReportCard" xml:space="preserve">
+    <value>Report Card</value>
+  </data>
+  <data name="errorGenerateReportCardFile" xml:space="preserve">
+    <value>Error while generating report card file. 
+Read LOG file more more information.
+{0}</value>
+  </data>
+  <data name="msgConfirmImportSemesterClasses" xml:space="preserve">
+    <value>Continue and import selected {0} classes from semester {1} into semester {2}?
+This operation cannot be undone.</value>
+  </data>
+  <data name="titleImportClasses" xml:space="preserve">
+    <value>Import Classes</value>
+  </data>
+  <data name="errorChannelImportClasses" xml:space="preserve">
+    <value>Unexpected error while importing semester classes using web service.</value>
+  </data>
+  <data name="msgImportedSemesterClasses" xml:space="preserve">
+    <value>Selected classes were imported from semester {0} into semester {1}.</value>
+  </data>
+  <data name="titleImportedClasses" xml:space="preserve">
+    <value>Classes Imported</value>
+  </data>
+  <data name="ImportOption_AllRegistrations" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ImportOption_AutoRenewalRegistrations" xml:space="preserve">
+    <value>Auto Renewal</value>
+  </data>
+  <data name="ImportOption_NoRegistrations" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="msgMissingReports" xml:space="preserve">
+    <value>The following reports are missing for class {0}:
+{1}
+
+Continue and generate missing reports?</value>
+  </data>
+  <data name="msgNoMissingReport" xml:space="preserve">
+    <value>No report is missing for class {0}.</value>
+  </data>
+  <data name="titleMissingReports" xml:space="preserve">
+    <value>Missing Reports</value>
+  </data>
+  <data name="msgMissingReportsGenerated" xml:space="preserve">
+    <value>Missing reports were generated.
+
+View class reports now?</value>
+  </data>
+  <data name="titleMissingReportsGenerated" xml:space="preserve">
+    <value>Reports Generated</value>
+  </data>
+</root>

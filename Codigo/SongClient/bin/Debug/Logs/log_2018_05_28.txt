@@ -1,0 +1,249 @@
+08:01:42.663 - Song Client 1.0.1.0
+08:01:42.855 - Inicializando aplicativo...
+08:01:44.101 - Application was started.
+08:01:44.109 - Starting web service manager...
+08:01:44.117 - Web service manager was started and is running.
+08:01:44.165 - Web service connection was closed.
+08:01:44.168 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+08:02:03.651 - Application is connected to web service.
+08:02:03.652 - Song Server 1.0.1
+08:02:03.652 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+08:04:54.186 - Liberando recursos e fechando aplicativo...
+08:04:54.348 - Stopping web service manager...
+08:04:54.396 - Web service connection was closed.
+08:04:54.397 - Web service manager running thread was stopped.
+10:53:09.221 - Song Client 1.0.1.0
+10:53:09.486 - Inicializando aplicativo...
+10:53:11.957 - Application was started.
+10:53:11.967 - Starting web service manager...
+10:53:11.979 - Web service manager was started and is running.
+10:53:12.034 - Web service connection was closed.
+10:53:12.038 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:53:33.546 - Application is connected to web service.
+10:53:33.546 - Song Server 1.0.1
+10:53:33.546 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+10:55:47.778 - Liberando recursos e fechando aplicativo...
+10:55:47.946 - Stopping web service manager...
+10:55:47.972 - Web service connection was closed.
+10:55:47.972 - Web service manager running thread was stopped.
+10:57:38.526 - Song Client 1.0.1.0
+10:57:38.754 - Inicializando aplicativo...
+10:57:40.024 - Application was started.
+10:57:40.035 - Starting web service manager...
+10:57:40.047 - Web service manager was started and is running.
+10:57:40.055 - Web service connection was closed.
+10:57:40.060 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+10:57:42.854 - Application is connected to web service.
+10:57:42.855 - Song Server 1.0.1
+10:57:42.855 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:01:51.577 - Song Client 1.0.1.0
+11:01:51.795 - Inicializando aplicativo...
+11:01:53.079 - Application was started.
+11:01:53.087 - Starting web service manager...
+11:01:53.097 - Web service manager was started and is running.
+11:01:53.114 - Web service connection was closed.
+11:01:53.121 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:01:55.991 - Application is connected to web service.
+11:01:55.992 - Song Server 1.0.1
+11:01:55.992 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:05:19.888 - Song Client 1.0.1.0
+11:05:20.157 - Inicializando aplicativo...
+11:05:21.364 - Application was started.
+11:05:21.372 - Starting web service manager...
+11:05:21.383 - Web service manager was started and is running.
+11:05:21.398 - Web service connection was closed.
+11:05:21.402 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:05:24.578 - Application is connected to web service.
+11:05:24.578 - Song Server 1.0.1
+11:05:24.579 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:07:56.626 - Song Client 1.0.1.0
+11:07:56.856 - Inicializando aplicativo...
+11:07:58.095 - Application was started.
+11:07:58.103 - Starting web service manager...
+11:07:58.115 - Web service manager was started and is running.
+11:07:58.133 - Web service connection was closed.
+11:07:58.137 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:08:03.685 - Application is connected to web service.
+11:08:03.685 - Song Server 1.0.1
+11:08:03.686 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:10:43.078 - Liberando recursos e fechando aplicativo...
+11:10:43.235 - Stopping web service manager...
+11:10:43.333 - Web service connection was closed.
+11:10:43.334 - Web service manager running thread was stopped.
+11:13:49.059 - Song Client 1.0.1.0
+11:13:49.284 - Inicializando aplicativo...
+11:13:50.577 - Application was started.
+11:13:50.587 - Starting web service manager...
+11:13:50.610 - Web service manager was started and is running.
+11:13:50.641 - Web service connection was closed.
+11:13:50.645 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:13:53.400 - Application is connected to web service.
+11:13:53.400 - Song Server 1.0.1
+11:13:53.400 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:16:22.402 - Liberando recursos e fechando aplicativo...
+11:16:22.477 - Stopping web service manager...
+11:16:22.577 - Web service connection was closed.
+11:16:22.577 - Web service manager running thread was stopped.
+11:18:10.536 - Song Client 1.0.1.0
+11:18:10.814 - Inicializando aplicativo...
+11:18:12.136 - Application was started.
+11:18:12.146 - Starting web service manager...
+11:18:12.157 - Web service manager was started and is running.
+11:18:12.182 - Web service connection was closed.
+11:18:12.187 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:18:14.908 - Application is connected to web service.
+11:18:14.909 - Song Server 1.0.1
+11:18:14.909 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:18:54.015 - Liberando recursos e fechando aplicativo...
+11:18:54.061 - Stopping web service manager...
+11:18:54.113 - Web service connection was closed.
+11:18:54.113 - Web service manager running thread was stopped.
+11:21:49.189 - Song Client 1.0.1.0
+11:21:49.386 - Inicializando aplicativo...
+11:21:50.532 - Application was started.
+11:21:50.541 - Starting web service manager...
+11:21:50.551 - Web service manager was started and is running.
+11:21:50.586 - Web service connection was closed.
+11:21:50.591 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:21:53.490 - Application is connected to web service.
+11:21:53.490 - Song Server 1.0.1
+11:21:53.490 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:24:18.512 - Liberando recursos e fechando aplicativo...
+11:24:18.570 - Stopping web service manager...
+11:24:18.626 - Web service connection was closed.
+11:24:18.626 - Web service manager running thread was stopped.
+11:25:10.423 - Song Client 1.0.1.0
+11:25:10.650 - Inicializando aplicativo...
+11:25:11.986 - Application was started.
+11:25:11.995 - Starting web service manager...
+11:25:12.006 - Web service manager was started and is running.
+11:25:12.021 - Web service connection was closed.
+11:25:12.026 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:25:14.776 - Application is connected to web service.
+11:25:14.777 - Song Server 1.0.1
+11:25:14.777 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:46:03.027 - Liberando recursos e fechando aplicativo...
+11:46:03.182 - Stopping web service manager...
+11:46:03.272 - Web service connection was closed.
+11:46:03.272 - Web service manager running thread was stopped.
+11:46:55.977 - Song Client 1.0.1.0
+11:46:56.211 - Inicializando aplicativo...
+11:46:57.542 - Application was started.
+11:46:57.551 - Starting web service manager...
+11:46:57.570 - Web service manager was started and is running.
+11:46:57.587 - Web service connection was closed.
+11:46:57.591 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:47:00.491 - Application is connected to web service.
+11:47:00.491 - Song Server 1.0.1
+11:47:00.492 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:47:21.047 - Unexpected error while generating roll call file.
+11:47:21.047 - Could not find file 'C:\Users\SONY\Desktop\Chamadas - Awa Blayne da Costa Ferreira - Junho 2018.html'.
+11:47:21.069 - System.IO.FileNotFoundException   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at PnT.SongClient.Data.FileManager.GenerateRollCallFile(String filePath, DateTime month, List`1 classes, Dictionary`2 registrations, List`1 attendances, String& errorMessage) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\FileManager.cs:line 105
+11:47:21.130 - Could not open roll call file on default browser.
+11:47:21.130 - The system cannot find the file specified
+11:47:21.150 - System.ComponentModel.Win32Exception   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(String fileName)
+   at PnT.SongClient.UI.Controls.RegisterTeacherControl.mtlRollCalls_Click(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterTeacherControl.cs:line 1783
+11:56:16.001 - Song Client 1.0.1.0
+11:56:16.271 - Inicializando aplicativo...
+11:56:17.625 - Application was started.
+11:56:17.633 - Starting web service manager...
+11:56:17.644 - Web service manager was started and is running.
+11:56:17.660 - Web service connection was closed.
+11:56:17.664 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:56:20.671 - Application is connected to web service.
+11:56:20.672 - Song Server 1.0.1
+11:56:20.672 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:57:45.905 - Unexpected error while generating roll call file.
+11:57:45.906 - Could not find file 'C:\Users\SONY\Desktop\Chamadas - Awa Blayne da Costa Ferreira - Maio 2018.html'.
+11:57:45.917 - System.IO.FileNotFoundException   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at PnT.SongClient.Data.FileManager.GenerateRollCallFile(String filePath, DateTime month, List`1 classes, Dictionary`2 registrations, List`1 attendances, String& errorMessage) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\FileManager.cs:line 112
+11:57:45.954 - Could not open roll call file on default browser.
+11:57:45.954 - The system cannot find the file specified
+11:57:45.956 - System.ComponentModel.Win32Exception   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(String fileName)
+   at PnT.SongClient.UI.Controls.RegisterTeacherControl.mtlRollCalls_Click(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterTeacherControl.cs:line 1783
+11:58:11.962 - Unexpected error while generating roll call file.
+11:58:11.962 - Could not find file 'C:\Users\SONY\Desktop\Chamadas - Awa Blayne da Costa Ferreira - Maio 2018.html'.
+11:58:11.962 - System.IO.FileNotFoundException   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at PnT.SongClient.Data.FileManager.GenerateRollCallFile(String filePath, DateTime month, List`1 classes, Dictionary`2 registrations, List`1 attendances, String& errorMessage) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\FileManager.cs:line 112
+11:58:11.989 - Could not open roll call file on default browser.
+11:58:11.989 - The system cannot find the file specified
+11:58:11.990 - System.ComponentModel.Win32Exception   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(String fileName)
+   at PnT.SongClient.UI.Controls.RegisterTeacherControl.mtlRollCalls_Click(Object sender, EventArgs e) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\UI\Controls\RegisterTeacherControl.cs:line 1783
+11:59:24.850 - Song Client 1.0.1.0
+11:59:25.080 - Inicializando aplicativo...
+11:59:26.417 - Application was started.
+11:59:26.425 - Starting web service manager...
+11:59:26.434 - Web service manager was started and is running.
+11:59:26.449 - Web service connection was closed.
+11:59:26.454 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+11:59:29.397 - Application is connected to web service.
+11:59:29.397 - Song Server 1.0.1
+11:59:29.398 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+11:59:44.178 - Unexpected error while generating roll call file.
+11:59:44.178 - Could not find file 'C:\Users\SONY\Desktop\Chamadas - Awa Blayne da Costa Ferreira - Maio 2018.html'.
+11:59:44.189 - System.IO.FileNotFoundException   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at PnT.SongClient.Data.FileManager.GenerateRollCallFile(String filePath, DateTime month, List`1 classes, Dictionary`2 registrations, List`1 attendances, String& errorMessage) in C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongClient\Data\FileManager.cs:line 112
+11:59:51.427 - Liberando recursos e fechando aplicativo...
+11:59:51.483 - Stopping web service manager...
+11:59:51.552 - Web service connection was closed.
+11:59:51.552 - Web service manager running thread was stopped.
+12:00:14.282 - Song Client 1.0.1.0
+12:00:14.562 - Inicializando aplicativo...
+12:00:15.869 - Application was started.
+12:00:15.877 - Starting web service manager...
+12:00:15.929 - Web service manager was started and is running.
+12:00:15.940 - Web service connection was closed.
+12:00:15.946 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+12:00:18.960 - Application is connected to web service.
+12:00:18.960 - Song Server 1.0.1
+12:00:18.961 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+12:03:06.019 - Liberando recursos e fechando aplicativo...
+12:03:06.068 - Stopping web service manager...
+12:03:06.131 - Web service connection was closed.
+12:03:06.131 - Web service manager running thread was stopped.
+13:35:28.426 - Song Client 1.0.1.0
+13:35:28.665 - Inicializando aplicativo...
+13:35:29.871 - Application was started.
+13:35:29.879 - Starting web service manager...
+13:35:29.890 - Web service manager was started and is running.
+13:35:29.909 - Web service connection was closed.
+13:35:29.913 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:35:32.686 - Application is connected to web service.
+13:35:32.686 - Song Server 1.0.1
+13:35:32.687 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:38:45.250 - Liberando recursos e fechando aplicativo...
+13:38:45.316 - Stopping web service manager...
+13:38:45.391 - Web service connection was closed.
+13:38:45.392 - Web service manager running thread was stopped.
+13:39:14.146 - Song Client 1.0.1.0
+13:39:14.423 - Inicializando aplicativo...
+13:39:15.620 - Application was started.
+13:39:15.626 - Starting web service manager...
+13:39:15.635 - Web service manager was started and is running.
+13:39:15.682 - Web service connection was closed.
+13:39:15.685 - Connecting to web service at http://localhost:4436/SongServer/SongService.svc...
+13:39:18.518 - Application is connected to web service.
+13:39:18.518 - Song Server 1.0.1
+13:39:18.518 - Database: Data Source=localhost;Initial Catalog=songdb;Username=root;Password=;Connect Timeout=2;convert zero datetime=True
+13:42:13.675 - Liberando recursos e fechando aplicativo...
+13:42:13.718 - Stopping web service manager...
+13:42:13.750 - Web service connection was closed.
+13:42:13.750 - Web service manager running thread was stopped.

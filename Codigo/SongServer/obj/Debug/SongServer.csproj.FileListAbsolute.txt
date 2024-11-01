@@ -1,0 +1,9 @@
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongServer.dll.config
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongServer.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongServer.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\obj\Debug\SongServer.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\obj\Debug\SongServer.pdb
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\obj\Debug\SongServer.csprojResolveAssemblyReference.cache
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongDB.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\MySql.Data.dll
+C:\Users\SONY\Documents\PlugAndTrade\SVN Main\Projetos\Song\Codigo\SongServer\bin\SongDB.pdb
